@@ -14,31 +14,31 @@
  * You should have received a copy of the GNU General Public License
  * along with PGNParse.  If not, see <http://www.gnu.org/licenses/>. 
  */
-package com.codethesis.pgnparse;
+package pgnparse;
 
 /**
  *
  * @author Deyan Rizov
  *
  */
-public class MalformedMoveException extends Exception {
+public class PGNParseException extends Exception {
 
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 7389593033170883050L;
+	private static final long serialVersionUID = -2253519940443925317L;
 
 	/**
 	 * 
 	 */
-	public MalformedMoveException() {
+	public PGNParseException() {
 		// TODO Auto-generated constructor stub
 	}
 
 	/**
 	 * @param message
 	 */
-	public MalformedMoveException(String message) {
+	public PGNParseException(String message) {
 		super(message);
 		// TODO Auto-generated constructor stub
 	}
@@ -46,7 +46,7 @@ public class MalformedMoveException extends Exception {
 	/**
 	 * @param cause
 	 */
-	public MalformedMoveException(Throwable cause) {
+	public PGNParseException(Throwable cause) {
 		super(cause);
 		// TODO Auto-generated constructor stub
 	}
@@ -55,7 +55,7 @@ public class MalformedMoveException extends Exception {
 	 * @param message
 	 * @param cause
 	 */
-	public MalformedMoveException(String message, Throwable cause) {
+	public PGNParseException(String message, Throwable cause) {
 		super(message, cause);
 		// TODO Auto-generated constructor stub
 	}

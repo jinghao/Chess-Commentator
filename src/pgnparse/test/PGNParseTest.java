@@ -14,17 +14,18 @@
  * You should have received a copy of the GNU General Public License
  * along with PGNParse.  If not, see <http://www.gnu.org/licenses/>. 
  */
-package com.codethesis.test;
+package pgnparse.test;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
 
-import com.codethesis.pgnparse.MalformedMoveException;
-import com.codethesis.pgnparse.PGNGame;
-import com.codethesis.pgnparse.PGNMove;
-import com.codethesis.pgnparse.PGNParseException;
-import com.codethesis.pgnparse.PGNSource;
+import pgnparse.MalformedMoveException;
+import pgnparse.PGNGame;
+import pgnparse.PGNMove;
+import pgnparse.PGNParseException;
+import pgnparse.PGNSource;
+
 
 /**
  *

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with PGNParse.  If not, see <http://www.gnu.org/licenses/>. 
  */
-package com.codethesis.pgnparse;
+package pgnparse;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -183,7 +183,6 @@ public class PGNParser {
 	 */
 	public static PGNGame parsePGNGame(String pgn) throws IOException, PGNParseException, NullPointerException, MalformedMoveException {
 		byte[][] board = createDefaultBoard();
-//		printBoard(board);
 		final int[] color = { WHITE };
 		PGNGame game = new PGNGame(pgn);
 		BufferedReader br = new BufferedReader(new StringReader(pgn));
@@ -278,6 +277,7 @@ public class PGNParser {
 			} else if (rawMoves[i].startsWith("{") && rawMoves[i].endsWith("}")) {
 				move.setComment(rawMoves[i].substring(1, rawMoves[i].length() - 1));
 			} else {
+			  
 				if (validateMove(move = new PGNMove(rawMoves[i]))) {
 					
 					if (color[0] == WHITE) {

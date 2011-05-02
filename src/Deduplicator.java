@@ -7,11 +7,13 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Stack;
 
-import com.codethesis.pgnparse.MalformedMoveException;
-import com.codethesis.pgnparse.PGNGame;
-import com.codethesis.pgnparse.PGNParseException;
-import com.codethesis.pgnparse.PGNParser;
-import com.codethesis.pgnparse.PGNSource;
+import pgnparse.MalformedMoveException;
+import pgnparse.PGNGame;
+import pgnparse.PGNParseException;
+import pgnparse.PGNParser;
+import pgnparse.PGNSource;
+import pgnparse.PGNSourceIterator;
+
 
 
 public class Deduplicator {
@@ -26,7 +28,6 @@ public class Deduplicator {
    */
   public static void main(String[] args) throws NoSuchAlgorithmException, 
   IOException {
-    // TODO Auto-generated method stub
     HashSet<String> strings = new HashSet<String>();
 
     String initialFolder = "C:/Archives/Chess/Games";
@@ -34,10 +35,9 @@ public class Deduplicator {
     Stack<String> stack = new Stack<String>();
     
     stack.add(initialFolder);
-    long numGames = 0, numDupes = 0;
+    long numGames = 0, numDupes = 0, numFiles = 0;
     
     while (!stack.isEmpty()) {
-      System.out.printf("stack.size = %d, strings.size = %d\n", stack.size(), strings.size());
       String filename = stack.pop();
       File f = new File(filename);
       
@@ -46,27 +46,24 @@ public class Deduplicator {
           stack.add(filename + "/" + file);
         }
       } else if (filename.toLowerCase().indexOf(".pgn") > 0) {
-        // System.out.println("File " + f.getAbsolutePath());
-        
-        try {   
-          PGNSource.PGNSourceIterator source = new PGNSource.PGNSourceIterator(f);
+        int localGames = 0;
+        try {
+          System.out.printf("File #%d\n", ++numFiles);
+          PGNSourceIterator source = new PGNSourceIterator(f);
           
           while (source.hasNext()) {
             PGNGame game = PGNParser.parsePGNGame(source.next());
             
-            if (numGames % 100 == 0) {
-              System.out.println("Game #" + numGames);
-            }
-            
             ++numGames;
+            ++localGames;
             
             if (!strings.add(game.sha1())) {
               ++numDupes;
-              System.out.printf("Dupe %s. %d/%d\n", f.getAbsolutePath(), numDupes, numGames);
+              System.out.printf("Dupe %s. %d/%d (%f)\n", f.getAbsolutePath(), numDupes, numGames, (double)numDupes/numGames);
             }
           }
         } catch (PGNParseException e) {
-          System.err.println("WTF exception PGNParseException " + f.getAbsolutePath());
+          System.err.println("WTF exception PGNParseException " + f.getAbsolutePath() + " after " + localGames + " games");
         } catch (MalformedMoveException e) {
           System.err.println("WTF MalformedMoveException " + f.getAbsolutePath());
         } catch (NullPointerException e) {

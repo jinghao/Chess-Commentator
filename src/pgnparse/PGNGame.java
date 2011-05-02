@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with PGNParse.  If not, see <http://www.gnu.org/licenses/>. 
  */
-package com.codethesis.pgnparse;
+package pgnparse;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

@@ -14,17 +14,50 @@
  * You should have received a copy of the GNU General Public License
  * along with PGNParse.  If not, see <http://www.gnu.org/licenses/>. 
  */
-package com.codethesis.pgnparse;
+package pgnparse;
 
 /**
- * 
  *
  * @author Deyan Rizov
  *
  */
-public enum Color {
+public class MalformedMoveException extends Exception {
 
-	white,
-	black,
-	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7389593033170883050L;
+
+	/**
+	 * 
+	 */
+	public MalformedMoveException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param message
+	 */
+	public MalformedMoveException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param cause
+	 */
+	public MalformedMoveException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param message
+	 * @param cause
+	 */
+	public MalformedMoveException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
 }

@@ -14,50 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with PGNParse.  If not, see <http://www.gnu.org/licenses/>. 
  */
-package com.codethesis.pgnparse;
+package pgnparse;
 
 /**
+ * 
  *
  * @author Deyan Rizov
  *
  */
-public class PGNParseException extends Exception {
+public enum Color {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -2253519940443925317L;
-
-	/**
-	 * 
-	 */
-	public PGNParseException() {
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param message
-	 */
-	public PGNParseException(String message) {
-		super(message);
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param cause
-	 */
-	public PGNParseException(Throwable cause) {
-		super(cause);
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param message
-	 * @param cause
-	 */
-	public PGNParseException(String message, Throwable cause) {
-		super(message, cause);
-		// TODO Auto-generated constructor stub
-	}
-
+	white,
+	black,
+	
 }
