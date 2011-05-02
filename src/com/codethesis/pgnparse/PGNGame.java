@@ -16,6 +16,9 @@
  */
 package com.codethesis.pgnparse;
 
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -102,4 +105,37 @@ public class PGNGame {
 		return moves.size() / 2;
 	}
 	
+	public String sha1() throws NoSuchAlgorithmException, UnsupportedEncodingException {
+	  String s = canonicalRepresentation();
+	  
+    MessageDigest md = MessageDigest.getInstance("SHA-1");
+	  md.update(s.getBytes("iso-8859-1"), 0, s.length());
+	  
+    byte[] t = md.digest();
+    
+    StringBuffer hexString = new StringBuffer();
+    for (int i = 0; i < t.length; i++) {
+      hexString.append(Integer.toHexString(0xFF & t[i]));
+    }
+    
+    return hexString.toString();
+	}
+	
+	public String canonicalRepresentation() {
+	  StringBuffer s = new StringBuffer();
+	  
+    for (PGNMove move : moves) {
+      if (move.isEndGameMarked()) {
+        s.append("(" + move.getMove() + ")");
+      } else if (move.isKingSideCastle()) {
+        s.append("[O-O] ");
+      } else if (move.isQueenSideCastle()) {
+        s.append("[O-O-O] ");
+      } else {
+        s.append("[" + move.getFromSquare() + "]->[" + move.getToSquare() + "] ");
+      }
+    }
+    
+    return s.toString();
+	}
 }

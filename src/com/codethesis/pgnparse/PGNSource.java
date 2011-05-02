@@ -19,10 +19,12 @@ package com.codethesis.pgnparse;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -31,7 +33,65 @@ import java.util.List;
  *
  */
 public class PGNSource {
-
+  public static class PGNSourceIterator implements Iterator {
+    BufferedReader br;
+    String line;
+    
+    public PGNSourceIterator(File file) throws IOException {
+      this(new FileInputStream(file));
+    }
+    
+    public PGNSourceIterator(InputStream inputStream) throws IOException {
+      this.br = new BufferedReader(new InputStreamReader(inputStream));
+      this.line = br.readLine();
+      
+      if (line == null) {
+        br = null;
+      }
+    }
+    
+    public boolean hasNext() {
+      return br != null;
+    }
+    
+    public String next() {
+      if (!hasNext()) {
+        return "";
+      }
+      
+      StringBuilder buffer = new StringBuilder();
+      boolean hasOne = false;
+      
+      try {
+        do {
+          line = line.trim();
+          
+          if (!line.isEmpty()) {
+            buffer.append(line + "\r\n");
+            
+            if (line.endsWith("1-0") || line.endsWith("0-1") || line.endsWith("1/2-1/2") || line.endsWith("*")) {
+              hasOne = true;
+            }
+          }
+        } while ((line = br.readLine()) != null && !hasOne);
+        
+        if (line == null) {
+          br.close();
+          br = null;
+        }        
+      } catch (IOException e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+      }
+      
+      return buffer.toString();
+    }
+    
+    public void remove() {
+      next();
+    }
+  }
+  
 	private String source;
 	
 	public PGNSource(String pgn) {

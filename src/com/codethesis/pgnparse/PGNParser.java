@@ -17,6 +17,7 @@
 package com.codethesis.pgnparse;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
@@ -180,7 +181,7 @@ public class PGNParser {
 	 * @throws MalformedMoveException 
 	 * @throws NullPointerException 
 	 */
-	private static PGNGame parsePGNGame(String pgn) throws IOException, PGNParseException, NullPointerException, MalformedMoveException {
+	public static PGNGame parsePGNGame(String pgn) throws IOException, PGNParseException, NullPointerException, MalformedMoveException {
 		byte[][] board = createDefaultBoard();
 //		printBoard(board);
 		final int[] color = { WHITE };
