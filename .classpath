@@ -7,5 +7,21 @@
 			<attribute name="javadoc_location" value="http://guava-libraries.googlecode.com/svn/tags/release09/javadoc/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/nlp.jar"/>
+	<classpathentry kind="lib" path="lib/commons-math.jar" sourcepath="lib/commons-math-src.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://commons.apache.org/math/api-2.2/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/ejml.jar" sourcepath="lib/ejml-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="http://efficient-java-matrix-library.googlecode.com/svn/javadoc/ver0.16"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/weka.jar" sourcepath="lib/weka-src.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://weka.sourceforge.net/doc.stable/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
