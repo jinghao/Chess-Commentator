@@ -1,24 +1,40 @@
 package edu.berkeley.nlp.chess.pgn;
 import java.io.File;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.List;
 import java.util.Stack;
 
-import pgnparse.MalformedMoveException;
-import pgnparse.PGNGame;
-import pgnparse.PGNParseException;
-import pgnparse.PGNParser;
-import pgnparse.PGNSource;
-import pgnparse.PGNSourceIterator;
-
+import com.supareno.pgnparser.PGNParser;
+import com.supareno.pgnparser.jaxb.Game;
+import com.supareno.pgnparser.jaxb.Games;
+import com.supareno.pgnparser.jaxb.Hit;
 
 
 public class Deduplicator {
 
+	static class GamePair {
+		public GamePair(String filename, int hash) {
+			this.filename = filename;
+			this.hash = hash;
+		}
+		public String filename;
+		public int hash;
+		public int hashCode() {
+			return hash;
+		}
+		
+		public boolean equals(Object obj) {
+			if (obj instanceof GamePair) {
+				GamePair p = (GamePair)obj;
+				Games gs1 = PGNParser.getGames(p.filename);
+				Games gs2 = PGNParser.getGames(this.filename);
+				return gs1.equals(gs2);
+			}
+			return false;
+		}
+	}
   /**
    * @param args
    * @throws NoSuchAlgorithmException 
@@ -27,20 +43,23 @@ public class Deduplicator {
    * @throws PGNParseException 
    * @throws NullPointerException 
    */
-  public static void main(String[] args) throws NoSuchAlgorithmException, 
-  IOException {
-    HashSet<String> strings = new HashSet<String>();
+  public static void main(String[] args) {
+	
+    HashSet<GamePair> doneGames = new HashSet<GamePair>();
 
-    String initialFolder = "C:/Archives/Chess/Games";
+    String initialFolder = "C:/Users/Darren/chess/chessok/";
+    //"C:/Archives/Chess/Games";
     
     Stack<String> stack = new Stack<String>();
     
     stack.add(initialFolder);
-    long numGames = 0, numDupes = 0, numFiles = 0;
+    long numGames = 0, numFiles = 0;
+    PGNParser parser = new PGNParser(true);
     
     while (!stack.isEmpty()) {
       String filename = stack.pop();
       File f = new File(filename);
+      
       
       if (f.isDirectory()) {
         for (String file : f.list()) {
@@ -48,33 +67,20 @@ public class Deduplicator {
         }
       } else if (filename.toLowerCase().indexOf(".pgn") > 0) {
         int localGames = 0;
-        try {
-          System.out.printf("File #%d\n", ++numFiles);
-          PGNSourceIterator source = new PGNSourceIterator(f);
+          System.out.printf("File #%d: %s\n", ++numFiles, filename);
           
-          while (source.hasNext()) {
-            PGNGame game = PGNParser.parsePGNGame(source.next());
-            
-            ++numGames;
-            ++localGames;
-            
-            if (!strings.add(game.sha1())) {
-              ++numDupes;
-              System.out.printf("Dupe %s. %d/%d (%f)\n", f.getAbsolutePath(), numDupes, numGames, (double)numDupes/numGames);
-            }
+          parser.smartParseFile(filename);
+          
+          while (parser.hasNext()) {
+        	  numGames ++;
+        	  Game g = parser.nextGame();
+        	  GamePair p = new GamePair(g.getTmpPath(), g.hashCode());
+        	  
+        	  doneGames.add(p);
           }
-        } catch (PGNParseException e) {
-          System.err.println("WTF exception PGNParseException " + f.getAbsolutePath() + " after " + localGames + " games");
-        } catch (MalformedMoveException e) {
-          System.err.println("WTF MalformedMoveException " + f.getAbsolutePath());
-        } catch (NullPointerException e) {
-          System.err.println("WTF NullPointedException " + f.getAbsolutePath());
-        } catch (OutOfMemoryError e) {
-          System.err.println("WTF OutOfMemoryError " + f.getAbsolutePath());
-          System.exit(0);
-        }
       }
     }
+    System.out.println("Number of games processed: " + numGames);
+    System.out.println("Number of unique games: " + doneGames.size());
   }
-
 }
