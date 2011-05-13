@@ -1,0 +1,695 @@
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Ablenkung/Grundreihe(2) 055"]
+[SetUp "1"]
+[FEN "1b1r2k1/1q3p1p/5p2/P4Bn1/R7/7P/1BQ2PP1/6K1 b - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1... Qxb2 2. f4 (2. Qxb2 Rd1#) (2. Kf1 Qb5+ 3. Rc4 (3. Kg1 Qxf5 $19) 3... Qxa5
+$17) 2... Qxc2 3. Bxc2 Ne6 $15 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Fuester, G."]
+[Black "Balogh, B."]
+[Result "0-1"]
+[Annotator "Ablenkung/Grundreihe(3) 029"]
+[SetUp "1"]
+[FEN "5rk1/5ppp/8/8/8/4PQ2/r1q2PPP/RR4K1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1964.??.??"]
+[EventType "team"]
+
+1... Qb2  2. Rd1 (2. Rxb2 Rxa1+ 3. Rb1 Rxb1+ 4.
+Qd1 Rxd1#) (2. Rxa2 Qxb1+ 3. Qd1 Qxd1#) (2. Qd1 Qxf2+ 3. Kh1 Qxg2#) (2. h3 Rxa1
+3. Rxa1 Qxa1+ 4. Kh2 Qe5+ ) 2... Qxa1 3. h3 Qe5 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(1) 001"]
+[SetUp "1"]
+[FEN "r5k1/1p3ppp/2p5/q7/8/1P6/P3QPPP/4R1K1 w - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1. Qe8+  Rxe8 2. Rxe8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(1) 003"]
+[SetUp "1"]
+[FEN "2r3k1/pb3ppp/4r3/3q2n1/PB6/1P3N2/2R2PPP/2R2K2 w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. Rxc8+  Bxc8 2. Rxc8+ Qd8 3. Rxd8+ Re8 4. Rxe8#
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(2) 002"]
+[SetUp "1"]
+[FEN "r4k2/qp3ppp/2p5/8/8/8/1P2QPPP/4R2K w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Qe7+  Kg8 2. Qe8+ Rxe8 3. Rxe8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(2) 004"]
+[SetUp "1"]
+[FEN "1rr3k1/5ppp/p5q1/3R4/3R2Q1/P7/5PPP/6K1 w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Qxc8+  Rxc8 2. Rd8+ Rxd8 3. Rxd8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(2) 015"]
+[SetUp "1"]
+[FEN "7k/pp4np/2p3p1/3pN1q1/3P4/Q7/1r3rPP/2R2RK1 w - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1. Qf8+  Rxf8 2. Rxf8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(2) 035"]
+[SetUp "1"]
+[FEN "6k1/pbr2p1p/1pq1p1p1/4P3/1Q6/P5P1/1PP5/1K1R1B2 w - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1. Rd8+ Kg7 (1... Qe8 2. Rxe8+ Kg7 3. Qf8#) 2. Qf8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 007"]
+[SetUp "1"]
+[FEN "3r2k1/1rpq1ppp/1p6/p2n4/2Q1R2P/P7/1P3PP1/4RK2 w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. Qxd5 h6 (1... Qxd5 2. Re8+ Rxe8 3. Rxe8#) (1... Rbb8 2. Qxd7 $18) 2. Qxb7 (
+2. Re8+ $18 ) 2... Qb5+ 3. Kg1 Qxb2 4. Qxc7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 008"]
+[SetUp "1"]
+[FEN "r6k/6pp/r7/2Q1p3/2R5/q2b2PN/4pP1P/2R1K3 w - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1. Qxa3 (1. Qc8+ $6 Qf8 $15 (1... Rxc8 $2 2. Rxc8+ Qf8 3. Rxf8#)) 1... Bxc4 (
+1... Rxa3 2. Rc8+ Rxc8 3. Rxc8#) 2. Qc5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 013"]
+[SetUp "1"]
+[FEN "5r1k/pp5p/2p2n2/5N2/4qP2/2Q5/1PP4K/3R4 w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. Qxf6+  Rxf6 (1... Kg8 2. Qg7#) 2. Rd8+ Qe8 (2... Rf8 3. Rxf8#) 3.
+Rxe8+ Rf8 4. Rxf8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Boatner"]
+[Black "Patterson"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 017"]
+[SetUp "1"]
+[FEN "r1b2rk1/p1p1Qppp/2p5/8/8/1P2B1P1/P1P2K1P/qN2R3 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1958.??.??"]
+[EventType "team"]
+
+1. Qxf8+  Kxf8 2. Bc5+ Kg8 3. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 019"]
+[SetUp "1"]
+[FEN "Rnk5/1p4pp/1Pp2pq1/2B1r3/1P6/7P/3r2PQ/5RK1 w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Rxb8+ Kxb8 (1... Kd7 2. Rxb7+ $18) 2. Qxe5+ fxe5 (2... Kc8 3. Qc7#) (2...
+Ka8 3. Ra1+ Ra2 4. Rxa2#) 3. Rf8+  1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Honfi, K."]
+[Black "Sebestyen, B."]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 020"]
+[SetUp "1"]
+[FEN "r1bq2k1/2p2p1p/p1pp2pB/2n4r/8/2N2Q2/PPP2PPP/4RRK1 w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Qf6  Rxh6 (1... Qxf6 2. Re8#) (1... Ne6 2. Qxd8+
+Nxd8 3. Re8#) 2. Qxd8+ Kg7 3. Re8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Minic, D."]
+[Black "Honfi, K."]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 022"]
+[SetUp "1"]
+[FEN "r2r2k1/2q2ppp/8/pp1RP3/8/1pP1Q3/1P3PPP/3R2K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1966.??.??"]
+[EventType "team"]
+
+1. Qa7  Qc8 (
+1... Rxa7 2. Rxd8+ Qxd8 3. Rxd8#) (1... Qxa7 2. Rxd8+ Rxd8 3. Rxd8#) 2. Qxa8
+Rf8 3. Qxc8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1914.??.??"]
+[Round "?"]
+[White "Bernstein, O."]
+[Black "Capablana, J."]
+[Result "0-1"]
+[Annotator "Grundreihe(3) 023"]
+[SetUp "1"]
+[FEN "3r2k1/p4ppp/1q6/8/8/2R1P3/P3QPPP/6K1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1914.??.??"]
+[EventType "team"]
+
+1... Qb2 2. Rc2 (2. Qxb2 $2 Rd1#) (2. Qd3 Qa1+ (2... Rxd3 $2 3. Rc8+ Rd8 4.
+Rxd8#) 3. Qf1 Qxc3 $19) (2. Rc8 Qb1+ 3. Qf1 Qxf1+ 4. Kxf1 Rxc8 $19) 2... Qb1+
+3. Qf1 Qxc2 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 034"]
+[SetUp "1"]
+[FEN "1kb4Q/1pp5/p3n1p1/1q6/1r6/1P6/P4PP1/3R2KR w - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1. Qxc8+ Ka7 (1... Kxc8 2. Rh8+  Nd8 (2... Nf8 3. Rxf8+ Qe8 4. Rxe8#) (2...
+Qe8 3. Rxe8+ Nd8 4. Rdxd8#) 3. Rdxd8#) 2. Qxe6 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 036"]
+[SetUp "1"]
+[FEN "rr4k1/2R2pbp/p3p1p1/3pPn2/Nq1P4/Q4N2/PP3PPP/2R3K1 w - - 0 1"]
+[PlyCount "9"]
+[EventType "team"]
+
+1. Rc8+ Rxc8 (1... Bf8 2. Qxb4 Rxb4 (2... Rxc8 3. Qe1 $18) 3. Rxa8 Rxa4 4. Rcc8
+$18) 2. Rxc8+ Rxc8 3. Qxb4 Rc1+ (3... Nxd4 4. h3 $16) 4. Ne1 Nxd4 5. f4 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Fedina"]
+[Black "Gulak"]
+[Result "1-0"]
+[Annotator "Grundreihe(3) 037"]
+[SetUp "1"]
+[FEN "3rbk2/5ppp/p2p1q2/1pN5/2p5/2P1Q3/PP3PPP/4R1K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1980.??.??"]
+[EventType "team"]
+
+1. Qxe8+  (1. Nd7+ $2 Bxd7 $17) (1. Nxa6 $2 Bc6 $11) 1...
+Rxe8 2. Nd7+ Kg8 3. Rxe8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Adler, J."]
+[Black "Vujovic, M."]
+[Result "1-0"]
+[Annotator "Grundreihe(4) 011"]
+[SetUp "1"]
+[FEN "r1b2rk1/2p3p1/n2p3p/p1pP2N1/2P1BP1q/P7/1PQ4P/4RRK1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1. Bh7+  Kh8 2. Nf7+ Rxf7 3. Re8+ Rf8 4. Rxf8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 012"]
+[SetUp "1"]
+[FEN "1r3rk1/2R2p1p/5BpQ/8/4qN2/p5P1/2N2P1P/3b2K1 b - - 0 1"]
+[PlyCount "9"]
+[EventType "team"]
+
+1... Qh1+  2. Kxh1 Bf3+
+3. Ng2 (3. Kg1 Rb1+ 4. Ne1 Rxe1#) 3... Rb1+ 4. Qc1 (4. Nce1 Rxe1#) 4... Rxc1+
+5. Nce1 Rxe1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 016"]
+[SetUp "1"]
+[FEN "3rr1k1/1p3ppp/p7/R3N1q1/1Q1PR3/8/1P3PPP/6K1 b - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1... Rxd4 
+2. Qc3 (2. Rxd4 Qc1+ $19 ) (2. Qxd4 Qc1+ $19 ) (2. Qe1 Rxe4 $19) (2. Nf3 Rexe4 (2... Rxb4 $2 3.
+Rxe8#) 3. Ra1 (3. Nxg5 Rd1+ 4. Qe1 Rdxe1#) 3... Qxg2+ 4. Kxg2 Rxb4 $19) 2...
+Rxe4 3. Nf3 Qd8 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 018"]
+[SetUp "1"]
+[FEN "k1r1r3/pp5p/1q1P4/3R1Np1/1b6/1P3P2/2Q1R1PP/7K b - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1... Qf2 (1... Rxc2 $2 2. Rxe8+ $18 ) (1... Red8 $2 2. Qb1
+$14) 2. h3 (2. Rxf2 Re1+ 3. Rf1 Rxf1#) (2. Rd1 Qxe2 $19) 2... Qxe2 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Bogdanovic, R."]
+[Black "Kotov, A."]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 021"]
+[SetUp "1"]
+[FEN "rr4k1/2q2p2/5Bpp/8/p2NQ3/P1P5/6PP/1R5K b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1966.??.??"]
+[EventType "team"]
+
+1... Qf4  2. Qc2 (2.
+Qxf4 Rxb1+ $19) 2... Rxb1+ (2... Qxf6 $17 ) 3. Qxb1 Qxf6
+$17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1956.??.??"]
+[Round "?"]
+[White "Robatsch, K."]
+[Black "Bely, M."]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 026"]
+[SetUp "1"]
+[FEN "2r3k1/5ppp/p3pn2/P1q1N3/R1N5/1P1Q4/5PPP/3b2K1 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1956.??.??"]
+[EventType "team"]
+
+1... Bxb3  2. Qxb3 (2. Nd7 Qb5 $17) 2... Qxe5
+$17  0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Cherepkov, A."]
+[Black "Szonov"]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 027"]
+[SetUp "1"]
+[FEN "3rr1k1/1p3ppp/p7/4N1q1/RQ1PR3/8/1P3PPP/6K1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1968.??.??"]
+[EventType "team"]
+
+1... Rxd4  (1... Qc1+ $2 2. Re1 $18) 2. Qc3 (
+2. Qxd4 Qc1+ $19 ) (2. Rxd4 Qc1+ $19 
+) (2. Qe1 Rxa4 3. Rxa4 Rxe5 $17) 2... Rd1+ 3. Re1 Rxe1+ 4. Qxe1 Rxe5 $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Kavalek, L."]
+[Black "Portisch, L."]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 028"]
+[SetUp "1"]
+[FEN "4r1k1/2p2p2/p1b2Ppp/1p3N2/7Q/8/Pq3PPP/3R2K1 b - - 0 1"]
+[PlyCount "21"]
+[EventDate "1967.??.??"]
+[EventType "team"]
+
+1... Qd2  (1... gxf5 $2 2. Qg3+ Kh8 3. Qg7#)
+2. Nxh6+ (2. Rxd2 $2 Re1#) (2. Rf1 gxf5 3. Qg3+ Qg5 $19) 2... Kf8 3. Rf1 Re1  4. Qg4 (4. f3 Rxf1+ 5. Kxf1
+Bd5 $17) 4... Rxf1+ (4... Bb7 $19 ) 5. Kxf1 Qxh6 (5... b4  6. Qc8+ Be8 7. g3 (7. Qxc7 $2
+Qd1#) (7. f3 Qxh6 8. Qxa6 Qxh2 $19) 7... Qxh6 8. Qxc7 Qh3+ 9. Kg1 Qe6 $19) 6.
+Qc8+ Be8 7. Qxc7 Kg8 8. Qc8 Qf8 9. Qxa6 Qc5 10. h4 Qc1+ 11. Ke2 Qc6  0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Sznapik, A."]
+[Black "Gaprindashvili"]
+[Result "0-1"]
+[Annotator "Grundreihe(4) 029"]
+[SetUp "1"]
+[FEN "1k1rr3/2p2ppp/1pQ5/4bPq1/8/R7/PP3NPP/2R3K1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+
+1... Qxc1+  2. Qxc1 (2.
+Nd1 Qxd1+ 3. Kf2 Rd2+ 4. Ke3 Qe2#) 2... Bxb2  3.
+Ra8+ (3. Qxb2 $2 Re1#) (3. Qb1 Bxa3 $17) 3... Kxa8 4. Qc6+ Kb8 5. Kf1 Re5 $17
+0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Ivkov, B."]
+[Black "Eliskases, E."]
+[Result "1-0"]
+[Annotator "Grundreihe(4) 032"]
+[SetUp "1"]
+[FEN "3q2k1/1br2ppp/8/1Pp1R3/8/2Q3PB/5P1P/6K1 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1958.??.??"]
+[EventType "team"]
+
+1. Qd2 Qf8 (1... Qxd2 2. Re8#) (1... Rc8 2. Bxc8 $18) (1... Qa8 2. Qa5 Rc8 3.
+Bxc8 Qxc8 4. Qc7 $18) (1... Qb8 2. Qe3 Kf8 3. b6 Rc6 4. Bd7 $18) 2. Qe3 (2. Qe1
+$18 ) (2. Qe2 $18 ) 2... Bc8 3. b6  (3. Re8 $6  Bxh3 4. Rxf8+ Kxf8 5. g4 Bxg4 6. Qf4 $18)
+3... Rc6 (3... Rb7 4. Bxc8 $18) (3... Bxh3 4. bxc7 $18) 4. Re8 Bxh3 5. Qe7  h6 6. Rxf8+ Kh7 7. Qe4+ Rg6 (7... g6 8. Rxf7+ Kg8 (8...
+Kh8 9. Qe8#) 9. Qe8#) 8. b7  1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Willaert"]
+[Black "O'Kelly"]
+[Result "1-0"]
+[Annotator "Grundreihe(4) 033"]
+[SetUp "1"]
+[FEN "5r1k/p6p/1p3pp1/2nQ1N2/4Pq1P/5P2/P5P1/3R2K1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1952.??.??"]
+[EventType "team"]
+
+1. Qf7  Ne6 
+(1... Qh6 2. Rd8 $18) (1... Rxf7 2. Rd8+ Rf8 3. Rxf8#) (1... Rg8 2. Qxf6+ Rg7
+3. Qxg7#) 2. Rd8 (2. Qxe6  gxf5 3. Qe7 $14) 2... Qc1+ (2...
+Rxd8 3. Qxf6+ Kg8 (3... Ng7 4. Qxg7#) 4. Ne7#) 3. Kh2 Qc7+ 4. Qxc7 Nxc7 (4...
+Rxd8  5. Qe7 $18) 5. Rxf8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Tschajenko"]
+[Black "Arawin"]
+[Result "1-0"]
+[Annotator "Grundreihe(5) 010"]
+[SetUp "1"]
+[FEN "r5k1/p5pp/1pp3rb/3p1Q1N/2nP4/1RP5/q1P3PP/2B1R2K w - - 0 1"]
+[PlyCount "13"]
+[EventType "team"]
+
+1. Ra3  Qb1 (
+1... Nxa3 2. Rf1  Qxc2 (2... Rf6 3. Nxf6+ gxf6 4. Bxh6 Qxc2 5. Qe6+
+Kh8 6. Qxf6+ Kg8 7. Qg7#) 3. Qf7+ Kh8 4. Qf8+ Rxf8 5. Rxf8#) (1... Nd6 $142  2. Qxg6 (2. Nf6+
+Rxf6 (2... gxf6 $2 3. Qe6+ Kh8 4. Rxa2 $18) 3. Qxf6 gxf6 4. Rxa2 $13) 2... hxg6
+(2... Qxa3 $2 3. Qe6+ Kh8 4. Bxa3 $18) 3. Rxa2 Bxc1 $13) 2. Rxa7  Rf8 (2... Rxa7 3. Re8#) 3. Rf7 Rd8 4. Rfe7 (4. Rf1  Bf4 5. Qxf4 h6 6. Qc7
+Qxc2 7. Rxg7+ Rxg7 (7... Kh8 8. Qxd8#) 8. Qxg7#) 4... Nd6 (4... Rf8 5. Qxf8+
+Kxf8 6. Re8+ Kf7 7. R1e7#) 5. Qf7+ Nxf7 (5... Kh8 6. Re8+ (6. Qe8+ ) 6... Rxe8 (6... Nxe8 7. Qf8#) 7. Rxe8+ Nxe8 8. Qf8#) 6. Re8+ Rxe8 7. Rxe8#
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Schmidt, W."]
+[Black "Abramovic, B."]
+[Result "0-1"]
+[Annotator "Grundreihe(6) 030"]
+[SetUp "1"]
+[FEN "3r2k1/5p2/p6p/q5pB/4P3/2R5/1nQ2PPP/6K1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1... Nd1  2. Bxd1 (2. Rc4
+Qe1#) (2. Qb3 Qxc3 (2... Nxc3 $2 3. Qxf7+ Kh8 4. Qf6+ Kg8 5. Bf7+ Kf8 6. Be6+
+Ke8 7. Qf7#) 3. Qxf7+ (3. Qxc3 Nxc3 $19) 3... Kh8 $19 ) 2... Qxc3  3. Kf1 (3. Qa4 $2 Qe1#) (3. Qxc3
+$2 Rxd1+ 4. Qe1 Rxe1#) 3... Qxc2 4. Bxc2 Rd2 $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe/Ablenkung(2) 005"]
+[SetUp "1"]
+[FEN "1rb1k2r/pp2ppb1/6p1/1N1R4/8/8/PP2BPP1/R3K3 w Qk - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1. Nc7+ Kf8 2. Rd8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe/Ablenkung(2) 006"]
+[SetUp "1"]
+[FEN "3r1k2/1p3ppp/p7/8/3q4/1P6/P3QPPP/4R1K1 w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Qe7+  Kg8 2. Qe8+ Rxe8 3. Rxe8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1962.??.??"]
+[Round "?"]
+[White "Aaron, M."]
+[Black "Gligoric, S."]
+[Result "0-1"]
+[Annotator "Grundreihe/Ablenkung(4) 009"]
+[SetUp "1"]
+[FEN "7k/1pp4p/3p2q1/p1nPp3/2P1Pr2/8/PPB5/1K4RQ b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1962.??.??"]
+[EventType "team"]
+[EventCountry "ENG"]
+
+1... Rh4 2. Rxg6 (2. Qxh4 Qxg1+ $19 ) (2. Qg2 Qxg2 3.
+Rxg2 Rh1+ 4. Bd1 Rxd1+ 5. Kc2 Re1 $19) 2... Rxh1+ 3. Bd1 hxg6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Honfi, K."]
+[Black "Lengyel, L."]
+[Result "1-0"]
+[Annotator "Grundreihe/Abzugsangriff(5) 031"]
+[SetUp "1"]
+[FEN "r1bq3k/1p3Qpp/p3p3/2b5/3N4/PP2B3/2P3PP/5RK1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+
+1. Nc6 (1. Nxe6 $2 Bxe3+ 2. Kh1 Bxe6 3. Qxe6 Qe8 $17) 1... bxc6 (1... Bxe3+ 2.
+Kh1 h6 (2... Qg8 3. Qxg8+ Kxg8 4. Ne7+ Kh8 5. Rf8#) 3. Nxd8 $18) (1... Qg8 2.
+Qxg8+ Kxg8 3. Bxc5 Bd7 (3... bxc6 4. Rf8#) 4. Ne5 $18) 2. Bxc5 Bd7 (2... h6
+$142  3. Qg6  Bb7 4. Rf8+ Qxf8 5. Bxf8 Rxf8 6. Qxe6 $18) 3.
+Bd4 e5 (3... Qg8 4. Qxd7 $18) 4. Bxe5  Qg8 (4... Qg5 5. Qf8+ Rxf8 6. Rxf8#) 5. Qxd7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe/Bauernumwandlung(3) 025"]
+[SetUp "1"]
+[FEN "5r1k/6pp/p2P4/1p6/6q1/1Q6/P3RPP1/6K1 w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Qf7 Qc8 (1... Rxf7 2. Re8+ Rf8 3. Rxf8#) (1... Rg8 2. Re1 Qg5 3. d7 $18 ) 2. Qxf8+ Qxf8 3. d7  1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Grundreihe/Fesselung(3) 024"]
+[SetUp "1"]
+[FEN "8/pQRq2pk/4p2p/3r1p2/3P4/4P3/PP3PPP/6K1 b - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1... Rc5  2. Rxc5 (2.
+dxc5 Qd1#) (2. Qxa7 Rxc7 $19) (2. Qb3 Rxc7 $19) 2... Qxb7 $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe/Räumung(3) 014"]
+[SetUp "1"]
+[FEN "r1b3kr/ppp1Bp1p/1b6/n2P4/2p3q1/2Q2N2/P4PPP/R3R1K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1998.??.??"]
+[EventType "swiss"]
+
+1. Qxh8+  Kxh8 2. Bf6+  Kg8 (2... Qg7 3. Re8#) 3. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Netto"]
+[Black "Abente, R."]
+[Result "0-1"]
+[Annotator "Hinlenkung/Grundreihe/Rochadestellung(4) 055"]
+[SetUp "1"]
+[FEN "2b1r3/1p2qpkp/2p3p1/4r3/R4Q2/2P2RP1/P1B2P1P/6K1 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1... Re1+  (1... Bh3 $143 2. Re3 Rxe3 3.
+fxe3 Qxe3+ 4. Qxe3 Rxe3 $17) 2. Kg2 Rg1+ 3. Kxg1 Qe1+ 4. Kg2 Qf1+ 5. Kxf1  Bh3+ 6. Kg1 Re1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung/Grundreihe(3) 037"]
+[SetUp "1"]
+[FEN "6k1/5p2/p3p3/1p3qp1/2p1Qn2/2P1R3/PP1r1PPP/4R1K1 b - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1... Nh3+  2. Rxh3 (2. gxh3 Qxf2+ 3. Kh1 Qxh2#) (2. Kh1 Nxf2+
+3. Kg1 Nxe4 $19) 2... Qxe4 3. Rhe3 (3. Rxe4 Rd1+ 4. Re1 Rxe1#) (3. Kf1 Qc2 $19)
+3... Qc2 0-1
+

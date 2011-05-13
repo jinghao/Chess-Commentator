@@ -1,0 +1,357 @@
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Lehrbeispiel 06"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(1) 009"]
+[SetUp "1"]
+[FEN "5bk1/p3qppp/1p6/4pP2/4Q3/P2B4/1PP5/1K6 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. f6  g6  2. fxe7 Bxe7 3. Qxe5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Lehrbeispiel 04"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(2) 007"]
+[SetUp "1"]
+[FEN "r5k1/p4ppp/8/8/8/5RP1/P2b2BP/5K2 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Rd3  (1. Rf2 $2 Rd8 $15) 1... Rb8 2. Rxd2
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Lehrbeispiel 05"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(2) 008"]
+[SetUp "1"]
+[FEN "7k/p5pp/6b1/8/5B1q/P7/1P6/K4Q2 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Bg5  (1. Bg3
+$2 Qd8 $17) 1... h6 2. Bxh4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Lehrbeispiel 07"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(2) 010"]
+[SetUp "1"]
+[FEN "r5k1/p5pp/8/4p3/5q2/P7/1PP2Q2/1K3R2 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Qg2  Rf8 (1... Qxf1+ 2. Qxf1 ) 2. Rxf4 exf4 3.
+Qd5+ Rf7 (3... Kh8 4. Qc5 Ra8 5. Kc1 ) 4. Qa8+ Rf8 5. Qxa7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Alenius"]
+[Black "Pirttimäki"]
+[Result "0-1"]
+[Annotator "Abzugsangriff(2) 011"]
+[SetUp "1"]
+[FEN "4k3/1q2P1pp/5r2/1p6/2p5/2P1RnP1/6QP/5R1K b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+
+1... Nh4  2. Rff3 (2. Qxb7 Rxf1#)
+2... Nxg2 3. Kxg2 Rxf3 4. Rxf3 b4 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Martens"]
+[Black "Becx, C."]
+[Result "0-1"]
+[Annotator "Abzugsangriff(3) 002"]
+[SetUp "1"]
+[FEN "6k1/p5p1/3p4/P1PP2q1/5pP1/3prB1R/P2Q2K1/8 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1989.??.??"]
+[EventType "swiss"]
+
+1... Re2+  2. Bxe2 (2. Qxe2 dxe2 3. Kf2 (3. Bxe2 Qxd5+ ) 3... Qe5 ) 2... f3+ 3. Bxf3 Qxd2+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Banfalvi"]
+[Black "Marussi"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(3) 004"]
+[SetUp "1"]
+[FEN "r4r1k/pQB1qp1p/4pp2/8/1PnP4/5P2/1P2KP1P/R5R1 w - - 0 1"]
+[PlyCount "4"]
+[EventDate "1966.??.??"]
+[EventType "team"]
+
+1. Be5 Qd8 (1... Qxb7 $2 2. Bxf6#) (1... Rfe8 2. Qxe7 Rxe7 (2... h5 3. Qxf6+
+Kh7 4. Qg7#) 3. Bxf6#) 2. Qxa8  fxe5 (2... Nxe5 3. Qxd8 Rxd8 4. dxe5 $18) 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Barlov"]
+[Black "Kontic"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(3) 006"]
+[SetUp "1"]
+[FEN "4rk2/pp1npp1p/5br1/2pP2pq/2P5/4RNBP/P3QPP1/4R1K1 w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Ne5  Qxe2 (
+1... Nxe5 2. Qxh5 Nxc4 3. Rb3 $18) (1... Bxe5 2. Qxh5 $18) (1... Qh6 2. Nxd7+
+Kg7 (2... Kg8 3. Nxf6+ $18) 3. Nxf6 Rxf6 4. Rxe7 $18 (4. Be5 $18)) (1... g4 2.
+Nxd7+ Kg7 (2... Kg8 3. Nxf6+ $18) 3. Nxf6 $18) 2. Nxd7+ Kg7 3. R3xe2  1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Evans, L."]
+[Black "Bisguier, A."]
+[Result "1-0"]
+[Annotator "Abzugsangriff(4) 003"]
+[SetUp "1"]
+[FEN "4bk1r/Q4ppp/1p2q3/8/4B3/8/P4PPP/4R1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1957.??.??"]
+[EventType "team"]
+
+1. Qa3+  Qe7 (1... Kg8
+2. Bxh7+ Kxh7 3. Rxe6 fxe6 4. Qh3+ Kg8 5. Qxe6+ ) 2. Bc6  g6 (2... Qxa3
+3. Rxe8#) 3. Qxe7+ Kg7 4. Bxe8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1930.??.??"]
+[Round "?"]
+[White "Blazej"]
+[Black "Mikulka"]
+[Result "0-1"]
+[Annotator "Abzugsangriff(4) 012"]
+[SetUp "1"]
+[FEN "2kr2nr/ppp2ppp/2n5/4P3/QbP2Pq1/4PN2/PP2K2P/R1B2B1R b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1930.??.??"]
+[EventType "team"]
+
+1... Nxe5  2. fxe5 (2. Bg2 Qxg2#) (2. Bh3
+Qxh3 ) 2... Qxc4+ 3. Kf2 Be1+ 4. Kxe1 Qxa4 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Vasiukov, E."]
+[Black "Holmov"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(4) 015"]
+[SetUp "1"]
+[FEN "4rrk1/1bp2ppp/p4b1B/1pq2B2/6Q1/2P4P/PP3PP1/3RR1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1964.??.??"]
+[EventType "team"]
+
+1. Bxg7 Bxg7 (1... Rxe1+ 2. Rxe1 ) 2. Qh5 h6 3. Bh7+ Kxh7 4. Qxc5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1938.??.??"]
+[Round "?"]
+[White "Parr"]
+[Black "Wheatcroft"]
+[Result "1-0"]
+[Annotator "Abzugsangriff(5) 013"]
+[SetUp "1"]
+[FEN "r5r1/pp1Q1Nbk/6pp/1R6/q7/1n3PP1/PB1p1PKP/8 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1938.??.??"]
+[EventType "team"]
+
+1. Rh5  Qxd7  (1... gxh5 2. Qf5#) (1... Qa5 2. Rxh6+
+Bxh6 3. Ng5#) (1... Nd4 2. Ng5+ Kh8 3. Rxh6+ Bxh6 4. Qh7#) 2. Ng5+ Kh8 3. Rxh6#
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Schrancz, I."]
+[Black "Honfi, K."]
+[Result "1-0"]
+[Annotator "Abzugsangriff/Abzugschach(4) 005"]
+[SetUp "1"]
+[FEN "r4rk1/2q1bppp/4b3/p2p3R/3B4/1NnP3Q/1P4PP/4R1K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1971.??.??"]
+[EventType "team"]
+
+1. Rxh7  Bxh3 2. Rxg7+  Kh8 3. Rxf7+ Kg8 (3... Bf6
+4. Bxf6+ Kg8 5. Rxc7 $18) 4. Rg7+ Kh8 5. Rgxe7+ Kg8 6. Rxc7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1951.??.??"]
+[Round "?"]
+[White "Tschechower, V."]
+[Black "Lutikov, A."]
+[Result "0-1"]
+[Annotator "Abzugsangriff/Hinlenkung(3) 014"]
+[SetUp "1"]
+[FEN "3r3k/2p3pp/Qb2q2r/3p4/1P1B1p2/2P2P2/P5PP/R3R2K b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1951.??.??"]
+[EventType "team"]
+
+1... Rxh2+ 2. Kxh2 (2. Kg1 Bxd4+ $19) 2... Qh6+ 3. Kg1 Bxd4+ 4. cxd4 Qxa6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Kramnik, V."]
+[Black "Koslow"]
+[Result "1-0"]
+[Annotator "Abzugsangriff/Hinlenkung(4) 001"]
+[SetUp "1"]
+[FEN "5rk1/5np1/3p1r1p/2pPp3/2P1Q3/4BNRP/R3nPPK/3q4 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1989.??.??"]
+[EventType "swiss"]
+
+1. Rxe2 Qxe2 2. Rxg7+ Kxg7 (2... Kh8 3. Qh7#) 3. Bxh6+ Rxh6 (3... Nxh6 4. Qxe2
+$16) (3... Kxh6 4. Qxe2 $16) (3... Kh8 4. Qxe2 $16) 4. Qxe2 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Krogius, N."]
+[Black "Sergievsky, V."]
+[Result "1-0"]
+[Annotator "Doppelangriff/Abzugsangriff(3) 012"]
+[SetUp "1"]
+[FEN "r4nk1/p3rppp/1p6/2PqNQ2/8/4P3/P4PPP/1RR3K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1959.??.??"]
+[EventType "team"]
+
+1. Ng6 Qxf5 (1... Rd7 2. Ne7+ ) (1... Qxa2 2. Nxe7+ Kh8 3. c6 ) (1...
+Qe4 2. Nxe7+ Qxe7 3. c6 ) 2. Nxe7+ Kh8 3. Nxf5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Honfi, K."]
+[Black "Lengyel, L."]
+[Result "1-0"]
+[Annotator "Grundreihe/Abzugsangriff(5) 031"]
+[SetUp "1"]
+[FEN "r1bq3k/1p3Qpp/p3p3/2b5/3N4/PP2B3/2P3PP/5RK1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+
+1. Nc6 (1. Nxe6 $2 Bxe3+ 2. Kh1 Bxe6 3. Qxe6 Qe8 $17) 1... bxc6 (1... Bxe3+ 2.
+Kh1 h6 (2... Qg8 3. Qxg8+ Kxg8 4. Ne7+ Kh8 5. Rf8#) 3. Nxd8 $18) (1... Qg8 2.
+Qxg8+ Kxg8 3. Bxc5 Bd7 (3... bxc6 4. Rf8#) 4. Ne5 $18) 2. Bxc5 Bd7 (2... h6
+$142  3. Qg6  Bb7 4. Rf8+ Qxf8 5. Bxf8 Rxf8 6. Qxe6 $18) 3.
+Bd4 e5 (3... Qg8 4. Qxd7 $18) 4. Bxe5  Qg8 (4... Qg5 5. Qf8+ Rxf8 6. Rxf8#) 5. Qxd7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Mocsai"]
+[Black "Barati"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Abzugsangriff(3) 053"]
+[SetUp "1"]
+[FEN "2r2rk1/pb4pp/1p1bN3/3n1p2/1P6/PQ1BP1Pq/1BP2P1P/4RRK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+
+1... Qg2+  2. Kxg2 Nf4+ 3. Kg1 Nh3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Abzugsangriff(3) 056"]
+[SetUp "1"]
+[FEN "2rq1rk1/p4ppp/n3bn2/1Nb1p1Q1/4P3/2B2P2/PPN3PP/R3KB1R b KQ - 0 1"]
+[PlyCount "9"]
+[EventType "team"]
+
+1... Bf2+  2. Kxf2 (2. Ke2  Bc4+ 3. Kxf2 Nxe4+ 4. fxe4
+Qxg5 $19) 2... Nxe4+  3. fxe4 Qxg5  4. h4 (4. Nxa7 Rxc3 5. bxc3 Qd2+ $19) (4. Kg1
+Qe7 $19) 4... Qf4+ 5. Kg1 (5. Ke1 Qg3+ 6. Kd2 (6. Ke2 Bg4+ 7. Kd2 Rfd8+ $19)
+6... Rfd8+ $19) 5... Nc5 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Rogers, I."]
+[Black "Friedman, J."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Abzugsangriff(4) 049"]
+[SetUp "1"]
+[FEN "r5r1/4kp2/p3p3/R2pP3/2qN4/2n1Q1P1/2P2P1P/4R1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. Rc5  Qxc5 (1... Rgc8 2. Rxc4 Rxc4 3. Ra1 $18) 2. Nf5+  exf5 (2...
+Kd7 3. Qxc5 exf5 4. Qd6+ $18) 3. Qxc5+ Kd7 4. Qxc3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rellstab, L."]
+[Black "Ullrich, H."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Abzugsangriff/Damenfang(3) 040"]
+[SetUp "1"]
+[FEN "2rnrbnk/3q1ppp/p1p5/3p1P2/1p1PPN2/4BQ1R/PP1N2PP/3R2K1 w - - 0 1"]
+[PlyCount "15"]
+[EventType "team"]
+
+1. Ng6+ fxg6 2. Rxh7+ Kxh7 3. Qh3+ Nh6 4. fxg6+  Kxg6 5. Qxd7 Ndf7 6. Bxh6 Nxh6 (
+6... Kxh6 7. Qxf7 ) (6... gxh6 7. Rf1 ) 7. exd5 cxd5 8. Qxd5 1-0
+
