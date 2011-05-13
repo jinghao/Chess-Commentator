@@ -162,12 +162,13 @@ public class NeuralNetwork {
 			loss /= count;
 			
 			// Compute regularization penalty
+			// (proportional to the squares of all the weights)
 			int weightsBegin = 0;
 			for (int l = 1; l < layerSizes.length; ++l) {
-				int weightsEnd = weightsBegin + (layerSizes[l - 1] + 1) * layerSizes[l]; 
+				int weightsEnd = weightsBegin + layerSizes[l - 1] * layerSizes[l];
 				for (int i = weightsBegin; i < weightsEnd; ++i)
 					loss += (weightDecay / 2) * x[i] * x[i];
-				weightsBegin = weightsEnd;
+				weightsBegin = weightsEnd + layerSizes[l];
 			}
 			
 			// Compute sparsity penalty
