@@ -228,10 +228,11 @@ public class NeuralNetwork {
 						for (int i = 0; i < delta.length; ++i) {
 							for (int j = 0; j < deltas[l + 1].length; ++j)
 								delta[i] += x[weightsBegin + j * delta.length + i] * deltas[l+1][j];
-							delta[i] *= activations[l][i] * (1 - activations[l][i]); // derivative of sigmoid
 							// Add sparsity penalty (KL divergence)
 							delta[i] += sparsityPenalty * 
 								(-sparsity/averageActivations[l][i] + (1-sparsity)/(1-averageActivations[l][i]));
+							// Multiply by derivative
+							delta[i] *= activations[l][i] * (1 - activations[l][i]); // derivative of sigmoid
 						}
 						deltas[l] = delta;
 						weightsBegin -= (layerSizes[l - 1] + 1) * layerSizes[l];
