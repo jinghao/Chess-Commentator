@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 import com.google.common.base.Preconditions;
+import com.google.common.collect.Iterables;
 
 import edu.berkeley.nlp.math.DifferentiableFunction;
 import edu.berkeley.nlp.math.LBFGSMinimizer;
@@ -26,7 +27,7 @@ public class NeuralNetwork {
 			Preconditions.checkArgument(layerSize > 0);
 		
 		LossFunction toBeMinimized = new LossFunction(layerSizes, weightDecay, sparsity, sparsityPenaltyWeight, examples);
-		double[] parameters = new LBFGSMinimizer(100).minimize(
+		double[] parameters = new LBFGSMinimizer(1000).minimize(
 				toBeMinimized,
 				toBeMinimized.initial(), 
 				1e-4); // TODO make tunable 
@@ -55,6 +56,10 @@ public class NeuralNetwork {
 	
 	static private double sigmoid(double z) {
 		return 1.0 / (1 + Math.exp(-z));
+	}
+	
+	static private double KLdiv(double a, double b) {
+		return a * Math.log(a / b) + (1 - a) * Math.log((1 - a) / (1 - b));
 	}
 	
 	static public double[][] getActivations(double[] input, int[] layerSizes, double[] parameters) {
@@ -93,6 +98,7 @@ public class NeuralNetwork {
 		private double sparsity;
 		private double sparsityPenalty;
 		private Iterable<Pair<double[], double[]>> examples;
+		private int numExamples;
 		
 		public LossFunction(int[] layerSizes, double weightDecay, double sparsity, double sparsityPenalty, Iterable<Pair<double[], double[]>> examples) {
 			this.layerSizes = layerSizes;
@@ -106,6 +112,7 @@ public class NeuralNetwork {
 			this.sparsityPenalty = sparsityPenalty;
 			
 			this.examples = examples;
+			this.numExamples = Iterables.size(examples);
 		}
 		
 		public double[] initial() {
@@ -113,6 +120,23 @@ public class NeuralNetwork {
 			for (int i = 0; i < dimension; ++i)
 				result[i] = random.nextGaussian() * EPSILON;
 			return result;
+		}
+		
+		private double[][] getAverageActivationsFor(double[] x) {
+			// Compute average activation over all input/output pairs
+			// by each hidden layer, over all nodes in it
+			double[][] averageActivations = new double[layerSizes.length][];
+			for (int i = 1; i < layerSizes.length; ++i)
+				averageActivations[i] = new double[layerSizes[i]];
+			for (Pair<double[], double[]> pair : examples) {
+				double[] input = pair.getFirst();
+				double[][] activations = getActivations(input, layerSizes, x);
+				for (int i = 1; i < activations.length; ++i)
+					for (int j = 0; j < activations[i].length; ++j)
+						averageActivations[i][j] += activations[i][j] / numExamples;
+			}
+			
+			return averageActivations;
 		}
 		
 		@Override
@@ -124,24 +148,6 @@ public class NeuralNetwork {
 		public double valueAt(double[] x) {
 			Preconditions.checkArgument(x.length == dimension);
 			double loss = 0;
-			int count = 0;
-			
-			// Compute average activation over all input/output pairs
-			// by each hidden layer, over all nodes in it
-			double[][] averageActivations = new double[layerSizes.length][];
-			for (int i = 1; i < layerSizes.length; ++i)
-				averageActivations[i] = new double[layerSizes[i]];
-			for (Pair<double[], double[]> pair : examples) {
-				double[] input = pair.getFirst();
-				double[][] activations = getActivations(input, layerSizes, x);
-				for (int i = 1; i < activations.length; ++i)
-					for (int j = 0; j < activations[i].length; ++j)
-						averageActivations[i][j] += activations[i][j];
-				++count;
-			}
-			for (int i = 1; i < averageActivations.length; ++i)
-				for (int j = 0; j < averageActivations[i].length; ++j)
-					averageActivations[i][j] /= count;
 			
 			// Compute over all input/output pairs
 			for (Pair<double[], double[]> pair : examples) {
@@ -157,7 +163,7 @@ public class NeuralNetwork {
 					loss += 0.5 * error * error;  
 				}
 			}
-			loss /= count;
+			loss /= numExamples;
 			
 			// Compute regularization penalty
 			// (proportional to the squares of all the weights)
@@ -170,11 +176,10 @@ public class NeuralNetwork {
 			}
 			
 			// Compute sparsity penalty
+			double[][] averageActivations = getAverageActivationsFor(x);
 			for (int l = 1; l < layerSizes.length - 1; ++l)
 				for (int i = 0; i < layerSizes[l]; ++i)
-					loss += sparsityPenalty * 
-					 	(sparsity * Math.log(sparsity / averageActivations[l][i])
-					 	 + (1 - sparsity) * Math.log((1 - sparsity) / (1 - averageActivations[l][i])));			
+					loss += sparsityPenalty * KLdiv(sparsity, averageActivations[l][i]);
 			return loss;
 		}
 
@@ -183,26 +188,7 @@ public class NeuralNetwork {
 			double[] gradient = new double[x.length];
 			int weightsBegin;
 			
-			// Compute average activation over all input/output pairs
-			// by each hidden layer, over all nodes in it
-			double[][] averageActivations = new double[layerSizes.length][];
-			for (int i = 1; i < layerSizes.length; ++i)
-				averageActivations[i] = new double[layerSizes[i]];
-			
-			int count = 0;
-			for (Pair<double[], double[]> pair : examples) {
-				double[] input = pair.getFirst();
-				double[][] activations = getActivations(input, layerSizes, x);
-				for (int i = 1; i < activations.length; ++i)
-					for (int j = 0; j < activations[i].length; ++j)
-						averageActivations[i][j] += activations[i][j];
-				++count;
-			}
-			
-			for (int i = 1; i < averageActivations.length; ++i)
-				for (int j = 0; j < averageActivations[i].length; ++j)
-					averageActivations[i][j] /= count;
-			
+			double[][] averageActivations = getAverageActivationsFor(x);
 			
 			// Compute over all input/output pairs
 			for (Pair<double[], double[]> pair : examples) {
@@ -258,13 +244,13 @@ public class NeuralNetwork {
 			
 			// Scale gradient
 			for (int i = 0; i < gradient.length; ++i)
-				gradient[i] /= count;
+				gradient[i] /= numExamples;
 			
 			// Add regularization term
 			weightsBegin = 0;
 			for (int l = 1; l < layerSizes.length; ++l) {
 				// If sizes are [A, B, C], need BxA and CxB matrices, and Bx1 and Cx1 vectors
-				int biasBegin = weightsBegin + layerSizes[l - 1] * layerSizes[l];
+				int biasBegin = weightsBegin + layerSizes[l-1] * layerSizes[l];
 				
 				for (int row = 0; row < layerSizes[l]; ++row)
 					for (int col = 0; col < layerSizes[l-1]; ++col)
