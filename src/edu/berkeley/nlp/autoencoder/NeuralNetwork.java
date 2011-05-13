@@ -97,9 +97,9 @@ public class NeuralNetwork {
 		public LossFunction(int[] layerSizes, double weightDecay, double sparsity, double sparsityPenalty, Iterable<Pair<double[], double[]>> examples) {
 			this.layerSizes = layerSizes;
 			dimension = 0;
-			for (int i = 1; i < layerSizes.length; ++i)
+			for (int l = 1; l < layerSizes.length; ++l)
 				// If sizes are [A, B, C], need BxA and CxB matrices, and Bx1 and Cx1 vectors
-				dimension += (layerSizes[i - 1] + 1) * layerSizes[i];
+				dimension += (layerSizes[l - 1] + 1) * layerSizes[l];
 			
 			this.weightDecay = weightDecay;
 			this.sparsity = sparsity;
@@ -124,14 +124,13 @@ public class NeuralNetwork {
 		public double valueAt(double[] x) {
 			Preconditions.checkArgument(x.length == dimension);
 			double loss = 0;
+			int count = 0;
 			
 			// Compute average activation over all input/output pairs
 			// by each hidden layer, over all nodes in it
 			double[][] averageActivations = new double[layerSizes.length][];
 			for (int i = 1; i < layerSizes.length; ++i)
 				averageActivations[i] = new double[layerSizes[i]];
-			
-			int count = 0;
 			for (Pair<double[], double[]> pair : examples) {
 				double[] input = pair.getFirst();
 				double[][] activations = getActivations(input, layerSizes, x);
@@ -140,7 +139,6 @@ public class NeuralNetwork {
 						averageActivations[i][j] += activations[i][j];
 				++count;
 			}
-			
 			for (int i = 1; i < averageActivations.length; ++i)
 				for (int j = 0; j < averageActivations[i].length; ++j)
 					averageActivations[i][j] /= count;
