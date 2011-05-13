@@ -25,11 +25,6 @@ public class NeuralNetwork {
 		for (int layerSize : layerSizes)
 			Preconditions.checkArgument(layerSize > 0);
 		
-		int lossFunctionDimension = 0;
-		for (int i = 1; i < layerSizes.length; ++i)
-			// If sizes are [A, B, C], need BxA and CxB matrices, and Bx1 and Cx1 vectors
-			lossFunctionDimension += (layerSizes[i - 1] + 1) * layerSizes[i]; 
-		
 		LossFunction toBeMinimized = new LossFunction(layerSizes, weightDecay, sparsity, sparsityPenaltyWeight, examples);
 		double[] parameters = new LBFGSMinimizer(100).minimize(
 				toBeMinimized,
