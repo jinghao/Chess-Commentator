@@ -1,0 +1,1053 @@
+[Event "Graz"]
+[Site "?"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Sax"]
+[Black "Tukmakov"]
+[Result "*"]
+[Annotator "07 A 01"]
+[SetUp "1"]
+[FEN "r3q2r/1b1Rb1pp/pkn1B3/2p3P1/4P3/5N1Q/PpP4P/1K5R w - - 0 1"]
+[PlyCount "7"]
+
+{[%tqu "how did white let participate further pieces in the attack?","","",Ne5,
+"",6]} 1. Ne5 $1 {[%cal Yh3b3]} Nd4 2. Nc4+ Ka7 3. Bd5 {[%csl Rb7]} Rb8 4. Na5
+{[%csl Rb7] white regains the sacrificed material, while the black king
+remains in a dubious situation Weiss erobert das geopferte Material zurück,
+der schwarze König bleibt in einer schwierigen Situation} *
+
+[Event "Skopje"]
+[Site "?"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Gligoric"]
+[Black "Kavalek"]
+[Result "*"]
+[Annotator "07 A 02"]
+[SetUp "1"]
+[FEN "7k/p4p1p/bp4q1/2pP1r2/P1P3N1/6Q1/6PP/4R1K1 w - - 0 1"]
+[PlyCount "9"]
+
+{[%tqu "several moves lead to success here","","",Nh6,"Gligoric's solution",6,
+Qb8+,"an easy win found by Fritz.  click solution to continue",6,Re8+,"just
+like Qb8  click solution to continue",6]} 1. Nh6 (1. Qb8+ Kg7 2. Re8 Rf1+ 3.
+Kxf1 Qb1+ 4. Kf2 Qc2+ 5. Kg3 Qc3+ 6. Kh4 $18) (1. Re8+) 1... Rf6 (1... Qxh6 2.
+Re8+) (1... Qxg3 2. Re8+ Kg7 3. Nxf5+) (1... Rh5 $5 2. Qxg6 fxg6 3. d6 Bxc4 4.
+d7 Rd5 5. Nf7+ Kg7 6. d8=Q Rxd8 7. Nxd8) 2. Re8+ Kg7 3. Rg8+ Kxh6 {[%tqu
+"RxQg6 is not very much, so what was Gligoric's idea?","","",Qh4+,"",2]} 4.
+Qh4+ $1 Qh5 5. Qxf6+ *
+
+[Event "Trencsen Teplitz"]
+[Site "?"]
+[Date "1949.??.??"]
+[Round "?"]
+[White "Stahlberg"]
+[Black "Ojanen"]
+[Result "*"]
+[Annotator "07 A 02"]
+[SetUp "1"]
+[FEN "r3qk2/pb4pQ/1p2Pb1B/2pPn3/8/3R2P1/PP3P1P/4R1K1 w - - 0 1"]
+[PlyCount "7"]
+
+{[%tqu "how did white use his rooks?","","",Rxe5,"",6]} 1. Rxe5 {[%cal Yd3f3]}
+Bxe5 2. Bxg7+ (2. Bg5 $1 {[%csl Rf8][%cal Yh7h8] Fritz  Fritz} Bf6 3. Qh8+ Ke7
+4. Qxg7+ Kd8 (4... Kd6 5. Bf4+ Be5 6. Bxe5#) 5. Bxf6+ Kc8 6. d6) 2... Bxg7 3.
+Rf3+ Ke7 4. Qxg7+ *
+
+[Event "Polanice Zdroj"]
+[Site "?"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Ciocaltea"]
+[Black "Brzozka"]
+[Result "*"]
+[Annotator "07 A 04"]
+[SetUp "1"]
+[FEN "r1bk4/ppp5/1b2pp1p/n6q/Q6P/B1PB1N2/P4PP1/5RK1 w - - 0 1"]
+[PlyCount "3"]
+
+{[%tqu "a powerful move caused an immediate win for white","","",Bg6,"",6]} 1.
+Bg6 $1 {[%cal Ya4e8,Yf1d1]} Bd7 (1... Qxg6 $2 2. Rd1+ {[%csl Rd8]}) 2. Rd1 {
+[%csl Rd7,Rh5]} *
+
+[Event "Zurich"]
+[Site "?"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Gligoric"]
+[Black "Nievergelt"]
+[Result "*"]
+[Annotator "07 A 05"]
+[SetUp "1"]
+[FEN "6r1/4kp2/p1bRpp2/1pr1P3/5b1p/PBP1N3/1P4PP/1K1R4 w - - 0 1"]
+[PlyCount "9"]
+
+{[%tqu "despite the reduced material, white found an elegant mating
+combination","","",Nf5+,"",8]} 1. Nf5+ exf5 {[%csl Rf6]} (1... Kf8 2. Rxc6 {
+[%csl Rf8][%cal Yd1d8]}) 2. exf6+ Kf8 {[%tqu "how to continue the attack ?","",
+"",Rxc6,"",4,Rd8+,"",0]} 3. Rxc6 {[%cal Yd1d8]} (3. Rd8+ $2 Be8) 3... Re5 4.
+Rd8+ Re8 5. Rcc8 {[%csl Re8,Rf8]} *
+
+[Event "Havanna"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Portisch"]
+[Black "Garcia"]
+[Result "*"]
+[Annotator "07 A 06"]
+[SetUp "1"]
+[FEN "8/p4prk/1p3Rp1/2pBQ2P/8/P7/1P3PPK/1b1q4 w - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "a seemingly useles move prepares a strong attack","","",h6,"",7]} 1. h6
+$1 Kxh6 (1... Rg8 2. Rxf7+ Kxh6 3. Qf4+ g5 4. Qd6+ Bg6 5. Rh7+ Kxh7 6. Bxg8+ {
+[%csl Rd1,Rh7][%cal Yd6d1,Yg8h7]}) {[%tqu "which was white's idea ?","","",Bf3,
+"",7]} 2. Bf3 $1 {[%csl Rd1,Rh6][%cal Yf3d1,Ye5h5]} Qd4 3. Qh5# *
+
+[Event "Corr."]
+[Site "?"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Hartmann"]
+[Black "Perszidszkij"]
+[Result "*"]
+[Annotator "07 A 07"]
+[SetUp "1"]
+[FEN "r3k2r/ppp1b2p/2n1p1p1/1Q1q4/2ppN3/8/PPP2PPP/R1B1R1K1 w kq - 0 1"]
+[PlyCount "3"]
+
+{[%tqu "white wins material","","",Nf6+,"",6]} 1. Nf6+ $1 Bxf6 {[%csl Rd5]
+[%cal Ye1e8]} 2. Qxd5 *
+
+[Event "Hollywood"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "?"]
+[White "Aljechin"]
+[Black "Borochov"]
+[Result "*"]
+[Annotator "07 A 08"]
+[SetUp "1"]
+[FEN "r1q2r1k/3bb1Np/p1p5/3pp2Q/6R1/2P1R3/1P3PPP/2B3K1 w - - 0 1"]
+[PlyCount "3"]
+
+{[%tqu "how did white prepare the mating attack?","","",Ne6,"this move
+temporarily protects the Rg4 from the attack of white's bishop an extends the
+Rg4's range to g8",7]} 1. Ne6 $1 Bxe6 {[%tqu "the rest is simple...","","",
+Qxh7+,"",3]} 2. Qxh7+ {[%cal Ye3h3]} *
+
+[Event "Biel"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Rogoff"]
+[Black "Portisch"]
+[Result "*"]
+[Annotator "07 A 09"]
+[SetUp "1"]
+[FEN "5rk1/1pp1R1p1/p2p1rq1/P2P3p/1P1P4/6Rb/5P1P/4Q1KB b - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "the fight on the g-file seems to favour white's rook, how did black
+prove the contrary ?","","",h4,"",9]} 1... h4 $1 2. Rxg7+ (2. Rxg6 Rxg6+ {
+black has lost his queen, but gained control over the g-file schwarz hat zwar
+die Dame eingebüsst, ist nun aber Alleinherrscher über die g-Linie} 3. Bg2
+Rxg2+ 4. Kh1 (4. Kf1 Rgxf2+ 5. Kg1 Rf1+ 6. Qxf1 Rxf1#) 4... Rgxf2 {[%csl Rh1]
+[%cal Yf2f1]}) 2... Kxg7 3. Rxg6+ Rxg6+ {[%csl Rg1] as in the previous
+variation so wie in der vorigen Variante} *
+
+[Event "Havanna"]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Letelier"]
+[Black "Smyslow"]
+[Result "*"]
+[Annotator "07 A 10"]
+[SetUp "1"]
+[FEN "8/5k2/p3pp2/2B5/1P1P2p1/5bPp/1r3P2/5RK1 b - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "which 'WAY' did Smyslow use to start a mating attack ?","","",a5,"",7]
+} 1... a5 $1 {[%cal Ya5a4,Ya4a3,Ya3a2]} 2. bxa5 {[%tqu "which was the idea?",
+"","",h2+,"",7]} h2+ {[%cal Yb2b8,Yb8h8,Yh8h1]} 3. Kxh2 Rb8 {[%csl Rh2][%cal
+Yb8h8,Yh8h1]} *
+
+[Event "Corr."]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Siegers"]
+[Black "Amilibia"]
+[Result "*"]
+[Annotator "07 A 11"]
+[SetUp "1"]
+[FEN "r1b2bQ1/p3k1pp/8/3n4/4p3/7P/PPPP1qP1/R1BK3R b - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "the white king stands on the d-file...","","",Bg4+,"",7]} 1... Bg4+ {
+[%cal Ya8d8,Yd8d1]} 2. hxg4 {[%tqu "","","",Ne3+,"",3]} Ne3+ 3. dxe3 Rd8+ *
+
+[Event "Leysin"]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Medina"]
+[Black "Blau"]
+[Result "*"]
+[Annotator "07 A 12"]
+[SetUp "1"]
+[FEN "r1br4/1p3k2/p2q1p2/3N1Pp1/3Q4/8/PP4P1/4RR1K w - - 0 1"]
+[PlyCount "11"]
+
+{[%tqu "the battle is oviously about the point f6...","","",Re6,"",8]} 1. Re6
+$1 {[%csl Rd6,Rf6]} Rh8+ 2. Kg1 Qh2+ 3. Kf2 Rh6 4. Rxf6+ Rxf6 5. Qxf6+ Kg8 6.
+Ne7+ *
+
+[Event "USSR"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Kaminski"]
+[Black "Osznosz"]
+[Result "*"]
+[Annotator "07 A 13"]
+[SetUp "1"]
+[FEN "1r1r2k1/p4p1p/bqp1pbp1/4N3/4BP2/1PQ1R3/P1P3PP/R5K1 b - - 0 1"]
+[PlyCount "1"]
+
+{[%tqu "a strange move disturbs the coordination of white's pieces","","",Bd3,
+"",8]} 1... Bd3 $1 {[%csl Re3,Re4][%cal Yd3e4,Yb6e3]} *
+
+[Event "Karlsbad"]
+[Site "?"]
+[Date "1911.??.??"]
+[Round "?"]
+[White "Cohn"]
+[Black "Burn"]
+[Result "*"]
+[Annotator "07 A 14"]
+[SetUp "1"]
+[FEN "1n1qr1k1/1r4b1/4bRQ1/2pPp2N/1pP4p/1P5P/6P1/5RK1 w - - 0 1"]
+[PlyCount "3"]
+
+{[%tqu "easy mating attack","","",Rf7,"cuts off the rook b7 from defending the
+bishop g7",7]} 1. Rf7 $1 {[%csl Rg7]} Rxf7 2. Rxf7 {[%csl Rg7]} *
+
+[Event "New York"]
+[Site "?"]
+[Date "1924.??.??"]
+[Round "?"]
+[White "Reti"]
+[Black "Bogoljubov"]
+[Result "*"]
+[Annotator "07 A 15"]
+[SetUp "1"]
+[FEN "3r1bk1/ppq3pp/2p5/2P2Q1B/8/1P4P1/P6P/5RK1 w - - 0 1"]
+[PlyCount "3"]
+
+{[%tqu "in this well-known classic, white forced resign in 2 moves","","",Bf7+,
+"",7]} 1. Bf7+ Kh8 {[%tqu "","","",Be8,"",3]} 2. Be8 $3 {[%cal Yf5f8]} *
+
+[Event "Belgium"]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Benoit"]
+[Black "Roovtov"]
+[Result "*"]
+[Annotator "07 A 16"]
+[SetUp "1"]
+[FEN "1r1k3r/p1p3b1/1pB1R1n1/1P1p2p1/6n1/B1N5/P1P3PP/5R1K w - - 0 1"]
+[PlyCount "3"]
+
+{[%tqu "the rook h8 still prevents disaster on the 8th row...","","",Rf8+,"",8]
+} 1. Rf8+ $3 Rxf8 2. Bxf8 {[%cal Ye6e8]} *
+
+[Event "Gotha"]
+[Site "?"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Bronstein"]
+[Black "Fuchs"]
+[Result "*"]
+[Annotator "07 B 01"]
+[SetUp "1"]
+[FEN "b4k2/4bppp/1Bnr4/1p6/4B3/5N2/1P3PPP/2R3K1 w - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "white won material in an easy way","","",Ne5,"",6]} 1. Ne5 $1 Nxe5 2.
+Rc8+ Bd8 {[%cal Yd6d1]} 3. Bc5 {[%csl Ra8,Rd6,Rd8]} *
+
+[Event "Budapest"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Varnusz"]
+[Black "Szabo"]
+[Result "*"]
+[Annotator "07 B 02"]
+[SetUp "1"]
+[FEN "6kr/p3q1pp/1n1Nr3/1pp1bQ2/8/1P3R2/P5PP/2BR2K1 w - - 0 1"]
+[PlyCount "15"]
+
+{[%tqu "how did white use the precarious position of black's king ?","","",Nc8,
+"",10]} 1. Nc8 $3 Bd4+ (1... Nxc8 2. Rd8+ Qxd8 3. Qf7#) {[%tqu "black now
+threatens NxN","","",Rxd4,"",3]} 2. Rxd4 Re1+ 3. Kf2 Re2+ 4. Kg3 Qc7+ 5. Rdf4
+h6 6. Nxb6 axb6 7. Qd5+ Kh7 8. Qd3+ {[%csl Re2,Rh7]} *
+
+[Event "Varna"]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Planinc"]
+[Black "Gerenski"]
+[Result "*"]
+[Annotator "07 B 03"]
+[SetUp "1"]
+[FEN "r3k2r/1b4pp/8/pPbN1R2/6BP/6q1/1PP3P1/R2Q3K w kq - 0 1"]
+[PlyCount "9"]
+
+{[%tqu "there are two good ways here","","",Nc7+,"",8,Bh5+,"(Fritz) is another
+good solution  click solution to continue  ",8]} 1. Nc7+ (1. Bh5+ $1 g6 (1...
+Kd8 2. Nf4+ Kc8 3. Rxc5+ Kb8 4. Qd6+) 2. Nf6+ Kf8 3. Ne4+ {[%csl Rf8,Rg3][%cal
+Yf5f8,Ye4g3]}) 1... Qxc7 (1... Ke7 2. Rf7+ $1 Kxf7 3. Qd7+ Be7 4. Rf1+) {[%tqu
+"continue the attack","","",Rxc5,"",4]} 2. Rxc5 Qe7 (2... Qxc5 $2 3. Qd7+ Kf8
+4. Rf1+) 3. Re5 Qxe5 4. Qd7+ Kf8 5. Rf1+ *
+
+[Event "Ostende"]
+[Site "?"]
+[Date "1907.??.??"]
+[Round "?"]
+[White "Mieses"]
+[Black "Snosko Borovski"]
+[Result "*"]
+[Annotator "07 B 04"]
+[SetUp "1"]
+[FEN "3r3r/k1p1qpp1/1b5p/p2pP3/P2P1R2/6N1/6PP/1R3Q1K w - - 0 1"]
+[PlyCount "21"]
+
+{[%tqu "grabbing on f7 seems obvious, but white had a better idea","","",Rxb6,
+"",7]} 1. Rxb6 Kxb6 (1... cxb6 2. Rxf7 {[%csl Ra7,Re7][%cal Yf7a7]}) 2. Qb5+
+Ka7 3. Qxa5+ Kb7 4. Rf1 $1 {[%cal Yf1b1,Yb1b7,Yg3f5]} Rb8 5. Nf5 Qe6 (5... Qd7
+6. Rb1+ Kc8 7. Qa6+ Kd8 8. Rxb8+) {[%tqu "which is the most convincing end ?",
+"","",Nd6+,"",7]} 6. Nd6+ cxd6 7. Rb1+ Kc8 (7... Kc6 8. Qa6+ Kc7 9. Qa7+) 8.
+Rc1+ Kd7 9. Qc7+ Ke8 10. Qxb8+ Ke7 11. Rc7+ *
+
+[Event "Palma de Mallorca"]
+[Site "?"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Bellon"]
+[Black "Ljubojevic"]
+[Result "*"]
+[Annotator "07 B 05"]
+[SetUp "1"]
+[FEN "3qr3/2pp1pkp/r1p3p1/p7/P7/1Pn1PQ2/2PN1PPP/R4RK1 w - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "white gains material","","",e4,"",7]} 1. e4 $1 {[%csl Rc3][%cal Yf3c3]}
+Qf6 {[%tqu "","","",Qd3,"",3]} 2. Qd3 {[%csl Ra6][%cal Yd3a6]} Raa8 {[%tqu "",
+"","",f4,"",2]} 3. f4 {[%csl Rc3][%cal Ye4e5]} *
+
+[Event "Hastings"]
+[Site "?"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Penrose"]
+[Black "Blau"]
+[Result "*"]
+[Annotator "07 B 06"]
+[SetUp "1"]
+[FEN "r3k2r/p2qn1b1/1pp1p1p1/3p2Bp/3P2n1/Q1NB4/PP2RPPP/R5K1 w kq - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "a typical blow","","",Nxd5,"",8]} 1. Nxd5 $3 cxd5 (1... exd5 2. Rxe7+)
+{[%tqu "","","",Bb5,"",2]} 2. Bb5 {[%csl Rd7,Re8][%cal Yb5e8]} Qxb5 3. Qxe7# *
+
+[Event "Budapest"]
+[Site "?"]
+[Date "1949.??.??"]
+[Round "?"]
+[White "Benko"]
+[Black "Jenei"]
+[Result "*"]
+[Annotator "07 B 07"]
+[SetUp "1"]
+[FEN "r2r4/1b3pk1/5qp1/pP1p3p/2pN3P/3nP1P1/PQR2PB1/3R2K1 w - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "white found a surprising combination based on the position of black's
+queen","","",Rxd3,"",8]} 1. Rxd3 cxd3 {[%tqu "","","",Ne6+,"",8]} 2. Ne6+ $1
+fxe6 {[%tqu "","","",Rc7+,"",2]} 3. Rc7+ {[%csl Rf6,Rg7]} *
+
+[Event "Dubrovnik"]
+[Site "?"]
+[Date "1950.??.??"]
+[Round "?"]
+[White "Euwe"]
+[Black "Nestler"]
+[Result "*"]
+[Annotator "07 B 08"]
+[SetUp "1"]
+[FEN "r1bq1kr1/pp2ppbQ/n2p3p/3P1P2/3N2p1/2B3P1/PP4BP/2R2RK1 w - - 0 1"]
+[PlyCount "19"]
+
+{[%tqu "the position is ready for a typical attack ","","",Ne6+,"",8]} 1. Ne6+
+$3 Bxe6 2. Bxg7+ Rxg7 3. Qh8+ Rg8 4. Qxh6+ Rg7 5. fxe6 f6 {[%tqu "how to use
+white's rooks","","",Rf5,"",2]} 6. Rf5 Nc7 {[%tqu "","","",Rg5,"",5]} 7. Rg5 $3
+fxg5 8. Qh8+ Rg8 9. Rf1+ Ke8 10. Qxg8# *
+
+[Event "Margate"]
+[Site "?"]
+[Date "1937.??.??"]
+[Round "?"]
+[White "Aljechin"]
+[Black "Taylor"]
+[Result "*"]
+[Annotator "07 B 09"]
+[SetUp "1"]
+[FEN "5r2/1p4k1/p1pbP2p/3p1rpq/2P2P2/6RN/PP1Q3P/6RK w - - 0 1"]
+[PlyCount "17"]
+
+{[%tqu "how did Aljechin use his supperiority on the g-file ?","","",Nxg5,"",7]
+} 1. Nxg5 $1 Bxf4 $1 {[%tqu "a strong counter by black, white must play
+precisely now","","",Qc3+,"",6,Qd4+,"also good",6]} 2. Qc3+ $1 (2. Qd4+) 2...
+R8f6 (2... Be5 3. Nf3+ {[%csl Re5,Rg7]}) {[%tqu "","","",Ne4+,"",3]} 3. Ne4+ $1
+Bxg3 (3... Bg5 4. Nxf6 Rxf6 5. Qe5 {[%csl Ge6,Rg5]}) 4. Rxg3+ Kh8 (4... Kf8 5.
+Qb4+ $1 Ke8 6. Nxf6+ Rxf6 7. Rg8+ Rf8 8. Rxf8#) {[%tqu "which is the easiest
+solution ?","","",Qxf6+,"",4]} 5. Qxf6+ Rxf6 6. Rg8+ Kxg8 7. Nxf6+ Kf8 8. Nxh5
+dxc4 9. Kg2 *
+
+[Event "Bad Nauheim"]
+[Site "?"]
+[Date "1948.??.??"]
+[Round "?"]
+[White "Rautenberg"]
+[Black "Schlenker"]
+[Result "*"]
+[Annotator "07 B 10"]
+[SetUp "1"]
+[FEN "2r4k/rR2b2p/5p1B/3Bp3/q1Pn2b1/P5P1/7P/2Q1NR1K w - - 0 1"]
+[PlyCount "7"]
+
+{[%tqu "how did white exploit the dubious position of black's king ?","","",
+Rxf6,"",10]} 1. Rxf6 $3 Bxf6 (1... Rxb7 2. Qg5 Bc5 3. Rf8+ Rxf8 4. Qxe5+ {
+[%csl Rh8]}) {[%tqu "the next blow","","",Qg5,"",10]} 2. Qg5 $3 Bf3+ (2... Bxg5
+$4 3. Bg7#) 3. Kg1 Rxb7 4. Qxf6+ {[%csl Rh8]} *
+
+[Event "Nauheim"]
+[Site "?"]
+[Date "1936.??.??"]
+[Round "?"]
+[White "Stahlberg"]
+[Black "Keres"]
+[Result "*"]
+[Annotator "07 B 11"]
+[SetUp "1"]
+[FEN "6k1/pb1B1pp1/8/4q2p/Q2nN3/P2r1P2/6PP/1R5K b - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "how did black use the second row ?","","",Bxe4,"",8]} 1... Bxe4 2. fxe4
+{[%tqu "","","",Nf3,"",8]} Nf3 $3 3. gxf3 {[%tqu "","","",Rd2,"",1]} Rd2 {
+[%csl Rh1][%cal Ye5h2]} *
+
+[Event "Lublin"]
+[Site "?"]
+[Date "1942.??.??"]
+[Round "?"]
+[White "Weil"]
+[Black "Aljechin"]
+[Result "*"]
+[Annotator "07 B 12"]
+[SetUp "1"]
+[FEN "2r5/p3p1kp/q1n2pp1/8/1p6/1P2PP2/PN4PP/Q3K2R b K - 0 1"]
+[PlyCount "9"]
+
+{[%tqu "white's pieces on the corners look more like decoration as like
+participants, so it is not surprising Aljechin found a quick way to finish the
+game","","",Nd4,"",7]} 1... Nd4 $1 2. exd4 {[%tqu "","","",Rc2,"",3]} Rc2 {
+[%cal Ya6e2]} (2... Qe6+ $2 3. Kd2) 3. Nc4 Qe6+ 4. Ne5 fxe5 5. Kd1 (5. dxe5 Qd5
+6. e6+ Kh6 7. Qd1 Qc5 {[%cal Yc5f2]} 8. Rf1 Qe3+) {[%tqu "which move leads to
+a quick mate ?","","",Qf5,"",2]} 5... Qf5 {[%csl Rd1][%cal Yf5d3]} *
+
+[Event "Marianske Lazne"]
+[Site "?"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Radovici"]
+[Black "Polugaevski"]
+[Result "*"]
+[Annotator "07 B 13"]
+[SetUp "1"]
+[FEN "3r2k1/1b3p1p/p1q2bp1/1p2p3/2p1P3/1PPn1NP1/P1BNQP1P/1R4K1 b - - 0 1"]
+[PlyCount "7"]
+
+{[%tqu "how did black use his supperior position ?","","",cxb3,"",7]} 1... cxb3
+$1 2. Bxd3 {[%tqu "","","",bxa2,"",2]} bxa2 3. Rc1 (3. Ra1 Qxc3 {[%csl Ra1,Rd3]
+}) {[%tqu "","","",a1=Q,"",2]} 3... a1=Q $1 4. Rxa1 Qxc3 {[%csl Ra1,Rd3]} *
+
+[Event "USSR"]
+[Site "?"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Csahojan"]
+[Black "Turkvenisvili"]
+[Result "*"]
+[Annotator "07 B 14"]
+[SetUp "1"]
+[FEN "3Q4/p7/7p/5b2/2P1p1P1/1Rq4k/P2p1P2/6K1 b - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "can black use his advanced pawn ?","","",Qd3,"",9]} 1... Qd3 $3 {[%csl
+Gd2]} 2. Qxd3+ (2. Rxd3+ exd3 {[%csl Gd2][%cal Yd2d1]}) 2... exd3 3. Rb1 Bxg4 {
+[%cal Yd2d1]} *
+
+[Event "USSR"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Osznosz"]
+[Black "Juhtman"]
+[Result "*"]
+[Annotator "07 B 16"]
+[SetUp "1"]
+[FEN "4Br1k/p4r2/1p1p2q1/2pP3p/2P1Rbp1/7n/PP2Q2P/2B2R1K b - - 0 1"]
+[PlyCount "1"]
+
+{[%tqu "black forced immediate resign","","",Be3,"",7]} 1... Be3 $3 {[%csl Re4,
+Rf1][%cal Yg6e4,Yf7f1]} *
+
+[Event "Naples"]
+[Site "?"]
+[Date "1914.??.??"]
+[Round "?"]
+[White "Tarrasch"]
+[Black "Verbündete"]
+[Result "*"]
+[Annotator "07 B 17"]
+[SetUp "1"]
+[FEN "2r3r1/3q3p/p6b/Pkp1B3/1p1p1P2/1P1P1Q2/2R3PP/2R3K1 w - - 0 1"]
+[PlyCount "7"]
+
+{[%tqu "black's defense seems well organised: the Rc8 defends b7, while the
+queen defends b7, how did Tarrasch disturb the black setup ?","","",Bc7,"very
+instructive: white moves into the crossway of black's defensive pieces, now
+either the defense of c5 or b7 will fail",10]} 1. Bc7 $3 {[%cal Yf3b7,Yc2c5]}
+Qxc7 (1... Rxc7 2. Qb7+ $1 Rxb7 (2... Kxa5 3. Ra1+) 3. Rxc5#) 2. Rxc5+ Qxc5 3.
+Qb7+ Kxa5 4. Ra1# *
+
+[Event "Jugoslavia"]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Ivanovic"]
+[Black "Popovic"]
+[Result "*"]
+[Annotator "07 B 15"]
+[SetUp "1"]
+[FEN "8/2p1q1kp/3p2p1/7P/4bQ2/1BP5/1P4P1/6K1 w - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "despite the small number of pieces, white found a decisice attack","",
+"",h6+,"",6]} 1. h6+ $1 Kh8 {[%tqu "","","",Be6,"",8]} 2. Be6 $1 {[%csl Re4]}
+d5 3. Qe5+ {[%csl Rh8]} *
+
+[Event "Salgotarjan"]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Samkovic"]
+[Black "Barcza"]
+[Result "*"]
+[Annotator "07 C 01"]
+[SetUp "1"]
+[FEN "r1b1rbk1/1p2qp2/2ppnnpp/p7/P2NPPP1/1PN3QP/1BP3B1/3RR1K1 w - - 0 1"]
+[PlyCount "19"]
+
+{[%tqu "in this position it is clear that white tries opening the e-file","",
+"",Nd5,"",8]} 1. Nd5 $1 cxd5 2. exd5 Qd8 3. dxe6 Bxe6 4. Nxe6 Rxe6 5. Rxe6 fxe6
+{[%tqu "now that black's pawns are weakened, how does white continue the
+attack ?","","",Qd3,"",6]} 6. Qd3 {[%csl Rg6]} Kf7 {[%tqu "","","",f5,"",6]} 7.
+f5 $1 gxf5 8. gxf5 Qc8 {[%tqu "the end is near","","",fxe6+,"",4]} 9. fxe6+
+Qxe6 {[%tqu "","","",Rf1,"",4]} 10. Rf1 {[%csl Re6,Rf6][%cal Yf1f6,Yg2d5]} *
+
+[Event "Corr."]
+[Site "?"]
+[Date "1953.??.??"]
+[Round "?"]
+[White "Malovjejev"]
+[Black "Gailomasov"]
+[Result "*"]
+[Annotator "07 C 02"]
+[SetUp "1"]
+[FEN "r1b1r1k1/pp1nqp1p/2p3pB/8/2p1PQ2/2N5/PPP3PP/4RRK1 w - - 0 1"]
+[PlyCount "17"]
+
+{[%tqu "white starts the final attack","","",Nd5,"",8]} 1. Nd5 $1 cxd5 2. exd5
+Qc5+ (2... Qxe1 $4 3. Qxf7+) 3. Kh1 Rf8 {[%tqu "is black's defense sufficient
+?","","",Re8,"",7]} 4. Re8 $1 {[%csl Rf7][%cal Yf4f7]} f5 5. Bxf8 Nxf8 {[%tqu
+"which is the most convincing finish ?","","",d6,"the game continuation is of
+course sufficient, but requires a bit more work ",6,Qe5,"(Fritz), black has no
+defense against the simple threat Re7 followed by Qg7 mate  click solution to
+continue",8]} 6. d6 {[%csl Rf8]} (6. Qe5 $1 {[%cal Ye8e7,Ye5g7] Fritz  Fritz})
+6... Qc6 7. Rfe1 b5 {[%tqu "the end","","",Rxf8+,"",3]} 8. Rxf8+ Kxf8 9. Qh6+ {
+[%cal Ye1e7]} *
+
+[Event "Monte Carlo"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Maric"]
+[Black "Huguet"]
+[Result "*"]
+[Annotator "07 C 03"]
+[SetUp "1"]
+[FEN "r1bnrb1k/1p1n2pp/p7/4ppN1/1PN5/1BP5/P4PPP/R1BR2K1 w - - 0 1"]
+[PlyCount "17"]
+
+{[%tqu "white 'swapped' some pieces, to end up in a won endgame","","",Nb6,"",
+10]} 1. Nb6 $3 Nxb6 {[%tqu "","","",Rxd8,"",3]} 2. Rxd8 Rxd8 3. Nf7+ Kg8 4.
+Nxd8+ Kh8 5. Nf7+ Kg8 6. Nxe5+ Kh8 7. Nf7+ Kg8 {[%tqu "can white achieve more
+than an endgame with just a pawn up ?","","",Be3,"",6]} 8. Be3 {[%csl Rb6]} Nd7
+{[%tqu "","","",Rd1,"",4]} 9. Rd1 {[%csl Rd7][%cal Yf7e5,Ye5d7]} *
+
+[Event "Karlsbad"]
+[Site "?"]
+[Date "1898.??.??"]
+[Round "?"]
+[White "Tietz"]
+[Black "Judd"]
+[Result "*"]
+[Annotator "07 C 04"]
+[SetUp "1"]
+[FEN "r2q1n1k/1p5p/2p1p1p1/1b6/5BN1/6P1/4r1PK/1RR3Q1 w - - 0 1"]
+[PlyCount "13"]
+
+{[%tqu "this example is by far my personal favourite in this lesson, can you
+believe that white started a series of outstanding tactical moves right from
+this position ?","","",Rxb5,"",12]} 1. Rxb5 $3 cxb5 {[%tqu "so which was thw
+idea of the sacrifice ?","","",Rc8,"",12]} 2. Rc8 $3 Qd5 (2... Rxc8 3. Qa1+ e5
+4. Qxe5+ $3 Rxe5 5. Bxe5+ Kg8 6. Nh6#) (2... Qxc8 3. Qd4+ {[%csl Rh8]}) {[%tqu
+"black has seen the mating threats, and played a fine defensive move, but the
+fun is not over yet ...","","",Qa1+,"",10]} 3. Qa1+ $1 e5 (3... Rxa1 4. Rxf8+
+Kg7 5. Bh6#) {[%tqu "","","",Bxe5+,"",2]} 4. Bxe5+ (4. Rxa8 $4 Qxg2#) 4... Qxe5
+(4... Rxe5 5. Rxa8 {[%csl Re5,Rf8]}) {[%tqu "","","",Rxf8+,"",2,Qxa8,"",0]} 5.
+Rxf8+ (5. Qxa8 $4 Qh5+ 6. Kg1 Qxg4 7. Rxf8+ Kg7 $17) 5... Kg7 (5... Rxf8 6.
+Nxe5) {[%tqu "","","",Rf7+,"",2,Rg8+,"equally good",2]} 6. Rf7+ (6. Rg8+ Kxg8
+7. Qxa8+ Kg7 8. Nxe5) 6... Kxf7 (6... Kg8 7. Nh6+ Kh8 8. Qxa8+ Qe8 9. Rf8+) 7.
+Nxe5+ {[%csl Ra8,Rf7][%cal Ye5f7,Ya1a8]} *
+
+[Event "Zinnowitz"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Fuchs"]
+[Black "Marovic"]
+[Result "*"]
+[Annotator "07 C 05"]
+[SetUp "1"]
+[FEN "2rq2k1/p3n2p/1p3Pp1/3pN3/b2P4/P4Q2/1P3PP1/4R1K1 w - - 0 1"]
+[PlyCount "11"]
+
+{[%tqu "99 percent of chessplayers would immediately take on e7...","","",Nf7,
+"",10]} 1. Nf7 $3 Qf8 (1... Kxf7 $4 2. fxe7+ {[%csl Rd8,Rf7][%cal Yf3f7,Ye7d8]}
+) {[%tqu "","","",Rxe7,"",3]} 2. Rxe7 {[%cal Yf3d5]} Qxf7 (2... Bc6 3. Ng5 {
+[%cal Ye7g7,Yf3h3,Yh3h7]}) 3. Rxf7 Kxf7 4. g4 Rd8 5. g5 Bc2 6. Qe2 {[%cal
+Ye2c2,Ye2e7]} *
+
+[Event "?"]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Wexler"]
+[Black "Bronstein"]
+[Result "*"]
+[Annotator "07 C 06"]
+[SetUp "1"]
+[FEN "4r1k1/3n1pbp/p2p1np1/rp1P4/2q1PP2/1RN3B1/1PQ1B1PP/4R2K b - - 0 1"]
+[PlyCount "17"]
+
+{[%tqu "black's queen is under attack, but beware: Bronstein sits on the black
+side...","","",Nxe4,"",10]} 1... Nxe4 $3 2. Bxc4 {[%tqu "","","",Nxg3+,"",1]}
+Nxg3+ 3. hxg3 Rxe1+ 4. Kh2 Raa1 {[%csl Rh2][%cal Ye1h1]} 5. g4 Rac1 6. Qf2 bxc4
+7. Rb7 {[%tqu "the finish","","",Bxc3,"",3]} Bxc3 8. bxc3 Rh1+ 9. Kg3 Rxc3+ *
+
+[Event "Bulgaria"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Dimitrov"]
+[Black "Orev"]
+[Result "*"]
+[Annotator "07 C 07"]
+[SetUp "1"]
+[FEN "3Q4/4rrkp/3P3n/p3p1p1/2P1Pn1q/PP3P1b/5RB1/5NKR b - - 0 1"]
+[PlyCount "17"]
+
+{[%tqu "how does black open lines for the attack ?","","",Ng4,"",10]} 1... Ng4
+$1 2. fxg4 {[%tqu "at this point Fritz has found a more convincing move than
+the one played in the game, what would you play ?","","",Ne6,"this is the game
+continuation, which should lead to a draw",3,Nxg2,"(Fritz) this is simple and
+forced  click solution to continue",10]} Ne6 $6 (2... Nxg2 $1 3. Rxg2 {[%tqu
+"how to continue the attack ?","","",Qe1,"",6]} Qe1 $1 {[%csl Rf1]} 4. Kh2 Bxg2
+{[%cal Ye1h4]} 5. Ng3 (5. dxe7 Qh4+ 6. Kxg2 Qf2+ 7. Kh3 Rf3+) 5... Qf2 6. Nf5+
+Kf6 {[%csl Rh2]}) {[%tqu "for once, you're sitting on the defender's side,
+which would have been the correct defense here?","","",Rxf7+,"",0,Rf3,"this
+nice defense was found by Fritz",12]} 3. Rxf7+ (3. Rf3 $3 {[%cal Yf3h3]} Rxf3 {
+leads to a draw   führt wenigstens noch zum Remis} (3... Nxd8 $2 {black now
+loses    nun verliert Schwarz sogar} 4. dxe7 Rxe7 $2 5. Rfxh3 Qxg4 6. Rxh7+ Kf8
+(6... Kf6 $4 7. R1h6#) 7. Rh8+ Kf7 8. R1h7+ Ke6 9. Ne3 $1 Rxh7 (9... Qe2 10.
+Bh3+ Kd6 11. Rxd8+ $18) 10. Re8+ Kf7 11. Nxg4 Kxe8 12. Nf6+) 4. Qxe7+ Rf7 5.
+Rxh3 Qf2+ 6. Kh2 Rxe7 7. dxe7 Nf4 (7... Qf7 $2 8. Ne3 $1 {[%cal Ye3f5]}) 8. Ne3
+Kf7 9. Rxh7+ Ke8 10. Rh8+ Kxe7 11. Nd5+ $11) 3... Rxf7 4. Qb6 {[%tqu "now
+black has the best of it","","",Rxf1+,"",5]} Rxf1+ 5. Kxf1 (5. Bxf1 $4 Qg3+)
+5... Bxg2+ 6. Kxg2 Nf4+ 7. Kg1 Qg3+ 8. Kf1 Qg2+ 9. Ke1 Qe2# *
+
+[Event "?"]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Hennings"]
+[Black "Zinn"]
+[Result "*"]
+[Annotator "07 A 08"]
+[SetUp "1"]
+[FEN "3r1rk1/3P1ppp/b2q4/1pp3N1/1n1p3P/pP1P2PB/P1P2P2/R2QR1K1 w - - 0 1"]
+[PlyCount "5"]
+
+{[%tqu "if white attacks with Qh5, black will be able to defend by bringing
+his queen to the kingside...","","",Re6,"",10]} 1. Re6 $3 Qc7 (1... fxe6 2.
+Bxe6+ Kh8 3. Qh5 h6 4. Qg6 hxg5 5. Qh5#) {[%tqu "","","",Qh5,"",2]} 2. Qh5 h6 {
+[%tqu "","","",Rxh6,"",3]} 3. Rxh6 *
+
+[Event "Wijk aan Zee"]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Portisch, F."]
+[Black "Kurajica"]
+[Result "*"]
+[Annotator "07 A 09"]
+[SetUp "1"]
+[FEN "3r3r/Qpk2bb1/nNp5/q3n2p/2P1RB2/3B3P/PP3PP1/2KR4 w - - 0 1"]
+[PlyCount "15"]
+
+1. Nd5+ Bxd5 (1... cxd5 2. Rxe5 Bxe5 3. Bxe5+ Kc6 4. Bxh8 Rxh8 5. Qd4 {[%csl
+Rd5,Rh8]} Qd8 6. cxd5+ Bxd5 (6... Kc7 7. Bxa6 bxa6 8. Qa7+ {[%csl Rc7][%cal
+Yd1d2,Yd2c2]}) 7. Bc4 Nc7 8. Bxd5+ Nxd5 9. Qc4+ {[%csl Rd5]}) {[%tqu "which is
+the strongest continuation ?","","",Rxe5,"",5]} 2. Rxe5 {[%cal Yf4c7,Yd3f5]}
+Bxe5 3. Bxe5+ Kd7 4. Bf5+ (4. Qxb7+ $1) 4... Ke8 5. Bxh8 Bxc4 6. Qe3+ Kf7 7.
+Re1 {[%cal Ye3e7]} Qc5 (7... Rxh8 $2 8. Qe7+ Kg8 9. Qe8+ Kg7 10. Qg6+ Kf8 11.
+Re8#) 8. Qh6 {[%csl Rf7]} *
+
+[Event "Berlin"]
+[Site "?"]
+[Date "1851.??.??"]
+[Round "?"]
+[White "Dufresne"]
+[Black "Anderssen"]
+[Result "*"]
+[Annotator "07 A 10"]
+[SetUp "1"]
+[FEN "6k1/ppb2p2/2p1rR1K/3p3p/6bP/N1PB2Pq/P4Q2/8 w - - 0 1"]
+[PlyCount "11"]
+
+{[%tqu "Hmm.. Anderssen-Dufresne, sounds like the famous 'evergreen' game, but
+in this example it was Dufresne's turn to beat the great Anderssen, what did
+Dufresne play (as white) ?","","",Bg6,"this fantastic move cuts off the black
+rook e6, which was threatening the white king, meanwhile white also threatens
+Bxf7",10]} 1. Bg6 $3 Qxg3 (1... Kf8 2. Rxf7+ Ke8 3. Rxc7+ Kd8 4. Qf7 {[%csl
+Rd8]}) 2. Bxf7+ Kh8 3. Bxe6 Qxf2 4. Rxf2 Bxe6 5. Rf8+ Bg8 6. Nc2 {[%cal Yc2f7]
+the white knight will mate on f7, sooner  or later früher oder später wird der
+weisse Springer auf f7 mattsetzen} *
+
+[Event "Leningrad"]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Suetin"]
+[Black "Szabo"]
+[Result "*"]
+[Annotator "07 C 11"]
+[SetUp "1"]
+[FEN "2r3k1/p3Bpb1/3pb1p1/2r4p/qp2P2P/3Q1P2/PPPR2P1/1KN4R b - - 0 1"]
+[PlyCount "13"]
+
+{[%tqu "black cuts off white's defense in a very typichal way","","",Bc3,"",10]
+} 1... Bc3 $3 2. Bxd6 {[%tqu "","","",Bxa2+,"",5]} Bxa2+ 3. Nxa2 {[%tqu "","",
+"",Ra5,"",2]} Ra5 4. Kc1 Qxa2 5. Kd1 Qxb2 6. Bf4 Bxd2 7. Kxd2 Ra3 {[%csl Rc2,
+Rd3]} *
+
+[Event "Haga"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Kavalek"]
+[Black "Pfleger"]
+[Result "*"]
+[Annotator "07 A 12"]
+[SetUp "1"]
+[FEN "2bnr1k1/2q2ppp/p4b2/2pBP3/2N5/R7/1P2QPPP/2B3K1 w - - 0 1"]
+[PlyCount "15"]
+
+{[%tqu "at first sight, it seems that black has counterplay on the e-file...",
+"","",Be4,"",10]} 1. Be4 $3 {[%cal Ye5f6,Ye2h5]} Bxe5 {[%tqu "Qg5 doesn't
+achieve much here","","",Nxe5,"",10]} 2. Nxe5 Qxe5 (2... Rxe5 3. Bf4) {[%tqu
+"","","",Bxh7+,"",7,Re3,"equally good",7]} 3. Bxh7+ (3. Re3) 3... Kxh7 4. Re3
+Qg5 {[%tqu "white must play precisely","","",Qc2+,"",5,Rxe8,"",0]} 5. Qc2+ (5.
+Rxe8 $2 Qxc1+) 5... Bf5 6. Rxe8 Qg6 {[%tqu "white finishes the game with two
+very strong' geometrical' moves","","",Qa4,"",10]} 7. Qa4 {[%cal Ya4h4]} Qf6 {
+[%tqu "","","",Qd1,"",4]} 8. Qd1 {[%csl Rd8,Rh7][%cal Ye8d8,Yd1h5]} *
+
+[Event "New York"]
+[Site "?"]
+[Date "1857.??.??"]
+[Round "?"]
+[White "Morphy"]
+[Black "Lichtenhein"]
+[Result "*"]
+[Annotator "07 D 01"]
+[SetUp "1"]
+[FEN "r3rk2/ppp1qp1n/3b2pN/6Pp/3BPp2/1P5P/1PP1Q3/2KR2R1 w - - 0 1"]
+[PlyCount "11"]
+
+{[%tqu "opening files was a common theme in Morphy's games","","",e5,"",10]} 1.
+e5 $1 Bxe5 2. Bxe5 Qxe5 {[%tqu "which was Morphy's idea ?","","",Rd7,"",6]} 3.
+Rd7 $3 {[%csl Rf8][%cal Yd7f7]} Qg7 (3... Kg7 4. Rxf7+ Kh8 5. Rf8+ $1 {[%csl
+Re5]} Kg7 (5... Nxf8 6. Nf7+) 6. Rg8+ {[%csl Re5]}) {[%tqu "the logical
+continuation","","",Qc4,"",3]} 4. Qc4 {[%csl Rf7]} Re7 {[%tqu "","","",Rxe7,"",
+2]} 5. Rxe7 Kxe7 6. Re1+ {[%csl Re7]} *
+
+[Event "Budapest"]
+[Site "?"]
+[Date "1954.??.??"]
+[Round "?"]
+[White "Dely"]
+[Black "Hajtun"]
+[Result "*"]
+[Annotator "07 D 02"]
+[SetUp "1"]
+[FEN "b1n1r1k1/2q2p1p/p4Pp1/1pBP4/4B1P1/2P1Q3/P4K1P/4R3 w - - 0 1"]
+[PlyCount "13"]
+
+{[%tqu "how to start the final attack? (pay attention that black's queen
+attacks the Bc5)","","",Qh6,"",10]} 1. Qh6 $1 Qxc5+ 2. Re3 Qf8 {[%tqu "why is
+black's defense insufficient?","","",Bxg6,"",8]} 3. Bxg6 $3 {[%cal Ye3e8]} Qxh6
+4. Rxe8+ Qf8 {[%tqu "of course","","",Bxh7+,"",2]} 5. Bxh7+ Kxh7 6. Rxf8 {
+[%csl Ra8,Rc8,Rf7]} Nb6 7. Rb8 *
+
+[Event "Decsin"]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Tompa"]
+[Black "Plachetka"]
+[Result "*"]
+[Annotator "07 D 03"]
+[SetUp "1"]
+[FEN "r7/np2rpkp/1n1p1qp1/p1p5/P2NPP2/1PP2BP1/3Q3P/3R1RK1 w - - 0 1"]
+[PlyCount "15"]
+
+{[%tqu "how to bring the rooks into action ?","","",e5,"",6]} 1. e5 dxe5 2.
+fxe5 Qxe5 (2... Rxe5 $2 3. Bxb7 {[%csl Ra8,Rf6]}) 3. Rde1 Qc7 {[%tqu "which
+was the main idea of white's attack ?","","",Nf5+,"",8]} 4. Nf5+ $1 gxf5 5.
+Qg5+ Kf8 6. Qf6 $1 {[%cal Yf6h8]} Rxe1 7. Rxe1 Kg8 8. Re7 {[%csl Rc7,Rf7]} *
+
+[Event "Wik aan Zee"]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Najdorf"]
+[Black "Langeweg"]
+[Result "*"]
+[Annotator "07 D 04"]
+[SetUp "1"]
+[FEN "3q1rk1/Qb4b1/3n3p/1P1nN3/5PP1/P7/1B5P/2RR2K1 w - - 0 1"]
+[PlyCount "19"]
+
+{[%tqu "how does white use the 7th row ?","","",Rxd5,"",10]} 1. Rxd5 $3 Bxd5 {
+[%tqu "","","",Nc6,"",6]} 2. Nc6 {[%csl Rd8,Rg7]} Bxb2 (2... Rf7 3. Nxd8 Rxa7
+4. Bxg7 Kxg7 5. Rd1 Rd7 6. Rxd5 Rxd8 7. a4 {[%csl Ga4,Gb5,Gf4,Gg4,Gh2]}) 3.
+Nxd8 Bxc1 4. Qc5 {[%csl Rc1,Rd5,Rd6]} Rxd8 5. Qxd5+ Nf7 6. Qf3 Rd4 7. b6 Bxf4 (
+7... Rxf4 8. Qa8+ Kg7 9. b7) 8. Qxf4 $1 Rxf4 9. b7 Rxg4+ 10. Kh1 {[%csl Gb7]} *
+
+[Event "Mar del Plata"]
+[Site "?"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Panno"]
+[Black "Eliskases"]
+[Result "*"]
+[Annotator "07 D 05"]
+[SetUp "1"]
+[FEN "r1b3k1/3nqp1p/p1n1p1pP/3pP1N1/Pp3QN1/1Pr3P1/2PR1P2/4RBK1 w - - 0 1"]
+[PlyCount "15"]
+
+{[%tqu "white started an attack which made black's kingside disappear","","",
+Rxd5,"",12]} 1. Rxd5 $3 exd5 (1... Rxc2 2. Rxd7 Bxd7 3. Nf6+ Kh8 4. Nxd7 Qxd7
+5. Qf6+) {[%tqu "","","",e6,"",6]} 2. e6 fxe6 (2... f5 3. exd7 $1 Qxe1 4. Nf6+
+Kf8 5. Qd6+ Qe7 6. Nfxh7+ Kg8 7. Qxg6+ Kh8 8. Qe8+ Qxe8 9. dxe8=Q#) {[%tqu "",
+"","",Rxe6,"",2]} 3. Rxe6 Qf8 {[%tqu "","","",Qxf8+,"",6]} 4. Qxf8+ Kxf8 (4...
+Nxf8 5. Nf6+ Kh8 6. Nf7#) 5. Nxh7+ Kg8 6. Ng5 Bb7 7. Rxg6+ Kf8 8. h7 {[%csl
+Gh7]} *
+
+[Event "Varna"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Bilek"]
+[Black "Prahov"]
+[Result "*"]
+[Annotator "07 D 06"]
+[SetUp "1"]
+[FEN "5qr1/Qpk1pb1p/p2p1p2/3P1P1p/1PP1P2P/2N3R1/2K2P2/8 w - - 0 1"]
+[PlyCount "13"]
+
+{[%tqu "how to start an attack on the black king ?","","",Nb5+,"",10]} 1. Nb5+
+$3 axb5 2. cxb5 Qb8 {[%tqu "","","",b6+,"",3]} 3. b6+ Kc8 (3... Kd7 {[%tqu
+"white wins ealisy","","",Rxg8,"",6]} 4. Rxg8 Qxg8 5. Qxb7+ Kd8 6. Qc7+ Ke8 7.
+Qc8#) 4. Rc3+ Kd7 5. Rc7+ Qxc7+ 6. bxc7 Kxc7 7. b5 {[%csl Rb7,Rc7][%cal Yb5b6]}
+*
+
+[Event "Tiblissi"]
+[Site "?"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Lutyikov"]
+[Black "Gufeld"]
+[Result "*"]
+[Annotator "07 D 07"]
+[SetUp "1"]
+[FEN "r3r3/ppkb2bp/2p1npp1/4n3/2PNP3/2N3B1/PP2B1PP/3R1RK1 w - - 0 1"]
+[PlyCount "19"]
+
+{[%tqu "white started a combination, which uses the position of the Bd7 !","",
+"",Ndb5+,"",10]} 1. Ndb5+ $1 cxb5 {[%tqu "","","",Bxe5+,"",4]} 2. Bxe5+ fxe5 3.
+Rf7 Red8 (3... Rad8 4. Nxb5+ Kc6 5. Rd6+ Kc5 6. Rfxd7 $18) {[%tqu "white
+continues the attack on d7","","",Bg4,"",5]} 4. Bg4 Nd4 5. Rxg7 bxc4 6. Rf1 Kd6
+{[%tqu "the finish","","",Bxd7,"",6]} 7. Bxd7 Rxd7 {[%tqu "","","",Rf6+,"",2]}
+8. Rf6+ Kc7 {[%tqu "","","",Nd5+,"",2]} 9. Nd5+ Kc8 10. Rf8+ {[%csl Rc8][%cal
+Yg7c7]} *
+
+[Event "Bugojno"]
+[Site "?"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Kovacevic"]
+[Black "Timman"]
+[Result "*"]
+[Annotator "07 D 08"]
+[SetUp "1"]
+[FEN "2r1r1k1/p4pp1/1p1Pn1p1/6q1/P5P1/BP2Pp1P/5P2/Q1RR2K1 b - - 0 1"]
+[PlyCount "19"]
+
+{[%tqu "white's strong pawn d6 seems to make the difference, but black noticed
+white's kingside looks a bit loose...","","",Nf4,"",12]} 1... Nf4 $3 2. Rxc8 (
+2. exf4 {[%tqu "which was black's idea","","",Qh4,"mate cannot be prevented",7]
+} Qh4 {[%cal Yh4h3,Yh3g2]} 3. Kh2 (3. Rxc8 Qxh3) 3... Qxf2+) 2... Nxh3+ 3. Kh2
+{[%tqu "black seems in trouble as white threatens both RxR and KxN, what do
+you think ?","","",Qh4,"",6]} Qh4 $1 4. Rxe8+ Kh7 5. Qxg7+ Kxg7 6. Bb2+ f6 7.
+Re7+ Kh6 8. Bxf6 Qxf2+ 9. Kxh3 Qg2+ 10. Kh4 Qh2# *
+
+[Event "Szocsi"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Barcza"]
+[Black "Antosin"]
+[Result "*"]
+[Annotator "07 D 09"]
+[SetUp "1"]
+[FEN "6rk/p4p2/bp2p2b/3p1n1p/1B1P1P1q/1P2P3/P5BP/2NRQ2K b - - 0 1"]
+[PlyCount "19"]
+
+{[%tqu "black found a very strange move to strengthen hi attack","","",Bf1,"",
+12]} 1... Bf1 $3 2. Bxf1 (2. Qxf1 $2 Ng3+ {[%cal Yg3f1,Yg3h1]}) {[%tqu "there
+are two good possibilities here","","",Ng3+,"",7,Qg4,"also very good",7]} 2...
+Ng3+ (2... Qg4 {[%cal Yg4g1,Yg4f3]} 3. Qf2 Qxd1) 3. Qxg3 (3. Kg1 Ne2+ 4. Kh1
+Rg1#) (3. Kg2 Ne4+ 4. Kh1 Qf2 5. Qxf2 Nxf2#) 3... Rxg3 4. Be7 Qg4 5. Be2 Qh3 6.
+Bf1 Rg1+ 7. Kxg1 Qxe3+ 8. Kg2 Qe4+ 9. Kg1 Bxf4 {[%cal Yf4e3]} 10. Bg2 Qc2 {
+[%csl Rc1,Rd1]} *
+
+[Event "Tel Aviv"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Niemela"]
+[Black "Pfleger"]
+[Result "*"]
+[Annotator "07 D 10"]
+[SetUp "1"]
+[FEN "r3r3/p5bk/3Pb1p1/q1p2pP1/2P2Bp1/1PN5/2QK3P/1R5R b - - 0 1"]
+[PlyCount "13"]
+
+{[%tqu "black found an extremely strong move, opening several files around the
+king","","",Bd5,"",12]} 1... Bd5 $3 2. cxd5 {[%cal Ye8e1,Ya4h4]} {[%tqu "","",
+"",Qb4,"",4]} Qb4 {[%csl Rf4]} 3. Rbf1 {[%tqu "","","",Bxc3+,"",5]} Bxc3+ 4.
+Kd1 (4. Qxc3 Re2+ 5. Kd3 Qe4#) 4... Re4 5. h3 Rd4+ 6. Ke2 Re8+ 7. Be3 Rd2+ *
+
+[Event "London"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Mabs"]
+[Black "Alexander"]
+[Result "*"]
+[Annotator "07 D 12"]
+[SetUp "1"]
+[FEN "rnb2rk1/pp2bppp/2p5/q7/4NN2/4B1QP/PPP3P1/2KR3R w - - 0 1"]
+[PlyCount "23"]
+
+{[%tqu "how did white prepare the attack on the kingside ?","","",Rd5,"",12]} 
+1. Rd5 $3 cxd5 {[%tqu "the logical follow-up","","",Nh5,"",3]} 2. Nh5 {[%csl
+Ra5,Gh5]} g6 3. Nhf6+ $1 (3. Qe5 $1 f6 (3... gxh5 4. Bh6 f6 5. Qxe7 Rf7 6. Qe8+
+Rf8 7. Qxf8#) 4. Qxe7 gxh5 5. Bh6) 3... Bxf6 4. Nxf6+ Kg7 (4... Kh8 5. Qh4 h5
+6. Qg5 Kg7 7. Nxh5+ Kg8 8. Qf6 gxh5 9. Bd4) {[%tqu "how does white finish the
+attack ?","","",Qe5,"",7]} 5. Qe5 $1 Kh8 6. Bh6 $1 (6. Nh5+ $1 f6 7. Qe7 {
+[%cal Ye7g7,Ye7f8]} Rg8 8. Qxf6+ Rg7 9. Qxg7#) 6... Nc6 {[%tqu "white forces
+mate","","",Bg7+,"",5]} 7. Bg7+ Kxg7 {[%tqu "","","",Ne8+,"",2]} 8. Ne8+ Kh6 9.
+Qf4+ g5 10. Qf6+ Kh5 11. Ng7+ Kh4 12. Qf2# *
+
+[Event "Budapest"]
+[Site "?"]
+[Date "1953.??.??"]
+[Round "?"]
+[White "Haag"]
+[Black "Sapi"]
+[Result "*"]
+[Annotator "07 D 13"]
+[SetUp "1"]
+[FEN "4rr1k/pp2n2P/q1p2np1/3p1pB1/3P1N2/P1PP4/8/1R1QK2R w K - 0 1"]
+[PlyCount "9"]
+
+{[%tqu "a seemingly pointless move starts the decisive attack","","",Qe2,"",15]
+} 1. Qe2 $3 c5 {[%tqu "logical...","","",Qe5,"",4]} 2. Qe5 $1 Neg8 (2... Nc8 3.
+Nxg6+ Kg7 4. Nxf8 Rxe5+ 5. dxe5 Nxh7 6. Rxb7+ Qxb7 7. Rxh7+ {[%csl Rb7,Rg7]
+[%cal Yh7b7]}) 3. Nxg6+ Kg7 4. h8=Q+ Kxg6 5. Rh6+ {[%csl Rg6]} *
+
+[Event "Corr."]
+[Site "?"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Wood"]
+[Black "Wallis"]
+[Result "*"]
+[Annotator "07 D 11"]
+[SetUp "1"]
+[FEN "r3k2r/pp2qpRp/2b1P3/Q2p3P/5p2/7R/1BP2PP1/4K3 w kq - 0 1"]
+[PlyCount "35"]
+
+{[%tqu "white's attack looks strong, but black was happy that immediate
+disaster exf7+ was prevented... (this is a correspondance game, take your time
+)","","",Re3,"",20]} 1. Re3 $3 fxe3 2. exf7+ Kf8 (2... Kd7 3. f8=N+ {[%csl Re7]
+}) 3. Ba3 Qxa3 4. Qxa3+ Kxg7 {It seems black should be happy with 2Rrooks +
+Bishop vs. Queen, but white had calculated until the end... (correspondance
+game ) Weiss hat zwar die Dame gewonnen, aber Schwarz scheint mit 2 Türmen und
+Läufer bestens gerüstet. Weiss hat jedoch alles bis zum Schluss durchgerechnet
+(Fernpartie)} 5. Qe7 $1 exf2+ 6. Kxf2 Raf8 7. h6+ Kxh6 8. Qf6+ Kh5 9. Kf3 {
+[%cal Yg2g4]} Bd7 10. Kf4 {[%cal Yf6g5]} h6 11. Qg7 d4 12. g4+ Kh4 13. Qg6 {
+[%cal Yg6h5]} Kh3 (13... h5 14. gxh5 {[%cal Yg6g3]}) 14. Qd3+ Kg2 15. Qe2+ Kh3
+(15... Kg1 16. Kg3) 16. Qf3+ Kh2 17. Qf2+ Kh1 18. Kg3 *
+
