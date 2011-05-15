@@ -11,9 +11,8 @@ import edu.berkeley.nlp.math.LBFGSMinimizer;
 import edu.berkeley.nlp.util.Pair;
 
 public class NeuralNetwork {
-	private static final Random random = new Random();
-	private static final double EPSILON = 1e-1;
-	
+	private static final ActivationFunction af = ActivationFunction.SIGMOID;
+	private static final Random random = new Random();	
 	private int[] layerSizes;
 	public double[] parameters;
 	
@@ -80,7 +79,7 @@ public class NeuralNetwork {
 				double accum = parameters[biasBegin + row];
 				for (int col = 0; col < layerSizes[l-1]; ++col)
 					accum += parameters[weightsBegin + row * layerSizes[l-1] + col] * activations[col];
-				newActivations[row] = sigmoid(accum);
+				newActivations[row] = af.valueAt(accum);
 			}
 			
 			activations = newActivations;
@@ -202,7 +201,7 @@ public class NeuralNetwork {
 				double[] outputDelta = new double[layerSizes[layerSizes.length - 1]];
 				for (int i = 0; i < outputDelta.length; ++i) {
 					outputDelta[i] = -(output[i] - predictedOutput[i])
-						* (predictedOutput[i] * (1 - predictedOutput[i])); // derivative of sigmoid
+						* af.derivativeAt(predictedOutput[i]);
 				}
 				deltas[deltas.length - 1] = outputDelta;
 				
@@ -218,7 +217,7 @@ public class NeuralNetwork {
 							delta[i] += sparsityPenalty * 
 								(-sparsity/averageActivations[l][i] + (1-sparsity)/(1-averageActivations[l][i]));
 							// Multiply by derivative
-							delta[i] *= activations[l][i] * (1 - activations[l][i]); // derivative of sigmoid
+							delta[i] *= af.derivativeAt(activations[l][i]);
 						}
 						deltas[l] = delta;
 						weightsBegin -= (layerSizes[l - 1] + 1) * layerSizes[l];
