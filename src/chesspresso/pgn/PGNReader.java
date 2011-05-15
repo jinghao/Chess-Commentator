@@ -117,6 +117,9 @@ public final class PGNReader extends PGN
         setInput(new InputStreamReader(in), name);
     }
 
+    /**
+     *@deprecated
+     */
     public PGNReader(String filename) throws IOException
     {
         init();
