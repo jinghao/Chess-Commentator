@@ -1,42 +1,53 @@
 package edu.berkeley.nlp.chess;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
 import chesspresso.game.Game;
+import chesspresso.move.Move;
 import chesspresso.pgn.PGNReader;
 import chesspresso.pgn.PGNSyntaxError;
 import chesspresso.position.Position;
 
 import com.google.common.collect.Lists;
 
-public class GameSlicer {
-	private LinkedList<Position> positions = Lists.newLinkedList();
-	private final int sliceSize;
+public class GameSlicer implements Iterable<List<Position>> {
+	private List<Position> positions;
+	private int sliceSize;
 	
-	public GameSlicer (String filename, int sliceSize) throws IOException, PGNSyntaxError {
-		PGNReader reader = new PGNReader(filename);
-		Game game = reader.parseGame();
+	public GameSlicer (Game game, int sliceSize) throws IOException, PGNSyntaxError {
+		game.goBackToLineBegin();
 		this.sliceSize = sliceSize;
-		do { 
-			positions.add(game.getPosition());
-		} while (game.goForward());	
+		this.positions = new ArrayList<Position>();
+		
+		do {
+			positions.add(new Position(game.getPosition()));
+		} while (game.goForward());
 	}
-	
-    /**
-     * Gets slice [start, start+sliceSize] of this game. This is a view of the
-     * internal list of positions.
-     **/
 
-	public List<Position> getSlice(int start) {
-		if (start >= positions.size())
-			throw new IndexOutOfBoundsException();
-		return positions.subList(start, Math.min(start+sliceSize, positions.size()));
-	}
-	
-	/** Returns number of positions in this game **/
-	public int numPositions() {
-		return positions.size();
+	@Override
+	public Iterator<List<Position>> iterator() {
+		return new Iterator<List<Position>>() {
+			private int now = 0;
+
+			@Override
+			public boolean hasNext() {
+				return now < positions.size();
+			}
+
+			@Override
+			public List<Position> next() {
+				now++;
+				return positions.subList(now-1, Math.min(now-1+sliceSize, positions.size()));
+			}
+
+			@Override
+			public void remove() {
+				throw new UnsupportedOperationException();
+			}
+		};
 	}
 }
