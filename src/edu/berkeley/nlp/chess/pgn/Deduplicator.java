@@ -1,6 +1,5 @@
 package edu.berkeley.nlp.chess.pgn;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -11,11 +10,9 @@ import java.text.NumberFormat;
 import java.util.HashSet;
 import java.util.Stack;
 
-import com.google.common.io.Files;
 
 import chesspresso.game.Game;
 import chesspresso.game.GameModel;
-import chesspresso.pgn.PGN;
 import chesspresso.pgn.PGNReader;
 import chesspresso.pgn.PGNSyntaxError;
 import chesspresso.pgn.PGNWriter;
