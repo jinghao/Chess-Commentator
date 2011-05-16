@@ -1,4 +1,4 @@
-package edu.berkeley.nlp.chess;
+package edu.berkeley.nlp.classification;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,6 +9,8 @@ import chesspresso.position.Position;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 import com.google.inject.Inject;
+
+import edu.berkeley.nlp.chess.PositionWithMoves;
 
 public class Featurizers {
 	public static class Normalizer<T> implements Featurizer<T> {

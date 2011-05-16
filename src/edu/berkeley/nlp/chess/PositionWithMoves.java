@@ -6,6 +6,8 @@ import chesspresso.position.Position;
 import com.google.common.primitives.Doubles;
 import com.google.inject.Inject;
 
+import edu.berkeley.nlp.classification.Featurizer;
+
 public class PositionWithMoves {
 	public final Move previousMove;
 	public final Position position;

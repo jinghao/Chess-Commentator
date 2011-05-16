@@ -8,9 +8,10 @@ import chesspresso.Chess;
 import chesspresso.move.IllegalMoveException;
 import chesspresso.move.Move;
 import chesspresso.position.Position;
+import edu.berkeley.nlp.classification.Featurizer;
 
 
-public class FeatureExtractor implements Featurizer<PositionWithMoves> {
+public class PositionFeatureExtractor implements Featurizer<PositionWithMoves> {
 	public static final int FEATURES_PER_MOVE = 10;
 	public static final int FEATURE_LENGTH = 
 		12*Chess.NUM_OF_SQUARES + 12*Chess.NUM_OF_SQUARES + 64*FEATURES_PER_MOVE + 2;
