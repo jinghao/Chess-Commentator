@@ -91,7 +91,7 @@ public class NeuralNetwork {
 		private int[] layerSizes;
 		private double weightDecay;
 		private double sparsity;
-		private double sparsityPenalty;
+		private double sparsityPenaltyWeight;
 		private Collection<Pair<double[], double[]>> examples;
 		private int numExamples;
 		
@@ -104,7 +104,7 @@ public class NeuralNetwork {
 			
 			this.weightDecay = weightDecay;
 			this.sparsity = sparsity;
-			this.sparsityPenalty = sparsityPenalty;
+			this.sparsityPenaltyWeight = sparsityPenalty;
 			
 			this.examples = examples;
 			this.numExamples = examples.size();
@@ -170,11 +170,13 @@ public class NeuralNetwork {
 				weightsBegin = weightsEnd + layerSizes[l];
 			}
 			
-			// Compute sparsity penalty
-			double[][] averageActivations = getAverageActivationsFor(x);
-			for (int l = 1; l < layerSizes.length - 1; ++l)
-				for (int i = 0; i < layerSizes[l]; ++i)
-					loss += sparsityPenalty * KLdiv(sparsity, averageActivations[l][i]);
+			// Compute sparsity penalty if necessary
+			if (sparsityPenaltyWeight != 0.0) {
+				double[][] averageActivations = getAverageActivationsFor(x);
+				for (int l = 1; l < layerSizes.length - 1; ++l)
+					for (int i = 0; i < layerSizes[l]; ++i)
+						loss += sparsityPenaltyWeight * KLdiv(sparsity, averageActivations[l][i]);
+			}
 			return loss;
 		}
 
@@ -183,7 +185,8 @@ public class NeuralNetwork {
 			double[] gradient = new double[x.length];
 			int weightsBegin;
 			
-			double[][] averageActivations = getAverageActivationsFor(x);
+			double[][] averageActivations =
+				sparsityPenaltyWeight != 0.0 ? getAverageActivationsFor(x) : null;
 			
 			// Compute over all input/output pairs
 			for (Pair<double[], double[]> pair : examples) {
@@ -210,8 +213,9 @@ public class NeuralNetwork {
 							for (int j = 0; j < deltas[l + 1].length; ++j)
 								delta[i] += x[weightsBegin + j * delta.length + i] * deltas[l+1][j];
 							// Add sparsity penalty (KL divergence)
-							delta[i] += sparsityPenalty * 
-								(-sparsity/averageActivations[l][i] + (1-sparsity)/(1-averageActivations[l][i]));
+							if (sparsityPenaltyWeight != 0.0)
+								delta[i] += sparsityPenaltyWeight *
+									(-sparsity/averageActivations[l][i] + (1-sparsity)/(1-averageActivations[l][i]));
 							// Multiply by derivative
 							delta[i] *= af.derivativeAt(activations[l][i]);
 						}
