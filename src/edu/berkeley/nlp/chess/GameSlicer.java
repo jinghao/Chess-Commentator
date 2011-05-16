@@ -3,18 +3,18 @@ package edu.berkeley.nlp.chess;
 import java.util.Iterator;
 import java.util.List;
 
-public class GameSlicer implements Iterable<List<PositionWithMove>> {
-	private final List<PositionWithMove> game;
+public class GameSlicer implements Iterable<List<PositionWithMoves>> {
+	private final List<PositionWithMoves> game;
 	private final int sliceSize;
 	
-	public GameSlicer(List<PositionWithMove> game, int sliceSize) {
+	public GameSlicer(List<PositionWithMoves> game, int sliceSize) {
 		this.game = game;
 		this.sliceSize = sliceSize;
 	}
 
 	@Override
-	public Iterator<List<PositionWithMove>> iterator() {
-		return new Iterator<List<PositionWithMove>>() {
+	public Iterator<List<PositionWithMoves>> iterator() {
+		return new Iterator<List<PositionWithMoves>>() {
 			private int now = 0;
 
 			@Override
@@ -23,8 +23,8 @@ public class GameSlicer implements Iterable<List<PositionWithMove>> {
 			}
 
 			@Override
-			public List<PositionWithMove> next() {
-				List<PositionWithMove> result = game.subList(now, now + sliceSize);
+			public List<PositionWithMoves> next() {
+				List<PositionWithMoves> result = game.subList(now, now + sliceSize);
 				++now;
 				return result;
 			}

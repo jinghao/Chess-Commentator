@@ -10,22 +10,13 @@ import chesspresso.move.Move;
 import chesspresso.position.Position;
 
 
-public class FeatureExtractor implements Featurizer<Position> {
+public class FeatureExtractor implements Featurizer<PositionWithMoves> {
 	public static final int FEATURES_PER_MOVE = 10;
 	public static final int FEATURE_LENGTH = 
 		12*Chess.NUM_OF_SQUARES + 12*Chess.NUM_OF_SQUARES + 64*FEATURES_PER_MOVE + 2;
 	
-	public double[] getFeatures(List<Position> positions) {
-		double[] features = new double[FEATURE_LENGTH*positions.size()];
-		int index = 0;
-		for (Position p : positions) {
-			System.arraycopy(getFeaturesFor(p), 0, features, index, FEATURE_LENGTH);
-			index += FEATURE_LENGTH;
-		}
-		return features;
-	}
-	
-	public double[] getFeaturesFor(Position position) {
+	public double[] getFeaturesFor(PositionWithMoves positionWithMove) {
+		Position position = positionWithMove.position;
 		double[] features = new double[FEATURE_LENGTH];
 		int index = 0;
 		for (; index < Chess.NUM_OF_SQUARES; index++) {
@@ -66,15 +57,19 @@ public class FeatureExtractor implements Featurizer<Position> {
 			position.undoMove();
 		}
 			
-		short[] recapturingMoves = position.getAllReCapturingMoves(position.getLastShortMove());
-		for (short move : recapturingMoves) {
-			int from = Move.getFromSqi(move);
-			int to = Move.getToSqi(move);
-			int piece = position.getStone(from)-1;
-			if (piece < 0)
-				piece = 4 - piece;
-			
-			features[index + piece*Chess.NUM_OF_SQUARES + to*FEATURES_PER_MOVE + 9] = 1; // is recapturing
+		Move m = positionWithMove.previousMove;
+		
+		if (m != null) {
+			short[] recapturingMoves = position.getAllReCapturingMoves(m.getShortMoveDesc());
+			for (short move : recapturingMoves) {
+				int from = Move.getFromSqi(move);
+				int to = Move.getToSqi(move);
+				int piece = position.getStone(from)-1;
+				if (piece < 0)
+					piece = 4 - piece;
+				
+				features[index + piece*Chess.NUM_OF_SQUARES + to*FEATURES_PER_MOVE + 9] = 1; // is recapturing
+			}
 		}
 		
 		index += 12*Chess.NUM_OF_SQUARES + Chess.NUM_OF_SQUARES*FEATURES_PER_MOVE;

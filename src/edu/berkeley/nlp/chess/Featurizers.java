@@ -38,19 +38,19 @@ public class Featurizers {
 		}
 	};
 	
-	public static class ConcatenatingPositionWithMove implements Featurizer<List<PositionWithMove>> {
-		private final Featurizer<PositionWithMove> featurizer;
+	public static class ConcatenatingPositionWithMove implements Featurizer<List<PositionWithMoves>> {
+		private final Featurizer<PositionWithMoves> featurizer;
 
 		@Inject
-		public ConcatenatingPositionWithMove(Featurizer<PositionWithMove> featurizer) {
+		public ConcatenatingPositionWithMove(Featurizer<PositionWithMoves> featurizer) {
 			this.featurizer = featurizer;
 		}
 		
 		@Override
-		public double[] getFeaturesFor(List<PositionWithMove> input) {
+		public double[] getFeaturesFor(List<PositionWithMoves> input) {
 			List<double[]> features = Lists.newArrayList();
 			int totalArrayLength = 0;
-			for (PositionWithMove pwm : input) {
+			for (PositionWithMoves pwm : input) {
 				double[] feature = featurizer.getFeaturesFor(pwm);
 				features.add(feature);
 				totalArrayLength += feature.length;
@@ -59,7 +59,7 @@ public class Featurizers {
 			double[] result = new double[totalArrayLength];
 			int index = 0;
 			for (double[] feature : features) {
-	            System.arraycopy(feature, 0, features, index, feature.length);
+	            System.arraycopy(feature, 0, result, index, feature.length);
 	            index += feature.length;
 	        }
 			return result;
