@@ -2,10 +2,12 @@ package edu.berkeley.nlp.chess;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+import chesspresso.Chess;
 import chesspresso.game.Game;
 import chesspresso.move.Move;
 import chesspresso.pgn.PGNReader;
@@ -13,8 +15,10 @@ import chesspresso.pgn.PGNSyntaxError;
 import chesspresso.position.Position;
 
 import com.google.common.collect.Lists;
+import com.google.common.primitives.Doubles;
 
 public class GameSlicer implements Iterable<List<Position>> {
+	
 	private List<Position> positions;
 	private int sliceSize;
 	
@@ -22,9 +26,11 @@ public class GameSlicer implements Iterable<List<Position>> {
 		game.goBackToLineBegin();
 		this.sliceSize = sliceSize;
 		this.positions = new ArrayList<Position>();
+		PositionVector f = new Method1();
 		
 		do {
-			positions.add(new Position(game.getPosition()));
+			Position P = new Position(game.getPosition());
+			positions.add(P);
 		} while (game.goForward());
 	}
 
