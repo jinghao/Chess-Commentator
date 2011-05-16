@@ -53,10 +53,6 @@ public class NeuralNetwork {
 		return activations[1];
 	}
 	
-	static private double sigmoid(double z) {
-		return 1.0 / (1 + Math.exp(-z));
-	}
-	
 	static private double KLdiv(double a, double b) {
 		return a * Math.log(a / b) + (1 - a) * Math.log((1 - a) / (1 - b));
 	}
