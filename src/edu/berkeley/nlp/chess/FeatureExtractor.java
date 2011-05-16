@@ -2,24 +2,23 @@ package edu.berkeley.nlp.chess;
 
 import java.util.List;
 
-import com.google.common.primitives.Doubles;
-
 import chesspresso.Chess;
 import chesspresso.move.Move;
 import chesspresso.position.Position;
 
-public class FeatureExtractor {
+public class FeatureExtractor implements Featurizer<Position> {
 	public double[] getFeatures(List<Position> positions) {
 		double[] features = new double[4034*positions.size()];
 		int index = 0;
 		for (Position p : positions) {
-			System.arraycopy(getFeatures(p), 0, features, index, 4034);
+			System.arraycopy(getFeaturesFor(p), 0, features, index, 4034);
 			index += 4034;
 		}
 		return features;
 	}
 	
-	public double[] getFeatures(Position position) {
+	@Override
+	public double[] getFeaturesFor(Position position) {
 //		12*64 + 3*(12*64 + 64*5) + 2
 		double[] features = new double[4034];
 		int index = 0;
