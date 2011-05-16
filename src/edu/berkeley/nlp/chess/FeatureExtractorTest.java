@@ -31,8 +31,10 @@ public class FeatureExtractorTest {
 					.to(FeatureExtractor.class);
 			}			
 		});
+		
 		Featurizer<List<PositionWithMoves>> featurizer =
 			injector.getInstance(Key.get(new TypeLiteral<Featurizer<List<PositionWithMoves>>>() {}));
+		
 		while (game != null) {
 			GameSlicer slicer = new GameSlicer(Games.flatten(game), 3);
 			for (List<PositionWithMoves> slice : slicer) {

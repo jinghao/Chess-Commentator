@@ -6,10 +6,39 @@ import java.util.List;
 import chesspresso.Chess;
 import chesspresso.position.Position;
 
+import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 import com.google.inject.Inject;
 
 public class Featurizers {
+	public static class Normalizer<T> implements Featurizer<T> {
+		private Featurizer<T> featurizer;
+		private double norm;
+
+		public Normalizer(Featurizer<T> featurizer, double norm) {
+			Preconditions.checkArgument(norm != 0);
+			this.featurizer = featurizer;
+			this.norm = norm;
+		}
+		
+		@Override
+		public double[] getFeaturesFor(T input) {
+			double[] features = featurizer.getFeaturesFor(input);
+			double total = 0;
+			for (int i = 0; i < features.length; i++)
+				total += features[i]*features[i];
+			
+			total = Math.sqrt(total);
+			
+			if (total != 0)
+				for (int i = 0; i < features.length; i++)
+					features[i] *= norm/total;
+			
+			return features;
+		}
+		
+	}
+	
 	public static class TwoColorBoard implements Featurizer<Position> {
 		public static final int KING = 5, PAWN = 4, QUEEN = 3, ROOK = 2, BISHOP = 1, KNIGHT = 0;
 
@@ -64,6 +93,6 @@ public class Featurizers {
 	        }
 			return result;
 		}
-		
+
 	}
 }
