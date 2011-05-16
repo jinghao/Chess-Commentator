@@ -1,10 +1,10 @@
 package edu.berkeley.nlp.autoencoder;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Random;
 
 import com.google.common.base.Preconditions;
-import com.google.common.collect.Iterables;
 
 import edu.berkeley.nlp.math.DifferentiableFunction;
 import edu.berkeley.nlp.math.LBFGSMinimizer;
@@ -19,8 +19,8 @@ public class NeuralNetwork {
 	static public NeuralNetwork train(int[] layerSizes, 
 			double weightDecay, 
 			double sparsity, 
-			double sparsityPenaltyWeight, 
-			Iterable<Pair<double[], double[]>> examples) {
+			double sparsityPenaltyWeight,
+			Collection<Pair<double[], double[]>> examples) {
 		Preconditions.checkArgument(layerSizes.length >= 2);
 		for (int layerSize : layerSizes)
 			Preconditions.checkArgument(layerSize > 0);
@@ -92,10 +92,10 @@ public class NeuralNetwork {
 		private double weightDecay;
 		private double sparsity;
 		private double sparsityPenalty;
-		private Iterable<Pair<double[], double[]>> examples;
+		private Collection<Pair<double[], double[]>> examples;
 		private int numExamples;
 		
-		public LossFunction(int[] layerSizes, double weightDecay, double sparsity, double sparsityPenalty, Iterable<Pair<double[], double[]>> examples) {
+		public LossFunction(int[] layerSizes, double weightDecay, double sparsity, double sparsityPenalty, Collection<Pair<double[], double[]>> examples) {
 			this.layerSizes = layerSizes;
 			dimension = 0;
 			for (int l = 1; l < layerSizes.length; ++l)
@@ -107,7 +107,7 @@ public class NeuralNetwork {
 			this.sparsityPenalty = sparsityPenalty;
 			
 			this.examples = examples;
-			this.numExamples = Iterables.size(examples);
+			this.numExamples = examples.size();
 		}
 		
 		public double[] initial() {
