@@ -4,8 +4,9 @@ import java.util.Iterator;
 import java.util.List;
 
 public class GameSlicer implements Iterable<List<PositionWithMove>> {
-	List<PositionWithMove> game;
+	private final List<PositionWithMove> game;
 	private final int sliceSize;
+	
 	public GameSlicer(List<PositionWithMove> game, int sliceSize) {
 		this.game = game;
 		this.sliceSize = sliceSize;
