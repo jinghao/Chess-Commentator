@@ -154,4 +154,10 @@ public class PGNWriter extends PGN
             m_curCol += 1;
         }
     }
+    public void close() {
+    	m_out.close();
+    }
+    public void flush() {
+    	m_out.flush();
+    }
 }

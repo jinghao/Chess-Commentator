@@ -77,4 +77,19 @@ public class CompactPosition extends AbstractPosition
     public int getPlyNumber()      {return ((m_flags >> PLY_NUMBER_SHIFT) & PLY_NUMBER_MASK);}
     public int getHalfMoveClock()  {return ((m_flags >> HALF_MOVE_CLOCK_SHIFT) & HALF_MOVE_CLOCK_MASK);}
     
+    public byte[] getBytes() {
+    	for (int i : m_stones) {
+    		System.out.println(Integer.toBinaryString(i));
+    	}
+    	System.out.println(Integer.toBinaryString(m_flags));
+    	byte[] bytes = new byte[36];
+    	for (int b = 0; b < 32; ++b) {
+    		bytes[b] = (byte)(m_stones[b / 4] >>> (8 * b));
+    	}
+    	for (int b = 32; b < 36; ++b) {
+    		bytes[b] = (byte)(m_flags >>> (8 * b));
+    	}
+    	
+    	return bytes;
+    }
 }

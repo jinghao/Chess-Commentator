@@ -16,28 +16,9 @@ import chesspresso.game.GameModel;
 import chesspresso.pgn.PGNReader;
 import chesspresso.pgn.PGNSyntaxError;
 import chesspresso.pgn.PGNWriter;
+import edu.berkeley.nlp.chess.util.Util;
 
 public class Deduplicator {
-
-	public static String sha1(byte[] b) throws NoSuchAlgorithmException,
-			UnsupportedEncodingException {
-
-		MessageDigest md = MessageDigest.getInstance("SHA-1");
-		md.reset();
-		md.update(b);
-
-		byte[] t = md.digest();
-
-		StringBuffer hexString = new StringBuffer();
-		for (int i = 0; i < t.length; i++) {
-			int curr_byte = 0xFF & t[i];
-
-			hexString.append((curr_byte < 0x10 ? "0" : "")
-					+ Integer.toHexString(curr_byte));
-		}
-
-		return hexString.toString();
-	}
 
 	/**
 	 * @param args
@@ -98,7 +79,7 @@ public class Deduplicator {
 							numGames++;
 							localGames++;
 
-							String sha = sha1(game.getBytes());
+							String sha = Util.sha1(game.getBytes());
 
 							if (seenGames.add(sha)) {
 								++added;
@@ -126,8 +107,6 @@ public class Deduplicator {
 						} catch (RuntimeException e) {
 							// System.out.printf("\n\tRuntime (line %d of good game; error line %d): %s", linenumber, reader.getLineNumber(), e.getMessage());
 							// e.printStackTrace(System.out);
-						} catch (NoSuchAlgorithmException e) {
-							System.out.println("\n\tWTF");
 						}
 					}
 

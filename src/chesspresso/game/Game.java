@@ -733,6 +733,16 @@ public class Game implements PositionChangeListener
     	m_moves.write(out);
     }
     public byte[] getBytes() {
-    	return m_moves.getBytes();
+    	// go back to beginning
+    	goBackToLineBegin();
+    	
+    	byte[] fen = m_position.getFEN().getBytes();
+
+    	byte[] bytes = m_moves.getBytes();
+    	
+    	bytes = Arrays.copyOf(bytes, bytes.length + fen.length);
+    	System.arraycopy(fen, 0, bytes, bytes.length - fen.length, fen.length);
+
+    	return bytes;
     }
 }

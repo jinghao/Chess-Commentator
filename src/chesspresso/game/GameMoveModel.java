@@ -714,20 +714,24 @@ public class GameMoveModel
         changed();
         if (DEBUG) write(System.out);
     }
+    public byte[] getBytes()
+    {
+        // do not save the guards at index 0 and m_size-1
+        byte[] data = new byte[2 * (m_size - 2)];
+        for (int i = 1; i < m_size - 1; i++) {
+            short m = m_moves[i];
+            data[2*i - 2] = (byte)((m >>> 8) & 0xFF);
+            data[2*i - 1] = (byte)((m >>> 0) & 0xFF);
+        }
+        return data;
+    }
+
     
     public void save(DataOutput out, int mode) throws IOException
     {
         // do not save the guards at index 0 and m_size-1
         out.writeInt(m_size - 2);
-        byte[] data = new byte[2 * (m_size - 2)];
-        for (int i = 1; i < m_size - 1; i++) {
-            short m = m_moves[i];
-            // copied from RandomAccesFile.writeShort
-            data[2*i - 2] = (byte)((m >>> 8) & 0xFF);
-            data[2*i - 1] = (byte)((m >>> 0) & 0xFF);
-//            out.writeShort(m_moves[i]);
-        }
-        out.write(data);
+        out.write(getBytes());
     }
 
     //======================================================================
@@ -790,23 +794,6 @@ public class GameMoveModel
             }
         }
         return m_hashCode;
-    }
-    
-    public byte[] getBytes() {
-    	byte[] bytes = new byte[8];
-    	int i = 0;
-        for (int index = 0; ; index = goForward(index)) {
-            if (m_moves[index] == LINE_END) break;
-            short move = getMove(index);
-            if (i >= bytes.length) {
-            	bytes = Arrays.copyOf(bytes, bytes.length * 2);
-            }
-            bytes[i] = (byte)(move >>> 8);
-            bytes[i + 1] = (byte)(move & 0xFF);
-            i += 2;
-        }
-        
-        return Arrays.copyOf(bytes, i);
     }
     
     public int hashCode()
