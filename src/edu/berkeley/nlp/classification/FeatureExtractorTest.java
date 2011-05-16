@@ -45,6 +45,9 @@ public class FeatureExtractorTest {
 			GameSlicer slicer = new GameSlicer(Games.flatten(game), 3);
 			for (List<PositionWithMoves> slice : slicer) {
 				double[] features = featurizer.getFeaturesFor(slice);
+				for (double d : features)
+					System.out.printf("%f ", d);
+				System.out.println();
 			}
 			game = reader.parseGame();
 			System.out.println("Done with one game");
