@@ -1,5 +1,6 @@
 package edu.berkeley.nlp.autoencoder;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.NoSuchElementException;
@@ -13,7 +14,8 @@ import edu.berkeley.nlp.math.DifferentiableFunction;
 import edu.berkeley.nlp.math.LBFGSMinimizer;
 import edu.berkeley.nlp.util.Pair;
 
-public class NeuralNetwork {
+public class NeuralNetwork implements Serializable {
+	private static final long serialVersionUID = 5364208319914063715L;
 	private static final ActivationFunction af = ActivationFunction.SIGMOID;
 	private static final Random random = new Random();	
 	private int[] layerSizes;
