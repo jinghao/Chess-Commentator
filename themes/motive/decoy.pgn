@@ -1,0 +1,1339 @@
+[Event "?"]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Unzicker, W."]
+[Black "Dankert, P."]
+[Result "0-1"]
+[Annotator "Ablenkung/Hinlenkung(4) 019"]
+[SetUp "1"]
+[FEN "4rrk1/1p3pp1/4p3/pPPpP1q1/3Pn2p/2NQPR1P/6PK/6R1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+
+1... Qg3+ 2. Kh1 (2. Rxg3 hxg3+ 3. Kh1 Nf2#) 2... Qxf3 3. gxf3 Nf2+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Ablenkung/Hinlenkung(4) 061"]
+[SetUp "1"]
+[FEN "r1b4k/1pp2B1p/p1q1p3/6pQ/3P1nN1/2P5/P4PPP/4RRK1 w - - 0 1"]
+[PlyCount "9"]
+[EventType "team"]
+
+{Obwohl Weiß einen Turm mehr hat, sieht es nicht gut aus: Schwarz droht mit
+Dc6xg2# und außerdem ist die weiße Dame angegriffen. Und doch kann Weiß
+gewinnen:} 1. d5 Qxd5 (1... Nxh5 2. dxc6 $18) (1... exd5 2. Qxg5 $18) (1... Qd7
+2. Qxg5 Qxf7 3. Qe5+ Qg7 (3... Kg8 4. Nh6+ $18) 4. Qxf4 $18 Bd7) 2. Qxh7+ Kxh7
+3. Nf6+ Kg7 4. Nxd5 Nxd5 (4... exd5 5. Re7 $16) (4... Kxf7 5. Nxf4 gxf4 6. Re4
+$16) 5. Bxe6 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1951.??.??"]
+[Round "?"]
+[White "Tschechower, V."]
+[Black "Lutikov, A."]
+[Result "0-1"]
+[Annotator "Abzugsangriff/Hinlenkung(3) 014"]
+[SetUp "1"]
+[FEN "3r3k/2p3pp/Qb2q2r/3p4/1P1B1p2/2P2P2/P5PP/R3R2K b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1951.??.??"]
+[EventType "team"]
+
+1... Rxh2+ 2. Kxh2 (2. Kg1 Bxd4+ $19) 2... Qh6+ 3. Kg1 Bxd4+ 4. cxd4 Qxa6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Kramnik, V."]
+[Black "Koslow"]
+[Result "1-0"]
+[Annotator "Abzugsangriff/Hinlenkung(4) 001"]
+[SetUp "1"]
+[FEN "5rk1/5np1/3p1r1p/2pPp3/2P1Q3/4BNRP/R3nPPK/3q4 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1989.??.??"]
+[EventType "swiss"]
+
+1. Rxe2 Qxe2 2. Rxg7+ Kxg7 (2... Kh8 3. Qh7#) 3. Bxh6+ Rxh6 (3... Nxh6 4. Qxe2
+$16) (3... Kxh6 4. Qxe2 $16) (3... Kh8 4. Qxe2 $16) 4. Qxe2 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1955.??.??"]
+[Round "?"]
+[White "Keres, P."]
+[Black "Spasski, B."]
+[Result "1-0"]
+[Annotator "Abzugschach/Hinlenkung(3) 002"]
+[SetUp "1"]
+[FEN "4rnk1/2qn2p1/p3b2p/1pp1N3/2P5/4P1Q1/PB4PP/1B3RK1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1955.??.??"]
+[EventType "game"]
+
+1. Qxg7+ Kxg7 2. Nxd7+ Kg8 (2... Qe5 3. Bxe5+ Kg8 4. Nf6+ $18) 3. Nf6+ Kf7 (
+3... Kg7 4. Ng4+ (4. Nxe8+ {gewinnt natürlich auch sofort.} Kg8 5. Nxc7 $18)
+4... Qe5 5. Bxe5+ Kg8 6. Nxh6#) (3... Kh8 4. Nxe8+ $18) 4. Nd5+ Kg8 5. Nxc7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Christiansen, L."]
+[Black "Csom, I."]
+[Result "1-0"]
+[Annotator "Bauernumwandlung/Hinlenkung(3) 010"]
+[SetUp "1"]
+[FEN "3R1n2/5kpp/3P1p2/2B1pb2/4p3/8/5PPP/4K3 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1. Rxf8+ Kxf8 {Wenn Schwarz nicht schlägt, hat er einen glatten Turm weniger
+und ist damit ebenfalls völlig chancenlos.} 2. d7+ Kf7 (2... Kg8 3. d8=Q+ Kf7
+4. h4 {1:0}) 3. d8=Q 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Euwe, M."]
+[Black "Yates, F."]
+[Result "0-1"]
+[Annotator "Bauernumwandlung/Hinlenkung(4) 022"]
+[SetUp "1"]
+[FEN "4r1k1/3R1ppp/5q2/8/3QP3/2p2P2/6PP/6K1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1928.??.??"]
+[EventType "team"]
+
+1... c2 2. Qc4 (2. Qxf6 c1=Q+ 3. Kf2 gxf6 {0:1}) (2. Qd2 Qb6+ 3. Kf1 Qb1+ {0:1}
+) 2... Qb6+ 3. Kf1 (3. Kh1 Qb1+ {0:1}) (3. Rd4 Qb1+ 4. Kf2 c1=Q {0:1}) 3...
+c1=Q+ 4. Qxc1 (4. Ke2 Qbe3#) 4... Qb5+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Bauernumwandlung/Hinlenkung(4) 047"]
+[SetUp "1"]
+[FEN "3r1k2/1pq2Pb1/2p4Q/p7/P1n5/2P4P/2P5/R3R2K w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. Re8+ Rxe8 (1... Kxf7 2. Qe6#) 2. Qxg7+ Kxg7 (2... Ke7 3. f8=Q+ $18) 3.
+fxe8=N+ Kf7 4. Nxc7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Kavalek, L."]
+[Black "Janosevic, D."]
+[Result "1-0"]
+[Annotator "Damenfang/Fesselung/Hinlenkung(3) 035"]
+[SetUp "1"]
+[FEN "6Q1/8/3p1k1p/6q1/4p1B1/3n2B1/6PP/b6K w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1968.??.??"]
+[EventType "team"]
+
+1. Bh4 Qxh4 2. Qd8+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Petrosian, T."]
+[Black "Spassky, B."]
+[Result "1-0"]
+[Annotator "Doppelangriff/Hinlenkung(2) 014"]
+[SetUp "1"]
+[FEN "6k1/5r1p/p2N4/nppP2q1/2P5/1P2N3/PQ5P/7K w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1966.??.??"]
+[EventType "team"]
+
+1. Qh8+ Kxh8 2. Nxf7+ Kg7 3. Nxg5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1994.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Doppelangriff/Hinlenkung(3) 002"]
+[SetUp "1"]
+[FEN "3b4/5p1p/1p1k2p1/rP6/7P/4B1P1/5PK1/1R6 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1994.??.??"]
+[EventType "match"]
+[EventRounds "6"]
+
+1. Rd1+ Kc7 (1... Ke7 {ändert wenig}) (1... Ke5 2. Rxd8 Rxb5 3. Rb8 $16) 2.
+Rxd8 Kxd8 (2... Rxb5 {ist das kleinere Übel, rettet aber nichts.} 3. Rf8 $16)
+3. Bxb6+ Kd7 4. Bxa5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Andronov"]
+[Black "Kanzler, J."]
+[Result "0-1"]
+[Annotator "Doppelangriff/Hinlenkung(3) 006"]
+[SetUp "1"]
+[FEN "8/pp1r1p2/8/2N5/5k2/5n2/PP3PR1/1K6 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1989.??.??"]
+[EventType "swiss"]
+
+1... Rd1+ {Schwarz stellt sich zunächst den weißen König zur Springergabel
+Sf3-e1+ zurecht.} 2. Kc2 Rd5 {Im zweiten Zug schafft Schwarz eine zusätzliche
+Drohung. Weiß verliert eine Figur, z.B.} 3. Nd3+ (3. Rg7 Rxc5+ 4. Kd1 Rc7 {0:1}
+) 3... Rxd3 4. Kxd3 Ne1+ 5. Ke2 Nxg2 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1904.??.??"]
+[Round "?"]
+[White "Capablanca, J."]
+[Black "Fonaroff"]
+[Result "1-0"]
+[Annotator "Doppelangriff/Hinlenkung(4) 003"]
+[SetUp "1"]
+[FEN "5rk1/ppq2ppp/2p5/4bN2/4P3/6Q1/PPP2PPP/3R2K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1904.??.??"]
+[EventType "game"]
+
+1. Nh6+ Kh8 2. Qxe5 Qxe5 (2... Qc8 3. Nf5 {Mit der Drohung De5xg7#. 1:0}) (2...
+Qb8 3. Nxf7+ Kg8 (3... Rxf7 4. Qxb8+ Rf8 5. Qxf8#) 4. Qxb8 Rxb8 5. Rd8+ {1:0})
+3. Nxf7+ Kg8 (3... Rxf7 4. Rd8+ Qe8 5. Rxe8+ Rf8 6. Rxf8#) 4. Nxe5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Shepley"]
+[Black "Arkell"]
+[Result "0-1"]
+[Annotator "Doppelangriff/Hinlenkung(4) 007"]
+[SetUp "1"]
+[FEN "8/1b4pk/7p/p1bn4/6Q1/1P4P1/1B2PP1P/3r1BK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1990.??.??"]
+[EventType "team"]
+
+1... Bxf2+ {Schwarz rettet sich nicht nur vor dem drohenden Matt Dg4xg7#,
+sondern gewinnt sogar:} (1... Bf8 $2 {wäre ungenügend:} 2. Qf5+ Kg8 (2... g6 3.
+Qf7+ Bg7 4. Qxg7#) (2... Kh8 3. Qxf8+ Kh7 4. Qxg7#) 3. Qe6+ Kh7 4. Qf7 {1:0})
+2. Kxf2 (2. Kh1 Ne3+ 3. Qf3 (3. Qe4+ Bxe4#) 3... Rxf1#) (2. Kg2 Ne3+ 3. Kxf2
+Nxg4+ {0:1}) 2... Rxf1+ 3. Kxf1 (3. Kg2 Ne3+ {0:1}) 3... Ne3+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1950.??.??"]
+[Round "?"]
+[White "Bronstein, D."]
+[Black "N.N."]
+[Result "1-0"]
+[Annotator "Fesselung/Hinlenkung(3) 039"]
+[SetUp "1"]
+[FEN "r1b1kb1r/ppp2ppp/2n2n2/6B1/Q3q3/8/PPP2PPP/2KR1BNR w kq - 0 1"]
+[PlyCount "3"]
+[EventDate "1950.??.??"]
+[EventType "team"]
+
+1. Rd8+ (1. Re1 $2 Qxe1#) (1. Qxe4+ $2 Nxe4 $17) 1... Kxd8 (1... Ke7 2. Qxe4+
+Kxd8 3. Bc4 $16 (3. Bxf6+ gxf6 4. Bc4 $16)) 2. Qxe4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Hinlenkung(1) 001"]
+[SetUp "1"]
+[FEN "r3kbnr/1bpp2pp/p1p1p1q1/4N3/3Q4/8/PPP2PPP/RNB2RK1 b kq - 0 2"]
+[PlyCount "3"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+2... Qxg2+ 3. Kxg2 c5+ $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Gheorghiu, F."]
+[Black "Liu Wenzhe"]
+[Result "0-1"]
+[Annotator "Hinlenkung(1) 019"]
+[SetUp "1"]
+[FEN "r3r1k1/1p3p2/p7/3P1Q2/P4Pnp/5B2/1P3NPq/R1B2K2 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1... Qg1+ {Schwarz setzt in zwei Zügen matt.} 2. Kxg1 Re1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(1) 020"]
+[SetUp "1"]
+[FEN "rnb1k2r/ppp1bppp/2qp1n2/3N4/4PQ2/8/PPP2PPP/R1B1KBNR w KQkq - 0 1"]
+[PlyCount "3"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Bb5 Qxb5 (1... Nxd5 2. Bxc6+ bxc6 3. exd5 {1:0}) 2. Nxc7+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(2) 002"]
+[SetUp "1"]
+[FEN "R4n2/pp2qpp1/2p3pk/6N1/7P/2P2P2/P5P1/3R2K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Rxf8 Qxf8 2. Rd8 Qxd8 3. Nxf7+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Van den Berg, C."]
+[Black "Donner, J."]
+[Result "0-1"]
+[Annotator "Hinlenkung(2) 004"]
+[SetUp "1"]
+[FEN "2k4r/1p3p2/1Qbqp2p/4R1p1/P7/1P2R3/2P2PPP/3r1BK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1963.??.??"]
+[EventType "swiss"]
+
+1... Rxf1+ 2. Kxf1 Bxg2+ 3. Kxg2 Qxb6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1960.??.??"]
+[Round "?"]
+[White "Nei, I."]
+[Black "Petrosian, T."]
+[Result "1-0"]
+[Annotator "Hinlenkung(2) 006"]
+[SetUp "1"]
+[FEN "3r1n1k/3P3p/pp3q2/2pQp3/P1P3B1/3b2R1/1P5P/6K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1960.??.??"]
+[EventType "game"]
+
+1. Qg8+ {Weiß kann in drei Zügen mattsetzen. Zunächst wird der schwarze König
+auf die g-Linie gelenkt.} Kxg8 2. Be6+ {Nun ist ein Abzugschach möglich!} Kh8
+3. Rg8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1954.??.??"]
+[Round "?"]
+[White "Kjaner"]
+[Black "Mickow"]
+[Result "0-1"]
+[Annotator "Hinlenkung(2) 009"]
+[SetUp "1"]
+[FEN "2r2rk1/pb3ppp/1p2pb2/2nnN3/2NRq3/1P2P1B1/PQ2BPPP/5RK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1954.??.??"]
+[EventType "game"]
+
+1... Qxg2+ {Schwarz setzt in drei Zügen matt. Zunächst wird der weiße König
+auf die Diagonale h1-a8 gelenkt.} 2. Kxg2 Nf4+ 3. Kg1 Nh3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Hinlenkung(2) 010"]
+[SetUp "1"]
+[FEN "3b1rk1/6p1/3Bb3/pP5p/P1q1N3/2N1P1P1/1Q3PKP/8 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1... Bh3+ 2. Kxh3 (2. Kg1 Qf1#) (2. Kh1 Qf1#) 2... Qf1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1914.??.??"]
+[Round "?"]
+[White "N.N."]
+[Black "Lasker, E."]
+[Result "0-1"]
+[Annotator "Hinlenkung(2) 021"]
+[SetUp "1"]
+[FEN "5k2/1p4pP/p7/1p1p2K1/2r5/8/6PP/8 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1914.??.??"]
+[EventType "team"]
+
+1... Rh4 2. Kxh4 g5+ 3. Kxg5 Kg7 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(2) 024"]
+[SetUp "1"]
+[FEN "7K/6P1/4k3/8/7Q/p1q5/8/8 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Qc4+ {Eine schöne Hinlenkung!} Qxc4 2. g8=Q+ Ke5 3. Qxc4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Leko, P."]
+[Black "Piket, J."]
+[Result "1-0"]
+[Annotator "Hinlenkung(2) 031"]
+[SetUp "1"]
+[FEN "3k4/pb1ppp2/1P3r2/8/3QPB2/P1RB1qP1/1P3P1r/4RK2 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Qxd7+ Kxd7 2. Bb5+ {Weiß gewinnt die Dame seines Gegners und damit auch die
+Partie, z.B.} Bc6 (2... Kd8 3. Rxf3 {1:0}) 3. Bxc6+ Rxc6 4. Rxf3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(2) 045"]
+[SetUp "1"]
+[FEN "r1bk2nr/ppp2ppp/3p4/bQ3q2/3p4/B1P5/P3BPPP/RN1KR3 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1998.??.??"]
+[EventType "swiss"]
+
+1. Qe8+ {Matt in 3 Zügen} Kxe8 2. Bb5+ Kd8 (2... Kf8 3. Re8#) 3. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1887.??.??"]
+[Round "?"]
+[White "Eckart"]
+[Black "Tarrasch, S."]
+[Result "0-1"]
+[Annotator "Hinlenkung(3) 005"]
+[SetUp "1"]
+[FEN "6nr/pQ4pp/2Bk4/2b5/3r1pbq/2N5/PPP3PP/R1B2K1R b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1887.??.??"]
+[EventType "team"]
+
+1... Qf2+ {Schwarz setzt in drei Zügen matt. Die Kombination beginnt mit einem
+Hinlenkungsopfer.} 2. Kxf2 Rd1+ 3. Be3 Bxe3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Bradford, J."]
+[Black "Byrne"]
+[Result "1-0"]
+[Annotator "Hinlenkung(3) 011"]
+[SetUp "1"]
+[FEN "5rk1/p2N2pp/8/8/1n1qp2Q/BP2n1P1/P6P/3R2K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1980.??.??"]
+[EventType "team"]
+
+{Weiß hat nur eine Möglichkeit, um sich erfolgreich gegen den starken
+schwarzen Angriff zu wehren:} 1. Qxh7+ (1. Rxd4 $2 Rf1#) (1. Nxf8 $2 Qxd1+ 2.
+Kf2 Qd2+ 3. Kg1 Qg2#) (1. Re1 $2 Nf5+ {0:1}) 1... Kxh7 (1... Kf7 2. Rxd4 {1:0})
+2. Nxf8+ Kg8 (2... Kh8 3. Rxd4 {1:0}) (2... Kh6 3. Rxd4 {1:0}) 3. Rxd4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Tavernier"]
+[Black "Grodner"]
+[Result "0-1"]
+[Annotator "Hinlenkung(3) 012"]
+[SetUp "1"]
+[FEN "8/2n2p2/6k1/R5pp/8/5PKP/2r5/1B6 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1952.??.??"]
+[EventType "team"]
+
+1... h4+ 2. Kg4 f5+ 3. Rxf5 Rg2# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1953.??.??"]
+[Round "?"]
+[White "Olsen"]
+[Black "Jacobsen"]
+[Result "0-1"]
+[Annotator "Hinlenkung(3) 013"]
+[SetUp "1"]
+[FEN "3rk1r1/3bpp2/2Q5/1p1R3p/3R4/2P3BP/PP3PPK/5q2 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1953.??.??"]
+[EventType "team"]
+
+1... Qxg2+ (1... Bxc6 $2 2. Rxd8#) 2. Kxg2 Bxc6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(3) 015"]
+[SetUp "1"]
+[FEN "r1b1r1k1/1p1n1p1p/2ppnqp1/8/p1P1P3/5P2/PbNQNBPP/1R2RBK1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Rxb2 Qxb2 {Die schwarze Dame wurde ins Abseits gelockt.} 2. Nc3 Ne5 {
+Schwarz hat keinen wirklich besseren Zug.} 3. Rb1 {Die schwarze Dame ist
+gefangen!} 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Siemaschew"]
+[Black "Djurhuus, R."]
+[Result "0-1"]
+[Annotator "Hinlenkung(3) 030"]
+[SetUp "1"]
+[FEN "8/1p4p1/6k1/P1PNK1P1/3Pp3/Pq3b2/3Q4/8 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1990.??.??"]
+[EventType "team"]
+
+1... Qxd5+ 2. Kxd5 (2. Kf4 Qxg5#) 2... e3+ 3. Ke5 exd2 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Katalymov, B."]
+[Black "Ilivitsky, G."]
+[Result "1-0"]
+[Annotator "Hinlenkung(3) 038"]
+[SetUp "1"]
+[FEN "rnb1k2r/pp2b1pp/2p2pn1/q3P2Q/5p2/PB6/1BPP2PP/RN2K1NR w KQkq - 0 1"]
+[PlyCount "3"]
+[EventDate "1959.??.??"]
+[EventType "team"]
+
+1. Bf7+ Kxf7 (1... Kd7 2. e6+ {1:0}) (1... Kf8 2. Bxg6 $16) (1... Kd8 2. Bxg6
+$16) 2. e6+ {Weiß gewinnt durch 3.Dh5xa5 die schwarze Dame und damit auch die
+Partie.} 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Katalymov"]
+[Black "Litvinov"]
+[Result "1-0"]
+[Annotator "Hinlenkung(3) 039"]
+[SetUp "1"]
+[FEN "r3nb1Q/p1q2kr1/2p3p1/2ppnpP1/1P3N2/4P3/PB1P4/1R2KB1R w K - 0 1"]
+[PlyCount "11"]
+[EventDate "1935.??.??"]
+[EventType "team"]
+
+1. Qxf8+ {Eine geschickte Hinlenkung.} Kxf8 2. Ne6+ {Weiß holt sich die Dame
+sofort zurück.} Kg8 (2... Ke7 3. Nxc7 {1:0}) (2... Kf7 3. Nxc7 {1:0}) 3. Nxc7
+Nf3+ (3... Rxc7 4. Bxe5 {1:0}) (3... Nxc7 4. Bxe5 {1:0}) 4. Ke2 Rxc7 (4... Nxc7
+5. Bxg7 Kxg7 6. Kxf3 {1:0}) (4... Ng1+ 5. Rxg1 Rxc7 6. bxc5 {1:0}) 5. Rh8+ Kf7
+6. Kxf3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "*"]
+[Annotator "Hinlenkung(3) 042"]
+[SetUp "1"]
+[FEN "r1b1Rrk1/p2pQppp/1b6/2p5/1p6/3B2Pq/1PP2P1P/5RK1 b - - 0 1"]
+[PlyCount "6"]
+[EventDate "1996.??.??"]
+[EventType "swiss"]
+
+1... Qg2+ {Die Lenkung des weißen Königs auf das Feld g2 ist die einzige
+Rettung.} (1... Bb7 $2 2. Qxf8#) 2. Kxg2 Bb7+ 3. f3 (3. Kg1 Raxe8 $11) 3...
+Raxe8 4. Qxd7 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Shirov, A."]
+[Black "Lobron, E."]
+[Result "1-0"]
+[Annotator "Hinlenkung(3) 044"]
+[SetUp "1"]
+[FEN "r7/2k3p1/1np1p1p1/4P3/1Q1P3q/P4P2/1P6/1KR5 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1993.??.??"]
+[EventType "team"]
+
+1. Rxc6+ Kxc6 (1... Kb8 2. Qxb6#) (1... Kb7 2. Qxb6#) (1... Kd8 2. Qf8+ {
+ergibt ein Matt in 9 Zügen (Computeranalyse).} (2. Qxb6+ Ke8 3. Rc7 $18)) (1...
+Kd7 2. Qxb6 Ke8 (2... Qh1+ 3. Ka2 $18) 3. Qb7 Rd8 (3... Qd8 4. Rxe6+ Kf8 (4...
+Qe7 5. Qxe7#) 5. Rxg6 $18) 4. Qxg7 Qe7 5. Qxg6+ $18) 2. d5+ exd5 3. Qxh4 $16
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Hinlenkung(3) 047"]
+[SetUp "1"]
+[FEN "7r/1p2k3/2bpp3/p3np2/P1PR4/2N2PP1/1P4K1/3B4 b - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1... Bxf3+ 2. Bxf3 Rh2+ {Schwarz kommt mit dieser schönen Hinlenkung in
+Vorteil.} 3. Kxh2 Nxf3+ 4. Kg2 Nxd4 $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(3) 051"]
+[SetUp "1"]
+[FEN "r7/3q1k1p/p4p2/1p2p1p1/8/1P6/P5PP/1QR4K w - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1. Rc7 Qxc7 (1... Rd8 2. Qxh7+ Ke6 3. Rxd7 Rxd7 4. Qc2 $18) 2. Qxh7+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 014"]
+[SetUp "1"]
+[FEN "2b1rn1k/p4Rbp/1p6/3p2B1/8/P5N1/1q2B1PP/5Q1K w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Rxg7 Kxg7 (1... Qxg7 2. Bf6 {1:0}) 2. Bf6+ Qxf6 3. Nh5+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Tal, M."]
+[Black "N.N."]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 016"]
+[SetUp "1"]
+[FEN "R1br2k1/1rp1Rpp1/6N1/1p6/2n5/1B6/1P3PPP/6K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1965.??.??"]
+[EventType "team"]
+
+1. Rd7 Re8 (1... Rxd7 2. Rxc8+ Kh7 3. Nf8+ Kh6 4. Nxd7 {1:0}) (1... Bxd7 2.
+Rxd8+ Kh7 3. Nf8+ Kh6 4. Nxd7 {1:0}) 2. Rxc8 Rxc8 3. Ne7+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1820.??.??"]
+[Round "?"]
+[White "Deshapelles"]
+[Black "De Labourdonnais, L."]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 017"]
+[SetUp "1"]
+[FEN "1r4k1/1b2K1pp/7b/2pp3P/6NB/2Q2pp1/4p3/5r2 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1820.??.??"]
+[EventType "game"]
+
+1. Nxh6+ {Matt in 5 Zügen} gxh6 (1... Kh8 2. Nf7+ Kg8 3. Qxg7+ Kxg7 4. Bf6+ Kg8
+5. Nh6#) 2. Qh8+ {Weiß lenkt den schwarzen König aufs Eckfeld h8.} Kxh8 3. Kf7
+{Nun droht Lh4-f6#.} Rf8+ (3... Rg8 4. Bf6+ Rg7+ 5. Bxg7#) 4. Kxf8 e1=Q 5. Bf6#
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Rossetto, H."]
+[Black "Sherwin, J."]
+[Result "0-1"]
+[Annotator "Hinlenkung(4) 018"]
+[SetUp "1"]
+[FEN "6k1/1p2pp2/3n1b1p/3P4/PB3pP1/1B5P/4R1K1/r7 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1958.??.??"]
+[EventType "team"]
+
+1... Rb1 {Der schwarze Turm greift (indirekt) beide weiße Läufer an.} 2. Bxd6
+f3+ {Der weiße König wird auf die dritte Reihe gelenkt.} (2... exd6 $6 {wäre
+längst nicht so gut.} 3. Bc2 $13) (2... Rxb3 $6 3. Bxf4 $11) 3. Kxf3 Rxb3+ 4.
+Re3 (4. Kg2 exd6 {0:1}) 4... Rxe3+ 5. Kxe3 exd6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 026"]
+[SetUp "1"]
+[FEN "5rk1/5np1/3p1r1p/2pPp3/2P1Q3/4BNRP/R3nPPK/3q4 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Rxe2 {Weiß lenkt die schwarze Dame auf das Feld e2 und erbeutet sie dort!}
+Qxe2 2. Rxg7+ Kxg7 (2... Kh8 3. Qh7#) 3. Bxh6+ Nxh6 (3... Rxh6 4. Qxe2 {1:0})
+4. Qxe2 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Laird, C."]
+[Black "Birnboim, N."]
+[Result "0-1"]
+[Annotator "Hinlenkung(4) 027"]
+[SetUp "1"]
+[FEN "8/p2qppk1/P5p1/7p/3b3P/3Q1BP1/2R2PK1/r7 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+
+1... Rg1+ 2. Kh2 (2. Kxg1 Bxf2+ 3. Kxf2 Qxd3 {0:1}) 2... Rxg3 3. fxg3 (3. Kxg3
+Be5+ {0:1}) (3. Qxd4+ Qxd4 {0:1}) 3... Bg1+ 4. Kxg1 Qxd3 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Gligoric, S."]
+[Black "Rosenstein"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 027"]
+[SetUp "1"]
+[FEN "r2n1k1r/pb1qb1pp/2p2p2/3p1P1B/3N1B2/8/PPP1Q1PP/R3R1K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1963.??.??"]
+[EventType "swiss"]
+
+1. Qxe7+ Qxe7 (1... Kg8 2. Qe8+ Qxe8 3. Rxe8#) 2. Bd6 Qxd6 {Mit anderen Zügen
+verliert Schwarz die Dame und damit auch die Partie.} (2... Nf7 3. Bxe7+ Kg8 4.
+Bxf7+ Kxf7 5. Bc5 {1:0}) 3. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Tuominen"]
+[Black "Tanner"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 028"]
+[SetUp "1"]
+[FEN "2r2k2/5p2/2Np2pp/PR1n4/5P2/2N2KPP/8/6b1 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+
+1. Nxd5 {Weiß kann in ein gewonnenes Endspiel abwickeln.} Rxc6 2. Rb8+ Kg7 3.
+Rg8+ Kxg8 (3... Kh7 4. Nf6#) 4. Ne7+ Kf8 5. Nxc6 Ke8 6. a6 Kd7 7. a7 Bxa7 8.
+Nxa7 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Suni"]
+[Black "Alivitra"]
+[Result "0-1"]
+[Annotator "Hinlenkung(4) 032"]
+[SetUp "1"]
+[FEN "1k1r3r/1pp2p2/3b4/4n1p1/N3q1P1/1B2B3/PPP2RP1/4RQK1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1957.??.??"]
+[EventType "team"]
+
+1... Rh1+ {Schwarz kann in fünf Zügen mattsetzen.} 2. Kxh1 Qh7+ 3. Kg1 Qh2+ (
+3... Rh8 $2 4. Rf3 $16) 4. Kxh2 Nf3+ 5. Kh1 (5. Kh3 Rh8#) 5... Rh8# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Kanko, I."]
+[Black "Koskinen"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 034"]
+[SetUp "1"]
+[FEN "3b4/r4p1p/pN1P1kp1/P1R5/1p6/5P1P/1P3P2/6K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1. Rc7 Rxc7 (1... Bxc7 2. dxc7 Rxc7 3. Nd5+ {1:0}) 2. dxc7 Bxc7 3. Nd5+ Ke5 4.
+Nxc7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 035"]
+[SetUp "1"]
+[FEN "1r4k1/5pbp/q2n2p1/1p6/pP6/P1Q3N1/5P1P/3R2RK w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Rxd6 (1. Qxg7+ $2 Kxg7 2. Rxd6 Qb7+ {0:1}) 1... Qxd6 (1... Bxc3 2. Rxa6 Bb2
+3. Rc6 Bxa3 4. Rb1 {1:0}) 2. Qxg7+ Kxg7 3. Nf5+ Kf6 4. Nxd6 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Netto"]
+[Black "Abente, R."]
+[Result "0-1"]
+[Annotator "Hinlenkung(4) 036"]
+[SetUp "1"]
+[FEN "2b1r3/1p2qpkp/6p1/4r3/R4Q2/2P2RP1/P1B2P1P/6K1 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1... Re1+ {Idee: Schwarz will den weißen König nach f1 locken und dann mit
+Lh3+ nebst Td1# mattsetzen.} (1... Bh3 $2 2. Re3 $13) 2. Kg2 Rg1+ 3. Kxg1 Qe1+
+4. Kg2 Qf1+ 5. Kxf1 Bh3+ 6. Kg1 Re1# {Man beachte, daß alle Züge von Weiß in
+dieser wunderschönen Kombination erzwungen waren.} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Heemsoth, H."]
+[Black "Weber"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 037"]
+[SetUp "1"]
+[FEN "1k6/1b2b3/p4pR1/Q2Bp2r/3p4/2p5/P5PP/3q2BK w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+
+1. Rg8+ {Matt in 4 Zügen. Ziel des Weißen ist es zunächst, den schwarzen König
+nach a8 zu lenken.} Ka7 (1... Bc8 2. Qb6#) 2. Ra8+ Kxa8 3. Qxa6+ Kb8 4. Qxb7#
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung(4) 046"]
+[SetUp "1"]
+[FEN "2q1r1k1/1ppb4/r2p1Pp1/p4n1p/2P1n3/5NPP/PP3Q1K/2BRRB2 w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. f7+ {Erste Hinlenkung: Der schwarze König wird nach f7 gelockt.} Kxf7 (1...
+Kg7 2. fxe8=Q Qxe8 3. Rxe4 (3. Qg1 $16) 3... Qxe4 4. Re1 $16) 2. Rxe4 {Zweite
+Hinlenkung: Der schwarze Turm muß nach e4 schlagen.} Rxe4 3. Ng5+ {Nachdem Weß
+den gegnerischen König und Turm auf die richtigen Felder gelenkt hat, kommt
+die entscheidende Springergabel.} Kg7 4. Nxe4 {Im Endeffekt hat Weiß eine
+Figur gewonnen.} 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Hinlenkung(5) 003"]
+[SetUp "1"]
+[FEN "r4rk1/pp2ppbp/6p1/8/Qnq1P3/2N1BPPb/PP4NP/R4RK1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1... Bxg2 {Eine Hinlenkung des weißen Königs.} 2. Kxg2 Bxc3 {Dieser Abtausch
+ist nötig, damit der schwarze Springer das Feld d5 betreten kann.} 3. bxc3 Nd5
+{Nun droht Sd5xe3+ und außerdem ist die weiße Dame angegriffen.} 4. Qxc4 (4.
+Qb3 Qxb3 5. axb3 Nxe3+ {0:1}) 4... Nxe3+ 5. Kf2 Nxc4 {Schwarz hat im Endeffekt
+eine Figur gewonnen.} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Browne, W."]
+[Black "Quinteros, M."]
+[Result "1-0"]
+[Annotator "Hinlenkung(5) 025"]
+[SetUp "1"]
+[FEN "rn2k1nr/pp1qbppp/8/1N2R3/3N4/8/PP3PPP/R2Q2K1 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+
+1. Rd5 Qc8 {Die Dame hat kein anderes Feld.} (1... Qxd5 2. Nc7+ Kf8 3. Nxd5 $16
+) 2. Nf5 {Nun drohen beide weiße Springer mit einer Gabel auf dem Feld d6.} Kf8
+(2... Qe6 3. Nc7+ Kf8 4. Rd8+ Bxd8 5. Qxd8+ Qe8 6. Qxe8#) (2... Nf6 3. Nbd6+
+Bxd6 4. Nxd6+ {1:0}) 3. Nxe7 Kxe7 4. Re5+ {An dieser Stelle gab Schwarz die
+Partie auf. Mögliche Fortsetzungen:} Qe6 (4... Kf6 5. Qf3+ Kg6 (5... Kxe5 6.
+Re1#) (5... Qf5 6. Qxf5#) 6. Qh5+ Kf6 7. Qg5#) (4... Kf8 5. Qd6+ Ne7 6. Qxe7+
+Kg8 7. Qe8+ Qxe8 8. Rxe8#) 5. Qd6+ Kf6 (5... Ke8 6. Nc7#) 6. Rxe6+ fxe6 7. Nc7
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Popov"]
+[Black "Smuter, L."]
+[Result "1-0"]
+[Annotator "Hinlenkung(5) 033"]
+[SetUp "1"]
+[FEN "2q1r3/pp1bppkp/4R1p1/3p4/3P3N/2PB3P/P1n2PP1/2Q3K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1988.??.??"]
+[EventType "swiss"]
+
+1. Qh6+ {Matt in 6 Zügen} Kxh6 (1... Kg8 2. Nf5 (2. Nxg6 {funktioniert
+ebenfalls.}) 2... gxf5 3. Bxf5 fxe6 4. Qxh7+ (4. Bxh7+ Kh8 5. Bg6+ Kg8 6. Qh7+
+Kf8 7. Qf7#) 4... Kf8 5. Bg6 {und Matt im nächsten Zug. 1:0}) (1... Kh8 2.
+Nxg6+ fxg6 (2... Kg8 3. Nxe7+ Rxe7 (3... Kh8 4. Qxh7#) 4. Qxh7+ Kf8 5. Qh8#) 3.
+Bxg6 Kg8 4. Qxh7+ Kf8 5. Qf7#) 2. Nf5+ Kh5 (2... Kg5 3. h4+ Kf4 (3... Kh5 4.
+Be2#) (3... Kg4 4. f3+ Kf4 (4... Kh5 5. g4#) 5. g3+ Kxf3 6. Be2#) 4. g3+ Kg4 (
+4... Kf3 5. Be2#) 5. f3+ Kxf3 (5... Kh3 6. Bf1#) (5... Kh5 6. g4#) 6. Be2#) 3.
+f4 {Es droht g2-g4# sowie Ld3-e2#.} gxf5 (3... Ne3 4. Be2+ Ng4 5. Bxg4#) 4.
+Be2+ Kh4 5. Kh2 {und Weiß setzt im nächsten Zug matt, z.B.} Bxe6 (5... Qxc3 6.
+Rh6#) (5... Rg8 6. Rh6#) 6. g3# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Skembris"]
+[Black "Tassi"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Ablenkung(2) 043"]
+[SetUp "1"]
+[FEN "4r1k1/5p1p/6p1/p2p4/8/P3BPb1/q2QK3/2R4R b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1985.??.??"]
+[EventType "team"]
+
+1... Rxe3+ {Der weiße König wird von der Dd2 weggerissen.} 2. Kxe3 Bf4+ 3. Kxf4
+Qxd2+ {Schwarz sollte gewinnen.} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Mocsai"]
+[Black "Barati"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Abzugsangriff(3) 053"]
+[SetUp "1"]
+[FEN "2r2rk1/pb4pp/1p1bN3/3n1p2/1P6/PQ1BP1Pq/1BP2P1P/4RRK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+
+1... Qg2+ {Schwarz setzt in drei Zügen matt.} 2. Kxg2 Nf4+ 3. Kg1 Nh3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Abzugsangriff(3) 056"]
+[SetUp "1"]
+[FEN "2rq1rk1/p4ppp/n3bn2/1Nb1p1Q1/4P3/2B2P2/PPN3PP/R3KB1R b KQ - 0 1"]
+[PlyCount "9"]
+[EventType "team"]
+
+1... Bf2+ {Der weiße König soll nach f2 gelenkt werden.} 2. Kxf2 (2. Ke2 {Die
+Ablehnung des Läuferopfers bringt nichts für Weiß.} Bc4+ 3. Kxf2 Nxe4+ 4. fxe4
+Qxg5 $19) 2... Nxe4+ {Nun ist es um die weiße Dame geschehen!} 3. fxe4 Qxg5 {
+Schwarz steht klar besser, z.B.} 4. h4 (4. Nxa7 Rxc3 5. bxc3 Qd2+ $19) (4. Kg1
+Qe7 $19) 4... Qf4+ 5. Kg1 (5. Ke1 Qg3+ 6. Kd2 (6. Ke2 Bg4+ 7. Kd2 Rfd8+ $19)
+6... Rfd8+ $19) 5... Nc5 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Rogers, I."]
+[Black "Friedman, J."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Abzugsangriff(4) 049"]
+[SetUp "1"]
+[FEN "r5r1/4kp2/p3p3/R2pP3/2qN4/2n1Q1P1/2P2P1P/4R1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. Rc5 {Wenn nun die angegriffene schwarze Dame wegzieht, geht der Springer
+Sc3 verloren.} Qxc5 (1... Rgc8 2. Rxc4 Rxc4 3. Ra1 $18) 2. Nf5+ {Abzugsangriff
+auf die schwarze Dame, die zu diesem Zweck nach c5 gelenkt wurde.} exf5 (2...
+Kd7 3. Qxc5 exf5 4. Qd6+ $18) 3. Qxc5+ Kd7 4. Qxc3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rellstab, L."]
+[Black "Ullrich, H."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Abzugsangriff/Damenfang(3) 040"]
+[SetUp "1"]
+[FEN "2rnrbnk/3q1ppp/p1p5/3p1P2/1p1PPN2/4BQ1R/PP1N2PP/3R2K1 w - - 0 1"]
+[PlyCount "15"]
+[EventType "team"]
+
+1. Ng6+ fxg6 2. Rxh7+ Kxh7 3. Qh3+ Nh6 4. fxg6+ {Schwarz verliert die Dame und
+damit auch die Partie. Mögliche Fortsetzung:} Kxg6 5. Qxd7 Ndf7 6. Bxh6 Nxh6 (
+6... Kxh6 7. Qxf7 {1:0}) (6... gxh6 7. Rf1 {1:0}) 7. exd5 cxd5 8. Qxd5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1863.??.??"]
+[Round "?"]
+[White "Mazuski"]
+[Black "Kolisch, I."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Abzugschach(2) 052"]
+[SetUp "1"]
+[FEN "r1b1k2r/ppp2ppp/2p5/8/3Qn1q1/8/PPPB2PP/2KR1B1R w kq - 0 1"]
+[PlyCount "5"]
+[EventDate "1863.??.??"]
+
+1. Qd8+ {Matt in 3 Zügen} Kxd8 2. Bg5+ Ke8 3. Rd8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Issakov"]
+[Black "Nikitin"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Abzugschach(3) 008"]
+[SetUp "1"]
+[FEN "3rkb1r/p2bpp1p/2B3p1/2p5/Q3P3/2q5/P3KPPP/1RB3NR b k - 0 1"]
+[PlyCount "5"]
+[EventDate "1947.??.??"]
+[EventType "team"]
+
+1... Qd3+ {Damit wird der weiße König unter Damenopfer auf die d-Linie gelockt.
+} 2. Kxd3 (2. Ke1 Qxb1 {0:1}) 2... Bxc6+ 3. Ke2 Bxa4 $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1912.??.??"]
+[Round "?"]
+[White "Janowski, D."]
+[Black "Nardus"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Abzugschach(4) 054"]
+[SetUp "1"]
+[FEN "3rr1k1/ppp2ppp/8/5Q2/4n3/1B5R/PPP1qPP1/5RK1 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1912.??.??"]
+[EventType "team"]
+
+1... Qxf1+ {Schwarz, bereits mit einem Mehrbauern ausgestattet, tauscht die
+Damen und gewinnt nebenbei noch einen Turm!} 2. Kxf1 (2. Kh2 Nf6 $19) 2... Nd2+
+3. Kg1 Re1+ 4. Kh2 Nf1+ 5. Kg1 (5. Kh1 Ne3+ 6. Kh2 Nxf5 $19) 5... Ne3+ 6. Kh2
+Nxf5 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1930.??.??"]
+[Round "?"]
+[White "Richter, K."]
+[Black "N.N."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Bauernumwandlung(2) 022"]
+[SetUp "1"]
+[FEN "8/p7/6k1/1R6/8/1P6/PP3pP1/7K w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1930.??.??"]
+[EventType "team"]
+
+1. Rf5 Kxf5 2. g4+ Kxg4 3. Kg2 {Weiß holt sich den schwarzen f-Bauer ab und
+gewinnt sicher.} 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Hinlenkung/Bauernumwandlung(4) 048"]
+[SetUp "1"]
+[FEN "4k3/p1P3p1/2q1np1p/3N4/8/1Q3PP1/6KP/8 w - - 0 1"]
+[PlyCount "9"]
+[EventType "team"]
+
+1. Qb5 Qxb5 (1... Nf4+ 2. Nxf4 Qxb5 3. c8=Q+ Ke7 (3... Kf7 4. Qe6+ Kf8 5. Ng6#)
+4. Qe6+ Kd8 (4... Kf8 5. Ng6#) 5. Qg8+ $18) 2. c8=Q+ Kf7 (2... Nd8 3. Nc7+ Ke7
+4. Nxb5 $18) 3. Qxe6+ Kxe6 4. Nc7+ Ke5 5. Nxb5 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Mecking, H."]
+[Black "Tan Lian Ann"]
+[Result "1-0"]
+[Annotator "Hinlenkung/Damengewinn(3) 048"]
+[SetUp "1"]
+[FEN "3r2k1/pRp2p2/6pQ/5b2/2B5/2qP2P1/P6P/6K1 w - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1. Bxf7+ {Die erste Hinlenkung.} Kxf7 2. Rxc7+ {Die zweite Hinlenkung.} Qxc7 3.
+Qh7+ {Damengewinn!} Kf6 4. Qxc7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Unzicker, W."]
+[Black "Sanchez, L."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Damengewinn(3) 057"]
+[SetUp "1"]
+[FEN "1q2n1k1/1r3pbp/Q5p1/3Np3/P2pP3/7P/1P1B1PP1/2R3K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1952.??.??"]
+[EventType "team"]
+
+1. Rc8 {Natürlich hätten auch Züge wie 1.b2-b4 Gewinnaussichten geboten, aber
+dieser Zug macht sofort alles klar: Die schwarze Dame wird nach c8 gelenkt und
+dann erbeutet.} Qxc8 {Was sonst? Die schwarze Dame hatte kein akzeptables
+Fluchtfeld.} 2. Ne7+ Rxe7 3. Qxc8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Leuba, D."]
+[Black "Rosentalis, E."]
+[Result "0-1"]
+[Annotator "Hinlenkung/Doppelangriff(3) 041"]
+[SetUp "1"]
+[FEN "2r3k1/pR3pbp/4b1p1/3p1p2/3P1N2/q2BPQ2/5PPP/6K1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1991.??.??"]
+[EventType "team"]
+
+1... Rc1+ 2. Bf1 Rxf1+ 3. Kxf1 Qa6+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Nickoloff, B."]
+[Black "Sijatdinow"]
+[Result "0-1"]
+[Annotator "Hinlenkung/Doppelangriff(4) 050"]
+[SetUp "1"]
+[FEN "3r1k2/1p3ppp/8/8/1nBP1q2/1P3N1P/1P2RPP1/1R4K1 b - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1... b5 {Nun hat der weiße Läufer kein gutes Feld mehr.} 2. Bxb5 (2. Rd1 bxc4
+3. bxc4 $15) 2... Qf5 $17 {Ein entscheidender Doppelangriff auf den weißen Lb5
+und Tb1.} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Lasker, E."]
+[Black "Ayala"]
+[Result "1-0"]
+[Annotator "Hinlenkung/Fesselung(4) 058"]
+[SetUp "1"]
+[FEN "4k2r/p1q1np1p/1p2p1p1/2p1P1B1/6Q1/2P5/PP4PP/3R2K1 w k - 0 1"]
+[PlyCount "5"]
+[EventDate "1947.??.??"]
+[EventType "team"]
+
+1. Qa4+ Qc6 (1... Kf8 2. Bh6+ Kg8 3. Qe8#) (1... Qd7 2. Qxd7+ Kf8 3. Bh6+ Kg8
+4. Qe8#) (1... Nc6 2. Qxc6+ Kf8 (2... Qxc6 3. Rd8#) (2... Qd7 3. Qa8+ Qd8 4.
+Qxd8#) 3. Bh6+ Ke7 (3... Kg8 4. Qe8#) 4. Qxc7+ Ke8 5. Qd8#) (1... b5 {bringt
+nichts.} 2. Qxb5+ $18 {usw. Weiß setzt matt.}) 2. Rd8+ Kxd8 3. Qxc6 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Netto"]
+[Black "Abente, R."]
+[Result "0-1"]
+[Annotator "Hinlenkung/Grundreihe/Rochadestellung(4) 055"]
+[SetUp "1"]
+[FEN "2b1r3/1p2qpkp/2p3p1/4r3/R4Q2/2P2RP1/P1B2P1P/6K1 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1... Re1+ {Schwarz setzt in sechs Zügen matt.} (1... Bh3 $143 2. Re3 Rxe3 3.
+fxe3 Qxe3+ 4. Qxe3 Rxe3 $17) 2. Kg2 Rg1+ 3. Kxg1 Qe1+ 4. Kg2 Qf1+ 5. Kxf1 {
+Diese Hinlenkung des weißen Königs auf das Feld f1 war das Ziel aller
+bisherigen schwarzen Züge.} Bh3+ 6. Kg1 Re1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Miles, A."]
+[Black "Timman, J."]
+[Result "1-0"]
+[Annotator "Hinlenkung/Verteidiger beseitigen(3) 029"]
+[SetUp "1"]
+[FEN "r4rk1/pp1qb1pp/5p2/4nN2/2P5/5Q2/PB3PPP/R4RK1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1985.??.??"]
+[EventType "team"]
+
+1. Bxe5 (1. Qd5+ $6 Rf7 $11) 1... fxe5 {Andere Züge sind hoffnungslos.} 2. Qd5+
+{Hier erkannte Schwarz, daß die Partie verloren ist, und gab auf. Eine
+mögliche Fortsetzung wäre:} Qxd5 3. Nxe7+ Kf7 4. Nxd5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Tarassewitsch"]
+[Black "Slotnik"]
+[Result "1/2-1/2"]
+[Annotator "Remis/Dauerschach/Hinlenkung(3) 044"]
+[SetUp "1"]
+[FEN "7r/pp6/5pk1/3PpN2/2p2bBr/8/1P2b1RP/7K w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1971.??.??"]
+[EventType "team"]
+
+1. Bh5+ {Weiß ist materiell klar im Nachteil. Durch eine Lenkung des schwarzen
+Königs auf die h-Linie sichert sich Weiß aber einen halben Punkt.} Kxh5 (1...
+Kxf5 2. Bg6#) (1... Kh7 2. Rg7#) 2. Ng7+ Kh6 3. Nf5+ Kh5 (3... Kh7 4. Rg7#) 4.
+Ng7+ {Remis durch Dauerschach} 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "1908.??.??"]
+[Round "?"]
+[White "Tartakower, S."]
+[Black "Schlechter, K."]
+[Result "0-1"]
+[Annotator "Räumung/Hinlenkung(3) 026"]
+[SetUp "1"]
+[FEN "2k3r1/1pp5/p1p5/4R2p/7n/2NP1r1P/PPP4K/6R1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1908.??.??"]
+[EventType "game"]
+
+1... Rf2+ {Mit diesem Schachgebot räumt der schwarze Turm gleichzeitig das
+Feld f3 für seinen Springer.} 2. Kh1 (2. Rg2 Rgxg2+ 3. Kh1 Rf1#) 2... Rh2+ {
+Der weiße König wird auf das Feld h2 gelenkt.} 3. Kxh2 Nf3+ 4. Kh1 Rxg1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung/Hinlenkung(4) 038"]
+[SetUp "1"]
+[FEN "r1r3k1/Bn2qp1p/2p3pb/1p2n3/1P2Pp2/1NP4P/4B1P1/R2R1QK1 b - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1... f3 {Schwarz greift den weißen Läufer Le2 an und räumt gleichzeitig die
+Diagonale c1-h6 für seinen eigenen Läufer.} 2. gxf3 (2. Bxf3 Rxa7 $19 {analog
+zur Hauptvariante.}) (2. Bd3 Rxa7 $19 {analog zur Hauptvariante.}) 2... Rxa7 3.
+Rxa7 (3. f4 Rxa1 4. Rxa1 Nc4 $19) 3... Be3+ 4. Kh2 Bxa7 0-1
+

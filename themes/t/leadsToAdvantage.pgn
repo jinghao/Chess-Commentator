@@ -1,0 +1,3036 @@
+[Event "Fonyod"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Varasdy"]
+[Black "Zs. Polgar"]
+[Result "0-1"]
+[Annotator "T+1H"]
+[SetUp "1"]
+[FEN "r1bqr1k1/5p2/3p1bpp/p2P4/1R2P3/1P3PN1/R2QB1PP/7K b - - 0 4"]
+[PlyCount "3"]
+[EventDate "1983.??.??"]
+[EventType "game"]
+
+4... Bc3 5. Qxc3 axb4 0-1
+
+[Event "Eindhoven"]
+[Site "Eindhoven"]
+[Date "1995.??.??"]
+[Round "?"]
+[White "Daamen"]
+[Black "Claesen"]
+[Result "1-0"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "r6k/ppp2r1p/5q1B/3Pp1pn/4PpRb/2N2P2/PPP3QP/6RK w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1995.??.??"]
+[EventType "game"]
+[EventCountry "NED"]
+
+1. Bxg5 Bxg5 2. Qh3 1-0
+
+[Event "Stockholm"]
+[Site "Stockholm"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Kotow"]
+[Black "Gligoric"]
+[Result "1-0"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "1r4k1/4ppbp/3p2p1/3n4/r3P3/P1p2PPP/1P4R1/R1B2BK1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1952.??.??"]
+[EventType "team"]
+[EventCountry "SWE"]
+
+1. b3 Rxb3 2. exd5 c2 3. Ra2 1-0
+
+[Event "Tiblissi"]
+[Site "?"]
+[Date "1937.??.??"]
+[Round "?"]
+[White "Loewenfisch"]
+[Black "Iljin_Genewski"]
+[Result "1-0"]
+[Annotator "T+2Z"]
+[SetUp "1"]
+[FEN "1rb2rk1/p1R2ppp/8/q2BP3/8/6P1/5P1P/3Q1RK1 w - - 0 1"]
+[PlyCount "2"]
+[EventDate "1937.??.??"]
+[EventType "swiss"]
+
+1. Bxf7+ Kh8 (1... Rxf7 2. Qd8+ Rf8 3. Rxg7+ Kxg7 4. Qxa5) 1-0
+
+[Event "Lugano"]
+[Site "Lugano"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Seirawan"]
+[Black "Nunn"]
+[Result "1-0"]
+[Annotator "T+2F"]
+[SetUp "1"]
+[FEN "5rk1/ppp4p/3p4/3P1b2/2P5/4B3/PP1K3P/R7 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1987.??.??"]
+[EventType "team"]
+[EventCountry "SUI"]
+
+1. Bxa7 b6 2. Rf1 Kg7 3. Bb8 1-0
+
+[Event "M&T-255 New Jersey"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Valvo, M."]
+[Black "Belle"]
+[Result "0-1"]
+[Annotator "T+2H"]
+[SetUp "1"]
+[FEN "r2q1rk1/pb3p1p/1pn3pb/2p4n/2PpPPQN/1P1P4/PB1N2BP/R4RK1 b - - 0 1"]
+[PlyCount "3"]
+[EventType "game"]
+
+1... Bxf4 2. Rxf4 Ne5 0-1
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Maculjski"]
+[Black "Vladimirov"]
+[Result "1-0"]
+[Annotator "T+2Z"]
+[SetUp "1"]
+[FEN "4rrk1/5npp/p1pp1p2/5P2/qPpBPP2/4R2P/PQ6/R5K1 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+
+1. Bxf6 Ne5 (1... gxf6 2. Qxf6 Ng5 3. Qxg5+ Kh8 4. Rg3) 2. fxe5 gxf6 3. Rg3+
+Kh8 4. exf6 Qb5 (4... Rf7 5. Rg7) 5. f7+ Re5 6. Qg2 Qb8 7. Rg7 1-0
+
+[Event "Bulgarien"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Toskov"]
+[Black "Kirov"]
+[Result "0-1"]
+[Annotator "T+2A"]
+[SetUp "1"]
+[FEN "5rk1/p4pp1/2p2np1/q3n3/PbBPp3/2N4P/QP3PP1/R3B1K1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+
+1... Nf3+ 2. gxf3 Qg5+ 3. Kh1 exf3 4. Bf1 Bd6 0-1
+
+[Event "Tokio"]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Aljechin"]
+[Black "Kimura"]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "r2qr1k1/3bRppp/p1pR1n2/5N2/Q7/2N5/PPP2PPP/6K1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1933.??.??"]
+[EventType "game"]
+
+1. Ne4 Rxe7 (1... Nxe4 2. Qxe4 Bxf5 3. Rxd8 Rexd8 4. Qe2) 2. Nxf6+ Kh8 (2...
+Kf8 3. Nxh7+ Kg8 4. Nf6+ Kf8 5. Nxe7 gxf6 6. Nxc6 Qe8 7. Qb4 a5 8. Qc3) 3. Nxe7
+Qxe7 4. Qe4 Qxe4 5. Nxe4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1937.??.??"]
+[Round "?"]
+[White "Aljechin"]
+[Black "Euwe"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "r4rk1/1q1nbppp/p1b1pn2/1p6/1P5Q/2N1BNP1/P3PPBP/2RR2K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1937.??.??"]
+[EventType "team"]
+
+1. Rxd7 Bxd7 (1... Qxd7 2. Ne5) 2. Ng5 Qb8 (2... Bc6 3. Bxc6 Qxc6 4. Nce4) 3.
+Bxa8 Qxa8 4. Nxh7 1-0
+
+[Event "Bruessel"]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Bronstein"]
+[Black "Gurewitsch"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "r5k1/1pq1ppbp/p2p1np1/3P4/2r1P3/PQN5/1P1B1PPP/2R2RK1 w - - 0 1"]
+[PlyCount "19"]
+[EventDate "1991.??.??"]
+[EventType "game"]
+
+1. e5 dxe5 2. d6 Qc6 3. Nd5 Qxd5 4. Qxc4 Qxd2 5. Qc8+ Rxc8 6. Rxc8+ Bf8 7. dxe7
+Qd6 8. exf8=Q+ Qxf8 9. Rxf8+ Kxf8 10. Rc1 1-0
+
+[Event "Stockholm"]
+[Site "Stockholm"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Hellers"]
+[Black "Schirow"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "4rrk1/5p1p/p5p1/4n3/1p1qN2R/8/P5PP/R1B2Q1K b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1990.??.??"]
+[EventType "game"]
+[EventCountry "SWE"]
+
+1... Ng4 2. Bf4 (2. Rxg4 Qxa1 3. Nf6+ Qxf6) 2... h5 3. Rxg4 (3. Ng5 Nf2+ 4. Kg1
+Nd1+ 5. Kh1 Qxa1) 3... hxg4 4. Ng3 Re6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1834.??.??"]
+[Round "?"]
+[White "Labourdonnais"]
+[Black "MacDonnell"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "rn2k2r/pp2q1pp/1b1p1n2/3Np1B1/2B1Ppb1/5N2/PP2Q1PP/3R1K1R b kq - 0 2"]
+[PlyCount "7"]
+[EventDate "1834.??.??"]
+[EventType "team"]
+
+2... Nxd5 3. Bxe7 Ne3+ 4. Ke1 Kxe7 5. Qd3 Rd8 $1 0-1
+
+[Event "Katowice"]
+[Site "Katowice"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Nazarow"]
+[Black "Pinkas"]
+[Result "0-1"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "1r5k/5pp1/p6p/P1q1p3/2p4R/2PnQ1P1/1r3PBP/5RK1 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1991.??.??"]
+[EventType "game"]
+[EventCountry "POL"]
+
+1... Rxf2 2. Qxc5 Rxf1+ 3. Bxf1 Nxc5 4. Rxc4 Rb5 5. Re4 Nxe4 6. Bxb5 Nc5 0-1
+
+[Event "Mannheim"]
+[Site "Mannheim"]
+[Date "1948.??.??"]
+[Round "?"]
+[White "Schuppler"]
+[Black "Hoenig"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "2kr3r/pRp3q1/2Pppn2/4p2p/B2bP1p1/7P/2P2PP1/2BQ1RK1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1948.??.??"]
+[EventType "game"]
+[EventCountry "GER"]
+
+1. Bh6 Rxh6 (1... Qxh6 2. Qxd4 exd4 3. Rfb1 Qc1+ 4. Rxc1 Nxe4 5. Rcb1 Rdf8 6.
+Rxa7 Kd8 7. Rbb7) 2. Qxd4 exd4 3. Rfb1 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1956.??.??"]
+[Round "?"]
+[White "Taimanow"]
+[Black "Milic"]
+[Result "1-0"]
+[Annotator "T+3W"]
+[SetUp "1"]
+[FEN "8/5pk1/3QPqpp/p1p4n/8/7P/3NK1P1/8 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1956.??.??"]
+[EventType "game"]
+
+1. e7 Qxd6 (1... Nf4+ 2. Qxf4 Qxf4 3. e8=Q) 2. e8=N+ Kf8 3. Nxd6 1-0
+
+[Event "Potsdam"]
+[Site "Potsdam"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Schilling"]
+[Black "Baumgardt"]
+[Result "0-1"]
+[Annotator "T+3F"]
+[SetUp "1"]
+[FEN "r1bqr1k1/ppb2ppp/2p5/2P1n3/1P1Np3/P3P2P/2Q1BPP1/R1B1K2R b KQ - 0 1"]
+[PlyCount "7"]
+[EventDate "1988.??.??"]
+[EventType "swiss"]
+[EventCountry "GER"]
+
+1... Nd3+ 2. Kf1 (2. Bxd3 Qxd4 3. exd4 exd3+) 2... Bf5 3. Nxf5 Qf6 4. Bb2 Qxf5
+0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Ahues"]
+[Black "Kuerpuehn"]
+[Result "1-0"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "1k1r3r/pbq2ppp/1ppbpn2/8/Q1P1P3/2N1BPP1/PP5P/2KR1B1R w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1935.??.??"]
+[EventType "team"]
+
+1. Rxd6 Qxd6 2. e5 Qxe5 3. Bf4 1-0
+
+[Event "Sevilla"]
+[Site "Sevilla"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Komlenovic"]
+[Black "Dlakyan"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "2rq1rnk/1p2bpp1/p1b1p2p/4N3/Pn1P4/2N4Q/1P1B1PPP/RB1R2K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1988.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. Qxe6 fxe6 2. Ng6+ Kh7 3. Nxf8+ Kh8 4. Ng6+ Kh7 5. Nxe7+ Kh8 6. Nxc8 1-0
+
+[Event "Haifa"]
+[Site "Haifa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Kuijff"]
+[Black "Bouaziz"]
+[Result "0-1"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "2r2rk1/1b2qppp/pn2p3/1p2N3/3PNn2/1B2Q3/PP3PPP/2R2RK1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1989.??.??"]
+[EventType "team"]
+[EventCountry "ISR"]
+
+1... Nxg2 2. Kxg2 Bxe4+ 3. Qxe4 Rxc1 4. Rxc1 Qg5+ 5. Qg4 Qxc1 0-1
+
+[Event "Balatonbereny"]
+[Site "Balatonbereny"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Karsa"]
+[Black "Orgovan"]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "r4rk1/pp3ppp/1np5/q1b5/P2NP3/2P5/2QBbPPP/R3R1K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1989.??.??"]
+[EventType "game"]
+[EventCountry "HUN"]
+
+1. Nb3 Qa6 (1... Bxf2+ 2. Kxf2 Qh5 3. Rxe2) 2. Nxc5 Qc4 3. Be3 Bg4 4. a5 Nd7 5.
+Ra4 Qb5 6. c4 1-0
+
+[Event "Minsk"]
+[Site "Minsk"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Anastasjan"]
+[Black "Orlow"]
+[Result "0-1"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "2rq1rk1/1p2bppp/p1n1pn2/3p3b/N2P1B2/4P2P/PP1NBPP1/2RQ1RK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1990.??.??"]
+[EventType "team"]
+[EventCountry "BLR"]
+
+1... Nxd4 2. exd4 (2. Rxc8 Nxe2+) (2. Bxh5 Rxc1 3. Qxc1 Nxh5) 2... Rxc1 3. Qxc1
+Bxe2 0-1
+
+[Event "CSSR"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Trapl"]
+[Black "Hausner"]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "r4r2/1p3p2/p2N1P2/4k1p1/3R4/1P3b2/1PP5/2K3R1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1980.??.??"]
+[EventType "team"]
+
+1. Rxg5+ Ke6 (1... Kxf6 2. Rf5+) (1... Kxd4 2. Kd2 Bd5 3. b4) 2. Rf5 (2. Nc4
+Kxf6 3. Rg3 Bc6 4. Rf4+ Ke7 5. Re3+ Kd8 6. Rd4+ Kc7 7. Re7+ Kb8 8. Nb6 Ra7 9.
+c4 a5 10. c5 f5 11. Red7 Re8 12. Rd8+ Kc7 $11) 1-0
+
+[Event "Bukarest"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Vaisman"]
+[Black "Stoica"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp3pp1/2nb1n1p/4p1N1/8/P1N3P1/1P2PP1P/RQBR2K1 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+
+1. Nce4 Ne8 (1... Nxe4 2. Nxe4 Nd4 3. e3 Nb5 4. a4 f5 5. axb5 fxe4 6. Qxe4) 2.
+Rxd6 Qe7 (2... Nxd6 3. Nf6+) 3. Rxc6 bxc6 4. Nh7 f5 5. Nxf8 fxe4 6. Ng6 Qd6 7.
+Qxe4 1-0
+
+[Event "Griechenland"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Zamit"]
+[Black "Karaynis"]
+[Result "1-0"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "r1n1rbk1/ppqn2pp/5p2/3PpR2/2p1P1Q1/2P1B3/PPBN2PP/R6K w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+1. Nxc4 Qxc4 (1... b5 2. d6 Nxd6 3. Nxd6 Bxd6 4. Bb3+) 2. Bb3 Qd3 3. d6+ Kh8 4.
+Rh5 Qxe3 5. Qg6 h6 6. Qxe8 Ncb6 7. Qe6 Bxd6 8. Qxd6 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Pancenko"]
+[Black "Zajcik"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "2k1rr2/ppqn1pbp/2p3p1/4p3/2BP4/2P2QBP/PP3PP1/3RR1K1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+
+1. Bxf7 Re7 2. dxe5 Bxe5 (2... Nxe5 3. Bxe5 Rxe5 4. Qg4+) 3. Rxe5 Rexf7 (3...
+Rxe5 4. Qf4 Qa5 (4... g5 5. Qc4) 5. b4 Qb5 6. Bc4 Rxf4 7. Bxb5) 4. Re8+ Rxe8 5.
+Qxf7 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Bangijev"]
+[Black "Cernikov"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "2r2nk1/6pp/p1rPqp2/1pP1p3/1P6/2B3R1/1P2Q1PP/5RK1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+
+1. Rxf6 Qxf6 2. Bxe5 Qf7 3. Rxg7+ Qxg7 4. Bxg7 Kxg7 5. Qe7+ Kg6 (5... Kg8 6. h4
+) 6. g4 (6. h4 Kf5) 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Persidski"]
+[Black "Konjik"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "r4rk1/pp3p1p/3pq1p1/2nNp3/3R1P2/7Q/PP4PP/5RK1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+
+1. f5 gxf5 2. Rxf5 Nd7 (2... exd4 3. Nf6+ Qxf6 4. Rxf6 Ne6 5. Rh6) 3. Ne7+ Qxe7
+(3... Kh8 4. Rh4) 4. Rg4+ Kh8 5. Qxh7+ Kxh7 6. Rh5# 1-0
+
+[Event "Ungarn"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Toth"]
+[Black "Szabolcsi"]
+[Result "0-1"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "r4rk1/2p2pbp/p1p1b1p1/3qPn2/3P1RP1/2P1p2P/PP2Q2N/RNB3K1 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+
+1... Qh1+ 2. Kxh1 Ng3+ 3. Kg2 Nxe2 4. Rf1 (4. Bxe3 Nxf4+ 5. Bxf4 Bd5+ 6. Kg1 f6
+) 4... Bd5+ 5. Nf3 Nxc1 6. Rxc1 f6 0-1
+
+[Event "Suisse"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Meyer"]
+[Black "Montpart"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "r3kb1r/1b3qpp/p1n2n2/3Q4/1p3PP1/1N2B3/PPP3BP/2KR3R w kq - 0 1"]
+[PlyCount "7"]
+[EventDate "1978.??.??"]
+[EventType "game"]
+
+1. Qxc6+ (1. Qxf7+ Kxf7 2. g5 Re8 3. gxf6 Rxe3 4. Rd7+ Kxf6 5. Rxb7 Nd8) 1...
+Bxc6 2. Bxc6+ Ke7 (2... Nd7 3. Bxa8 (3. Rhe1 O-O-O) 3... Qc4 4. Rhe1 Be7 5. Bd4
+) 3. Bc5+ Ke6 4. Nd4# 1-0
+
+[Event "Hastings"]
+[Site "Hastings"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Nunn"]
+[Black "Zilber"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "r2r4/p3kp2/1p1q1p1Q/3PpB2/b1P5/8/3R1PPP/4R1K1 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1979.??.??"]
+[EventType "game"]
+[EventCountry "ENG"]
+
+1. c5 bxc5 (1... Qxc5 2. Qh4) 2. Qh4 Bb5 3. f4 Rh8 4. Rxe5+ Qxe5 5. d6+ Qxd6 6.
+Qe1+ Qe6 7. Bxe6 fxe6 8. f5 1-0
+
+[Event "Rumaenien"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Suba"]
+[Black "Stefanov"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "2r3k1/pbq4p/1p2pBp1/4P3/1n6/3B4/4QPP1/3R2K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1980.??.??"]
+[EventType "game"]
+
+1. Bxg6 hxg6 (1... Qc6 2. Bxh7+ Kxh7 3. Qh5+) 2. Qg4 Qf7 (2... Qh7 3. Qxe6+ Qf7
+4. Qh3 Qh7 5. Qxh7+ Kxh7 6. Rd7+) 3. Rd7 Nd5 (3... Qxd7 4. Qxg6+ Kf8 5. Qh6+
+Kg8 6. Qh8+ Kf7 7. Qg7+ Ke8 8. Qg8#) 4. Qh4 Nxf6 5. Rxf7 Kxf7 6. Qxf6+ 1-0
+
+[Event "DDR"]
+[Site "DDR"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Luther"]
+[Black "Gauglitz"]
+[Result "1-0"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "5rk1/pp1R2bp/4p1p1/6N1/1q1nPp2/2N4P/PP3PP1/3Q2K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1989.??.??"]
+[EventType "game"]
+[EventCountry "DDR"]
+
+1. Rxg7+ Kxg7 2. Qxd4+ Qxd4 3. Nxe6+ Kf6 4. Nxd4 1-0
+
+[Event "Thessaloniki"]
+[Site "Thessaloniki"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Tschiburdanidse"]
+[Black "Maric"]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "5rb1/p3n1kp/q2p1pp1/4pP2/4P1PP/3P2N1/P2Q2B1/5R1K w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1988.??.??"]
+[EventType "team"]
+[EventCountry "GRE"]
+
+1. g5 d5 (1... Qxa2 2. gxf6+ Rxf6 3. Qg5) 2. h5 fxg5 (2... gxf5 3. Nxf5+ (3.
+exf5 h6) 3... Nxf5 4. Rxf5) 3. hxg6 Kh6 (3... hxg6 4. Qxg5) 4. g7 Rf6 5. Qb4
+Nc6 6. Qf8 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Holmov"]
+[Black "Antosin"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "r3r1k1/p1q2pp1/4pbn1/1b5p/3PQ2P/1BB2NP1/P4P2/2RR2K1 w - - 0 1"]
+[PlyCount "17"]
+[EventDate "1988.??.??"]
+[EventType "team"]
+
+1. d5 Qb7 (1... exd5 2. Qxd5 Bc6 3. Bxf6 (3. Qxh5 $1 Bxf3 4. Qxf3) 3... Bxd5 4.
+Rxc7 Bxb3 5. axb3 gxf6 6. Rdd7) (1... Bxc3 2. dxe6 Kf8 3. Qf5) 2. Bxf6 gxf6 3.
+Nd4 Bd7 4. Qf3 e5 5. Nf5 e4 6. Qxh5 Re5 7. d6 Bxf5 8. Rc7 Be6 9. Bxe6 1-0
+
+[Event "Harkany"]
+[Site "?"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Levitt"]
+[Black "Fauland"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "5rk1/pbr4p/1p2pppQ/3q4/3P2N1/2P3R1/P4PPP/4R1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1987.??.??"]
+[EventType "game"]
+
+1. Qf4 Rxc3 (1... Qd8 2. Rxe6) (1... Rcf7 2. Nh6+) 2. Qxf6 (2. Nxf6+ Rxf6 3.
+Qxf6 Rxg3 4. f3 Rg4) 2... Rxf6 3. Nxf6+ Kg7 4. Nxd5 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Gorelov"]
+[Black "Tatalev"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "r5k1/pprb1ppp/1q1pp3/2n1n3/1QP5/1NP1B1P1/P3PPBP/R2R2K1 w - - 0 1"]
+[PlyCount "17"]
+[EventDate "1987.??.??"]
+[EventType "team"]
+
+1. Rxd6 Qxd6 2. Bxc5 Qa6 3. Bd6 Nc6 (3... Rxc4 4. Qxb7 Qxb7 5. Bxb7 Rd8 6. Bxe5
+) 4. Qb5 Rcc8 5. Qxa6 bxa6 6. Nc5 Be8 7. Nxa6 Rd8 8. c5 Rac8 9. Rb1 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Beljavskij"]
+[Black "Larsen"]
+[Result "1-0"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "3r2k1/pp1r1ppn/2pNpn1p/q3B2P/3P4/6R1/PPP1QPP1/2K1R3 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1984.??.??"]
+[EventType "team"]
+
+1. Ra3 Qb6 (1... Qd5 2. c4 Qxg2 3. Rg3) 2. Nc4 Qb4 3. Bd6 Rxd6 4. c3 Qb5 5. Ra5
+1-0
+
+[Event "Budapest"]
+[Site "Budapest"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Perenyi"]
+[Black "Polgar"]
+[Result "1-0"]
+[Annotator "T+v3W"]
+[SetUp "1"]
+[FEN "r5k1/4p1bp/3p1pp1/BqrP4/QP6/8/1P3PPP/3R1RK1 w - - 0 1"]
+[PlyCount "25"]
+[EventDate "1984.??.??"]
+[EventType "team"]
+[EventCountry "HUN"]
+
+1. Qb3 (1. Qxb5 Rxb5) 1... Rxa5 2. Rd3 Rxd5 3. bxa5 (3. Rfd1 Qxd3) 3... Qxd3 4.
+Qxd3 Rxd3 5. a6 Rd5 6. b4 (6. Ra1 $1 {Alternative}) 6... Rd2 7. Ra1 Rc2 (7...
+f5 8. a7 Bxa1 9. a8=Q+) 8. a7 Rc8 9. a8=Q Rxa8 10. Rxa8+ Kf7 11. b5 Ke6 12. b6
+Kd7 13. b7 1-0
+
+[Event "Mexico"]
+[Site "Mexico"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Alba Rizzo"]
+[Black "Nagel"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "7r/2b1Rpk1/Q4np1/p2p2R1/qp3p2/1N6/1PP4P/7K b - - 0 1"]
+[PlyCount "10"]
+[EventDate "1983.??.??"]
+[EventType "game"]
+[EventCountry "MEX"]
+
+1... f3 2. Rxc7 (2. Qe6 Rxh2+ 3. Kg1 f2+ 4. Kf1 Qb5+) 2... Qe8 3. Qf1 (3. Qd6
+Qe1+ 4. Rg1 f2) 3... Ne4 (3... Qe4 4. Qf2 Ng4 5. Rxg4 Qxg4 6. Nd4) 4. Rg4 Qe5
+5. Rxf7+ Kxf7 6. Qxf3+ 0-1
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Gulko"]
+[Black "Anikaev"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "r2qrnk1/1p1n4/p1p1bpp1/3p3p/3PP3/2NB1PN1/PP1Q2PP/4RRK1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1. exd5 cxd5 (1... Bxd5 2. Nxd5 cxd5 3. Qh6 f5 4. Bxf5 gxf5 5. Nxh5 Re7 6. Qg5+
+Kf7 7. Qxf5+ Kg8 8. Qg5+ Kf7 9. Qxd5+) 2. Bxg6 (2. Qh6 Bf7) 2... Nxg6 3. Qh6
+Ngf8 (3... Ndf8 4. Nxh5 Re7 5. Rxe6) 4. Nxd5 (4. Nxh5 Re7 $13) 4... Re7 5.
+Nxe7+ Qxe7 6. Nxh5 (6. d5 Qc5+ 7. Kh1 Qxd5 8. f4 Bf7 9. Re5 Qd3 $13) 1-0
+
+[Event "Jugoslawien"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Ciric"]
+[Black "Azaric"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "rn2k2r/pp2bppp/1qp3b1/1N1p4/P4N2/3P1P2/1PPB2PP/R2Q1R1K w kq - 0 1"]
+[PlyCount "7"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1. Qe2 Kd7 (1... cxb5 2. Nxd5 Qd8 3. Bb4 Nc6 4. Nxe7 Nxe7 5. Rfe1 O-O 6. Bxe7)
+2. Rfe1 Qd8 3. Nc7 Bd6 (3... Kxc7 4. Qxe7+ Qxe7 5. Rxe7+ Nd7 6. Nxg6 fxg6 7.
+Bf4+ Kd8 8. Rxg7) 4. Nxa8 1-0
+
+[Event "BRD"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Vogel"]
+[Black "Barlow"]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "2rqkb1r/3npppp/2Q2n2/2pPN1B1/1p6/8/PP3PPP/R3KB1R w KQk - 0 1"]
+[PlyCount "5"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+1. Bb5 Rxc6 2. dxc6 Nxe5 (2... Qc7 3. cxd7+ Nxd7 4. Bxd7+ Kd8 5. Bf4) 3. c7+
+1-0
+
+[Event "Variante"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Ledermann"]
+[Black "Eperjesi"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "r1rq2k1/5ppp/p1pbp3/P3Nb2/1nBP4/2R3B1/1P2QPPP/R5K1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+
+1. Nxf7 Kxf7 2. Bxe6+ Bxe6 3. Rf3+ Ke7 (3... Kg8 4. Qxe6+ Kh8 5. Bxd6) 4. Bh4+
+(4. Re1 Qd7 (4... Qg8 5. Re3 Bxg3 6. Rxe6+ Kd7 7. Re7+ Kd6 8. Rd7+ Kxd7 9. Qe7#
+) 5. Bh4+ (5. Re3 Bxg3 6. Rxe6+) 5... Ke8 6. Re3 Nd5 7. Rxe6+ Kf7) 4... Kd7 5.
+Bxd8 1-0
+
+[Event "Polanica Zdroj"]
+[Site "Polanica Zdroj"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Uhlmann"]
+[Black "Spiridinov"]
+[Result "0-1"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "r2r4/5pk1/2bp1np1/2q1p2p/1pP1P2P/1P1QNPP1/3R2BK/3R4 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+[EventCountry "POL"]
+
+1... Bxe4 2. fxe4 Qxe3 3. Qxe3 Ng4+ 4. Kh3 Nxe3 5. Re1 Ng4 0-1
+
+[Event "Pernik"]
+[Site "Pernik"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Duric"]
+[Black "Chevaldonnelt"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "2Q3n1/4bpk1/3p2pp/1b1Pp3/1P2P1P1/1q3NNP/3B1PK1/8 w - - 0 1"]
+[PlyCount "21"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+[EventCountry "BUL"]
+
+1. Bxh6+ Nxh6 2. Qb7 Qxb4 3. Qxe7 Ng8 (3... Bd3 4. Ng5) 4. Qc7 Nh6 5. Ng5 Kg8
+6. Qd8+ Kg7 7. Qe7 Kg8 8. Nf3 Bd3 9. g5 Bxe4 10. Nxe4 Qxe4 11. gxh6 1-0
+
+[Event "Novi Sad"]
+[Site "Novi Sad"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Adams"]
+[Black "Arachamia"]
+[Result "1-0"]
+[Annotator "T+4F"]
+[SetUp "1"]
+[FEN "rq2k2r/5pp1/1pb1p2p/p1B1b3/2B2P2/P7/1PP3PP/1K1RQ2R w kq - 0 1"]
+[PlyCount "11"]
+[EventDate "1990.??.??"]
+[EventType "team"]
+[EventCountry "YUG"]
+
+1. Qe4 Qc7 (1... Bd7 2. Rxd7 Kxd7 3. Bb5+ Kc8 4. fxe5) 2. Bb5 Rc8 3. Bxc6+ Qxc6
+4. Qxc6+ Rxc6 5. Bxb6 Rxb6 6. fxe5 1-0
+
+[Event "Titovo Uzize"]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Gligoric"]
+[Black "Awerbach"]
+[Result "1-0"]
+[Annotator "T+4W"]
+[SetUp "1"]
+[FEN "3q3k/6pp/pprP4/5p2/P7/5P1R/1P4PP/3Q2K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1970.??.??"]
+[EventType "game"]
+
+1. Rh6 Qd7 (1... gxh6 2. Qd4+ Kg8 3. Qd5+ Kg7 4. Qxc6) 2. Re6 Qxe6 3. d7 Rd6 4.
+d8=Q+ Rxd8 5. Qxd8+ Qg8 6. Qxb6 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Korchnoi"]
+[Black "Tukmakov"]
+[Result "0-1"]
+[Annotator "T+4R"]
+[SetUp "1"]
+[FEN "2rq1rk1/pp1bppbp/5np1/2n5/3NPB2/Q1N2P2/PP4PP/2KR1B1R b - - 0 13"]
+[PlyCount "13"]
+[EventDate "1971.??.??"]
+[EventType "team"]
+
+13... Nfxe4 14. fxe4 e5 15. Nc6 Rxc6 16. Bb5 Rc7 17. Be3 Nxe4 18. Bxd7 Nxc3 19.
+bxc3 Rxd7 0-1
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Korsunskij"]
+[Black "Andrianov"]
+[Result "1-0"]
+[Annotator "T+4A"]
+[SetUp "1"]
+[FEN "3r3k/bb2q1pp/p1n5/1p2pp2/1P6/PB2PN2/1B1Q1PPP/3R2K1 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+
+1. Qxd8+ Nxd8 2. Nxe5 Bb6 (2... Nc6 3. Rd7) 3. Rd7 Qf8 (3... Qh4 4. Ng6+ hxg6
+5. Bxg7+ Kh7 6. Bf6+) 4. Rxd8 Bxd8 5. Nf7+ Kg8 6. Nxd8+ Kh8 7. Nxb7 1-0
+
+[Event "Santiago"]
+[Site "Santiago"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Najdorf"]
+[Black "Salzar"]
+[Result "0-1"]
+[Annotator "T+4Z"]
+[SetUp "1"]
+[FEN "r3r1k1/p4ppp/bbp2q2/3p4/4n3/BP2PNP1/P4PBP/R2QR1K1 b - - 0 1"]
+[PlyCount "17"]
+[EventDate "1980.??.??"]
+[EventType "game"]
+[EventCountry "CHI"]
+
+1... Nxf2 2. Kxf2 Rxe3 3. Rxe3 Re8 4. Bc1 (4. Kg1 Rxe3 5. Kh1 Be2) 4... Qxa1 5.
+Qc2 Bd3 6. Qxd3 Qxc1 7. Nd4 Qb2+ 8. Kf3 Rxe3+ 9. Qxe3 Kf8 0-1
+
+[Event "Ungarn"]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Hevizi"]
+[Black "Varnusz"]
+[Result "0-1"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "br1r2k1/1q4p1/p2ppb1p/2p2p2/2P1n3/Pn2P2P/QPR2PPB/2NRNBK1 b - - 0 1"]
+[PlyCount "17"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+
+1... Nxc1 2. Rdxc1 Qxb2 3. Rxb2 (3. Nd3 Qxa2) 3... Rxb2 4. Qa1 Rxf2 5. Qb1
+Rxf1+ 6. Kxf1 Nd2+ 7. Ke2 Nxb1 8. Rxb1 d5 9. Rb6 dxc4 0-1
+
+[Event "Sandomierz"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Vaisman"]
+[Black "Liangov"]
+[Result "1-0"]
+[Annotator "T+4Z"]
+[SetUp "1"]
+[FEN "1q1r2k1/1b1n1pb1/p2p2p1/P3p1P1/3NPP2/2P1BB1Q/8/R5K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1976.??.??"]
+[EventType "simul"]
+[EventRounds "2"]
+
+1. Ne6 fxe6 (1... exf4 2. Nxd8 Qxd8 3. Bxf4) 2. Qxe6+ Kf8 (2... Kh8 3. Kg2) 3.
+f5 Nc5 (3... Qc7 4. fxg6 Nc5 5. Bxc5 Qxc5+ 6. Kg2 Qc7 7. Rf1) 4. Bxc5 gxf5 (
+4... Bc8 5. Qxg6 dxc5 6. f6) (4... dxc5 5. fxg6 Qc7 6. Rf1 Qe7 7. Bd1+ Ke8 8.
+Ba4+) 5. Bh5 Qc7 6. Bxd6+ 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Podgajec"]
+[Black "Sturua"]
+[Result "1-0"]
+[Annotator "T+4W"]
+[SetUp "1"]
+[FEN "1n3rk1/p4pp1/1pp1P2p/5B2/2b2q2/1Q4N1/PP3PPP/4R1K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1978.??.??"]
+[EventType "team"]
+
+1. e7 Bxb3 (1... Re8 2. Qc3 Bd5 3. Nh5 Qg5 4. g4 f6 5. f4 Qh4 6. Re3) 2. Bh7+
+Kxh7 3. exf8=Q Bd5 (3... Qd2 4. Rf1 Nd7 5. Qa3 Bc4 6. Ra1) 4. Qxg7+ Kxg7 5.
+Nh5+ Kh7 6. Nxf4 1-0
+
+[Event "Schweiz"]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Roessli"]
+[Black "Pauchard"]
+[Result "1-0"]
+[Annotator "T+v4F"]
+[SetUp "1"]
+[FEN "2r1kb1r/1p1q1p2/4p1p1/4P2p/3P1P2/P1N1nNPP/1P6/2RQ1RK1 w k - 0 1"]
+[PlyCount "17"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+[EventCountry "SUI"]
+
+1. Qa4 Nxf1 (1... Qxa4 2. Nxa4 Rxc1 3. Rxc1) 2. Nd5 exd5 (2... Qxa4 3. Rxc8+
+Kd7 4. Nb6+ Ke7 5. Nxa4) 3. Rxc8+ Ke7 4. Qb4+ Ke6 5. Qb6+ Kf5 6. Qf6+ Ke4 7.
+Ng5+ Kd3 8. Rc3+ Ke2 9. Qxh8 (9. e6 $18 {Alternative}) 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Lagunov"]
+[Black "Ruban"]
+[Result "1-0"]
+[Annotator "T+4H"]
+[SetUp "1"]
+[FEN "1r3k2/5p1Q/p2q2p1/3p2P1/3b1N2/1bR3P1/1P2BPK1/8 w - - 0 1"]
+[PlyCount "21"]
+[EventDate "1987.??.??"]
+[EventType "team"]
+
+1. Rc7 (1. Rf3 Bc2 2. Nh5 Bf5 3. g4 Be6 4. Qxg6 Ke7) 1... Bg7 (1... Qxc7 2.
+Nxg6+ (2. Ne6+ Ke7 3. Nxc7 Rh8) 2... Ke8 3. Bg4) 2. Ra7 Bc4 (2... Qb6 3. Rxa6
+Qd4 4. Rc6 Bc4 5. Bf3 Rxb2 (5... Qxb2 6. Bxd5 Bxd5+ 7. Nxd5 Qb7 8. Rd6 Be5 9.
+Qh3) 6. Rc8+ Ke7 7. Qg8 Qxf2+ 8. Kh3 Bf1+ 9. Kg4) 3. Bg4 d4 4. Be6 Bxe6 5.
+Nxg6+ Ke8 6. Qxg7 Bd5+ 7. Kg1 Rb7 8. Qg8+ Kd7 9. Rxb7+ Bxb7 10. Qxf7+ Kc6 11.
+Qf6 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Klovans"]
+[Black "Krivonosov"]
+[Result "1-0"]
+[Annotator "T+v4X"]
+[SetUp "1"]
+[FEN "6kb/1n3p1p/1n1r2p1/1pp1p1N1/p3P1N1/PqP1B2P/1PQ2PP1/3R2K1 w - - 0 1"]
+[PlyCount "17"]
+[EventDate "1984.??.??"]
+[EventType "team"]
+
+1. Rxd6 (1. Qxb3 axb3 2. Rxd6 Nxd6 3. Bxc5 Nbc4) 1... Qxc2 2. Rxb6 Qd1+ (2...
+Nd8 3. Rd6 Ne6 4. Nxe6 fxe6 5. Rd8+ Kg7 6. Bh6+ Kf7 7. Rxh8) 3. Kh2 Qd7 4. Nh6+
+Kf8 (4... Kg7 5. Nhxf7 h6 6. Nxe5) 5. Nxh7+ (5. Nhxf7 $1 {Alternative} Bg7 6.
+Nd6 Nxd6 7. Rxd6 Qxd6 8. Bxc5 Qxc5 9. Ne6+ Kf7 10. Nxc5) 5... Kg7 (5... Ke7 6.
+Ng8+ Kd8 7. Nhf6 Bxf6 8. Nxf6 Qc8 9. Nd5) 6. Nf6 Qc8 7. Nhg4 Kf8 8. Nxe5 Bxf6
+9. Rxf6 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Rozdestvenskij"]
+[Black "Nesis"]
+[Result "0-1"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "8/3n1pkp/p2R2p1/1p2p3/1P6/PR2PPK1/2r3PP/1Nr5 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1983.??.??"]
+[EventType "swiss"]
+
+1... Nb6 2. Rc3 (2. Rxb6 Rg1 3. f4 (3. h3 Rcxg2+ 4. Kh4 g5+ 5. Kh5 Rh1) 3...
+Rgxg2+ 4. Kf3 f5 5. e4 Rcf2+ 6. Ke3 Re2+ 7. Kd3 fxe4+) 2... Rxc3 3. Nxc3 Nc4 4.
+Rd3 Nb2 5. Rd2 Rxc3 6. Rxb2 Rxe3 0-1
+
+[Event "Dubai"]
+[Site "Dubai"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Jassem"]
+[Black "Lobron"]
+[Result "1-0"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "r1br2k1/pp1qppbp/1nn5/1Np1Pp2/4B3/2P2N2/PP2Q1PP/R1B2RK1 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1983.??.??"]
+[EventType "game"]
+[EventCountry "UAE"]
+
+1. Ng5 fxe4 2. Qh5 Nxe5 (2... h6 3. e6 (3. Nxf7 Qg4) 3... fxe6 (3... Qd5 4.
+exf7+ Kh8 5. Qg6) 4. Nf7 (4. Qg6 hxg5 5. Rf7 Qd1+ 6. Kf2 Qc2+ 7. Kg3 Qd3+ 8.
+Kg4 Qe2+) 4... Qd5 (4... Nd5 5. Nxh6+ Kh7 6. Nf5+ Kg8 7. Nxg7 Nf6 8. Qg5 (8.
+Qg6 Ne5 9. Qg3 Neg4) 8... Kh8 (8... Nh7 9. Qg3 (9. Qg6 Kh8) 9... Kh8 10. Nc7
+Qd3 11. Be3) 9. Nxe6 Qxe6 10. Nc7 Qe5 11. Nxa8) 5. Nxh6+ Bxh6 (5... Kh7 6. Nf5+
+Kg8 7. Nxg7 Qxh5 8. Nxh5) 6. Qxh6 Qe5 7. Rf4) 3. Qxh7+ Kf8 4. Nxf7 Nf3+ (4...
+Nxf7 5. Bh6) 5. gxf3 exf3 (5... Qh3 6. Nh6 Be6 7. fxe4+ Ke8 8. Qxg7 (8. Nc7+
+Kd7 9. Nxa8 Rg8 10. Nxb6+ axb6 11. Qxg8 Bxg8 12. Nxg8 Qg4+ 13. Kf2 Be5)) 6. Nh6
+Qd5 7. Rxf3+ Ke8 8. Nc7+ 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Sakarov"]
+[Black "Monin"]
+[Result "1-0"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "5k1r/p2bqp2/r1n1p1p1/1p1pP1PB/2pP1Q2/P1P4R/2PKNP2/R7 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1983.??.??"]
+[EventType "swiss"]
+
+1. Rah1 Kg8 (1... gxh5 2. Rxh5 Rg8 3. Rh8) 2. Qh2 Kf8 (2... Qxg5+ 3. f4 Qxh5 4.
+Rxh5 Rxh5 5. Qg2 Rxh1 6. Qxh1 Rxa3 7. f5) 3. Bxg6 (3. Bg4 Rxh3 4. Qxh3 Ke8 5.
+Qh8+ Qf8 6. Qf6 Ne7) 3... Qxg5+ (3... Rg8 4. Rh8 Qxg5+ 5. f4 Qxg6 6. Rg1) 4. f4
+Rxh3 5. Qxh3 Qxg6 6. Rg1 Qf5 7. Qh6+ Ke7 8. Rg8 1-0
+
+[Event "Bagneux"]
+[Site "Bagneux"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Petrosjan"]
+[Black "Andruet"]
+[Result "1-0"]
+[Annotator "T+4H"]
+[SetUp "1"]
+[FEN "3r2k1/pbr1qp1p/1b2n1p1/3pN3/P3n3/3BP3/4NPPP/BR1Q1RK1 w - - 0 1"]
+[PlyCount "25"]
+[EventDate "1982.??.??"]
+[EventType "game"]
+[EventCountry "FRA"]
+
+1. a5 Bxa5 (1... Bc5 2. Rxb7 Rxb7 3. Nc6) 2. Qa4 Bb6 3. Bxe4 dxe4 4. Ng4 f5 (
+4... Bc6 5. Qa2 Bd5 6. Qb2) 5. Bf6 Qe8 6. Nh6+ Kf8 7. Qa3+ Bc5 8. Qa1 Rdd7 9.
+Bh4 Rg7 10. Qf6+ Rcf7 11. Nxf7 Qxf7 12. Qe5 Qe8 13. Nf4 1-0
+
+[Event "Melbourne"]
+[Site "Melbourne"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Hjorth"]
+[Black "Johansen"]
+[Result "1-0"]
+[Annotator "T+4A"]
+[SetUp "1"]
+[FEN "r1b2n1k/pp2qn1p/2p2b1P/4p3/2P1Pp2/1P3N1B/PBQ1NP2/2K3R1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+[EventCountry "AUS"]
+
+1. Nxf4 Ng5 (1... Bxh3 2. Nxh3) (1... exf4 2. Qc3 Bxc3 3. Bxc3+ Ne5 4. Nxe5) 2.
+Nxe5 Nxh3 (2... Bxe5 3. Nd3 Ng6 (3... Bf6 4. Bxc8 Rxc8 5. Rxg5) (3... Bxb2+ 4.
+Qxb2+ Kg8 5. Bxc8 Rxc8 6. f4) 4. Bxc8 Rxc8 5. f4) 3. Nxh3 Bxh3 (3... Bxe5 4. f4
+Bf6 5. Qc3 Nd7 6. e5) 4. Qc3 Bg5+ (4... Ng6 5. Nxg6+ hxg6 6. Qxf6+) 5. f4 1-0
+
+[Event "Trnava"]
+[Site "Trnava"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Lechtynsky"]
+[Black "Knezevic"]
+[Result "1-0"]
+[Annotator "T+4H"]
+[SetUp "1"]
+[FEN "1rbqr1k1/5pb1/3p1n1p/1ppP4/2N1PR2/2N5/1PQ1B1PP/5RK1 w - - 0 1"]
+[PlyCount "23"]
+[EventDate "1983.??.??"]
+[EventType "simul"]
+[EventRounds "2"]
+[EventCountry "CZE"]
+
+1. e5 dxe5 2. Rxf6 Bxf6 3. Nd6 Rf8 (3... Qxd6 4. Ne4 Qe7 5. Nxf6+ Kf8 6. Qh7)
+4. Bh5 Rb7 5. Nxb7 (5. Nxc8 e4 6. Bg4 Bd4+ 7. Kh1 f5 8. Bxf5 Qxc8) 5... Bxb7 6.
+Qf5 Bg7 7. Bxf7+ Kh8 8. Qg6 e4 (8... Qg5 9. Qxg5 hxg5 10. Be6 (10. Ne4 Rxf7 11.
+Rxf7 Bxd5) 10... Rxf1+ 11. Kxf1) 9. Nxe4 Bxd5 10. Nf6 Be4 11. Nxe4 Qd4+ 12. Kh1
+1-0
+
+[Event "Muenchen"]
+[Site "Muenchen"]
+[Date "1942.??.??"]
+[Round "?"]
+[White "Aljechin"]
+[Black "Richter"]
+[Result "1-0"]
+[Annotator "T+5X"]
+[SetUp "1"]
+[FEN "3r1r1k/pb4pp/1pn1p3/5pq1/3P4/P1NQ1B2/1P3PPP/R3R1K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1942.??.??"]
+[EventType "game"]
+[EventCountry "GER"]
+
+1. Qf1 Rxd4 2. Qb5 Rd6 (2... Nd8 3. Bxb7 Nxb7 4. Rxe6 Nc5 5. Re8) 3. Ne4 Qg6 4.
+Nxd6 Nd4 5. Bxb7 Nxb5 6. Nxb5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1936.??.??"]
+[Round "?"]
+[White "Kasparjan"]
+[Black "Tschechower"]
+[Result "1-0"]
+[Annotator "T+5Z"]
+[SetUp "1"]
+[FEN "rn1rnbk1/pbq2ppp/1p1p4/2p2BP1/4P3/2NP4/PPP4P/R1BQNRK1 w - - 0 1"]
+[PlyCount "19"]
+[EventDate "1936.??.??"]
+[EventType "team"]
+
+1. Bxh7+ Kxh7 2. Qh5+ Kg8 3. Rxf7 Rd7 (3... Qxf7 4. g6) 4. Nd5 Bxd5 5. g6 Nf6
+6. Rxf6 gxf6 7. Qxd5+ Kg7 8. Qxa8 Nc6 9. Bh6+ Kxh6 10. Qxf8+ 1-0
+
+[Event "St. Gervais"]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Koch"]
+[Black "Madl"]
+[Result "1-0"]
+[Annotator "T+5Z"]
+[SetUp "1"]
+[FEN "2kr1r2/3b1R1p/p2pp1p1/qp2b1Pn/3NP3/1PN1B3/1PP1Q2P/1K1R4 w - - 0 1"]
+[PlyCount "23"]
+[EventDate "1988.??.??"]
+[EventType "game"]
+
+1. Rxd7 Kxd7 (1... Rxd7 2. Nxe6 Re8 3. Nd5 Rb7 4. Nec7) 2. Nxe6 Kxe6 3. Nd5 Rb8
+(3... b4 4. Bb6) 4. Qg4+ Kf7 5. Bb6 Rxb6 (5... Qxb6 6. Nxb6 Rxb6 7. Rf1+ Nf4 8.
+Rxf4+ Bxf4 9. Qxf4+ Kg8 10. Qd2) 6. b4 Qa4 7. Rf1+ Nf4 8. Rxf4+ Bxf4 9. Qd7+
+Kg8 10. Nf6+ Rxf6 11. gxf6 Bh6 12. Qe6+ 1-0
+
+[Event "Tiblissi"]
+[Site "?"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Nikitin"]
+[Black "Tal"]
+[Result "0-1"]
+[Annotator "T+5Z"]
+[SetUp "1"]
+[FEN "2k3r1/Qpq1bp2/p1bppnrp/4n3/4P3/1BN1BN2/PPP1R1PP/5R1K b - - 0 1"]
+[PlyCount "17"]
+[EventDate "1959.??.??"]
+[EventType "swiss"]
+
+1... Nxe4 2. Bb6 Nxc3 3. Bxc7 Nxe2 4. Bb6 Rxg2 5. Ba4 Rg1+ 6. Bxg1 Rxg1+ 7.
+Qxg1 (7. Rxg1 Bxf3+ 8. Rg2 Nf4) 7... Bxf3+ (7... Nxg1 8. Bxc6 Nxc6 9. Rxg1) 8.
+Rxf3 Nxg1 9. Rc3+ Kd8 0-1
+
+[Event "Polen"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Dzienieszewski"]
+[Black "Dobosz"]
+[Result "1-0"]
+[Annotator "T+v5X"]
+[SetUp "1"]
+[FEN "r3r3/pp1q1pk1/1b3pp1/2np4/3N4/2P3NP/PP1Q1PP1/R3R1K1 w - - 0 1"]
+[PlyCount "29"]
+[EventDate "1980.??.??"]
+[EventType "simul"]
+[EventRounds "2"]
+
+1. Qf4 Ne6 (1... Bc7 2. Ndf5+ Kg8 3. Qh4 gxf5 4. Nh5) 2. Ndf5+ Kg8 (2... gxf5
+3. Nxf5+ Kg8 4. Qh6 Bc5 5. Re3 Bxe3 6. fxe3 Qc7 7. Rf1 Qc5 8. Rf4 Qf8 9. Rg4+
+Ng5 10. Qxf6) 3. Qh6 Bc7 4. Rxe6 fxe6 5. Qxg6+ Kf8 6. Nh5 (6. Qxf6+ Qf7 7. Qh6+
+Kg8 8. Nh5 Rf8) 6... Be5 7. Re1 (7. Nxf6 Bxf6 8. Qxf6+ Qf7) 7... exf5 8. Rxe5
+Rxe5 (8... Qf7 9. Qh6+ Kg8 10. Nxf6+) (8... fxe5 9. Qh6+ Kg8 10. Nf6+) 9. Qh6+
+Ke7 10. Qxf6+ Ke8 11. Qxe5+ (11. Ng7+ $18 {Alternative}) 11... Kd8 12. Qh8+ Qe8
+13. Qxe8+ Kxe8 14. Ng7+ Kf7 15. Nxf5 1-0
+
+[Event "China"]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Ching Hsuang"]
+[Black "Torre"]
+[Result "1-0"]
+[Annotator "T+5Z"]
+[SetUp "1"]
+[FEN "4r3/1p4kp/1qpPbpp1/p3p3/P3P1N1/2Q4P/1P3PP1/3R2K1 w - - 0 1"]
+[PlyCount "23"]
+[EventDate "1975.??.??"]
+[EventType "game"]
+
+1. Nxe5 fxe5 2. d7 Rd8 (2... Bxd7 3. Rxd7+ Kh8 4. Qf3) 3. Qxe5+ Kf7 4. Rd6 Qb3
+(4... Bxd7 5. Rf6+ Kg8 6. Qe7 Bc8 7. Qf7+ (7. Rf7 Qxb2) 7... Kh8 8. Rd6) 5.
+Qf4+ Kg7 6. e5 Bf5 7. g4 (7. Qg5 Rxd7 8. Qf6+ Kh6 9. Qf8+ (9. g4 Rxd6 10. exd6
+Qd1+ 11. Kg2 Bxg4 12. Qf4+ g5) 9... Kg5 10. f4+ Kh5 11. g4+ Kh4 12. gxf5 Qg3+)
+7... Rxd7 8. Qd4 Rxd6 9. exd6+ Kf7 10. gxf5 Qd5 11. fxg6+ hxg6 12. Qf4+ (12.
+Qxd5+ cxd5 13. f4 Ke6 14. Kf2 Kxd6 15. Ke3 Ke6 (15... Kc5 16. h4 d4+ 17. Kd3
+Kd5 18. f5 gxf5 19. h5 Ke6 20. Kxd4 Kf6 21. h6 Kg6 22. Ke5 Kxh6 23. Kxf5) 16.
+Kd4 Kf5 17. Kxd5 Kxf4 18. Ke6 Kg3 (18... Kg5 19. Kf7) 19. Kf6 Kxh3 20. Kxg6 Kg4
+21. Kf6 Kf4 22. Ke6 Ke4 23. Kd6 Kd4 (23... Kd3 24. Kc7 Kc2 25. Kxb7 Kxb2 26.
+Kb6 Kc3 27. Kxa5 Kc4 28. Kb6)) 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Cugaschvili"]
+[Black "Grigorjan"]
+[Result "0-1"]
+[Annotator "T+5X"]
+[SetUp "1"]
+[FEN "3q4/1Q3pk1/6pp/rP1P4/1n2P3/2N2P2/6PP/RK6 b - - 0 1"]
+[PlyCount "15"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+
+1... Qg5 2. Rxa5 Qd2 3. Ra3 (3. Na2 Nd3) (3. Ra2 Qxc3 4. Re2 Qd3+ 5. Kc1 (5.
+Kb2 Qxe2+ 6. Kb3 Nd3) 5... Qxe2 6. Qc7 Nd3+ 7. Kb1 Qb2#) 3... Qc2+ 4. Ka1 Nd3
+5. Na4 Qd1+ 6. Ka2 Nb4+ 7. Kb2 Qc2+ 8. Ka1 Qc1# 0-1
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Musajev"]
+[Black "Karmov"]
+[Result "0-1"]
+[Annotator "T+5X"]
+[SetUp "1"]
+[FEN "r1b1k2r/pp3ppp/2n1p3/q2n4/1b1P4/P1NB1N2/1P1B1PPP/R2QK2R b KQkq - 0 1"]
+[PlyCount "15"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+
+1... Nxc3 2. axb4 Nxb4 (2... Nxd1 3. bxa5 Nxb2 4. Be2) 3. Be4 (3. Rxa5 Nxd3+ 4.
+Kf1 Nxd1 5. Ke2 N1xb2) 3... Qd5 (3... Nxd1 4. Rxa5) 4. Bxd5 Nd3+ 5. Kf1 Nxd1 6.
+Bb3 N1xf2 (6... N1xb2 7. Ke2 Bd7 8. Rhb1 Bb5 9. Ke3 O-O 10. Bc3 Nc4+ 11. Bxc4 (
+11. Kxd3 Na3+ 12. Ke3 Nxb1) 11... Bxc4 12. Rxb7) 7. Ke2 Nxh1 8. Rxh1 Nxb2 0-1
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Copie"]
+[Black "Patrici"]
+[Result "1-0"]
+[Annotator "T+5Z"]
+[SetUp "1"]
+[FEN "r3r2k/1bq1nppp/p2b4/1pn1p2P/2p1P1QN/2P1N1P1/PPBB1P1R/2KR4 w - - 0 1"]
+[PlyCount "17"]
+[EventDate "1987.??.??"]
+[EventType "team"]
+
+1. Ng6+ fxg6 (1... hxg6 2. hxg6+ Kg8 3. Rdh1 Nxg6 (3... fxg6 4. Qf3) (3... Kf8
+4. Rh8+ Ng8 5. Nf5 fxg6 6. Qxg6 Ne6 (6... Re6 7. Rxg8+ Kxg8 8. Qh7+ Kf8 9. Qh8+
+Kf7 10. Qxg7+) 7. Nh6 Ke7 8. Qf7+ Kd8 9. Rxg8 Qxf7 10. Nxf7+) 4. Qh5 Kf8 5. Nf5
+) (1... Kg8 2. Nxe7+ Bxe7 3. Nf5 Bf8 4. Nxg7 Bxg7 5. h6 f6 6. Rdh1 Re7 (6...
+Bxe4 7. Bxe4 Nxe4 8. hxg7 Ng5 9. f4) 7. hxg7 Rxg7 8. Rxh7 Rxg4 9. Rxc7 Rc8 10.
+Rhh7) 2. hxg6 h6 3. Nd5 Qc8 (3... Nxd5 4. Bxh6 (4. exd5 e4 5. Bxh6 gxh6 6.
+Rxh6+ Kg8 7. Rdh1 Be5) 4... gxh6 (4... Nf6 5. Bg5+ Kg8 6. Rdh1 Kf8 7. Rh8+ Ke7
+8. Bxf6+ gxf6 9. R1h7+ Kd8 10. Rxe8+ Kxe8 11. Rxc7 Bxc7 12. Qh3 Ke7 13. Qh7+
+Kd6 14. g7) 5. Rxh6+ Kg8 6. Rdh1 Nf6 7. Rh8+ Kg7 8. R1h7+ Nxh7 9. Rxh7+ Kg8 10.
+Rxc7 Bxc7 11. Qh4 (11. Qh5 Re7) 11... Kg7 12. Qh7+ Kf6 13. Qxc7 (13. Qf7+ Kg5
+14. f4+ exf4 15. gxf4+ Bxf4+) 13... Rac8 14. Qf7+ Kg5 15. f4+ exf4 16. gxf4+) (
+3... Bxd5 4. Bxh6 Be6 (4... gxh6 5. Rxh6+ Kg8 6. Rdh1 Nd3+ 7. Bxd3 cxd3 8. Rh8+
+Kg7 9. R1h7+ Kf6 10. Qf3+ Ke6 11. exd5+ Nxd5 12. Rxc7) (4... Kg8 5. Bxg7 Bc6 (
+5... Be6 6. Bf6 Kf8 7. Rh8+ Bg8 (7... Ng8 8. Rdh1 (8. Qh5 Re7 9. g7+ Rxg7 10.
+Bxg7+ Qxg7 11. Rxd6 Bf7) 8... Qd7 9. R1h7 Re7 10. Bxe7+ Bxe7 (10... Ke8 11.
+Bxd6 Qxd6 12. Rf7 Bxf7 13. gxf7+ Kxf7 14. Rh7+ Kf8 15. Qg7+) 11. Qf5+ (11. Qf3+
+$1) 11... Ke8 12. Qf7+ Kd8 13. Rxg8+ Kc7 14. Qxe7) 8. Qh5) 6. Bf6 Kf8 7. Qf5 (
+7. Qf3 Nxg6)) 5. Bg5+ Kg8 6. Bxe7 Qxe7 (6... Bxg4 7. Rdh1) 7. Rdh1 Kf8 8. Rh8+
+Bg8 9. Rxg8+ Kxg8 10. Rh8+ Kxh8 11. Qh5+ Kg8 12. Qh7+ Kf8 13. Qh8#) 4. Rxh6+
+gxh6 (4... Kg8 5. Nxe7+ Rxe7 6. Rh8+ Kxh8 7. Qh4+ Kg8 8. Qh7+ Kf8 9. Qh8#) 5.
+Qh5 Ng8 (5... Nf5 6. exf5 Bf8 7. Bxh6) 6. Bxh6 Qg4 7. Bg7+ Kxg7 8. Qh7+ Kf8 9.
+Qf7# 1-0
+
+[Event "Variante"]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Auerswald"]
+[Black "Zaruba"]
+[Result "1/2-1/2"]
+[Annotator "T+2Z"]
+[SetUp "1"]
+[FEN "1n6/5pkp/bpNp1qp1/pNnP1P2/P1B5/8/6PP/4Q1K1 b - - 0 27"]
+[PlyCount "7"]
+[EventDate "1989.??.??"]
+[EventType "simul"]
+[EventRounds "2"]
+
+27... Nxc6 28. dxc6 d5 $1 29. Bxd5 Bxb5 30. axb5 Qd4+ $19 1/2-1/2
+
+[Event "Variante"]
+[Site "?"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Auerswald"]
+[Black "Kuscko"]
+[Result "0-1"]
+[Annotator "T+4A"]
+[SetUp "1"]
+[FEN "2r1r1k1/4bp2/p1n5/3p1BPp/P1pP1P1q/2P2R2/6R1/3Q2K1 b - - 0 30"]
+[PlyCount "9"]
+[EventDate "1987.??.??"]
+[EventType "tourn"]
+[EventRounds "2"]
+
+30... Bb4 $1 (30... Bd6 31. Rgf2 Ne7 32. Rh3 Nxf5 33. Rxh4 Nxh4 34. Qxh5 Ng6
+35. f5 Nf4 36. Rxf4 Bxf4 37. g6 fxg6 38. Qxg6+ $11) 31. Rgf2 Nxd4 $1 32. Rh3
+Nxf5 33. Rxh4 Bxc3 34. Qc2 Nxh4 0-1
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Auerswald"]
+[Black "Wiezer"]
+[Result "0-1"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "1brq1rk1/pp4pp/4p3/1PPp1p1b/P2PnP2/3B1N2/3BQ1PP/R4RK1 b - - 0 18"]
+[PlyCount "5"]
+[EventDate "1988.??.??"]
+[EventType "swiss"]
+
+18... Bxf3 $1 19. Rxf3 Qf6 20. Be3 Nxc5 $19 0-1
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Reichelt"]
+[Black "Auerswald"]
+[Result "0-1"]
+[BlackElo "2090"]
+[Annotator "T+v2H"]
+[SetUp "1"]
+[FEN "8/3k3p/p1nbbpp1/1pn5/5PP1/1PN1KN1P/PBB5/8 b - - 0 29"]
+[PlyCount "5"]
+[EventDate "1989.??.??"]
+[EventType "simul"]
+[EventRounds "2"]
+
+29... Nb4 $1 30. Be4 Bxf4+ 31. Kxf4 Nbd3+ $19 (31... Ncd3+ $19 {Alternative})
+0-1
+
+[Event "Buenos Aires"]
+[Site "Buenos Aires"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Rubinetti"]
+[Black "Najdorf"]
+[Result "0-1"]
+[Annotator "T+3F"]
+[SetUp "1"]
+[FEN "3rr1k1/pp3ppp/q1p1bn2/8/4P3/4N1P1/PPQ1RPBP/R5K1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+[EventCountry "ARG"]
+
+1... Bb3 2. Qxb3 Qxe2 3. Bf1 Qh5 4. Qxb7 Nxe4 5. Qxc6 Qf3 0-1
+
+[Event "Moskau"]
+[Site "Moskau"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Schpilker"]
+[Black "Gutop"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "r1q2rk1/pb1pppbp/1p4p1/8/2PQn3/PPN3P1/1B2PPBP/R4RK1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "RUS"]
+
+1. Nd5 Bxd4 2. Nxe7+ Kg7 3. Bxd4+ f6 4. Nxc8 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Busvig"]
+[Black "Busemann"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "8/1pN1ppkp/r3qnp1/3r4/3p4/3P2P1/PP1QPP1P/R4RK1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+
+1... Qh3 2. f3 (2. Nxd5 Ng4) (2. e4 Rh5 3. f3 Rc6 4. Rac1 Qc8 5. Nd5 Nxd5 6.
+exd5 Rxd5) 2... Rh5 3. Rf2 Rc6 4. Rc1 Qc8 5. Rxc6 bxc6 0-1
+
+[Event "New York"]
+[Site "New York"]
+[Date "1956.??.??"]
+[Round "?"]
+[White "Byrne"]
+[Black "Fischer"]
+[Result "0-1"]
+[Annotator "T+5X"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp2ppbp/1np2np1/2Q3B1/3PP1b1/2N2N2/PP3PPP/3RKB1R b - - 0 1"]
+[PlyCount "29"]
+[EventDate "1956.??.??"]
+[EventType "game"]
+[EventCountry "USA"]
+
+1... Na4 2. Qa3 (2. Nxa4 Nxe4 3. Qxe7 (3. Bxe7 Nxc5 4. Bxd8 Nxa4)) 2... Nxc3 3.
+bxc3 Nxe4 4. Bxe7 Qb6 5. Bc4 (5. Bxf8 Bxf8 6. Qb3 Nxc3 7. Qxb6 axb6 8. Rd2 Bb4
+(8... Bxf3 $2 9. gxf3 Bb4 10. Rc2 Nb5+ (10... Re8+ 11. Kd2) 11. Kd1 Nxd4 12.
+Rb2 Bc3 13. Rxb6 Rxa2 14. Kc1 Rc2+ 15. Kb1 Rxf2 16. Rxb7 Nxf3 17. Ba6 $13) 9.
+Rb2 (9. Rc2 Re8+ 10. Kd2 Nxa2+ 11. Kd3 Bf5+) 9... Ba5) 5... Nxc3 6. Bc5 (6.
+Qxc3 Rfe8) 6... Rfe8+ (6... Nb5 $5 7. Bxb5 Qxb5 8. Bxf8 Bxf8 9. Qd3 Qa5+ 10.
+Kf1 $15) 7. Kf1 Be6 8. Bxb6 (8. Bxe6 Qb5+ 9. Kg1 Ne2+ 10. Kf1 Ng3+ 11. Kg1 Qf1+
+12. Rxf1 Ne2#) (8. Qxc3 Qxc5) 8... Bxc4+ 9. Kg1 Ne2+ 10. Kf1 Nxd4+ 11. Kg1 Ne2+
+12. Kf1 Nc3+ 13. Kg1 axb6 14. Qb4 Ra4 15. Qxb6 Nxd1 0-1
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Scheidl"]
+[Black "Gmeiner"]
+[Result "1-0"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "r1b4r/pp2kppp/n3p3/1NppP3/n2P1P1P/P4N2/q1P3P1/1RQ1KB1R w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1965.??.??"]
+[EventType "team"]
+
+1. Nc3 Nxc3 2. Ra1 1-0
+
+[Event "Olympiade"]
+[Site "?"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Hernandez"]
+[Black "Rantanen"]
+[Result "1-0"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "r1b2r2/4ppkp/p2p2p1/qpn3Pn/2PNP3/2N2P2/PP1QB2P/R3K2R w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+
+1. b4 Qxb4 2. Nc6 Qa3 3. Nb1 Qa4 4. Qb2+ e5 5. Nc3 1-0
+
+[Event "Wijk aan Zee"]
+[Site "Wijk"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Ciocoltea"]
+[Black "Dieks"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "r4r1k/pq2bp1p/2bppp1Q/1p6/3NP3/2N5/PPP2PPP/1K1RR3 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "NED"]
+
+1. Nd5 Bxd5 (1... exd5 2. Nf5 Rg8 3. exd5) 2. exd5 Qxd5 3. Nxe6 Qxd1+ 4. Rxd1
+1-0
+
+[Event "BRD"]
+[Site "?"]
+[Date "1960.??.??"]
+[Round "?"]
+[White "Fischer"]
+[Black "Darga"]
+[Result "1-0"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "7r/2kr2pp/1pn5/3p1P2/2p1q3/B1P2R2/2P3PP/RQ4K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1960.??.??"]
+[EventType "team"]
+
+1. Bc1 Qe1+ (1... Ne5 2. Bf4 Rd6 $1 (2... Re8 3. Qb5) 3. Bxe5 Qxe5 4. Ra7+ Kb8
+5. Qa1 Rhd8 6. Qa6 Qe1+ 7. Rf1 Qe3+ 8. Kh1 R6d7 9. Ra1 (9. Ra8+ $2 Kc7 10. Qa7+
+Kc6 11. Qa4+ Kd6 12. Qa3+ Kc7) 9... Re8 10. h3 Qe1+ 11. Rxe1 Rxe1+ 12. Kh2 Rxa7
+13. Qxb6+ Rb7 14. Qd8+ Ka7 15. Qxd5) 2. Rf1 Qxc3 3. Bf4+ Kb7 4. Qb5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nach Stamma"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "rn3r1k/6pp/1pN2p2/p3N3/1PR5/PQ2PPpq/5n2/2R3K1 w - - 0 1"]
+[PlyCount "9"]
+[EventType "swiss"]
+
+1. Rh4 Qxh4 (1... fxe5 2. Rxh3 Nxh3+ 3. Kg2 $18) 2. Qg8+ Kxg8 3. Ne7+ Kh8 4.
+Nf7+ Rxf7 5. Rc8+ 1-0
+
+[Event "Berlin"]
+[Site "Berlin"]
+[Date "1852.??.??"]
+[Round "?"]
+[White "Anderssen"]
+[Black "Dufrense"]
+[Result "1-0"]
+[Annotator "T+v4Z"]
+[SetUp "1"]
+[FEN "1r2k1r1/pbppnp1p/1bn2P2/8/Q7/B1PB1q2/P4PPP/3RR1K1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1852.??.??"]
+[EventType "game"]
+[EventCountry "GER"]
+
+1. Rxe7+ Nxe7 (1... Kd8 2. Rxd7+ Kc8 3. Rd8+ Kxd8 4. Bf5+ (4. Be2+ $1 {
+Alternative} Nd4 5. Bxf3 Bxf3 6. g3 Bxd1 7. Qxd1) 4... Qxd1+ 5. Qxd1+ Nd4 6.
+Bh3) 2. Qxd7+ Kxd7 3. Bf5+ Ke8 4. Bd7+ Kd8 5. fxe7# 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Lindgren, Kristian"]
+[Black "Teumer"]
+[Result "1/2-1/2"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "2r1r3/pp4pk/3b1nn1/3p1Q2/3P4/P1N1BR2/1q4PP/4R1K1 w - - 0 24"]
+[PlyCount "21"]
+[EventDate "1996.??.??"]
+[EventType "game"]
+
+24. Nxd5 (24. Rh3+ $2 Kg8 25. Nxd5 (25. Qxg6 Qxc3) 25... Be5 26. dxe5 Qxe5)
+24... Be5 {was sonst?} 25. Ne7 $1 (25. Nxf6+ Bxf6 26. Rh3+ Kg8 27. Qxg6 $14)
+25... Bxh2+ (25... Rxe7 $2 26. Rh3+ Kg8 27. Qxc8+ $18) 26. Kxh2 Rxe7 27. Qh3+ (
+27. Rh3+ Kg8 28. Qxc8+ Nf8 $18) 27... Kg8 28. Qxc8+ Nf8 29. Rxf6 gxf6 30. Bh6
+Rf7 31. Bxf8 Rxf8 32. Qg4+ Kf7 33. Qh5+ Kg8 34. Re7 {mit Gewinn} 1/2-1/2
+
+[Event "Monte Carlo"]
+[Site "Monte Carlo"]
+[Date "1902.??.??"]
+[Round "?"]
+[White "Reggio"]
+[Black "Mieses"]
+[Result "0-1"]
+[Annotator "T+3U"]
+[SetUp "1"]
+[FEN "1r4r1/p2kb2p/bq2p3/3p1p2/5P2/2BB3Q/PP4PP/3RKR2 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1902.??.??"]
+[EventType "swiss"]
+[EventCountry "MNC"]
+
+1... Rg3 2. Qxg3 (2. hxg3 Qe3+ 3. Be2 Qxe2#) 2... Bh4 3. Bxa6 Bxg3+ 4. hxg3
+Qxa6 0-1
+
+[Event "Budapest"]
+[Site "Budapest"]
+[Date "1950.??.??"]
+[Round "?"]
+[White "Keres"]
+[Black "Kotow"]
+[Result "1-0"]
+[Annotator "T+5X"]
+[SetUp "1"]
+[FEN "r1b1kb1r/1p1n1ppp/p2ppn2/6BB/2qNP3/2N5/PPP2PPP/R2Q1RK1 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1950.??.??"]
+[EventType "swiss"]
+[EventCountry "HUN"]
+
+1. Nxe6 Qxe6 (1... Nxh5 2. Qd5 Ne5 3. Qxc4 Nxc4 4. Nc7+) 2. Nd5 Kd8 (2... Nxd5
+3. exd5 Qf5 4. Qe1+ (4. Qe2+ $2 Qe5) 4... Ne5 (4... Qe5 5. f4) 5. f4 g6 6. fxe5
+Qxg5 7. exd6+ Kd7 8. Rxf7+ Kd8 9. Qc3) 3. Bg4 Qe5 (3... Qe8 4. Qd2 a5 5. Bxd7
+Bxd7 6. Qc3 Qe5 7. Qxe5 dxe5 8. Nxf6 $16) 4. f4 Qxe4 (4... Qxb2 5. Bxd7 Bxd7 6.
+Rb1 Qxa2 7. Nxf6 h6 8. Nxd7+ Kxd7 9. Rxb7+ Kc8 10. Rb3 hxg5 11. Qd5) 5. Bxd7
+Bxd7 (5... Kxd7 6. Bxf6 Kc6 7. Rf3) 6. Nxf6 gxf6 7. Bxf6+ Kc7 8. Bxh8 1-0
+
+[Event "Leningrad"]
+[Site "Leningrad"]
+[Date "1941.??.??"]
+[Round "?"]
+[White "Botwinnik"]
+[Black "Boleslawski"]
+[Result "1-0"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "3qr2k/2r3pp/2Q2p2/4n3/1P2R3/5N2/2P3PP/4R2K w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1941.??.??"]
+[EventType "simul"]
+[EventRounds "2"]
+[EventCountry "URS"]
+
+1. Nxe5 fxe5 (1... Rxc6 2. Nf7+ Kg8 3. Nxd8 Rxd8 4. c4 f5 5. Rf4) (1... Rxe5 2.
+Rxe5 fxe5 3. Qe4) 2. Qxe8+ Qxe8 3. Rxe5 Qg8 4. Re8 Rxc2 5. Rxg8+ Kxg8 6. Rb1
+1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1920.??.??"]
+[Round "?"]
+[White "Tarrasch"]
+[Black "Tartakower"]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "2kr1b1r/pp3ppp/2n5/2q5/2bpBB2/1Q3N1P/PP3PP1/R3R1K1 w - - 0 2"]
+[PlyCount "15"]
+[EventDate "1920.??.??"]
+[EventType "game"]
+
+2. Qxc4 Qxc4 3. Bf5+ Qe6 (3... Rd7 4. Re8+ Nd8 5. Ne5) 4. Rxe6 fxe6 5. Bxe6+
+Rd7 6. Ne5 Nxe5 7. Bxe5 Kd8 8. Bxd7 Kxd7 9. Bxd4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "N.N."]
+[Black "N.N."]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "r5k1/7p/pp1p1bp1/2pP1r2/1q2p3/1NN1n2Q/PP2B2P/2KR3R w - - 0 1"]
+[PlyCount "5"]
+[EventType "swiss"]
+
+1. Qxe3 Bg5 2. Kc2 Bxe3 3. a3 1-0
+
+[Event "Vilnius"]
+[Site "Vilnius"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Tschaikoeskaja"]
+[Black "Dimitrijewa"]
+[Result "0-1"]
+[Annotator "Tv+3A"]
+[SetUp "1"]
+[FEN "4r1k1/pp3pp1/7p/b6q/8/PQ2B2P/1P2RPP1/2rR1K2 b - - 0 1"]
+[PlyCount "13"]
+[EventDate "1972.??.??"]
+[EventType "game"]
+[EventCountry "LTU"]
+
+1... Qb5 2. Bxc1 Qxb3 3. Rxe8+ Kh7 4. Rd4 Qc2 (4... Bb6 $1 {Alternative}) 5.
+Be3 Qb1+ 6. Ke2 Qxb2+ 7. Kf3 Qxa3 0-1
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1962.??.??"]
+[Round "?"]
+[White "Koschtenko"]
+[Black "Lerner"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "r1b2rk1/p1p2ppp/2p1pn2/3q2B1/3PN3/P7/1PP2PPP/R2QK2R w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1962.??.??"]
+[EventType "team"]
+
+1. Nxf6+ gxf6 2. Bxf6 Qxg2 (2... Qe4+ 3. Qe2) 3. Qf3 Qxf3 4. Rg1+ 1-0
+
+[Event "Riga"]
+[Site "Riga"]
+[Date "1962.??.??"]
+[Round "?"]
+[White "Makna"]
+[Black "Stafeckis"]
+[Result "1-0"]
+[Annotator "T+5X"]
+[SetUp "1"]
+[FEN "r1bq2rk/pp3p1p/2p2PpQ/3pP3/8/3nR3/PPPN2PP/R6K w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1962.??.??"]
+[EventType "team"]
+[EventCountry "LAT"]
+
+1. Nf3 Nf2+ (1... Qf8 2. Ng5) 2. Kg1 Ng4 (2... Nh3+ $1 3. gxh3 g5 4. Nxg5 Bf5
+5. Kh1 Qd7 (5... Qf8 6. Rf1 Bxc2 7. Qh4 Re8 8. e6 Rxg5 9. Qxg5 Rxe6 10. Rxe6
+fxe6 11. Kg2 (11. Qe5 $2 Be4+ 12. Kg1 Qc5+) (11. f7 $2 Be4+ 12. Kg1 Bf5)) (5...
+Bg6 6. Qxh7+ Bxh7 7. Nxf7#) 6. Rf1 Bg6 7. e6 fxe6 8. f7) 3. Qxh7+ Kxh7 4. Ng5+
+Kh6 5. Nxf7+ Kh7 6. Rh3+ Nh6 7. Rxh6# 1-0
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1954.??.??"]
+[Round "?"]
+[White "Nekrassow"]
+[Black "Jurkow"]
+[Result "0-1"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "4rrk1/2qn1ppp/p1p2n2/bp3R2/3P4/2N1BQ2/PPPN2PP/5RK1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1954.??.??"]
+[EventType "game"]
+
+1... Rxe3 2. Qxe3 Qxh2+ 3. Kxh2 Ng4+ 4. Kg3 Nxe3 0-1
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Nikolajewski"]
+[Black "Wasjukow"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "r1b2rk1/4ppb1/3p1npp/q1pP4/1n2PP1B/2N2N2/PP1Q2PP/2R1KB1R b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1957.??.??"]
+[EventType "game"]
+
+1... Nxa2 2. Ra1 Nxc3 3. Rxa5 Rxa5 4. bxc3 (4. Qc1 Ncxe4 5. Bd3 Bb7 6. Bxe4
+Nxe4) (4. Qxc3 Ra1+ 5. Ke2 Ba6+ 6. Ke3 Ng4+ 7. Kd2 Bxc3+) 4... Ra1+ 5. Ke2 Ba6+
+6. Ke3 Ng4# 0-1
+
+[Event "Ukraine"]
+[Site "?"]
+[Date "1950.??.??"]
+[Round "?"]
+[White "Makarow"]
+[Black "Bannik"]
+[Result "1-0"]
+[Annotator "T+4R"]
+[SetUp "1"]
+[FEN "2rqk2r/1p1b3p/4pbpB/1n1p4/pP6/P2R2N1/5PPP/1B1QR1K1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1950.??.??"]
+[EventType "game"]
+
+1. Rxd5 Nc3 2. Qd3 (2. Rxe6+ $2 Bxe6 3. Rxd8+ Rxd8) 2... Nxd5 (2... Qe7 3. Ra5
+(3. Rd6 Bb5 4. Qf3 Qxd6 5. Qxf6 Kd7 6. Ne4 Nxe4 7. Bxe4 Rhe8 $13) 3... Rd8 4.
+Ne4 Nxe4 5. Qxe4) 3. Qxg6+ hxg6 4. Bxg6+ Ke7 5. Nf5# 1-0
+
+[Event "Jalta"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Raschkowski"]
+[Black "Anikajew"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "4rbk1/1p3ppb/2p5/p4N1p/8/1P3QP1/PBq2PBP/1R4K1 w - - 0 4"]
+[PlyCount "9"]
+[EventDate "1966.??.??"]
+[EventType "game"]
+
+4. Nh6+ Kh8 (4... gxh6 5. Qf6 Qxb1+ 6. Bf1 Qxb2 7. Qxb2) 5. Nxf7+ Kg8 6. Nh6+
+gxh6 7. Qd5+ cxd5 8. Bxd5+ 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Krantz"]
+[Black "Dahlin"]
+[Result "1-0"]
+[Annotator "T+5Z"]
+[SetUp "1"]
+[FEN "r1b2rk1/2p2pp1/p2q3p/1n1PR3/pP6/6Q1/B4PPP/B3R1K1 w - - 0 1"]
+[PlyCount "23"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+
+1. Qxg7+ Kxg7 2. Rg5+ Kh7 3. Rg7+ Kh8 4. Rxf7+ Kg8 5. Rg7+ Kh8 6. Ree7 (6. Rg3+
+$2 Kh7 7. Bb1+ Bf5 8. Rg7+ Kh8 9. Ree7 Rf6) 6... Rf6 (6... Qxe7 7. Rxe7+ Kg8 8.
+d6+ Rf7 9. Re8+ Kh7 10. Bxf7) 7. Rgf7 Kg8 8. Rxf6 (8. Bxf6 Be6 9. Rh7 Qxe7 10.
+Rxe7 Bf7 $13) 8... Qxe7 9. d6+ Be6 10. Bxe6+ (10. dxe7 $2 Bxa2 11. Rxh6 Kf7 12.
+Rh7+ Ke6) 10... Qxe6 11. Rxe6 cxd6 12. Rxh6 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1994.??.??"]
+[Round "?"]
+[White "Liebscher"]
+[Black "Munko"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "7k/pp4p1/2n4p/3p1q2/3Pr3/P2Q1N2/1P3PP1/3R2K1 b - - 0 29"]
+[PlyCount "5"]
+[EventDate "1994.??.??"]
+[EventType "simul"]
+[EventRounds "3"]
+
+29... Nxd4 $1 30. Kf1 (30. Nxd4 Re1+ 31. Rxe1 (31. Kh2 Qh5+ 32. Kg3 Rxd1) 31...
+Qxd3) 30... Nxf3 31. Qxf3 Qxf3 0-1
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Winkler"]
+[Black "Munko"]
+[Result "1-0"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "r1b1k2r/1p1n1p1p/p3p1p1/4PnN1/3qpQ2/3B4/PPP2PPP/2KR3R w kq - 0 17"]
+[PlyCount "17"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+
+17. Bb5 Qb6 (17... Qb4 18. Bxd7+ Bxd7 19. Nxe4 Qa5 20. Nf6+) 18. Bxd7+ Bxd7 19.
+g4 Bc6 (19... Nd4 20. Qxf7+ Kd8 21. Rd2 Kc8 22. Rhd1) 20. gxf5 exf5 (20... gxf5
+$4 21. Qh4 $14 Qc7 22. Nxh7) 21. e6 f6 (21... fxe6 22. Qe5 O-O 23. Qxe6+) 22.
+Nf7 O-O 23. Qxf5 Rxf7 24. exf7+ Kxf7 25. Qf4 1-0
+
+[Event "LK-Turnier"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Munko"]
+[Black "Auerswald"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "2rq1rk1/pb2ppbp/1p3np1/3P4/1nB1P3/1QN2N2/PP3PPP/R1B1K2R b KQ - 0 12"]
+[PlyCount "17"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+12... Rxc4 $1 13. Qxc4 Nc2+ 14. Ke2 Nxa1 15. Bd2 Nc2 $15 (15... b5 $6 16. Nxb5
+Nxe4 17. Qxe4 Bxd5 (17... Bxb2 18. Qb1 Bf6 19. Nc3 $14) 18. Qa4 Bc6 19. Qc4
+Bxf3+ 20. gxf3 Bxb2 21. Nxa7 Qd7 $17 22. Be3 $13) 16. Rc1 Qc8 (16... Nd4+ $2
+17. Qxd4 Nxd5 18. Qa4 Nxc3+ 19. Bxc3 Qc7 $15) 17. Qxc8 $19 (17. Qa4 $6 Ba6+ (
+17... b5 18. Qxc2 b4 19. Nd1 Qxc2 20. Rxc2 Nxe4 21. Bxb4 Bxd5 22. b3 $15) 18.
+Kd1 Bd3 19. Ne5 b5 20. Qxa7 Nb4 21. Qxe7 (21. f4 Nxe4 22. Nxe4 Bc2+ 23. Ke1
+Bxe5 24. Bxb4 Bxb2) 21... Ng4 22. Qxb4 (22. Nxg4 Qxg4+ 23. f3 Qxg2 24. Qxb4
+Qxf3+) 22... Nxe5) 17... Rxc8 18. Rxc2 Nxe4 19. Rc1 Nxc3+ 20. Bxc3 Bxd5 0-1
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Munko"]
+[Black "Auerswald"]
+[Result "1/2-1/2"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "2rr2k1/pp2pp1p/6p1/3P4/b3P3/2nBKN1P/5PP1/R1R5 b - - 0 24"]
+[PlyCount "7"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+
+24... Bb5 (24... b5 $2 25. Nd4 e6 26. Nc6) 25. Rxa7 (25. d6 Kf8 (25... exd6 26.
+Rxa7 Bxd3 27. Kxd3 d5 28. e5 Ne4 29. Rxc8 Rxc8 30. Kd4 Rc7 31. Ra8+ Kg7 32.
+Kxd5 Nxf2 33. Rb8 Rd7+ 34. Kc5 Nd3+ 35. Kb6 Nf4 36. Rxb7 Rxb7+ 37. Kxb7 Nxg2
+38. Kc6 Nf4 39. h4 $13) 26. Bxb5 Nxb5 27. Rxc8 Rxc8 28. d7 Rd8) 25... Bxd3 26.
+Kxd3 Nxd5 27. Rxc8 Nf4+ 1/2-1/2
+
+[Event "Palma de Mallorca"]
+[Site "Palma de Mallorca"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Spasski"]
+[Black "Penrose"]
+[Result "1-0"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "1Q2n3/1b1qn2k/3p3p/2pPp1pP/1pP1P1P1/1P2BBN1/6K1/8 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1969.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. Bxc5 dxc5 2. Qxe5 Ng8 3. Qb8 Nef6 4. Nf5 (4. e5 $5) 4... Ne7 5. Nxh6 Nexd5 (
+5... Kxh6 6. Qf8+ Kh7 7. Qf7+ Kh8 8. Qxf6+) 6. cxd5 Kxh6 7. Qf8+ Qg7 8. Qxc5
+1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Nicevski"]
+[Black "Joffe"]
+[Result "1-0"]
+[Annotator "T+3W"]
+[SetUp "1"]
+[FEN "2r2rk1/p1n3pp/1p2p3/1q1pQP2/3Pn3/6N1/PP4PP/R1B2RK1 w - - 0 1"]
+[PlyCount "25"]
+[EventDate "1969.??.??"]
+[EventType "team"]
+
+1. Bh6 gxh6 (1... Qd7 2. fxe6 Nxe6 3. Nxe4 dxe4 4. Be3) 2. fxe6 Qe8 3. e7 Rxf1+
+4. Rxf1 Qg6 5. Nxe4 dxe4 6. Rf6 $1 (6. Rf8+ $2 Rxf8 7. Qh8+ Kxh8 8. exf8=Q+ Qg8
+9. Qf6+ Qg7 10. Qd8+ Qg8 11. Qxc7 Qxa2) 6... Qg5 7. Qxc7 Qe3+ 8. Rf2 Qc1+ 9.
+Qxc1 Rxc1+ 10. Rf1 Rxf1+ 11. Kxf1 Kf7 12. Ke2 Kxe7 13. Ke3 1-0
+
+[Event "Chile"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Belmonte"]
+[Black "Chauregi"]
+[Result "0-1"]
+[Annotator "T+4W"]
+[SetUp "1"]
+[FEN "8/5k2/1N3p1p/1n6/2p2P2/P5PK/3r3P/4R3 b - - 0 1"]
+[PlyCount "21"]
+[EventDate "1969.??.??"]
+[EventType "game"]
+
+1... c3 2. Rc1 c2 3. Nc4 Re2 4. a4 Nd4 5. Na3 f5 6. a5 Kg6 7. a6 Kh5 8. a7 (8.
+Rxc2 Nxc2 9. a7 Ne3 10. a8=Q Ng4 11. Qg2 Nf2+ 12. Qxf2 Rxf2) 8... Nf3 9. g4+
+fxg4+ 10. Kg3 Nh4 11. f5 Kg5 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1948.??.??"]
+[Round "?"]
+[White "Aronin"]
+[Black "Kotow"]
+[Result "0-1"]
+[Annotator "T+4W"]
+[SetUp "1"]
+[FEN "8/8/1P1b4/3knR2/5PP1/4pN1P/1r6/3K4 b - - 0 3"]
+[PlyCount "19"]
+[EventDate "1948.??.??"]
+[EventType "swiss"]
+
+3... Ke4 (3... e2+ $2 4. Kc1 Rxb6 5. fxe5) 4. fxe5 Ba3 5. e6 (5. b7 e2+ (5...
+Rxb7 $2 6. Kc2 e2 7. Ng5+) 6. Kc1 Rxb7+ 7. Kd2 Rb2+ 8. Kc3 Ke3 9. Ne1 (9. e6 $2
+Rb1 10. Kc2 Rc1+ 11. Kb3 Rf1) 9... Bb4+ 10. Kxb2 Bxe1 11. e6 Bc3+ 12. Kxc3
+e1=Q+ $13) 5... e2+ 6. Kc1 (6. Ke1 Ke3 7. Nd2 Rb1+ 8. Nxb1 Bb4+) 6... Rb5+ 7.
+Kd2 Rxf5 8. gxf5 Kxf3 9. b7 Bb4+ 10. Kc2 e1=Q 11. b8=Q Qc3+ 12. Kb1 Qb3+ 0-1
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Panow"]
+[Black "Taimanow"]
+[Result "1-0"]
+[Annotator "T+3W"]
+[SetUp "1"]
+[FEN "3r2k1/p6p/b2r2p1/2qPQp2/2P2P2/8/6BP/R4R1K w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1952.??.??"]
+[EventType "team"]
+
+1. Rxa6 Rxa6 2. d6 Qxe5 (2... Qxd6 3. Bd5+ Kf8 4. Qh8+) 3. fxe5 Ra5 4. Bd5+ Kf8
+5. Rb1 1-0
+
+[Event "Sektion"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Auerswald"]
+[Black "Keller"]
+[Result "1-0"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "r3kb1r/ppp2ppp/n1n1p3/q7/6P1/P1N1BN1P/1PP1QP2/2KR3R w kq - 0 14"]
+[PlyCount "3"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+14. Rd5 $1 Bc5 (14... exd5 15. Bb6+) 15. Nd2 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1943.??.??"]
+[Round "?"]
+[White "Boleslawski"]
+[Black "Botwinnik"]
+[Result "1-0"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "5r2/1q5k/4B2p/p3Bp2/1p5R/2p3R1/3p2PK/8 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1943.??.??"]
+[EventType "game"]
+
+1. Rgh3 (1. Bf4 Qg7 2. Rxg7+ Kxg7 3. Bb3 Rd8 4. Be5+ Kg6 5. Rd4 Re8 6. Bf4 Re1
+7. Rd6+ Kh7 (7... Kg7 $2 8. Bxh6+ Kh8 9. Bf8) 8. Bxh6 d1=R 9. Bxd1 Rxd1 10.
+Rxd1 Kxh6 11. Rc1 a4 $19) 1... Qg7 2. Bxg7 Kxg7 3. Bb3 1-0
+
+[Event "Stockholm"]
+[Site "Stockholm"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Horberg"]
+[Black "Kotow"]
+[Result "0-1"]
+[Annotator "T+v2X"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp2ppbp/1np3p1/n2p4/3PP3/2NBB2P/PPP1QPP1/3R1RK1 b - - 0 1"]
+[PlyCount "13"]
+[EventDate "1959.??.??"]
+[EventType "team"]
+[EventCountry "SWE"]
+
+1... e5 2. exd5 (2. dxe5 d4 3. b4 dxe3 4. bxa5 exf2+ 5. Qxf2 Nd7 (5... Bxe5 6.
+Bc4 Nxc4 7. Rxd8 Raxd8 8. Ne2 Rd2 9. Qc5 Rxc2 10. Nd4 b6 11. Qxf8+ Kxf8 12.
+Nxc2 Nxa5 13. Kf2 $13) 6. Bc4 Bxe5 7. Bxf7+ Kg7 8. Ne2 Qe7) 2... exd4 3. dxc6
+Nxc6 (3... dxe3 $1 {Alternative} 4. Bxg6 Qg5 5. cxb7 $19) 4. Bb5 Qc7 5. Bxc6
+dxc3 6. Be4 cxb2 7. Bd4 b1=Q 0-1
+
+[Event "DDR"]
+[Site "DDR"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Fiensch"]
+[Black "Postler"]
+[Result "0-1"]
+[Annotator "T+4H"]
+[SetUp "1"]
+[FEN "2r3k1/1b4pp/p3pbr1/1p6/3pPP2/PP6/2P1R1BP/1RB4K b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1969.??.??"]
+[EventType "game"]
+[EventCountry "DDR"]
+
+1... Rxg2 2. Kxg2 Rxc2 3. Rxc2 (3. Kf3 Rxe2 4. Kxe2 Bxe4 5. Rb2 d3+ 6. Ke3 Bxb2
+) 3... Bxe4+ 4. Kf1 Bxc2 5. Rb2 d3 6. Rxc2 (6. Ra2 d2 7. Bxd2 Bxb3) 6... dxc2
+0-1
+
+[Event "Erssel"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Ek"]
+[Black "Gaprindaschwili"]
+[Result "1-0"]
+[Annotator "T+v2X"]
+[SetUp "1"]
+[FEN "r4rk1/pp2ppbp/2np2p1/2nN3q/2P3N1/1P3PP1/PB2P1KP/1R1QR3 w - - 0 1"]
+[PlyCount "1"]
+[EventDate "1968.??.??"]
+[EventType "game"]
+
+1. Bf6 (1. b4 $1 {Alternative} Ne6 2. b5) 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Capablanca"]
+[Black "N.N."]
+[Result "1-0"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "8/3b2kp/4p1p1/pr1n4/N1N4P/1P4P1/1K3P2/3R4 w - - 0 1"]
+[PlyCount "9"]
+[EventType "swiss"]
+
+1. Nc3 Rc5 2. Ne4 Rb5 3. Ned6 Rc5 4. Nb7 Rb5 5. Nbxa5 1-0
+
+[Event "Bad Kissingen"]
+[Site "Bad Kissingen"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Capablanca"]
+[Black "Spielmann"]
+[Result "0-1"]
+[Annotator "T+v2U"]
+[SetUp "1"]
+[FEN "3q2k1/pb3p1p/4pbp1/2r5/PpN2N2/1P2P2P/5PP1/Q2R2K1 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1928.??.??"]
+[EventType "game"]
+[EventCountry "GER"]
+
+1... Rd5 2. Rxd5 exd5 3. Ne5 Qd6 (3... Qe7 $19 {Alternative}) 4. Nfd3 Ba6 5.
+Qe1 Bxe5 6. Nxe5 Qxe5 0-1
+
+[Event "Riga"]
+[Site "Riga"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Suetin"]
+[Black "Kotow"]
+[Result "0-1"]
+[Annotator "T+v3F"]
+[SetUp "1"]
+[FEN "2q5/1b3k2/p3pppb/3p4/pP2PP2/P2PB3/5NKP/2Q5 b - - 0 1"]
+[PlyCount "25"]
+[EventDate "1958.??.??"]
+[EventType "game"]
+[EventCountry "LAT"]
+
+1... Qxc1 2. Bxc1 dxe4 3. dxe4 f5 4. Kf3 e5 5. Be3 fxe4+ (5... exf4 $15 {
+Alternative}) 6. Nxe4 exf4 (6... Ke6 7. f5+ gxf5 8. Bxh6 Bxe4+ 9. Ke2 $13) 7.
+Bxf4 g5 8. Bd2 Kg6 9. Ke3 g4+ 10. Kd4 Bg7+ 11. Ke3 Bxe4 12. Kxe4 Bb2 13. Kd3
+Kf5 0-1
+
+[Event "Prag"]
+[Site "?"]
+[Date "1943.??.??"]
+[Round "?"]
+[White "Aljechin"]
+[Black "Podgorny"]
+[Result "1-0"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "r3k2r/pp3ppp/2n1pn2/q7/1b1P2b1/P1N2N2/1P2BPPP/R1BQ1RK1 w kq - 0 1"]
+[PlyCount "15"]
+[EventDate "1943.??.??"]
+[EventType "team"]
+
+1. d5 exd5 (1... Nxd5 2. Nxd5 exd5 3. Qb3 O-O 4. axb4 Qxa1 5. Bd2 (5. Be3 $6
+Na5 6. bxa5 Qxa5 $13)) 2. axb4 (2. Qb3 $2 Bxc3) 2... Qxa1 3. Nd2 Bxe2 4. Qxe2+
+Ne7 (4... Kf8 5. Nb3 Qa6 6. b5 Qb6 7. Na4 Nd4 8. Qd1 Qxb5 9. Nxd4) 5. Re1 O-O
+6. Nb3 Qa6 7. Qxa6 bxa6 8. Rxe7 1-0
+
+[Event "Bled"]
+[Site "Bled"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Aljechin"]
+[Black "Pirc"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "2kr1b1r/pp1b1pp1/2n2q1p/8/8/2N1P3/PP1Q1PPP/2KR1BNR b - - 0 2"]
+[PlyCount "11"]
+[EventDate "1935.??.??"]
+[EventType "game"]
+[EventCountry "SLO"]
+
+2... Bg4 3. Nd5 Rxd5 4. Qxd5 Ba3 5. Qb3 (5. bxa3 Qa1+ 6. Kc2 Bxd1+ 7. Qxd1
+Qxa2+ 8. Kc1 Rd8) (5. Rd2 Rd8 6. Qb3 Rxd2 7. Kxd2 Qxf2+ 8. Ne2 Bb4+) 5... Bxd1
+6. Qxa3 Qxf2 7. Qd3 Bg4 (7... Rd8 $2 8. Nh3 $15) 0-1
+
+[Event "Oldenburg"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Krumwiede"]
+[Black "Schlemermeyer"]
+[Result "1-0"]
+[Annotator "T+4W"]
+[SetUp "1"]
+[FEN "3rq1k1/Rp3ppp/1P6/7b/8/1B3PBP/1bP2P2/3Q2K1 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+1. Qxd8 Qxd8 2. Rxb7 Qd1+ (2... Bd4 3. Rb8 Qxb8 4. Bxb8 Bxb6 5. Bd5) 3. Kh2 h6
+(3... Kf8 4. Rxf7+ Bxf7 5. b7 Qd8 6. b8=Q Qxb8 7. Bxb8) 4. Rxf7 Bxf7 5. b7 Bxb3
+6. b8=Q+ Kh7 7. Qxb3 1-0
+
+[Event "Bremen"]
+[Site "Bremen"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Mueller"]
+[Black "Schlaeger"]
+[Result "1-0"]
+[Annotator "T+4A"]
+[SetUp "1"]
+[FEN "3r2k1/pp1n1r1p/4Rbp1/2qB3P/2P5/5Q2/P2B1PP1/6K1 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1993.??.??"]
+[EventType "team"]
+[EventCountry "GER"]
+
+1. Bg5 (1. Bc3 $2 Kg7 2. h6+ Kxh6 3. Bxf6 Nxf6 4. Rxf6 Rxf6 5. Qxf6 Rf8) 1...
+Qd4 (1... Bxg5 2. Rxg6+ hxg6 3. Qxf7+ Kh8 4. hxg6) 2. Re7 Qxd5 (2... Kh8 3.
+Rxf7 Bxg5 4. Rxd7 Re8 5. Rxh7+ Kxh7 6. Qf7+) 3. Qxd5 Bxe7 4. Bxe7 Re8 5. hxg6
+hxg6 6. Bb4 Nf6 7. Qg5 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Hracek"]
+[Black "Rasik"]
+[Result "1-0"]
+[Annotator "T+v3X"]
+[SetUp "1"]
+[FEN "r1bq1rk1/1p1n1p1p/p2P1bp1/4p3/1P1N1P2/2PQB3/P1B3PP/R4RK1 w - - 0 1"]
+[PlyCount "19"]
+[EventDate "1993.??.??"]
+[EventType "swiss"]
+
+1. Nf5 gxf5 (1... Re8 2. Nh6+ Kg7 3. Qc4 Kxh6 4. fxe5+ Kg7 5. exf6+) (1... e4
+2. Qxe4 Re8 3. Ne7+ Bxe7 4. dxe7) 2. Qxf5 e4 3. Bxe4 Re8 4. Qxh7+ Kf8 5. f5
+Rxe4 6. Bh6+ Ke8 7. Qg8+ Nf8 8. Qxf8+ (8. Rae1 $1 {Alternative} Rxe1 9. Rxe1+
+Kd7 10. Qxf7+ Kc6 11. Qc4+ Kd7 12. Bxf8 $18) 8... Kd7 9. Qxf7+ Kc6 10. Rad1 1-0
+
+[Event "Aue (Vereinsturnier)"]
+[Site "?"]
+[Date "1995.??.??"]
+[Round "?"]
+[White "Boerner"]
+[Black "Kunath L."]
+[Result "0-1"]
+[Annotator "T+3Z"]
+[SetUp "1"]
+[FEN "6k1/Rp3pp1/2b3rp/8/1PP5/2B3PP/1P2rP2/5RK1 b - - 0 1"]
+[PlyCount "15"]
+[EventDate "1995.??.??"]
+[EventType "game"]
+
+1... Rxg3+ 2. fxg3 Rg2+ 3. Kh1 Rxg3+ 4. Kh2 Rg2+ 5. Kh1 Rxb2+ 6. Kg1 Rg2+ 7.
+Kh1 Ra2+ 8. Kg1 Rxa7 0-1
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Auerswald"]
+[Black "Stephan"]
+[Result "1/2-1/2"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "2rqr3/pp1b2kp/6p1/1B2bp2/2Qn1N2/2B5/PPP3PP/2KR3R w - - 0 25"]
+[PlyCount "7"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+
+25. Qxd4 Bxd4 26. Rxd4 Qg5 27. Rxd7+ Kf8 28. Bd2 1/2-1/2
+
+[Event "Variante"]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Wagner"]
+[Black "Auerswald"]
+[Result "1/2-1/2"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "8/1p3p2/8/3p2pp/kP1B1b2/P4P1P/1K4P1/8 b - - 0 40"]
+[PlyCount "12"]
+[EventDate "1988.??.??"]
+[EventType "game"]
+
+40... g4 (40... f5 41. g4 hxg4 42. hxg4 fxg4 43. fxg4 b5 44. Bf6 Be3 45. Be7)
+41. fxg4 hxg4 42. hxg4 Bg5 43. g3 b5 44. Be5 Be3 45. Bd6 Bd4+ 46. Ka2 1/2-1/2
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Zschalich"]
+[Black "Auerswald"]
+[Result "0-1"]
+[Annotator "T+4Z"]
+[SetUp "1"]
+[FEN "3rr1k1/ppp1qppp/2n5/3n4/1b1P4/4P3/PB2NPPP/RN1Q1RK1 b - - 0 13"]
+[PlyCount "19"]
+[EventDate "1987.??.??"]
+[EventType "game"]
+
+13... Nxe3 14. fxe3 Qxe3+ 15. Rf2 Nxd4 16. Bxd4 Bc5 17. Qb3 (17. Nbc3 Rxd4 18.
+Nxd4 Bxd4 19. Qf1 Bxc3 20. Rd1 Bd4) 17... Qxb3 (17... Rxd4 $2 18. Qxf7+ Kh8 19.
+Nxd4 Qe1+ (19... Bxd4 20. Nd2 Bxa1 21. Nf1) 20. Rf1 Bxd4+ 21. Kh1 Bxa1 22. h3
+$16) 18. axb3 Rxd4 19. Nbc3 Rd2 20. b4 Bxf2+ 21. Kxf2 Rb2 22. Rxa7 Rxb4 0-1
+
+[Event "Variante"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Keller"]
+[Black "Auerswald"]
+[Result "0-1"]
+[Annotator "T+5X"]
+[SetUp "1"]
+[FEN "5kr1/1b2npb1/p5qp/4rp2/3p4/PB1N1P2/1PP3QP/R1B2R1K b - - 0 27"]
+[PlyCount "23"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+27... Qxg2+ 28. Kxg2 Re3 29. Bxe3 dxe3 30. Kh3 (30. Kh1 e2 31. Rf2 Bd4) (30.
+Rae1 Bc3+ 31. Kh1 Bxe1 32. Nxe1 Ng6 33. Bc4 Nf4 34. Rg1 Rg6) 30... f4 31. Rg1
+Bc8+ 32. Kh4 h5 33. Rxg7 (33. Kxh5 Rh8+ 34. Kg5 Ng6) 33... Rxg7 34. Nxf4 Nf5+
+35. Kxh5 f6 36. Ng6+ Ke8 37. Rg1 (37. Ba4+ Kd8 38. Rd1+ Kc7 39. Re1 Rh7+ 40.
+Kg4 Nh4+ 41. Kg3 Nxg6) 37... Rh7+ 38. Kg4 Nd4+ 0-1
+
+[Event "Tilburg"]
+[Site "Tilburg"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Ribli"]
+[Black "Karpow"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "1r3rk1/p1pqn1bp/2npb1p1/3N1p2/1PP1pP2/4P1PP/P2QN1BK/1RB2R2 b - - 0 1"]
+[PlyCount "6"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+[EventCountry "NED"]
+
+1... Na5 2. Nd4 (2. Qc2 Nxc4) 2... Nxc4 3. Nxe7+ Qxe7 4. Qc2 0-1
+
+[Event "Tilburg"]
+[Site "Tilburg"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Karpow"]
+[Black "Andersson"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "b1r3k1/q4pp1/3np2p/3pN3/2pP1Q2/7P/PR3PP1/1R4K1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+[EventCountry "NED"]
+
+1. Nxc4 dxc4 (1... Nxc4 2. Rb8 Rxb8 3. Qxb8+ Qxb8 4. Rxb8+ Kh7 5. Rxa8) 2. Qxd6
+1-0
+
+[Event "Tscheljabinsk"]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Palatnik"]
+[Black "Kupreitschik"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "5rk1/1N3pbp/p3p3/4n3/4Qpq1/P4N2/1PP2PPP/1K1R4 b - - 0 2"]
+[PlyCount "7"]
+[EventDate "1974.??.??"]
+[EventType "game"]
+
+2... Qxg2 3. Rg1 Nxf3 4. Rxg2 Nd2+ 5. Kc1 Nxe4 0-1
+
+[Event "BRD"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Kavalek"]
+[Black "Soos"]
+[Result "1-0"]
+[Annotator "T+3F"]
+[SetUp "1"]
+[FEN "2rr2k1/pb2qpb1/4p1p1/2pn3p/2N5/1BP3BP/PP2QPP1/3RR1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1980.??.??"]
+[EventType "game"]
+
+1. Nd6 Rxd6 2. Bxd6 Qxd6 3. c4 Bd4 4. cxd5 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Knott"]
+[Black "Cafferty"]
+[Result "1-0"]
+[Annotator "T+1F"]
+[SetUp "1"]
+[FEN "1r5k/3q2pp/4bp2/2pBp3/p1P1P3/PnBP3P/5QP1/5RK1 w - - 0 1"]
+[PlyCount "1"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+
+1. Bxe5 1-0
+
+[Event "Stockholm"]
+[Site "Stockholm"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Schuessler"]
+[Black "Rantanen"]
+[Result "1-0"]
+[Annotator "T+4A"]
+[SetUp "1"]
+[FEN "4r2k/1q2rnpp/p4p2/1pp5/6Q1/1P3P2/PBP2KPP/3RR3 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1978.??.??"]
+[EventType "game"]
+[EventCountry "SWE"]
+
+1. Rd7 Nh6 2. Qxg7+ (2. Qh3 $2 Qxd7 3. Qxd7 Rxe1) (2. Rxb7 $2 Nxg4+) 2... Kxg7
+(2... Rxg7 3. Rxe8+ Ng8 4. Rxb7 Rxb7 5. Bxf6+) 3. Rxb7 Rxb7 4. Rxe8 1-0
+
+[Event "Wolgograd"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Borowkow"]
+[Black "Potapow"]
+[Result "1-0"]
+[Annotator "T+4U"]
+[SetUp "1"]
+[FEN "2rnbr1k/1p2q1pp/p2p1n2/5p1P/2BPpN2/2Q1PP2/PP1B2P1/1K1R3R w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1980.??.??"]
+[EventType "game"]
+
+1. Bf7 Bxf7 (1... Rxc3 2. Ng6+ hxg6 3. hxg6+ Nh7 4. Rxh7#) 2. Qxc8 Nc6 (2...
+Ne6 3. Qc3 Nxf4 4. exf4) 3. Qxf5 Nxh5 4. Rxh5 Bxa2+ 5. Kxa2 Rxf5 6. Ng6+ Kg8 7.
+Nxe7+ 1-0
+
+[Event "Panonia"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Jeruslanowa"]
+[Black "Meyer"]
+[Result "1-0"]
+[Annotator "T+3F"]
+[SetUp "1"]
+[FEN "r1bqnr1k/1pppb2p/p7/4Ppp1/3Q1B2/1B6/PPP2PPP/RN2R1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+1. e6+ Bf6 2. Bxg5 Bxd4 3. e7 (3. Bxd8 $2 Bxb2) 3... Qxe7 4. Bxe7 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Averby"]
+[Black "Pettersson"]
+[Result "0-1"]
+[Annotator "T+v3R"]
+[SetUp "1"]
+[FEN "r4rnk/1bqn1pbp/p5pN/1p2p3/4P2Q/P1NBB2P/1PP3P1/R4RK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1980.??.??"]
+[EventType "team"]
+
+1... g5 2. Bxg5 Bxh6 (2... Qb6+ $19 {Alternative}) 3. Bxh6 Qb6+ 0-1
+
+[Event "Tallinn"]
+[Site "Tallinn"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Bronstein"]
+[Black "Hazai"]
+[Result "1-0"]
+[Annotator "T+v2Z"]
+[SetUp "1"]
+[FEN "1r1r2k1/5p2/2R3pb/R2pP1N1/3P4/1p6/1P3K2/8 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+[EventCountry "EST"]
+
+1. Nxf7 Kxf7 (1... Rf8 2. e6) 2. Ra7+ Kf8 3. Rxg6 (3. Rf6+ {Alternative} Ke8 4.
+Rxg6 $18) 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Ahlbaeck"]
+[Black "Raesaenen"]
+[Result "0-1"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "r1b1r1k1/ppp2ppp/5n2/3P4/1q1pN1n1/PB6/1PP1QPPP/RN3RK1 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+
+1... Rxe4 2. Qxe4 (2. Qxg4 Bxg4 3. axb4 Re2) 2... Qd6 0-1
+
+[Event "Wijk aan Zee"]
+[Site "Wijk"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Sosonko"]
+[Black "Gheorghiu"]
+[Result "1-0"]
+[Annotator "T+4R"]
+[SetUp "1"]
+[FEN "1n1qk2r/3r1ppp/pp1bp1n1/6N1/2PN4/5QP1/PP3PKP/R1BR4 w k - 0 1"]
+[PlyCount "13"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+[EventCountry "NED"]
+
+1. Ndxe6 Qf6 (1... fxe6 2. Rxd6) 2. Qxf6 gxf6 3. Ng7+ Kf8 4. Nf5 Bxg3 5. Rxd7
+Nxd7 6. hxg3 fxg5 7. Bxg5 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1884.??.??"]
+[Round "?"]
+[White "Kitson"]
+[Black "Tatnall"]
+[Result "0-1"]
+[Annotator "T+3X"]
+[SetUp "1"]
+[FEN "rn2kb1r/pp5p/8/1n1N1b2/3P1Np1/1K2BpP1/PPP2q1P/R2Q3R b kq - 0 1"]
+[PlyCount "9"]
+[EventDate "1884.??.??"]
+[EventType "game"]
+
+1... Bxc2+ 2. Qxc2 Qxe3+ 3. Nxe3 Nxd4+ 4. Kc3 Nxc2 5. Kxc2 h5 0-1
+
+[Event "Moskau"]
+[Site "Moskau"]
+[Date "1954.??.??"]
+[Round "?"]
+[White "Spasski"]
+[Black "Taimanow"]
+[Result "1-0"]
+[Annotator "T+v3A"]
+[SetUp "1"]
+[FEN "r3kb1r/1bp1n2p/p3qp2/1p2p1p1/4P2N/1PN1BQ2/1PP2PPP/R2R2K1 w kq - 0 1"]
+[PlyCount "11"]
+[EventDate "1954.??.??"]
+[EventType "team"]
+[EventCountry "RUS"]
+
+1. Nxb5 axb5 2. Qh5+ (2. Rxa8+ $18 {Alternative}) 2... Qf7 3. Rxa8+ Bxa8 4.
+Rd8+ Kxd8 5. Qxf7 gxh4 6. Qxf6 1-0
+
+[Event "Dresden"]
+[Site "Dresden"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Travnicek"]
+[Black "Belke"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "r4rn1/pb1q1pbk/1pn1p1pp/2p1P3/2Pp1BNP/3P1NP1/PP1Q1PB1/R3R1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+[EventCountry "GER"]
+
+1. Bxh6 Bxh6 2. Qxh6+ Nxh6 3. Nf6+ Kg7 4. Nxd7 1-0
+
+[Event "Dresden"]
+[Site "Dresden"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Belke"]
+[Black "Goldberg"]
+[Result "1-0"]
+[Annotator "T+2Z"]
+[SetUp "1"]
+[FEN "2r5/5pkp/3r2p1/1B1pp3/1p1B2b1/1Pb1P1P1/P4PKP/2R1R3 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+[EventCountry "GER"]
+
+1. Rxc3 bxc3 2. Bxe5+ 1-0
+
+[Event "Dresden"]
+[Site "Dresden"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Starck"]
+[Black "Jakat"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "r4r1k/pp1n3p/3b4/3PppB1/8/6N1/PP3P1P/1KR3R1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1981.??.??"]
+[EventType "swiss"]
+[EventCountry "GER"]
+
+1. Bh6 Rf6 2. Nxf5 Bf8 (2... Rxf5 3. Bg7+ Kg8 4. Bxe5+) 3. Bxf8 Raxf8 4. Rc7
+Rxf5 5. Rxd7 1-0
+
+[Event "Ungarn"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Schneider"]
+[Black "Eperjesi"]
+[Result "1-0"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "r7/5p2/4p1pk/P1R4p/7P/P1Q2PP1/6K1/1q6 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1978.??.??"]
+[EventType "team"]
+
+1. Qf6 e5 (1... Rb8 2. Rxh5+ Kxh5 3. Qg5#) 2. Rxe5 Qc2+ 3. Kh3 Qc8+ 4. g4 hxg4+
+5. Kg3 Qc1 6. Qg5+ Qxg5 7. hxg5+ Kg7 8. Kxg4 1-0
+
+[Event "Samtredia"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Gurewitsch"]
+[Black "Kanzler"]
+[Result "0-1"]
+[Annotator "T+1H"]
+[SetUp "1"]
+[FEN "2n5/p5bp/1pb1k3/2p1pp2/P1N5/1PB1NPPP/2P1K3/8 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+
+1... Bxf3+ 2. Kxf3 e4+ 3. Ke2 Bxc3 0-1
+
+[Event "Salzwedel"]
+[Site "Salzwedel"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Gauglitz"]
+[Black "Vogt"]
+[Result "1-0"]
+[Annotator "T+1R"]
+[SetUp "1"]
+[FEN "r1bqr1k1/1p3pbp/2pp1np1/2n5/p1PNP3/2N1B1PP/PPQ2PB1/3R1RK1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+[EventCountry "GER"]
+
+1. Nxc6 Qb6 (1... bxc6 2. Bxc5) 2. Nd4 1-0
+
+[Event "Tscheljabinsk"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Bodnar"]
+[Black "Pokrowski"]
+[Result "0-1"]
+[Annotator "T+v4A"]
+[SetUp "1"]
+[FEN "2k4r/pp4p1/2p1p3/5p2/2PP1Pn1/1P2Pr1q/P2BR1RP/6QK b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1980.??.??"]
+[EventType "game"]
+
+1... Rf1 2. Qxf1 Nxh2 3. Qg1 (3. Qf2 Ng4+ (3... Nf3+ $19 {Alternative}) 4. Rh2
+Nxh2 5. Qg2 Qh5 6. Kg1 Nf3+ 7. Kf2 Nxd2 8. Rxd2 g5 9. Qxg5 (9. fxg5 Rg8 10. Ke1
+Rxg5) 9... Qh1) 3... Nf1+ 4. Rh2 Qf3+ 5. Qg2 (5. Reg2 Ng3#) 5... Rxh2+ 0-1
+
+[Event "Polen"]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Novak"]
+[Black "Redlich"]
+[Result "0-1"]
+[Annotator "T+2X"]
+[SetUp "1"]
+[FEN "4r1k1/pp3ppp/8/8/3n2P1/4r3/PP1KN1PP/R1N4R b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+
+1... Nxe2 2. Re1 Ng3 3. Rxe3 Nf1+ 4. Ke2 Nxe3 0-1
+
+[Event "Nowosibirsk"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Okladnikow"]
+[Black "Gurow"]
+[Result "1-0"]
+[Annotator "T+v3A"]
+[SetUp "1"]
+[FEN "4kbr1/r2b1p2/pq2pBpp/2p5/1p5Q/1B6/PPP2PPP/3RR1K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+1. Ba4 Be7 (1... Bxa4 2. Rd8+ Qxd8 3. Bxd8 g5 4. Qg3 Kxd8 (4... Rd7 5. Bb6 Bd6
+6. Qe3 Bxc2 7. Bxc5) 5. Qb8+) 2. Rxd7 (2. Bxe7 $5 {Alternative} g5 3. Rxd7 Rxd7
+4. Qh5 Kxe7 5. Bxd7 $18) 2... Rxd7 3. Rd1 1-0
+
+[Event "Petersburg"]
+[Site "?"]
+[Date "1909.??.??"]
+[Round "?"]
+[White "Bernstein"]
+[Black "Vidmar"]
+[Result "0-1"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "q3b2k/3rbp1p/1n1p1npB/1ppPp1N1/4P1P1/2P2QNP/1PB2P1K/6R1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1909.??.??"]
+[EventType "team"]
+
+1... Ng8 2. Qxf7 Bf6 3. Qf8 Re7 4. Ne6 (4. Nh5 Nd7 (4... gxh5 $2 5. gxh5 Nd7 6.
+Nf7+ Bxf7 7. Bg7+ Bxg7 8. Qxg7#) 5. Nxf6 Nxf8 6. Bxf8 Rg7 (6... Ra7 $2 7. Nxe8
+Qxe8 8. Bxd6 Nf6 9. Ne6 Nd7 10. Nxc5 Nxc5 11. Bxc5 $13) (6... Rf7 $2 7. Nxf7+
+Bxf7 8. Bxd6 Nxf6 9. Bxe5 Kg8 (9... Qd8 10. g5) 10. Bxf6) 7. Nxe8 Qxe8 8. Bxd6
+(8. Bxg7+ Kxg7 9. Ne6+ Kf7 $11) 8... Qd8 9. Bxe5 Qxg5) 4... Nd7 5. Qxe7 Nxe7
+0-1
+
+[Event "Jerewan"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Psachis"]
+[Black "Gawrikow"]
+[Result "1-0"]
+[Annotator "T+3A"]
+[SetUp "1"]
+[FEN "r4rk1/p3qpb1/3p3p/1p1PnQp1/2p1N3/4P1P1/PP1NKPP1/R6R w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1982.??.??"]
+[EventType "swiss"]
+
+1. Rxh6 Ng6 (1... Bxh6 2. Nf6+ Kg7 3. Qh7+ Kxf6 4. Ne4#) 2. Rh5 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Eger"]
+[Black "Frommelt"]
+[Result "1-0"]
+[Annotator "T+1H"]
+[SetUp "1"]
+[FEN "8/1p6/p3kn1r/4pp2/1PP5/6NP/P5K1/3R4 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1978.??.??"]
+[EventType "game"]
+
+1. Rd6+ Kxd6 2. Nxf5+ Ke6 3. Nxh6 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Dolschenko"]
+[Black "Sagoruyko"]
+[Result "0-1"]
+[Annotator "T+3H"]
+[SetUp "1"]
+[FEN "5r2/pp2k3/1nq1p2p/6p1/2n1R1BB/P1P5/4Q1PP/6K1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1973.??.??"]
+[EventType "team"]
+
+1... Qxe4 2. Qxe4 Rf1+ 3. Kxf1 Nd2+ 4. Ke2 Nxe4 0-1
+
+[Event "Saratow"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Astachin"]
+[Black "Sacharow"]
+[Result "0-1"]
+[Annotator "T+4U"]
+[SetUp "1"]
+[FEN "2r2rk1/1b2bppp/p1nqp3/1p2N3/4BP2/5Q2/PPP3PP/R1BR3K b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+
+1... Nxe5 2. Bxh7+ (2. fxe5 Bxe4 3. exd6 Bxf3 4. dxe7 (4. gxf3 Rfd8 5. Bf4 Bf6
+6. c3 Rc4 7. Bg3 b4 8. Rd3 bxc3 9. bxc3 Rxc3 10. Rxc3 Bxc3 11. Rc1 Bb4) 4...
+Bxd1 5. exf8=Q+ Kxf8) 2... Kh8 3. fxe5 (3. Qh5 Bf3 4. Rxd6 Bxh5) 3... Bxf3 0-1
+
+[Event "UdSSR"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Witolinsch"]
+[Black "Shurawlew"]
+[Result "1-0"]
+[Annotator "T+v5F"]
+[SetUp "1"]
+[FEN "1r1kq2r/2p1b3/p2p1n1p/n2P2p1/Pp1P4/3N2B1/1P3PPP/2RQR1K1 w - - 0 1"]
+[PlyCount "25"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+
+1. Nc5 dxc5 2. d6 cxd6 3. dxc5 d5 (3... Qd7 4. cxd6 Bf8 5. Qd4 (5. Be5 $1 {
+Alternative} Bg7 6. Rc7 Qf5 7. Qd4) 5... Bg7 6. Rc7) 4. Bxb8 Qc6 5. Bd6 Bxd6 6.
+cxd6 Qxd6 7. Qc2 Qd7 (7... Nc4 8. b3 Ng4 9. g3 Nge5 10. Red1 d4 11. bxc4 Nf3+
+12. Kh1 Qc6 13. Qf5 Ne5+ 14. f3 Qxf3+ 15. Qxf3 Nxf3 16. Kg2) 8. Qc5 Nc4 9. b3
+Ne4 10. Qd4 Rh7 11. bxc4 Nc3 12. Qb6+ Qc7 13. Qxb4 1-0
+
+[Event "New York"]
+[Site "New York"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Fedorowicz"]
+[Black "Schamkowitsch"]
+[Result "0-1"]
+[Annotator "T+v5Z"]
+[SetUp "1"]
+[FEN "3rk2r/p2n1pbp/4p3/q1pPP1p1/1pP2P2/4B2B/P2Q1P1P/2R1K1R1 b k - 0 1"]
+[PlyCount "27"]
+[EventDate "1980.??.??"]
+[EventType "game"]
+[EventCountry "USA"]
+
+1... gxf4 2. Rxg7 Nxe5 3. Ke2 (3. Kf1 Qa3 4. Bg2 fxe3 5. Qxe3 Qxe3 6. fxe3 $17)
+3... fxe3 4. Qb2 Rxd5 (4... Nc6 $2 5. fxe3 exd5 6. Qf6 Qc7 7. cxd5 Rxd5 8. Bg2
+Rd6 9. Rxf7) 5. cxd5 Qa6+ (5... Qb5+ $1 {Alternative}) 6. Kxe3 Qd3+ 7. Kf4 f6
+8. Qb3 Ng6+ 9. Rxg6 e5+ 10. Kg4 h5+ (10... Qe4+ $2 11. Kg3 Qxg6+ 12. Kf3 $13)
+11. Kh4 Qe4+ 12. Bg4 hxg4+ 13. Rh6 Rxh6+ 14. Kg3 Rh3# 0-1
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Van der Giessen"]
+[Black "Nagel"]
+[Result "1-0"]
+[Annotator "T+4Z"]
+[SetUp "1"]
+[FEN "2b2rr1/p5bk/1p5p/1qpp3N/8/1PP3R1/P2B1Q1P/4R1K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1982.??.??"]
+[EventType "swiss"]
+
+1. Qxf8 Rxf8 2. Rxg7+ Kh8 3. c4 Qa6 (3... dxc4 4. Bc3) 4. Ree7 1-0
+
+[Event "Tiblissi"]
+[Site "?"]
+[Date "1956.??.??"]
+[Round "?"]
+[White "Polugajeswki"]
+[Black "Tal"]
+[Result "1-0"]
+[Annotator "T+5Z"]
+[SetUp "1"]
+[FEN "2rr2k1/p1q1bppp/bpn1p3/1N4B1/3P2n1/P4N2/BP2QPPP/R2R2K1 w - - 0 1"]
+[PlyCount "23"]
+[EventDate "1956.??.??"]
+[EventType "game"]
+
+1. Qxe6 Bxb5 (1... fxe6 2. Bxe6+ Kf8 3. Nxc7) 2. Qxg4 Be2 3. Bxe7 Qxe7 4. Re1
+Bxf3 5. Qxf3 Qd7 6. d5 Nd4 7. Qd3 Nc2 8. Bb1 Nxe1 9. Qxh7+ Kf8 10. Bf5 Qxd5 (
+10... Nf3+ 11. gxf3 Qxd5 12. Bxc8) 11. Rxe1 f6 (11... Qe5 12. Qh8+ Ke7 13.
+Rxe5+ Kf6 14. Qh4+ Kxe5 15. g4) 12. Bxc8 1-0
+
+[Event "Sewerodonezk"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Malanjuk"]
+[Black "Sarubin"]
+[Result "1-0"]
+[Annotator "T+3R"]
+[SetUp "1"]
+[FEN "3r2k1/2q2p1p/p5p1/1pb3P1/2nNQP2/3R4/PPP4P/1KB5 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1. Ne6 Rxd3 (1... fxe6 2. Qxe6+ Kf8 3. Qf6+ Ke8 4. Rxd8+ Qxd8 5. Qc6+ Qd7 6.
+Qxc5) (1... Re8 2. Qxg6+ hxg6 3. Nxc7 Re1 4. Nd5 (4. Rd8+ $2 Kh7 5. Ne8 Nd2+ 6.
+Rxd2 Be3 7. Nf6+ Kg7 8. Ne4 Bxf4)) 2. Nxc7 1-0
+
+[Event "Potsdam"]
+[Site "Potsdam"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Paehtz"]
+[Black "Grottke"]
+[Result "1-0"]
+[Annotator "T+4X"]
+[SetUp "1"]
+[FEN "r5k1/p3rpp1/1pn4p/n2Rp3/2q1P2P/Q1P1B1P1/P4PB1/3R2K1 w - - 0 3"]
+[PlyCount "11"]
+[EventDate "1982.??.??"]
+[EventType "game"]
+[EventCountry "GER"]
+
+3. Bf1 Qxe4 4. Rxa5 bxa5 5. Bg2 Qg4 6. Rd6 Rb8 (6... Rc7 7. Rxc6 Rxc6 8. Bxc6)
+7. Rxc6 Rb1+ 8. Kh2 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Palmiotti"]
+[Black "Echte"]
+[Result "0-1"]
+[Annotator "T+3U"]
+[SetUp "1"]
+[FEN "4r1k1/2p3p1/p1b1r2p/3q4/3b4/N2P2B1/PPQ3PP/4RR1K b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1967.??.??"]
+[EventType "game"]
+
+1... Bf2 2. Qxf2 (2. Re4 Bxg3 3. Rxe6 Rxe6 4. hxg3 Re3) 2... Rxe1 3. Rxe1 Rxe1+
+4. Qxe1 Qxg2# 0-1
+
+[Event "Kiew"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Cholmow"]
+[Black "Bronstein"]
+[Result "1-0"]
+[Annotator "T+v5A"]
+[SetUp "1"]
+[FEN "r1b2r1k/4qp1p/p2ppb1Q/4nP2/1p1NP3/2N5/PPP4P/2KR1BR1 w - - 0 1"]
+[PlyCount "23"]
+[EventDate "1964.??.??"]
+[EventType "team"]
+
+1. Nc6 Nxc6 2. e5 Bg5+ (2... Nxe5 3. Ne4 Ng6 (3... Nd7 4. Rxd6 Bb7 5. Rxd7) 4.
+Nxf6 Qxf6 5. fxg6 Qg7 6. Qxg7+ Kxg7 7. gxh7+ Kh8 8. Rxd6) (2... dxe5 3. Ne4
+Bg5+ 4. Nxg5 f6 5. Nxh7 Qxh7 6. Qxf8+) (2... Bxe5 3. f6 Bxf6 4. Bd3 Bg5+ 5.
+Rxg5 f6 6. Bxh7 fxg5 7. Be4+ Kg8 8. Rg1 Ra7 (8... Qg7 9. Rxg5 Rf1+ 10. Nd1 Ra7
+11. Bxc6) 9. Nd5 (9. Rxg5+ $2 Qxg5+ 10. Qxg5+ Rg7 11. Qe3 bxc3) 9... Qg7 10.
+Rxg5 Rf1+ 11. Kd2 Qxg5+ 12. Qxg5+ Rg7 13. Qh4) 3. Rxg5 f6 4. exd6 Qf7 5. Rg3
+bxc3 6. Bc4 cxb2+ 7. Kb1 Nd8 8. Rdg1 (8. d7 $18 {Alternative}) 8... Ra7 9. d7
+Rxd7 10. fxe6 Nxe6 11. Bxe6 Rd1+ 12. Rxd1 1-0
+
+[Event "Tiblissi"]
+[Site "?"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Cholmow"]
+[Black "Keres"]
+[Result "1-0"]
+[Annotator "T+v5X"]
+[SetUp "1"]
+[FEN "r1bqk2r/p3ppbp/1p4pn/2p1P3/3N4/2N4P/PPP2PP1/R1BQR1K1 w kq - 0 1"]
+[PlyCount "11"]
+[EventDate "1959.??.??"]
+[EventType "swiss"]
+
+1. Nc6 Qd7 (1... Qxd1 2. Rxd1 Bb7 3. Nb5 Bxc6 4. Nc7+ Kf8 5. Nxa8) 2. Nxe7 Kxe7
+(2... Qxd1 3. Rxd1 Kxe7 4. Bg5+ (4. Nd5+ $1 {Alternative} Kf8 5. Nc7 Rb8 6.
+Rd8+ Ke7 7. Bg5+ f6 8. exf6+ Kf7 9. fxg7 Rxd8 10. Bxd8 Bf5 11. Bg5 Kxg7 12. Re1
+) 4... Ke6 5. Rd6+ Kf5 (5... Kxe5 6. Rd5+ Ke6 7. Re1+) 6. f4 Bxe5 7. Rd5 f6 8.
+Bxh6 Bb7 9. fxe5 Bxd5 10. Nxd5) (2... Qxe7 3. Nd5 Qd8 4. Nf6+ Ke7 5. Ng8+ (5.
+Bg5 $5 Qxd1 6. Raxd1 Bf5 7. Nh5+ Kf8 8. Nxg7 Kxg7 9. Bf6+ Kg8 10. g4 Bxc2 (
+10... Nxg4 $1 11. hxg4 Bxg4 12. Rd2 h5 13. Bxh8 Kxh8 $14) 11. Rd7 Ba4 12. Rc7
+$18) 5... Ke8 (5... Rxg8 6. Bg5+ f6 7. exf6+) (5... Qxg8 6. Qd6+ Ke8 7. Bg5) 6.
+Qxd8+ Kxd8 7. Nxh6) 3. Bxh6 Bxh6 (3... Qxd1 4. Bg5+) 4. Qf3 Bg7 5. Nd5+ (5.
+Qxa8 $6 Bb7 6. Qxa7 Qc6 7. f3 Ra8 8. Nd5+ Qxd5 9. Qxb6 $13) (5. e6 $2 fxe6 6.
+Qxa8 Bb7 7. Qxa7 Qc6 8. f3 Bxc3) 5... Kd8 6. Rad1 1-0
+
+[Event "Telawi"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Anikajew"]
+[Black "Agsamow"]
+[Result "1-0"]
+[Annotator "T+4A"]
+[SetUp "1"]
+[FEN "R3b1k1/5pbp/1p4p1/7P/2n1r3/8/P2B1PP1/6KR w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1982.??.??"]
+[EventType "game"]
+
+1. Rh4 f5 (1... Rxh4 2. Rxe8+ Bf8 3. Bh6) (1... Nxd2 2. Rxe4 Nxe4 3. Rxe8+) 2.
+Rxe4 fxe4 3. Rxe8+ Kf7 4. Rd8 Bf6 5. Rd7+ Ke6 6. Rxh7 Nxd2 7. hxg6 1-0
+
+[Event "Fernpartie"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Frivaldski"]
+[Black "Katona"]
+[Result "1-0"]
+[Annotator "T+v4W"]
+[SetUp "1"]
+[FEN "3q1k2/1prbbp2/p3pp1p/3p2r1/4PP1N/2N1Q1R1/PPP3PP/4R1K1 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1. fxg5 Bc5 2. Qxc5+ (2. gxh6 $1 {Alternative}) 2... Rxc5 3. gxh6 Ke7 (3... f5
+4. Nf3 Ke7 5. exf5 Qh8 6. Rh3) 4. Rg7 d4 (4... Qb6 5. h7 Rxc3+ 6. Kh1 Qf2 7.
+Ng6+ Kd6 8. Rg1 Rc8 9. Rg8 Rxc2 10. h8=Q fxg6 11. Rxg6) 5. Ng6+ Kd6 6. e5+ (6.
+h7 $2 fxg6 7. Rg8 Qb6 8. Nd5 Rxd5 9. h8=Q d3+ 10. Kh1 d2) 6... Rxe5 7. Nxe5
+fxe5 8. Ne4+ 1-0
+
+[Event "Partievariante"]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Flohr"]
+[Black "Grob"]
+[Result "1-0"]
+[Annotator "T+1X"]
+[SetUp "1"]
+[FEN "6k1/bp3pp1/p6p/1q1B4/3PQP2/6Pb/PP3B1P/6K1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1933.??.??"]
+[EventType "game"]
+
+1. Kh1 Qf1+ 2. Bg1 1-0
+
