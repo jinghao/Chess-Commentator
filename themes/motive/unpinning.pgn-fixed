@@ -12,8 +12,7 @@
 [EventDate "1943.??.??"]
 [EventType "game"]
 
-1. Rg2  Rg8 (1... Qxf3 2. Qxf8#) (1... Qd8 2. Rh3  (2. Qxh7+  Kxh7 3. Rh3+ Qh4
-4. Rxh4#)) 2. Qxh7+ Kxh7 3. Rh3# 1-0
+1. Rg2  Rg8   2. Qxh7+ Kxh7 3. Rh3# 1-0
 
 [Event "?"]
 [Site "?"]
@@ -29,8 +28,7 @@
 [EventDate "1998.??.??"]
 [EventType "swiss"]
 
-1... Rxf2 2. Rxf2 (2. Qc4 Qh2#) (2. Kxf2 Qh2+ 3. Ke1 cxb5 $17) (2. Qe5+ Qxe5 3.
-Rxf2 Qg3+ $17) 2... Qg3+ 3. Kf1 cxb5 $17 0-1
+1... Rxf2 2. Rxf2    2... Qg3+ 3. Kf1 cxb5 $17 0-1
 
 [Event "?"]
 [Site "?"]
@@ -46,8 +44,8 @@ Rxf2 Qg3+ $17) 2... Qg3+ 3. Kf1 cxb5 $17 0-1
 [EventDate "1956.??.??"]
 [EventType "team"]
 
-1. Nxf3  (1. Qg7+ $2 Rxg7 2. Nxf3 Qe7 $15)
-1... exf3 2. Qg7+  Kxg7 (2... Rxg7 3. Re8+ Rg8 4. Rxg8+ Kxg8 5. gxh4) 3.
+1. Nxf3  
+1... exf3 2. Qg7+  Kxg7  3.
 gxh4 $16 1-0
 
 [Event "?"]
@@ -64,7 +62,7 @@ gxh4 $16 1-0
 [EventDate "1957.??.??"]
 [EventType "team"]
 
-1... Qd7 2. Qxd7  (2. Qxf7+ Rxf7 ) 2...
+1... Qd7 2. Qxd7   2...
 Rf1+ 3. Rxf1 Rxf1# 0-1
 
 [Event "?"]
@@ -81,8 +79,7 @@ Rf1+ 3. Rxf1 Rxf1# 0-1
 [EventDate "1997.??.??"]
 [EventType "swiss"]
 
-2. b6+ Kxb6 (2... Kb8 3. Rh8+ Qe8 4. Rxe8+ Rxe8 5. Qxe8#) (2... Ka8 3. Rh8+ Qe8
-4. Rxe8+ Rxe8 5. Qxe8#) (2... Rxb6 3. Qxe7 ) 3. Rh6 1-0
+2. b6+ Kxb6    3. Rh6 1-0
 
 [Event "?"]
 [Site "?"]
@@ -98,7 +95,7 @@ Rf1+ 3. Rxf1 Rxf1# 0-1
 [EventDate "1997.??.??"]
 [EventType "swiss"]
 
-1... Nxb4 2. axb4 (2. Rxc7 Nxd5+ ) 2... Rxc3+ 0-1
+1... Nxb4 2. axb4  2... Rxc3+ 0-1
 
 [Event "?"]
 [Site "?"]
@@ -114,7 +111,7 @@ Rf1+ 3. Rxf1 Rxf1# 0-1
 [EventDate "1965.??.??"]
 [EventType "team"]
 
-1. Qxd4 cxd4 (1... Qxg2+ 2. Kxg2 cxd4 3. Bxd4 ) 2. Bxg5 1-0
+1. Qxd4 cxd4  2. Bxg5 1-0
 
 [Event "?"]
 [Site "?"]
@@ -130,7 +127,7 @@ Rf1+ 3. Rxf1 Rxf1# 0-1
 [EventDate "1959.??.??"]
 [EventType "team"]
 
-1. Rxe6 Qc8  (1... fxe6  2. Qxe6+ Kf8 3. Qxe5 $16 ) 2. Bd7  (2. Rxg6+ $6 hxg6 $15) 2... Qxd7  3. Rxg6+ hxg6
+1. Rxe6 Qc8   2. Bd7   2... Qxd7  3. Rxg6+ hxg6
 4. Qxd7 1-0
 
 [Event "?"]
@@ -147,8 +144,5 @@ Rf1+ 3. Rxf1 Rxf1# 0-1
 [EventDate "1983.??.??"]
 [EventType "team"]
 
-1... Rxe1+ 2. Rxe1  (2. Kf2 Qe3#
-) (2. Qxe1 Bd4+ 3. Qf2 (3. Kf1 Rh1#) (3. Qe3 Qxe3+ 4. Kf1 Rh1#) 3... Bxf2+ 4.
-Kxf2 Qb6+ $19) 2... Bd4+  3. Qxd4 (3. Kf1 Rh1#
-) (3. Re3 Qxe3+ 4. Kf1 Rh1#) 3... Qxe1# 0-1
+1... Rxe1+ 2. Rxe1    2... Bd4+  3. Qxd4   3... Qxe1# 0-1
 

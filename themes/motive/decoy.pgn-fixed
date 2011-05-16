@@ -12,7 +12,7 @@
 [EventDate "1979.??.??"]
 [EventType "team"]
 
-1... Qg3+ 2. Kh1 (2. Rxg3 hxg3+ 3. Kh1 Nf2#) 2... Qxf3 3. gxf3 Nf2+ 0-1
+1... Qg3+ 2. Kh1  2... Qxf3 3. gxf3 Nf2+ 0-1
 
 [Event "?"]
 [Site "?"]
@@ -27,10 +27,8 @@
 [PlyCount "9"]
 [EventType "team"]
 
- 1. d5 Qxd5 (1... Nxh5 2. dxc6 $18) (1... exd5 2. Qxg5 $18) (1... Qd7
-2. Qxg5 Qxf7 3. Qe5+ Qg7 (3... Kg8 4. Nh6+ $18) 4. Qxf4 $18 Bd7) 2. Qxh7+ Kxh7
-3. Nf6+ Kg7 4. Nxd5 Nxd5 (4... exd5 5. Re7 $16) (4... Kxf7 5. Nxf4 gxf4 6. Re4
-$16) 5. Bxe6 $16 1-0
+ 1. d5 Qxd5    2. Qxh7+ Kxh7
+3. Nf6+ Kg7 4. Nxd5 Nxd5   5. Bxe6 $16 1-0
 
 [Event "?"]
 [Site "?"]
@@ -46,7 +44,7 @@ $16) 5. Bxe6 $16 1-0
 [EventDate "1951.??.??"]
 [EventType "team"]
 
-1... Rxh2+ 2. Kxh2 (2. Kg1 Bxd4+ $19) 2... Qh6+ 3. Kg1 Bxd4+ 4. cxd4 Qxa6 0-1
+1... Rxh2+ 2. Kxh2  2... Qh6+ 3. Kg1 Bxd4+ 4. cxd4 Qxa6 0-1
 
 [Event "?"]
 [Site "?"]
@@ -62,8 +60,7 @@ $16) 5. Bxe6 $16 1-0
 [EventDate "1989.??.??"]
 [EventType "swiss"]
 
-1. Rxe2 Qxe2 2. Rxg7+ Kxg7 (2... Kh8 3. Qh7#) 3. Bxh6+ Rxh6 (3... Nxh6 4. Qxe2
-$16) (3... Kxh6 4. Qxe2 $16) (3... Kh8 4. Qxe2 $16) 4. Qxe2 $16 1-0
+1. Rxe2 Qxe2 2. Rxg7+ Kxg7  3. Bxh6+ Rxh6    4. Qxe2 $16 1-0
 
 [Event "?"]
 [Site "?"]
@@ -79,9 +76,7 @@ $16) (3... Kxh6 4. Qxe2 $16) (3... Kh8 4. Qxe2 $16) 4. Qxe2 $16 1-0
 [EventDate "1955.??.??"]
 [EventType "game"]
 
-1. Qxg7+ Kxg7 2. Nxd7+ Kg8 (2... Qe5 3. Bxe5+ Kg8 4. Nf6+ $18) 3. Nf6+ Kf7 (
-3... Kg7 4. Ng4+ (4. Nxe8+  Kg8 5. Nxc7 $18)
-4... Qe5 5. Bxe5+ Kg8 6. Nxh6#) (3... Kh8 4. Nxe8+ $18) 4. Nd5+ Kg8 5. Nxc7 1-0
+1. Qxg7+ Kxg7 2. Nxd7+ Kg8  3. Nf6+ Kf7   4. Nd5+ Kg8 5. Nxc7 1-0
 
 [Event "?"]
 [Site "?"]
@@ -97,8 +92,7 @@ $16) (3... Kxh6 4. Qxe2 $16) (3... Kh8 4. Qxe2 $16) 4. Qxe2 $16 1-0
 [EventDate "1982.??.??"]
 [EventType "team"]
 
-1. Rxf8+ Kxf8  2. d7+ Kf7 (2... Kg8 3. d8=Q+ Kf7
-4. h4 ) 3. d8=Q 1-0
+1. Rxf8+ Kxf8  2. d7+ Kf7  3. d8=Q 1-0
 
 [Event "?"]
 [Site "?"]
@@ -114,9 +108,8 @@ $16) (3... Kxh6 4. Qxe2 $16) (3... Kh8 4. Qxe2 $16) 4. Qxe2 $16 1-0
 [EventDate "1928.??.??"]
 [EventType "team"]
 
-1... c2 2. Qc4 (2. Qxf6 c1=Q+ 3. Kf2 gxf6 ) (2. Qd2 Qb6+ 3. Kf1 Qb1+ 
-) 2... Qb6+ 3. Kf1 (3. Kh1 Qb1+ ) (3. Rd4 Qb1+ 4. Kf2 c1=Q ) 3...
-c1=Q+ 4. Qxc1 (4. Ke2 Qbe3#) 4... Qb5+ 0-1
+1... c2 2. Qc4   2... Qb6+ 3. Kf1   3...
+c1=Q+ 4. Qxc1  4... Qb5+ 0-1
 
 [Event "?"]
 [Site "?"]
@@ -131,7 +124,7 @@ c1=Q+ 4. Qxc1 (4. Ke2 Qbe3#) 4... Qb5+ 0-1
 [PlyCount "7"]
 [EventType "team"]
 
-1. Re8+ Rxe8 (1... Kxf7 2. Qe6#) 2. Qxg7+ Kxg7 (2... Ke7 3. f8=Q+ $18) 3.
+1. Re8+ Rxe8  2. Qxg7+ Kxg7  3.
 fxe8=N+ Kf7 4. Nxc7 1-0
 
 [Event "?"]
@@ -181,8 +174,8 @@ fxe8=N+ Kf7 4. Nxc7 1-0
 [EventType "match"]
 [EventRounds "6"]
 
-1. Rd1+ Kc7 (1... Ke7 ) (1... Ke5 2. Rxd8 Rxb5 3. Rb8 $16) 2.
-Rxd8 Kxd8 (2... Rxb5  3. Rf8 $16)
+1. Rd1+ Kc7   2.
+Rxd8 Kxd8 
 3. Bxb6+ Kd7 4. Bxa5 1-0
 
 [Event "?"]
@@ -199,8 +192,7 @@ Rxd8 Kxd8 (2... Rxb5  3. Rf8 $16)
 [EventDate "1989.??.??"]
 [EventType "swiss"]
 
-1... Rd1+  2. Kc2 Rd5  3. Nd3+ (3. Rg7 Rxc5+ 4. Kd1 Rc7 
-) 3... Rxd3 4. Kxd3 Ne1+ 5. Ke2 Nxg2 0-1
+1... Rd1+  2. Kc2 Rd5  3. Nd3+  3... Rxd3 4. Kxd3 Ne1+ 5. Ke2 Nxg2 0-1
 
 [Event "?"]
 [Site "?"]
@@ -216,9 +208,8 @@ Rxd8 Kxd8 (2... Rxb5  3. Rf8 $16)
 [EventDate "1904.??.??"]
 [EventType "game"]
 
-1. Nh6+ Kh8 2. Qxe5 Qxe5 (2... Qc8 3. Nf5 ) (2...
-Qb8 3. Nxf7+ Kg8 (3... Rxf7 4. Qxb8+ Rf8 5. Qxf8#) 4. Qxb8 Rxb8 5. Rd8+ )
-3. Nxf7+ Kg8 (3... Rxf7 4. Rd8+ Qe8 5. Rxe8+ Rf8 6. Rxf8#) 4. Nxe5 1-0
+1. Nh6+ Kh8 2. Qxe5 Qxe5  
+3. Nxf7+ Kg8  4. Nxe5 1-0
 
 [Event "?"]
 [Site "?"]
@@ -234,10 +225,8 @@ Qb8 3. Nxf7+ Kg8 (3... Rxf7 4. Qxb8+ Rf8 5. Qxf8#) 4. Qxb8 Rxb8 5. Rd8+ )
 [EventDate "1990.??.??"]
 [EventType "team"]
 
-1... Bxf2+  (1... Bf8 $2  2. Qf5+ Kg8 (2... g6 3.
-Qf7+ Bg7 4. Qxg7#) (2... Kh8 3. Qxf8+ Kh7 4. Qxg7#) 3. Qe6+ Kh7 4. Qf7 )
-2. Kxf2 (2. Kh1 Ne3+ 3. Qf3 (3. Qe4+ Bxe4#) 3... Rxf1#) (2. Kg2 Ne3+ 3. Kxf2
-Nxg4+ ) 2... Rxf1+ 3. Kxf1 (3. Kg2 Ne3+ ) 3... Ne3+ 0-1
+1... Bxf2+  
+2. Kxf2   2... Rxf1+ 3. Kxf1  3... Ne3+ 0-1
 
 [Event "?"]
 [Site "?"]
@@ -253,8 +242,7 @@ Nxg4+ ) 2... Rxf1+ 3. Kxf1 (3. Kg2 Ne3+ ) 3... Ne3+ 0-1
 [EventDate "1950.??.??"]
 [EventType "team"]
 
-1. Rd8+ (1. Re1 $2 Qxe1#) (1. Qxe4+ $2 Nxe4 $17) 1... Kxd8 (1... Ke7 2. Qxe4+
-Kxd8 3. Bc4 $16 (3. Bxf6+ gxf6 4. Bc4 $16)) 2. Qxe4 1-0
+1. Rd8+   1... Kxd8  2. Qxe4 1-0
 
 [Event "?"]
 [Site "?"]
@@ -302,7 +290,7 @@ Kxd8 3. Bc4 $16 (3. Bxf6+ gxf6 4. Bc4 $16)) 2. Qxe4 1-0
 [EventDate "1997.??.??"]
 [EventType "swiss"]
 
-1. Bb5 Qxb5 (1... Nxd5 2. Bxc6+ bxc6 3. exd5 ) 2. Nxc7+ 1-0
+1. Bb5 Qxb5  2. Nxc7+ 1-0
 
 [Event "?"]
 [Site "?"]
@@ -383,7 +371,7 @@ Kxd8 3. Bc4 $16 (3. Bxf6+ gxf6 4. Bc4 $16)) 2. Qxe4 1-0
 [EventDate "1997.??.??"]
 [EventType "swiss"]
 
-1... Bh3+ 2. Kxh3 (2. Kg1 Qf1#) (2. Kh1 Qf1#) 2... Qf1# 0-1
+1... Bh3+ 2. Kxh3   2... Qf1# 0-1
 
 [Event "?"]
 [Site "?"]
@@ -431,7 +419,7 @@ Kxd8 3. Bc4 $16 (3. Bxf6+ gxf6 4. Bc4 $16)) 2. Qxe4 1-0
 [EventDate "1997.??.??"]
 [EventType "swiss"]
 
-1. Qxd7+ Kxd7 2. Bb5+  Bc6 (2... Kd8 3. Rxf3 ) 3. Bxc6+ Rxc6 4. Rxf3 1-0
+1. Qxd7+ Kxd7 2. Bb5+  Bc6  3. Bxc6+ Rxc6 4. Rxf3 1-0
 
 [Event "?"]
 [Site "?"]
@@ -447,7 +435,7 @@ Kxd8 3. Bc4 $16 (3. Bxf6+ gxf6 4. Bc4 $16)) 2. Qxe4 1-0
 [EventDate "1998.??.??"]
 [EventType "swiss"]
 
-1. Qe8+  Kxe8 2. Bb5+ Kd8 (2... Kf8 3. Re8#) 3. Re8# 1-0
+1. Qe8+  Kxe8 2. Bb5+ Kd8  3. Re8# 1-0
 
 [Event "?"]
 [Site "?"]
@@ -479,9 +467,8 @@ Kxd8 3. Bc4 $16 (3. Bxf6+ gxf6 4. Bc4 $16)) 2. Qxe4 1-0
 [EventDate "1980.??.??"]
 [EventType "team"]
 
- 1. Qxh7+ (1. Rxd4 $2 Rf1#) (1. Nxf8 $2 Qxd1+ 2.
-Kf2 Qd2+ 3. Kg1 Qg2#) (1. Re1 $2 Nf5+ ) 1... Kxh7 (1... Kf7 2. Rxd4 )
-2. Nxf8+ Kg8 (2... Kh8 3. Rxd4 ) (2... Kh6 3. Rxd4 ) 3. Rxd4 1-0
+ 1. Qxh7+    1... Kxh7 
+2. Nxf8+ Kg8   3. Rxd4 1-0
 
 [Event "?"]
 [Site "?"]
@@ -513,7 +500,7 @@ Kf2 Qd2+ 3. Kg1 Qg2#) (1. Re1 $2 Nf5+ ) 1... Kxh7 (1... Kf7 2. Rxd4 )
 [EventDate "1953.??.??"]
 [EventType "team"]
 
-1... Qxg2+ (1... Bxc6 $2 2. Rxd8#) 2. Kxg2 Bxc6 0-1
+1... Qxg2+  2. Kxg2 Bxc6 0-1
 
 [Event "?"]
 [Site "?"]
@@ -545,7 +532,7 @@ Kf2 Qd2+ 3. Kg1 Qg2#) (1. Re1 $2 Nf5+ ) 1... Kxh7 (1... Kf7 2. Rxd4 )
 [EventDate "1990.??.??"]
 [EventType "team"]
 
-1... Qxd5+ 2. Kxd5 (2. Kf4 Qxg5#) 2... e3+ 3. Ke5 exd2 0-1
+1... Qxd5+ 2. Kxd5  2... e3+ 3. Ke5 exd2 0-1
 
 [Event "?"]
 [Site "?"]
@@ -561,8 +548,7 @@ Kf2 Qd2+ 3. Kg1 Qg2#) (1. Re1 $2 Nf5+ ) 1... Kxh7 (1... Kf7 2. Rxd4 )
 [EventDate "1959.??.??"]
 [EventType "team"]
 
-1. Bf7+ Kxf7 (1... Kd7 2. e6+ ) (1... Kf8 2. Bxg6 $16) (1... Kd8 2. Bxg6
-$16) 2. e6+  1-0
+1. Bf7+ Kxf7    2. e6+  1-0
 
 [Event "?"]
 [Site "?"]
@@ -578,9 +564,8 @@ $16) 2. e6+  1-0
 [EventDate "1935.??.??"]
 [EventType "team"]
 
-1. Qxf8+  Kxf8 2. Ne6+  Kg8 (2... Ke7 3. Nxc7 ) (2... Kf7 3. Nxc7 ) 3. Nxc7
-Nf3+ (3... Rxc7 4. Bxe5 ) (3... Nxc7 4. Bxe5 ) 4. Ke2 Rxc7 (4... Nxc7
-5. Bxg7 Kxg7 6. Kxf3 ) (4... Ng1+ 5. Rxg1 Rxc7 6. bxc5 ) 5. Rh8+ Kf7
+1. Qxf8+  Kxf8 2. Ne6+  Kg8   3. Nxc7
+Nf3+   4. Ke2 Rxc7   5. Rh8+ Kf7
 6. Kxf3 1-0
 
 [Event "?"]
@@ -597,7 +582,7 @@ Nf3+ (3... Rxc7 4. Bxe5 ) (3... Nxc7 4. Bxe5 ) 4. Ke2 Rxc7 (4... Nxc7
 [EventDate "1996.??.??"]
 [EventType "swiss"]
 
-1... Qg2+  (1... Bb7 $2 2. Qxf8#) 2. Kxg2 Bb7+ 3. f3 (3. Kg1 Raxe8 $11) 3...
+1... Qg2+   2. Kxg2 Bb7+ 3. f3  3...
 Raxe8 4. Qxd7 $11 *
 
 [Event "?"]
@@ -614,9 +599,7 @@ Raxe8 4. Qxd7 $11 *
 [EventDate "1993.??.??"]
 [EventType "team"]
 
-1. Rxc6+ Kxc6 (1... Kb8 2. Qxb6#) (1... Kb7 2. Qxb6#) (1... Kd8 2. Qf8+  (2. Qxb6+ Ke8 3. Rc7 $18)) (1...
-Kd7 2. Qxb6 Ke8 (2... Qh1+ 3. Ka2 $18) 3. Qb7 Rd8 (3... Qd8 4. Rxe6+ Kf8 (4...
-Qe7 5. Qxe7#) 5. Rxg6 $18) 4. Qxg7 Qe7 5. Qxg6+ $18) 2. d5+ exd5 3. Qxh4 $16
+1. Rxc6+ Kxc6     2. d5+ exd5 3. Qxh4 $16
 1-0
 
 [Event "?"]
@@ -647,7 +630,7 @@ Qe7 5. Qxe7#) 5. Rxg6 $18) 4. Qxg7 Qe7 5. Qxg6+ $18) 2. d5+ exd5 3. Qxh4 $16
 [PlyCount "3"]
 [EventType "team"]
 
-1. Rc7 Qxc7 (1... Rd8 2. Qxh7+ Ke6 3. Rxd7 Rxd7 4. Qc2 $18) 2. Qxh7+ 1-0
+1. Rc7 Qxc7  2. Qxh7+ 1-0
 
 [Event "?"]
 [Site "?"]
@@ -663,7 +646,7 @@ Qe7 5. Qxe7#) 5. Rxg6 $18) 4. Qxg7 Qe7 5. Qxg6+ $18) 2. d5+ exd5 3. Qxh4 $16
 [EventDate "1997.??.??"]
 [EventType "swiss"]
 
-1. Rxg7 Kxg7 (1... Qxg7 2. Bf6 ) 2. Bf6+ Qxf6 3. Nh5+ 1-0
+1. Rxg7 Kxg7  2. Bf6+ Qxf6 3. Nh5+ 1-0
 
 [Event "?"]
 [Site "?"]
@@ -679,8 +662,7 @@ Qe7 5. Qxe7#) 5. Rxg6 $18) 4. Qxg7 Qe7 5. Qxg6+ $18) 2. d5+ exd5 3. Qxh4 $16
 [EventDate "1965.??.??"]
 [EventType "team"]
 
-1. Rd7 Re8 (1... Rxd7 2. Rxc8+ Kh7 3. Nf8+ Kh6 4. Nxd7 ) (1... Bxd7 2.
-Rxd8+ Kh7 3. Nf8+ Kh6 4. Nxd7 ) 2. Rxc8 Rxc8 3. Ne7+ 1-0
+1. Rd7 Re8   2. Rxc8 Rxc8 3. Ne7+ 1-0
 
 [Event "?"]
 [Site "?"]
@@ -696,9 +678,8 @@ Rxd8+ Kh7 3. Nf8+ Kh6 4. Nxd7 ) 2. Rxc8 Rxc8 3. Ne7+ 1-0
 [EventDate "1820.??.??"]
 [EventType "game"]
 
-1. Nxh6+  gxh6 (1... Kh8 2. Nf7+ Kg8 3. Qxg7+ Kxg7 4. Bf6+ Kg8
-5. Nh6#) 2. Qh8+  Kxh8 3. Kf7
- Rf8+ (3... Rg8 4. Bf6+ Rg7+ 5. Bxg7#) 4. Kxf8 e1=Q 5. Bf6#
+1. Nxh6+  gxh6  2. Qh8+  Kxh8 3. Kf7
+ Rf8+  4. Kxf8 e1=Q 5. Bf6#
 1-0
 
 [Event "?"]
@@ -716,8 +697,8 @@ Rxd8+ Kh7 3. Nf8+ Kh6 4. Nxd7 ) 2. Rxc8 Rxc8 3. Ne7+ 1-0
 [EventType "team"]
 
 1... Rb1  2. Bxd6
-f3+  (2... exd6 $6  3. Bc2 $13) (2... Rxb3 $6 3. Bxf4 $11) 3. Kxf3 Rxb3+ 4.
-Re3 (4. Kg2 exd6 ) 4... Rxe3+ 5. Kxe3 exd6 0-1
+f3+    3. Kxf3 Rxb3+ 4.
+Re3  4... Rxe3+ 5. Kxe3 exd6 0-1
 
 [Event "?"]
 [Site "?"]
@@ -734,7 +715,7 @@ Re3 (4. Kg2 exd6 ) 4... Rxe3+ 5. Kxe3 exd6 0-1
 [EventType "swiss"]
 
 1. Rxe2 
-Qxe2 2. Rxg7+ Kxg7 (2... Kh8 3. Qh7#) 3. Bxh6+ Nxh6 (3... Rxh6 4. Qxe2 )
+Qxe2 2. Rxg7+ Kxg7  3. Bxh6+ Nxh6 
 4. Qxe2 1-0
 
 [Event "?"]
@@ -751,8 +732,7 @@ Qxe2 2. Rxg7+ Kxg7 (2... Kh8 3. Qh7#) 3. Bxh6+ Nxh6 (3... Rxh6 4. Qxe2 )
 [EventDate "1981.??.??"]
 [EventType "team"]
 
-1... Rg1+ 2. Kh2 (2. Kxg1 Bxf2+ 3. Kxf2 Qxd3 ) 2... Rxg3 3. fxg3 (3. Kxg3
-Be5+ ) (3. Qxd4+ Qxd4 ) 3... Bg1+ 4. Kxg1 Qxd3 0-1
+1... Rg1+ 2. Kh2  2... Rxg3 3. fxg3   3... Bg1+ 4. Kxg1 Qxd3 0-1
 
 [Event "?"]
 [Site "?"]
@@ -768,8 +748,7 @@ Be5+ ) (3. Qxd4+ Qxd4 ) 3... Bg1+ 4. Kxg1 Qxd3 0-1
 [EventDate "1963.??.??"]
 [EventType "swiss"]
 
-1. Qxe7+ Qxe7 (1... Kg8 2. Qe8+ Qxe8 3. Rxe8#) 2. Bd6 Qxd6  (2... Nf7 3. Bxe7+ Kg8 4.
-Bxf7+ Kxf7 5. Bc5 ) 3. Re8# 1-0
+1. Qxe7+ Qxe7  2. Bd6 Qxd6   3. Re8# 1-0
 
 [Event "?"]
 [Site "?"]
@@ -786,7 +765,7 @@ Bxf7+ Kxf7 5. Bc5 ) 3. Re8# 1-0
 [EventType "team"]
 
 1. Nxd5  Rxc6 2. Rb8+ Kg7 3.
-Rg8+ Kxg8 (3... Kh7 4. Nf6#) 4. Ne7+ Kf8 5. Nxc6 Ke8 6. a6 Kd7 7. a7 Bxa7 8.
+Rg8+ Kxg8  4. Ne7+ Kf8 5. Nxc6 Ke8 6. a6 Kd7 7. a7 Bxa7 8.
 Nxa7 $16 1-0
 
 [Event "?"]
@@ -803,8 +782,7 @@ Nxa7 $16 1-0
 [EventDate "1957.??.??"]
 [EventType "team"]
 
-1... Rh1+  2. Kxh1 Qh7+ 3. Kg1 Qh2+ (
-3... Rh8 $2 4. Rf3 $16) 4. Kxh2 Nf3+ 5. Kh1 (5. Kh3 Rh8#) 5... Rh8# 0-1
+1... Rh1+  2. Kxh1 Qh7+ 3. Kg1 Qh2+  4. Kxh2 Nf3+ 5. Kh1  5... Rh8# 0-1
 
 [Event "?"]
 [Site "?"]
@@ -820,7 +798,7 @@ Nxa7 $16 1-0
 [EventDate "1982.??.??"]
 [EventType "team"]
 
-1. Rc7 Rxc7 (1... Bxc7 2. dxc7 Rxc7 3. Nd5+ ) 2. dxc7 Bxc7 3. Nd5+ Ke5 4.
+1. Rc7 Rxc7  2. dxc7 Bxc7 3. Nd5+ Ke5 4.
 Nxc7 1-0
 
 [Event "?"]
@@ -837,8 +815,7 @@ Nxc7 1-0
 [EventDate "1997.??.??"]
 [EventType "swiss"]
 
-1. Rxd6 (1. Qxg7+ $2 Kxg7 2. Rxd6 Qb7+ ) 1... Qxd6 (1... Bxc3 2. Rxa6 Bb2
-3. Rc6 Bxa3 4. Rb1 ) 2. Qxg7+ Kxg7 3. Nf5+ Kf6 4. Nxd6 $16 1-0
+1. Rxd6  1... Qxd6  2. Qxg7+ Kxg7 3. Nf5+ Kf6 4. Nxd6 $16 1-0
 
 [Event "?"]
 [Site "?"]
@@ -854,7 +831,7 @@ Nxc7 1-0
 [EventDate "1983.??.??"]
 [EventType "team"]
 
-1... Re1+  (1... Bh3 $2 2. Re3 $13) 2. Kg2 Rg1+ 3. Kxg1 Qe1+
+1... Re1+   2. Kg2 Rg1+ 3. Kxg1 Qe1+
 4. Kg2 Qf1+ 5. Kxf1 Bh3+ 6. Kg1 Re1#  0-1
 
 [Event "?"]
@@ -871,7 +848,7 @@ Nxc7 1-0
 [EventDate "1974.??.??"]
 [EventType "team"]
 
-1. Rg8+  Ka7 (1... Bc8 2. Qb6#) 2. Ra8+ Kxa8 3. Qxa6+ Kb8 4. Qxb7#
+1. Rg8+  Ka7  2. Ra8+ Kxa8 3. Qxa6+ Kb8 4. Qxb7#
 1-0
 
 [Event "?"]
@@ -887,8 +864,7 @@ Nxc7 1-0
 [PlyCount "7"]
 [EventType "team"]
 
-1. f7+  Kxf7 (1...
-Kg7 2. fxe8=Q Qxe8 3. Rxe4 (3. Qg1 $16) 3... Qxe4 4. Re1 $16) 2. Rxe4  Rxe4 3. Ng5+  Kg7 4. Nxe4  1-0
+1. f7+  Kxf7  2. Rxe4  Rxe4 3. Ng5+  Kg7 4. Nxe4  1-0
 
 [Event "?"]
 [Site "?"]
@@ -905,8 +881,7 @@ Kg7 2. fxe8=Q Qxe8 3. Rxe4 (3. Qg1 $16) 3... Qxe4 4. Re1 $16) 2. Rxe4  Rxe4 3. N
 [EventType "swiss"]
 
 1... Bxg2  2. Kxg2 Bxc3  3. bxc3 Nd5
- 4. Qxc4 (4.
-Qb3 Qxb3 5. axb3 Nxe3+ ) 4... Nxe3+ 5. Kf2 Nxc4  0-1
+ 4. Qxc4  4... Nxe3+ 5. Kf2 Nxc4  0-1
 
 [Event "?"]
 [Site "?"]
@@ -922,12 +897,8 @@ Qb3 Qxb3 5. axb3 Nxe3+ ) 4... Nxe3+ 5. Kf2 Nxc4  0-1
 [EventDate "1974.??.??"]
 [EventType "team"]
 
-1. Rd5 Qc8  (1... Qxd5 2. Nc7+ Kf8 3. Nxd5 $16
-) 2. Nf5  Kf8
-(2... Qe6 3. Nc7+ Kf8 4. Rd8+ Bxd8 5. Qxd8+ Qe8 6. Qxe8#) (2... Nf6 3. Nbd6+
-Bxd6 4. Nxd6+ ) 3. Nxe7 Kxe7 4. Re5+  Qe6 (4... Kf6 5. Qf3+ Kg6 (5... Kxe5 6.
-Re1#) (5... Qf5 6. Qxf5#) 6. Qh5+ Kf6 7. Qg5#) (4... Kf8 5. Qd6+ Ne7 6. Qxe7+
-Kg8 7. Qe8+ Qxe8 8. Rxe8#) 5. Qd6+ Kf6 (5... Ke8 6. Nc7#) 6. Rxe6+ fxe6 7. Nc7
+1. Rd5 Qc8   2. Nf5  Kf8
+  3. Nxe7 Kxe7 4. Re5+  Qe6   5. Qd6+ Kf6  6. Rxe6+ fxe6 7. Nc7
 1-0
 
 [Event "?"]
@@ -944,15 +915,9 @@ Kg8 7. Qe8+ Qxe8 8. Rxe8#) 5. Qd6+ Kf6 (5... Ke8 6. Nc7#) 6. Rxe6+ fxe6 7. Nc7
 [EventDate "1988.??.??"]
 [EventType "swiss"]
 
-1. Qh6+  Kxh6 (1... Kg8 2. Nf5 (2. Nxg6 ) 2... gxf5 3. Bxf5 fxe6 4. Qxh7+ (4. Bxh7+ Kh8 5. Bg6+ Kg8 6. Qh7+
-Kf8 7. Qf7#) 4... Kf8 5. Bg6 ) (1... Kh8 2.
-Nxg6+ fxg6 (2... Kg8 3. Nxe7+ Rxe7 (3... Kh8 4. Qxh7#) 4. Qxh7+ Kf8 5. Qh8#) 3.
-Bxg6 Kg8 4. Qxh7+ Kf8 5. Qf7#) 2. Nf5+ Kh5 (2... Kg5 3. h4+ Kf4 (3... Kh5 4.
-Be2#) (3... Kg4 4. f3+ Kf4 (4... Kh5 5. g4#) 5. g3+ Kxf3 6. Be2#) 4. g3+ Kg4 (
-4... Kf3 5. Be2#) 5. f3+ Kxf3 (5... Kh3 6. Bf1#) (5... Kh5 6. g4#) 6. Be2#) 3.
-f4  gxf5 (3... Ne3 4. Be2+ Ng4 5. Bxg4#) 4.
-Be2+ Kh4 5. Kh2  Bxe6 (5... Qxc3 6.
-Rh6#) (5... Rg8 6. Rh6#) 6. g3# 1-0
+1. Qh6+  Kxh6   2. Nf5+ Kh5  3.
+f4  gxf5  4.
+Be2+ Kh4 5. Kh2  Bxe6   6. g3# 1-0
 
 [Event "?"]
 [Site "?"]
@@ -1000,10 +965,7 @@ Qxd2+  0-1
 [PlyCount "9"]
 [EventType "team"]
 
-1... Bf2+  2. Kxf2 (2. Ke2  Bc4+ 3. Kxf2 Nxe4+ 4. fxe4
-Qxg5 $19) 2... Nxe4+  3. fxe4 Qxg5  4. h4 (4. Nxa7 Rxc3 5. bxc3 Qd2+ $19) (4. Kg1
-Qe7 $19) 4... Qf4+ 5. Kg1 (5. Ke1 Qg3+ 6. Kd2 (6. Ke2 Bg4+ 7. Kd2 Rfd8+ $19)
-6... Rfd8+ $19) 5... Nc5 0-1
+1... Bf2+  2. Kxf2  2... Nxe4+  3. fxe4 Qxg5  4. h4   4... Qf4+ 5. Kg1  5... Nc5 0-1
 
 [Event "?"]
 [Site "?"]
@@ -1018,8 +980,7 @@ Qe7 $19) 4... Qf4+ 5. Kg1 (5. Ke1 Qg3+ 6. Kd2 (6. Ke2 Bg4+ 7. Kd2 Rfd8+ $19)
 [PlyCount "7"]
 [EventType "team"]
 
-1. Rc5  Qxc5 (1... Rgc8 2. Rxc4 Rxc4 3. Ra1 $18) 2. Nf5+  exf5 (2...
-Kd7 3. Qxc5 exf5 4. Qd6+ $18) 3. Qxc5+ Kd7 4. Qxc3 1-0
+1. Rc5  Qxc5  2. Nf5+  exf5  3. Qxc5+ Kd7 4. Qxc3 1-0
 
 [Event "?"]
 [Site "?"]
@@ -1034,8 +995,7 @@ Kd7 3. Qxc5 exf5 4. Qd6+ $18) 3. Qxc5+ Kd7 4. Qxc3 1-0
 [PlyCount "15"]
 [EventType "team"]
 
-1. Ng6+ fxg6 2. Rxh7+ Kxh7 3. Qh3+ Nh6 4. fxg6+  Kxg6 5. Qxd7 Ndf7 6. Bxh6 Nxh6 (
-6... Kxh6 7. Qxf7 ) (6... gxh6 7. Rf1 ) 7. exd5 cxd5 8. Qxd5 1-0
+1. Ng6+ fxg6 2. Rxh7+ Kxh7 3. Qh3+ Nh6 4. fxg6+  Kxg6 5. Qxd7 Ndf7 6. Bxh6 Nxh6   7. exd5 cxd5 8. Qxd5 1-0
 
 [Event "?"]
 [Site "?"]
@@ -1066,7 +1026,7 @@ Kd7 3. Qxc5 exf5 4. Qd6+ $18) 3. Qxc5+ Kd7 4. Qxc3 1-0
 [EventDate "1947.??.??"]
 [EventType "team"]
 
-1... Qd3+  2. Kxd3 (2. Ke1 Qxb1 ) 2... Bxc6+ 3. Ke2 Bxa4 $17 0-1
+1... Qd3+  2. Kxd3  2... Bxc6+ 3. Ke2 Bxa4 $17 0-1
 
 [Event "?"]
 [Site "?"]
@@ -1082,8 +1042,8 @@ Kd7 3. Qxc5 exf5 4. Qd6+ $18) 3. Qxc5+ Kd7 4. Qxc3 1-0
 [EventDate "1912.??.??"]
 [EventType "team"]
 
-1... Qxf1+  2. Kxf1 (2. Kh2 Nf6 $19) 2... Nd2+
-3. Kg1 Re1+ 4. Kh2 Nf1+ 5. Kg1 (5. Kh1 Ne3+ 6. Kh2 Nxf5 $19) 5... Ne3+ 6. Kh2
+1... Qxf1+  2. Kxf1  2... Nd2+
+3. Kg1 Re1+ 4. Kh2 Nf1+ 5. Kg1  5... Ne3+ 6. Kh2
 Nxf5 0-1
 
 [Event "?"]
@@ -1115,9 +1075,7 @@ Nxf5 0-1
 [PlyCount "9"]
 [EventType "team"]
 
-1. Qb5 Qxb5 (1... Nf4+ 2. Nxf4 Qxb5 3. c8=Q+ Ke7 (3... Kf7 4. Qe6+ Kf8 5. Ng6#)
-4. Qe6+ Kd8 (4... Kf8 5. Ng6#) 5. Qg8+ $18) 2. c8=Q+ Kf7 (2... Nd8 3. Nc7+ Ke7
-4. Nxb5 $18) 3. Qxe6+ Kxe6 4. Nc7+ Ke5 5. Nxb5 $16 1-0
+1. Qb5 Qxb5  2. c8=Q+ Kf7  3. Qxe6+ Kxe6 4. Nc7+ Ke5 5. Nxb5 $16 1-0
 
 [Event "?"]
 [Site "?"]
@@ -1180,8 +1138,7 @@ Qh7+  Kf6 4. Qxc7 1-0
 [PlyCount "3"]
 [EventType "team"]
 
-1... b5  2. Bxb5 (2. Rd1 bxc4
-3. bxc4 $15) 2... Qf5 $17  0-1
+1... b5  2. Bxb5  2... Qf5 $17  0-1
 
 [Event "?"]
 [Site "?"]
@@ -1197,9 +1154,7 @@ Qh7+  Kf6 4. Qxc7 1-0
 [EventDate "1947.??.??"]
 [EventType "team"]
 
-1. Qa4+ Qc6 (1... Kf8 2. Bh6+ Kg8 3. Qe8#) (1... Qd7 2. Qxd7+ Kf8 3. Bh6+ Kg8
-4. Qe8#) (1... Nc6 2. Qxc6+ Kf8 (2... Qxc6 3. Rd8#) (2... Qd7 3. Qa8+ Qd8 4.
-Qxd8#) 3. Bh6+ Ke7 (3... Kg8 4. Qe8#) 4. Qxc7+ Ke8 5. Qd8#) (1... b5  2. Qxb5+ $18 ) 2. Rd8+ Kxd8 3. Qxc6 1-0
+1. Qa4+ Qc6     2. Rd8+ Kxd8 3. Qxc6 1-0
 
 [Event "?"]
 [Site "?"]
@@ -1215,8 +1170,7 @@ Qxd8#) 3. Bh6+ Ke7 (3... Kg8 4. Qe8#) 4. Qxc7+ Ke8 5. Qd8#) (1... b5  2. Qxb5+ $
 [EventDate "1983.??.??"]
 [EventType "team"]
 
-1... Re1+  (1... Bh3 $143 2. Re3 Rxe3 3.
-fxe3 Qxe3+ 4. Qxe3 Rxe3 $17) 2. Kg2 Rg1+ 3. Kxg1 Qe1+ 4. Kg2 Qf1+ 5. Kxf1  Bh3+ 6. Kg1 Re1# 0-1
+1... Re1+   2. Kg2 Rg1+ 3. Kxg1 Qe1+ 4. Kg2 Qf1+ 5. Kxf1  Bh3+ 6. Kg1 Re1# 0-1
 
 [Event "?"]
 [Site "?"]
@@ -1232,7 +1186,7 @@ fxe3 Qxe3+ 4. Qxe3 Rxe3 $17) 2. Kg2 Rg1+ 3. Kxg1 Qe1+ 4. Kg2 Qf1+ 5. Kxf1  Bh3+ 
 [EventDate "1985.??.??"]
 [EventType "team"]
 
-1. Bxe5 (1. Qd5+ $6 Rf7 $11) 1... fxe5  2. Qd5+
+1. Bxe5  1... fxe5  2. Qd5+
  Qxd5 3. Nxe7+ Kf7 4. Nxd5 1-0
 
 [Event "?"]
@@ -1249,8 +1203,7 @@ fxe3 Qxe3+ 4. Qxe3 Rxe3 $17) 2. Kg2 Rg1+ 3. Kxg1 Qe1+ 4. Kg2 Qf1+ 5. Kxf1  Bh3+ 
 [EventDate "1971.??.??"]
 [EventType "team"]
 
-1. Bh5+  Kxh5 (1...
-Kxf5 2. Bg6#) (1... Kh7 2. Rg7#) 2. Ng7+ Kh6 3. Nf5+ Kh5 (3... Kh7 4. Rg7#) 4.
+1. Bh5+  Kxh5   2. Ng7+ Kh6 3. Nf5+ Kh5  4.
 Ng7+  1/2-1/2
 
 [Event "?"]
@@ -1267,7 +1220,7 @@ Ng7+  1/2-1/2
 [EventDate "1908.??.??"]
 [EventType "game"]
 
-1... Rf2+  2. Kh1 (2. Rg2 Rgxg2+ 3. Kh1 Rf1#) 2... Rh2+  3. Kxh2 Nf3+ 4. Kh1 Rxg1# 0-1
+1... Rf2+  2. Kh1  2... Rh2+  3. Kxh2 Nf3+ 4. Kh1 Rxg1# 0-1
 
 [Event "?"]
 [Site "?"]
@@ -1282,6 +1235,6 @@ Ng7+  1/2-1/2
 [PlyCount "7"]
 [EventType "team"]
 
-1... f3  2. gxf3 (2. Bxf3 Rxa7 $19 ) (2. Bd3 Rxa7 $19 ) 2... Rxa7 3.
-Rxa7 (3. f4 Rxa1 4. Rxa1 Nc4 $19) 3... Be3+ 4. Kh2 Bxa7 0-1
+1... f3  2. gxf3   2... Rxa7 3.
+Rxa7  3... Be3+ 4. Kh2 Bxa7 0-1
 

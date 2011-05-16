@@ -111,8 +111,7 @@
 [EventDate "1983.??.??"]
 [EventType "game"]
 
-1... Rc1+ 2. Kh2 Qc2+ (2... Rh1+ $1 ) 3. Kh3 Rh1+ 4. Rxh1 Qg2+ (
-4... Qh2+ $1 ) 1/2-1/2
+1... Rc1+ 2. Kh2 Qc2+  3. Kh3 Rh1+ 4. Rxh1 Qg2+  1/2-1/2
 
 [Event "Bratislava"]
 [Site "Bratislava"]
@@ -195,7 +194,7 @@
 [EventType "team"]
 [EventCountry "ISL"]
 
-1. Kf1 $1 d3 (1... g2+ 2. Kg1 d3 3. Re8 $11) 2. Rf2+ $1 1/2-1/2
+1. Kf1 $1 d3  2. Rf2+ $1 1/2-1/2
 
 [Event "Bitterfeld"]
 [Site "?"]
@@ -340,7 +339,7 @@
 [EventDate "1978.??.??"]
 [EventType "team"]
 
-1. Bd3 Qxd3 (1... Rh1+ 2. Kxh1 Qxd3 3. Qe8+) 2. h5+ 1/2-1/2
+1. Bd3 Qxd3  2. h5+ 1/2-1/2
 
 [Event "Muenchen"]
 [Site "Muenchen"]
@@ -374,7 +373,7 @@ Qxh8 1/2-1/2
 [EventDate "1989.??.??"]
 [EventType "game"]
 
-1... Rc6 (1... Rc1 2. Qf3) 2. Qxc6 (2. Bf7 Rxg6 3. Bxg6 Qd5+) 2... Qd5+ 1/2-1/2
+1... Rc6  2. Qxc6  2... Qd5+ 1/2-1/2
 
 [Event "Bulgarien"]
 [Site "?"]
@@ -390,8 +389,7 @@ Qxh8 1/2-1/2
 [EventDate "1983.??.??"]
 [EventType "team"]
 
-1... Bf4 2. Rb1 (2. Ra1 Be5 3. Bxe5 Qxe5 4. Rg1 Rh8) 2... Re8 3. Rg1 (3. Rf1
-Qf2) 3... Rf8 1/2-1/2
+1... Bf4 2. Rb1  2... Re8 3. Rg1  3... Rf8 1/2-1/2
 
 [Event "Niederlande"]
 [Site "?"]
@@ -424,10 +422,7 @@ Qf2) 3... Rf8 1/2-1/2
 [EventType "swiss"]
 [EventCountry "BEL"]
 
-50. Kg4 $3 (50. gxf6 $2 gxf6 51. Kg4 Ke4 (51... Ke5 52. Kh5 Kxf5 53. Kh6 Kg4 (
-53... Ke6 $3 54. Kxh7 f5 55. Kg6 f4 56. h5 f3 57. h6 f2 58. h7 f1=Q 59. h8=Q
-Qg2+ 60. Kh6 Qh3+ 61. Kg7 Qg4+ 62. Kh6 Qh4+ 63. Kg7 Qg5+ 64. Kh7 Kf7 $19) 54.
-Kxh7 Kh5 $1 $19 (54... f5 $2 55. Kg6 $1 $11)) 52. Kh3 Kf4) 50... Ke5 51. g6 h6
+50. Kg4 $3  50... Ke5 51. g6 h6
 52. Kh5 $3 $11 1/2-1/2
 
 [Event "Olympiade"]
@@ -444,7 +439,7 @@ Kxh7 Kh5 $1 $19 (54... f5 $2 55. Kg6 $1 $11)) 52. Kh3 Kf4) 50... Ke5 51. g6 h6
 [EventDate "1952.??.??"]
 [EventType "team"]
 
-1... Rxg3+ 2. Kf1 (2. fxg3 Qb2+ 3. Kh3 Qh2+) (2. Kxg3 Qxh4+) 2... Qa1+ 3. Ke2
+1... Rxg3+ 2. Kf1   2... Qa1+ 3. Ke2
 Re3+ 4. Kxe3 Qe1+ 5. Kf3 Qe3+ 1/2-1/2
 
 [Event "Fernpartie"]
@@ -510,7 +505,7 @@ Re3+ 4. Kxe3 Qe1+ 5. Kf3 Qe3+ 1/2-1/2
 [EventDate "1948.??.??"]
 [EventType "game"]
 
-1... Nf4+ 2. gxf4 (2. Kf3 Qe2+ 3. Kxf4 Qf3+) 2... Qxf2+ 3. Kh3 Qxh2+ 4. Kg4
+1... Nf4+ 2. gxf4  2... Qxf2+ 3. Kh3 Qxh2+ 4. Kg4
 Qh3+ 1/2-1/2
 
 [Event "BRD"]
@@ -561,7 +556,7 @@ Qh3+ 1/2-1/2
 [EventType "game"]
 [EventCountry "EST"]
 
-1... Bxg4 2. Rxg4 (2. Kxg4 f5+ 3. Kh4 Rxf4+) 2... f5 3. Rg8 Rxf4+ 1/2-1/2
+1... Bxg4 2. Rxg4  2... f5 3. Rg8 Rxf4+ 1/2-1/2
 
 [Event "UdSSR"]
 [Site "?"]
@@ -694,8 +689,8 @@ Kxh3 b1=Q 9. Bxb1 Ke6 1/2-1/2
 [EventType "game"]
 [EventCountry "GER"]
 
-1... Rg4 2. Ra3+ (2. Rc2 Rh4+ 3. Kg3 f4+ 4. Kf2 Rxh2+ 5. Ke1 Rh1+ 6. Kf2 Rh2+)
-2... Kb4 3. Ra4+ (3. Ra2 Rh4+ 4. Kg3 f4+ 5. Kf2 Rxh2+ 6. Kf1 Rh1+ 7. Kf2 Rh2+)
+1... Rg4 2. Ra3+ 
+2... Kb4 3. Ra4+ 
 3... Kxa4 4. e8=Q+ Kb3 1/2-1/2
 
 [Event "Daugawpils"]
@@ -827,8 +822,7 @@ Qxa3 8. Qe8+ Qf8 1/2-1/2
 [EventDate "1988.??.??"]
 [EventType "game"]
 
-1... Rxh4+ 2. Kxh4 Bd5 3. Rg4 Bf6+ 4. Kg3 Be5+ 5. Kh3 e2 6. Bxe2 (6. Rh4+ Kg5
-7. Bxe2 Bxg2+) 6... Be6 1/2-1/2
+1... Rxh4+ 2. Kxh4 Bd5 3. Rg4 Bf6+ 4. Kg3 Be5+ 5. Kh3 e2 6. Bxe2  6... Be6 1/2-1/2
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata"]
@@ -861,10 +855,7 @@ Qxa3 8. Qe8+ Qf8 1/2-1/2
 [EventDate "1984.??.??"]
 [EventType "game"]
 
-1... Bxg5 2. Rxg5 (2. Nxe5 Rf8 3. Qg2 (3. Qxf8 Qh1+ 4. Kg4 Qh5#) (3. Nf7 Bf4 4.
-Qxf4 Qh1+ 5. Kg4 Qh5#) (3. Nd3 Qb1 4. Qg2 Rf1 5. Rxg5 Qxd3+ 6. Kh2 Rf4 7. Rg4
-Rxg4 8. Qxg4 Qxb5) 3... Rf4 (3... Rf2 4. Nd3) 4. Rg4 Rxg4 5. Qxg4 (5. Kxg4 Qh4+
-6. Kf3 Qf4+) 5... Qh1+ 6. Kg3 Qg1+ 7. Kf3 Qf1+) 2... Rf8 3. Qxf8 Qh1+ 1/2-1/2
+1... Bxg5 2. Rxg5  2... Rf8 3. Qxf8 Qh1+ 1/2-1/2
 
 [Event "Fernpartie"]
 [Site "?"]
@@ -880,7 +871,7 @@ Rxg4 8. Qxg4 Qxb5) 3... Rf4 (3... Rf2 4. Nd3) 4. Rg4 Rxg4 5. Qxg4 (5. Kxg4 Qh4+
 [EventDate "1983.??.??"]
 [EventType "swiss"]
 
-1... Ng3+ 2. Kg1 (2. fxg3 Rxh2+ 3. Kxh2 Qh5#) 2... Bxf2+ 3. Nxf2 Qxf1+ 4. Rxf1
+1... Ng3+ 2. Kg1  2... Bxf2+ 3. Nxf2 Qxf1+ 4. Rxf1
 Ne2+ 5. Kh1 Ng3+ 1/2-1/2
 
 [Event "Fernpartie"]
@@ -914,7 +905,7 @@ Rf5+ Kg6 8. Rg5+ Kh6 9. Rg6+ 1/2-1/2
 [EventDate "1981.??.??"]
 [EventType "team"]
 
-1... Rxf4 (1... Bxg5 2. Rxg5) 2. Rxf4 Qa1+ 3. Bf1 Qxf1+ 4. Rxf1 Rxf1+ 5. Qg1
+1... Rxf4  2. Rxf4 Qa1+ 3. Bf1 Qxf1+ 4. Rxf1 Rxf1+ 5. Qg1
 Rxg1+ 6. Kxg1 Bf6 7. Ra5 Bd8 8. Re5 Bf6 1/2-1/2
 
 [Event "Baile Herculane"]
@@ -931,8 +922,8 @@ Rxg1+ 6. Kxg1 Bf6 7. Ra5 Bd8 8. Re5 Bf6 1/2-1/2
 [EventDate "1982.??.??"]
 [EventType "game"]
 
-1... Nxg2 (1... Bb5 2. Qd6) 2. b5 Nxf4 3. bxc6 (3. exf4 Re2 4. Qd3 R8e3) 3...
-Nh3+ 4. Kg2 bxc6 5. Qd6 R8e6 (5... Rxe3 6. Rb8 Ng5 7. Rxe8+ Rxe8 8. Qxc6) 6.
+1... Nxg2  2. b5 Nxf4 3. bxc6  3...
+Nh3+ 4. Kg2 bxc6 5. Qd6 R8e6  6.
 Rb8+ Kg7 7. Qf8+ Kf6 8. Rb1 Rxe3 9. Rf1+ Kg5 10. Qxf7 Kg4 11. Rf3 Re2+ 12. Kh1
 Re1+ 13. Rf1 Rxf1+ 14. Qxf1 Nf4 15. Qd1+ Re2 1/2-1/2
 
@@ -967,12 +958,8 @@ Kf5 8. Kd4 Kg5 9. Be8 Kxg4 10. Ke5 Kg5 11. Bd7 Bf7 1/2-1/2
 [EventDate "1982.??.??"]
 [EventType "swiss"]
 
-1... Qa2+ 2. Kg3 f4+ (2... h4+ 3. Kxh4 Qf2+ 4. Bg3 Qa2 5. d7+ Kd8 6. Be1) 3.
-Bxf4 h4+ 4. Kxh4 Qf2+ 5. Bg3 Qf6 6. Be5 (6. Bf4 d2 7. d7+ Kd8 8. Ba4 Ke7 (8...
-d1=Q 9. Bxd1 Kxd7 10. Kg3) 9. Be3 (9. Kg3 Qd4) 9... Qh8+ 10. Kg3 Qe5+ 11. Kf2
-Qh2+ 12. Kf1 Qh1+ 13. Bg1 d1=Q+ (13... Qd5 14. Bc5+ Qxc5 (14... Kf6 15. Ne4+
-Ke6 16. Nf2 Qc4+ 17. Kg2 Qd5+ 18. Kg3 g5 19. Nd1 Qd3+ 20. Kf2) 15. d8=Q+ Kxd8
-16. Ne6+) 14. Bxd1 Qd5) 6... Qf2+ 7. Bg3 Qf6 1/2-1/2
+1... Qa2+ 2. Kg3 f4+  3.
+Bxf4 h4+ 4. Kxh4 Qf2+ 5. Bg3 Qf6 6. Be5  6... Qf2+ 7. Bg3 Qf6 1/2-1/2
 
 [Event "Partievariante"]
 [Site "?"]
@@ -1042,7 +1029,7 @@ Ne8 30. Bxe7+ Kxe7 31. Qxd7+ $1 Kf8 32. Re6 $1 Qh4+ 33. Kg1 Qh2+ 34. Kf2 Qf4+
 [EventType "game"]
 [EventCountry "URS"]
 
-1. Qg8+ Kxg8 2. Qe8+ (2. Qa8+ $1 ) 2... Kh7 3. Qg8+ Kh6 4. Qh7+
+1. Qg8+ Kxg8 2. Qe8+  2... Kh7 3. Qg8+ Kh6 4. Qh7+
 Kg5 5. Qxg6+ 1/2-1/2
 
 [Event "Budapest"]
@@ -1158,8 +1145,8 @@ Kg5 5. Qxg6+ 1/2-1/2
 [EventDate "1953.??.??"]
 [EventType "game"]
 
-1... Rxf2+ (1... Ne3+ $1  2. fxe3 Rf2+) 2. Kxf2 Qd2+ 3. Kg1 Qe1+
-4. Kh2 Qf2+ 5. Kh3 Nf4+ 6. Rgxf4 Qf1+ (6... Qh2+ $1 ) 7. Kg4 Qxf4+
+1... Rxf2+  2. Kxf2 Qd2+ 3. Kg1 Qe1+
+4. Kh2 Qf2+ 5. Kh3 Nf4+ 6. Rgxf4 Qf1+  7. Kg4 Qxf4+
 8. Kh5 Qh4+ 1/2-1/2
 
 [Event "Riga"]
@@ -1177,8 +1164,8 @@ Kg5 5. Qxg6+ 1/2-1/2
 [EventType "team"]
 [EventCountry "LAT"]
 
-1... Qxg1+ 2. Kxg1 Qa1+ (2... Qc1+ $1  3. Kh2 Rxg2+ 4. Nxg2 Qf4+)
-3. Kh2 (3. Kf2 Qd4+ 4. Kxg3 Qf2+) 3... Rxg2+ 4. Kxg2 (4. Nxg2 Qe5+ 5. Kg1 Qxf5)
+1... Qxg1+ 2. Kxg1 Qa1+ 
+3. Kh2  3... Rxg2+ 4. Kxg2 
 4... Qf1+ 1/2-1/2
 
 [Event "Gyoer"]
@@ -1227,7 +1214,7 @@ Kg5 5. Qxg6+ 1/2-1/2
 [EventDate "1909.??.??"]
 [EventType "team"]
 
-1. d6 cxd6 2. c5 dxc5 (2... bxc5 3. b6) 3. Rxe3 Rh4 4. Rh3 Rh7 5. Re3 1/2-1/2
+1. d6 cxd6 2. c5 dxc5  3. Rxe3 Rh4 4. Rh3 Rh7 5. Re3 1/2-1/2
 
 [Event "Moskau"]
 [Site "Moskau"]
@@ -1260,7 +1247,7 @@ Kg5 5. Qxg6+ 1/2-1/2
 [EventDate "1967.??.??"]
 [EventType "game"]
 
-3. Be4+ Qxe4 4. Qg7+ (4. Qh7+ $1 ) 1/2-1/2
+3. Be4+ Qxe4 4. Qg7+  1/2-1/2
 
 [Event "Ungarn"]
 [Site "?"]
@@ -1276,8 +1263,7 @@ Kg5 5. Qxg6+ 1/2-1/2
 [EventDate "1969.??.??"]
 [EventType "game"]
 
-1... Qc8 2. Rd8+ Kh7 3. R8d7 (3. R2d7 Qxd8) 3... Qe8 (3... Qf8 4. Kf4 Qh6+ 5.
-Ke4) 4. Kf4 (4. Re7 Qf8 5. Kf4 Qh6+ 6. Ke4 Qxd2) 4... Qe6 1/2-1/2
+1... Qc8 2. Rd8+ Kh7 3. R8d7  3... Qe8  4. Kf4  4... Qe6 1/2-1/2
 
 [Event "Variante"]
 [Site "?"]
@@ -1293,7 +1279,7 @@ Ke4) 4. Kf4 (4. Re7 Qf8 5. Kf4 Qh6+ 6. Ke4 Qxd2) 4... Qe6 1/2-1/2
 [EventDate "1903.??.??"]
 [EventType "game"]
 
-1... Kh7 (1... Qf8 2. h5 Nf7 (2... g6 3. h6) 3. Kc2 Nd8 4. a4 Nf7 5. Kc3 $18)
+1... Kh7 
 2. Qxd8 Qe4+ 1/2-1/2
 
 [Event "Baku"]
@@ -1328,8 +1314,7 @@ Ke4) 4. Kf4 (4. Re7 Qf8 5. Kf4 Qh6+ 6. Ke4 Qxd2) 4... Qe6 1/2-1/2
 [EventType "game"]
 [EventCountry "UKR"]
 
-1. Qe5+ (1. Qd4+ $11) 1... Kh7 (1... f6 2. e8=N+ Kg8 3. Nxf6+ Kf7 4. Qe8+ (4.
-Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
+1. Qe5+  1... Kh7  2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ 
 1/2-1/2
 
 [Event "Moskau"]
@@ -1413,7 +1398,7 @@ Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
 [EventDate "1963.??.??"]
 [EventType "game"]
 
-1. Qxe7+ Kxe7 2. Rf7+ Kd8 3. Nb7+ (3. Rf8+ $11 ) 3... Kc8 4. Nd6+
+1. Qxe7+ Kxe7 2. Rf7+ Kd8 3. Nb7+  3... Kc8 4. Nd6+
 1/2-1/2
 
 [Event "Moskau"]
@@ -1463,7 +1448,7 @@ Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
 [EventDate "1966.??.??"]
 [EventType "team"]
 
-1. Qxf6+ Kxf6 2. Bd4+ Kg5 3. Be3+ Kf6 (3... Kh4 4. Bf2+ Kg5 5. Be3+) 4. Bd4+
+1. Qxf6+ Kxf6 2. Bd4+ Kg5 3. Be3+ Kf6  4. Bd4+
 1/2-1/2
 
 [Event "Berlin"]
@@ -1481,7 +1466,7 @@ Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
 [EventType "team"]
 [EventCountry "GER"]
 
-1. Rh6+ Kxh6 2. Ng8+ Kh5 3. Nf6+ Kh6 (3... Kh4 4. Rg4#) 4. Ng8+ 1/2-1/2
+1. Rh6+ Kxh6 2. Ng8+ Kh5 3. Nf6+ Kh6  4. Ng8+ 1/2-1/2
 
 [Event "?"]
 [Site "?"]
@@ -1497,7 +1482,7 @@ Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
 [EventDate "1924.??.??"]
 [EventType "game"]
 
-1. Ng5 fxg5 (1... Bxh2+ 2. Kh1 fxg5 3. Qxg5+) 2. Qxg5+ Kh8 3. Qf6+ 1/2-1/2
+1. Ng5 fxg5  2. Qxg5+ Kh8 3. Qf6+ 1/2-1/2
 
 [Event "Moskau"]
 [Site "Moskau"]
@@ -1514,7 +1499,7 @@ Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
 [EventType "team"]
 [EventCountry "RUS"]
 
-1. Rh5+ gxh5 (1... Kxh5 2. Qxg7) 2. Qd6+ Qg6 3. Qf8+ Qg7 4. Qd6+ 1/2-1/2
+1. Rh5+ gxh5  2. Qd6+ Qg6 3. Qf8+ Qg7 4. Qd6+ 1/2-1/2
 
 [Event "Groningen"]
 [Site "Groningen"]
@@ -1565,7 +1550,7 @@ Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
 [EventType "game"]
 [EventCountry "USA"]
 
-1. Rh6 Rxh6 2. h8=Q+ Rxh8 3. b5 (3. b5 Rd7 4. cxd7 c5 5. bxc6) 1/2-1/2
+1. Rh6 Rxh6 2. h8=Q+ Rxh8 3. b5  1/2-1/2
 
 [Event "?"]
 [Site "?"]
@@ -1580,8 +1565,7 @@ Qc7+ $11) 4... Kxf6 5. Qe7+) 2. Qh8+ Kxh8 3. e8=Q+ Kh7 4. Qh8+ (4. Qg8+ $11)
 [PlyCount "7"]
 [EventType "swiss"]
 
-1... Qf7 (1... Kg7 $2 2. Qxe5+ Qxe5 3. Bxe5+ Kh6 4. Rh4+ Kg5 5. Bf4+ Kf6 6. g4
-$18) 2. Rxg6+ (2. Bxf7+ Kf8) 2... Kf8 3. g4 Qxg6 4. Qxe5 Qxg4 $11 1/2-1/2
+1... Qf7  2. Rxg6+  2... Kf8 3. g4 Qxg6 4. Qxe5 Qxg4 $11 1/2-1/2
 
 [Event "Moskau"]
 [Site "Moskau"]
@@ -1598,7 +1582,7 @@ $18) 2. Rxg6+ (2. Bxf7+ Kf8) 2... Kf8 3. g4 Qxg6 4. Qxe5 Qxg4 $11 1/2-1/2
 [EventType "team"]
 [EventCountry "RUS"]
 
-6... Nf7+ 7. Ke6 Nb6 8. Nxb6 (8. Kxf7 Nxd5) 8... Kc7 9. Nd5+ Kxc6 1/2-1/2
+6... Nf7+ 7. Ke6 Nb6 8. Nxb6  8... Kc7 9. Nd5+ Kxc6 1/2-1/2
 
 [Event "?"]
 [Site "?"]
@@ -1645,9 +1629,7 @@ $18) 2. Rxg6+ (2. Bxf7+ Kf8) 2... Kf8 3. g4 Qxg6 4. Qxe5 Qxg4 $11 1/2-1/2
 [EventDate "1993.??.??"]
 [EventType "swiss"]
 
-3... Rg8 (3... Rd1+ $2 4. Kh2 Rg8 5. Rf7+ Rg7 6. Qf6 Rxf7 7. Qxf7+ Kh8 8. Qf6+
-Kh7 9. Rxe6) 4. Rf7+ Rg7 5. Rxg7+ Kxg7 6. Qe7+ Kh8 (6... Kg8 $2 7. Qxe6+ Kg7 8.
-Qe7+ Kg8 9. Qd8+) 7. Qf6+ Kh7 8. Qf7+ (8. Rxe6 $2 Qd1+ 9. Kh2 Qh5+) 8... Kh8
+3... Rg8  4. Rf7+ Rg7 5. Rxg7+ Kxg7 6. Qe7+ Kh8  7. Qf6+ Kh7 8. Qf7+  8... Kh8
 1/2-1/2
 
 [Event "Partievariante"]
@@ -1664,11 +1646,7 @@ Qe7+ Kg8 9. Qd8+) 7. Qf6+ Kh7 8. Qf7+ (8. Rxe6 $2 Qd1+ 9. Kh2 Qh5+) 8... Kh8
 [EventDate "1991.??.??"]
 [EventType "game"]
 
-1... f6 (1... Rc8 $2 2. Be5 c3 3. Bf6 Kf8 4. Rh4 Ke8 5. Rh8+ Kd7 6. Rxc8 Kxc8
-7. Bxc3) 2. gxf6 Rc8 (2... Kf7 $2 3. Be5 Rc8 4. Bc3 Rc5 5. Re5) 3. Be5 (3. Rxe6
-Kf7 4. Rd6 c3 5. Bf4 c2 6. Bc1 Rc5) 3... c3 4. Rb4 c2 (4... Kh7 $2 5. Rb7+ Kh6
-6. f7 c2 (6... g5 7. f8=Q+ Rxf8 8. Bg7+) 7. Rc7 Rf8 8. Bd6 Rxf7 9. Rxf7 c1=Q
-10. Bf4+ Qxf4 11. Rxf4) 5. Rb7 Rc6 (5... Rd8 $2 6. Rg7+ Kf8 7. Rc7) 1/2-1/2
+1... f6  2. gxf6 Rc8  3. Be5  3... c3 4. Rb4 c2  5. Rb7 Rc6  1/2-1/2
 
 [Event "Cranzahl"]
 [Site "?"]
@@ -1703,13 +1681,8 @@ Kf7 4. Rd6 c3 5. Bf4 c2 6. Bc1 Rc5) 3... c3 4. Rb4 c2 (4... Kh7 $2 5. Rb7+ Kh6
 [EventType "simul"]
 [EventRounds "2"]
 
-32... a4 33. Ng4 Nd1 (33... a3 34. Ne3 a2 35. Nc2 Kb5 36. Ke1 Kc4 37. Kd2 Kb3
-38. e5 Kb2 39. e6 Nb1+ (39... Nd5 40. f4) 40. Kd3 Na3 41. Na1 Kxa1 42. e7 Kb2
-43. e8=Q a1=Q 44. Qe5+ Kb1 45. Qxa1+ Kxa1 46. f4 Kb2 47. f5 Nb5 48. g4 Kb3 49.
-g5 Nd6 50. g6 hxg6 51. fxg6) 34. Ne5 (34. e5 a3 35. e6 a2 36. e7 a1=Q 37. e8=Q
-Ne3+ 38. Kf2 Qf1+) 34... Nb2 (34... a3 35. Nd3 Kb5 36. Nc1 Kc4 37. Ke2 Nc3+ 38.
-Ke3 a2 39. Nxa2 Nxa2 40. Kf4 $18) 35. Ke2 a3 36. Nc6 Kb5 37. Nd4+ Kc4 38. Nc2
-a2 39. Kd2 Nd3 40. Na1 (40. h4 Nc5 41. e5 Nb3+ 42. Kd1 Nd4 43. Na1 Nb3 $11)
+32... a4 33. Ng4 Nd1  34. Ne5  34... Nb2  35. Ke2 a3 36. Nc6 Kb5 37. Nd4+ Kc4 38. Nc2
+a2 39. Kd2 Nd3 40. Na1 
 40... Nc5 41. Kc2 Kd4 42. Kb2 Nd3+ 43. Kxa2 Ne1 44. Kb2 Nxg2 45. Nc2+ Kd3 46.
 e5 Nf4 47. Kb3 h5 $11 1/2-1/2
 
@@ -1810,7 +1783,7 @@ e5 Nf4 47. Kb3 h5 $11 1/2-1/2
 [EventType "swiss"]
 [EventCountry "RUS"]
 
-1... f4 2. Rxe5 (2. gxf4 Rb1+ 3. Kh2 Bxf4+ 4. Kh3 Rh1#) 2... Rb1+ 3. Kh2 Rb2+
+1... f4 2. Rxe5  2... Rb1+ 3. Kh2 Rb2+
 4. Kh3 Rb1 5. Kh2 Rb2+ 1/2-1/2
 
 [Event "?"]
@@ -1875,8 +1848,7 @@ e5 Nf4 47. Kb3 h5 $11 1/2-1/2
 [EventDate "1983.??.??"]
 [EventType "team"]
 
-1... Nf5+ 2. Qxf5 h4+ 3. Kg4 Qe2+ (3... Qd1+ $11 ) 4. Kxh4 Qf2+ (
-4... Qe1+ $11 ) 1/2-1/2
+1... Nf5+ 2. Qxf5 h4+ 3. Kg4 Qe2+  4. Kxh4 Qf2+  1/2-1/2
 
 [Event "?"]
 [Site "?"]

@@ -22,7 +22,7 @@ public class FileIterator implements Iterable<File> {
 			}
 
 			public File next() {
-				while (hasNext()) {
+				while (!files.isEmpty()) {
 					File f = new File(files.pop());
 
 					if (f.isDirectory()) {

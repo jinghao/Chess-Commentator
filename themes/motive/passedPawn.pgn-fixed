@@ -12,8 +12,7 @@
 [EventDate "1988.??.??"]
 [EventType "swiss"]
 
-1. f7+ Rxf7 2. Qh8+ (2. exf7+ $6 Kxf7 $13) 2... Kxh8 3. exf7 Kg7 (3... Rf6 4.
-fxe8=Q+ Kg7 ) 4. fxe8=Q 1-0
+1. f7+ Rxf7 2. Qh8+  2... Kxh8 3. exf7 Kg7  4. fxe8=Q 1-0
 
 [Event "?"]
 [Site "?"]
@@ -29,7 +28,5 @@ fxe8=Q+ Kg7 ) 4. fxe8=Q 1-0
 [EventDate "1984.??.??"]
 [EventType "team"]
 
-1. Rxd7  Bxd7 (1... a3 2. Kxc6 a2 3. Ra7 ) (1...
-Be4 2. Re7 ) 2. c5 a3 3. c6 Bxc6 4. Kxc6 a2 5. d7 a1=Q  (5... Kf7 6. d8=Q g5 7. Qe7+ Kg6 (7... Kg8 8. Qg7#) 8. Qg7+ Kh5 (8... Kf5 9.
-f7 ) 9. f7 ) 6. d8=Q+ Kf7 7. Qe7+ Kg8 8. Qg7# 1-0
+1. Rxd7  Bxd7   2. c5 a3 3. c6 Bxc6 4. Kxc6 a2 5. d7 a1=Q   6. d8=Q+ Kf7 7. Qe7+ Kg8 8. Qg7# 1-0
 

@@ -24,8 +24,7 @@
 [FEN "3R4/2B5/8/5k2/1b2b3/4K2p/3p4/8 b - - 0 1"]
 [PlyCount "5"]
 
-1... Bd6 $3 (1... Be7 $2 2. Rxd2 Bg5+ 3. Ke2 Bxd2 4. Kxd2 $11) 2. Rxd6 (2. Bxd6
-d1=Q) 2... h2 $19 3. Rh6 d1=Q *
+1... Bd6 $3  2. Rxd6  2... h2 $19 3. Rh6 d1=Q *
 
 [Event "USSR"]
 [Site "?"]
@@ -39,8 +38,8 @@ d1=Q) 2... h2 $19 3. Rh6 d1=Q *
 [FEN "5rk1/4bp1p/p2r4/1p1Q2Pp/3B2q1/3B4/PPP4P/1K3R2 w - - 0 1"]
 [PlyCount "11"]
 
-1. Bxh7+ Kxh7 2. Rxf7+ Kg8 (2... Rxf7 3. Qxf7#) 3. Rg7+ Kh8 4. Rg8+ Kh7 5. Rh8+
-Kg6 (5... Rxh8 6. Qf7#) 6. Rh6# *
+1. Bxh7+ Kxh7 2. Rxf7+ Kg8  3. Rg7+ Kh8 4. Rg8+ Kh7 5. Rh8+
+Kg6  6. Rh6# *
 
 [Event "USSR"]
 [Site "?"]
@@ -54,7 +53,7 @@ Kg6 (5... Rxh8 6. Qf7#) 6. Rh6# *
 [FEN "2kr3r/pp2bp1p/n1p1b2n/3N2p1/1qQ5/1N4B1/PPP2PPP/1K1R1B1R w - - 0 1"]
 [PlyCount "5"]
 
-1. Qxc6+ bxc6 2. Bxa6+ Qb7 (2... Kd7 3. Nf6#) 3. Nxe7# *
+1. Qxc6+ bxc6 2. Bxa6+ Qb7  3. Nxe7# *
 
 [Event "Szekesfehervar"]
 [Site "?"]
@@ -68,7 +67,7 @@ Kg6 (5... Rxh8 6. Qf7#) 6. Rh6# *
 [FEN "rn2nk2/ppp3pp/3p4/3P4/2B1q3/1P6/PBP3P1/R2Q2K1 w - - 0 1"]
 [PlyCount "11"]
 
-1. Qf1+ Kg8 (1... Ke7 2. Re1 $18) 2. Re1 Qg6 3. Bd3 Qh5 (3... Qf7 4. Bxh7+) 4.
+1. Qf1+ Kg8  2. Re1 Qg6 3. Bd3 Qh5  4.
 Bf5 $1 Nf6 5. Be6+ Kh8 6. Qxf6 $18 *
 
 [Event "Karlsbad"]
@@ -83,8 +82,8 @@ Bf5 $1 Nf6 5. Be6+ Kh8 6. Qxf6 $18 *
 [FEN "8/5p1p/2pk1p2/b7/3Pb2P/rP2B1P1/5P2/2RB1K2 w - - 0 1"]
 [PlyCount "9"]
 
-1. d5 $1 Bb4 (1... cxd5 2. Bc5+ $18) (1... Kxd5 2. Bc5 Ra2 3. b4 $18) 2. dxc6
-Kc7 (2... Bxc6 3. Bf4+ Kd7 4. Bg4+ $18) 3. Bf4+ Kc8 4. Bg4+ f5 5. Be2 *
+1. d5 $1 Bb4   2. dxc6
+Kc7  3. Bf4+ Kc8 4. Bg4+ f5 5. Be2 *
 
 [Event "USSR"]
 [Site "?"]
@@ -127,7 +126,7 @@ Rf2+ Be6 8. Bxe6# *
 [FEN "r2q1rk1/1p2np1p/p3bBp1/2pp4/P4P2/1B1P4/1PP3PP/R2Q1R1K w - - 0 1"]
 [PlyCount "9"]
 
-1. f5 $1 Bxf5 (1... Bc8 2. Qd2 Qd6 3. Bxe7 Qxe7 4. f6 $18) 2. Rxf5 $1 gxf5 3.
+1. f5 $1 Bxf5  2. Rxf5 $1 gxf5 3.
 Qh5 Qd6 4. Qh6 Qxf6 5. Qxf6 *
 
 [Event "Berlin"]
@@ -156,7 +155,7 @@ Qh5 Qd6 4. Qh6 Qxf6 5. Qxf6 *
 [FEN "rnbkr3/ppp2Bpp/5b2/7q/2Q2p2/5N2/PPPP2PP/R1B2K1R b - - 0 1"]
 [PlyCount "9"]
 
-1... Qxf3+ 2. gxf3 Bh3+ 3. Kf2 (3. Kg1 Re1+ 4. Kf2 Bh4#) 3... Bh4+ 4. Kg1 Re1+
+1... Qxf3+ 2. gxf3 Bh3+ 3. Kf2  3... Bh4+ 4. Kg1 Re1+
 5. Qf1 Rxf1# *
 
 [Event "Karlbad"]
@@ -185,7 +184,7 @@ Qh5 Qd6 4. Qh6 Qxf6 5. Qxf6 *
 [FEN "2kr3r/1b1p2p1/p1qBpp2/6p1/8/1Q1B3P/P1P2PP1/1R4K1 w - - 0 1"]
 [PlyCount "5"]
 
-1. Qxb7+ $3 Qxb7 2. Bxa6 Rdg8 (2... Qxa6 3. Rb8#) 3. Rxb7 *
+1. Qxb7+ $3 Qxb7 2. Bxa6 Rdg8  3. Rxb7 *
 
 [Event "Magyarorszag"]
 [Site "?"]
@@ -199,8 +198,8 @@ Qh5 Qd6 4. Qh6 Qxf6 5. Qxf6 *
 [FEN "1r1q2k1/p1b3pp/2b4r/5p2/8/Q2PN1P1/PP1N1P1P/2R2RK1 b - - 0 1"]
 [PlyCount "9"]
 
-1... Qh4 $1 2. Rfe1 (2. gxh4 Rg6+ 3. Ng2 Rxg2+ 4. Kh1 Rxh2+ 5. Kg1 Rh1#) 2...
-Qxh2+ 3. Kf1 Bxg3 4. Nd1 (4. fxg3 Qxd2 $19) 4... Bg2+ 5. Ke2 Qh5+ *
+1... Qh4 $1 2. Rfe1  2...
+Qxh2+ 3. Kf1 Bxg3 4. Nd1  4... Bg2+ 5. Ke2 Qh5+ *
 
 [Event "Prague"]
 [Site "?"]
@@ -214,9 +213,8 @@ Qxh2+ 3. Kf1 Bxg3 4. Nd1 (4. fxg3 Qxd2 $19) 4... Bg2+ 5. Ke2 Qh5+ *
 [FEN "2rq1rk1/pb1n1pp1/1p5p/n2pP3/3P4/P2BBP2/3QN1PP/R4RK1 w - - 0 1"]
 [PlyCount "13"]
 
-1. Bxh6 $3 Nb3 (1... gxh6 $2 2. Qxh6 $18) 2. Qf4 Rc6 3. Bg5 f6 4. exf6 Nxa1 5.
-Bh7+ $1 Kh8 (5... Kxh7 6. Qh4+ Kg8 (6... Kg6 7. Nf4+ Kf7 8. Qh5+ Kg8 9. fxg7
-$18) 7. f7+) 6. Qh4 Nxf6 7. Nf4 $1 *
+1. Bxh6 $3 Nb3  2. Qf4 Rc6 3. Bg5 f6 4. exf6 Nxa1 5.
+Bh7+ $1 Kh8  6. Qh4 Nxf6 7. Nf4 $1 *
 
 [Event "USSR"]
 [Site "?"]
@@ -230,7 +228,7 @@ $18) 7. f7+) 6. Qh4 Nxf6 7. Nf4 $1 *
 [FEN "8/1bq3kp/p5p1/1pb1p3/4P2P/2PQ2P1/1P5B/5N1K b - - 0 1"]
 [PlyCount "9"]
 
-1... Qd8 $3 2. Qf3 (2. Qxd8 Bxe4#) 2... Qd1 $1 3. Kg2 Qc2+ 4. Kh3 Bxe4 5. Qg4
+1... Qd8 $3 2. Qf3  2... Qd1 $1 3. Kg2 Qc2+ 4. Kh3 Bxe4 5. Qg4
 Qg2# *
 
 [Event "USSR"]
@@ -245,8 +243,7 @@ Qg2# *
 [FEN "3qr1k1/1br2ppp/p2b4/8/PpNp4/3P4/1PP2PPP/R1BQ1RK1 b - - 0 1"]
 [PlyCount "17"]
 
-1... Bxh2+ 2. Kxh2 Qh4+ 3. Kg1 Bxg2 $1 4. Kxg2 Rc6 5. Bf4 (5. Qf3 Rg6+ 6. Qg3
-Re2 7. Qxg6 fxg6 8. Bd2 Rxd2 9. Nxd2 Qg5+ 10. Kf3 Qxd2 $19) 5... Qxf4 6. Rh1
+1... Bxh2+ 2. Kxh2 Qh4+ 3. Kg1 Bxg2 $1 4. Kxg2 Rc6 5. Bf4  5... Qxf4 6. Rh1
 Rf6 $1 7. Rh2 Rg6+ 8. Kh1 Re1+ 9. Qxe1 Qf3+ *
 
 [Event "Edinburg"]
@@ -289,9 +286,7 @@ Rf6 $1 7. Rh2 Rg6+ 8. Kh1 Re1+ 9. Qxe1 Qf3+ *
 [FEN "1q3rk1/pb1rbppp/1p2p3/1Nnp4/2P2P2/1P1BP3/PB2Q1PP/3R1RK1 w - - 0 1"]
 [PlyCount "9"]
 
-1. Bxh7+ Kxh7 2. Qh5+ Kg8 3. Bxg7 $1 f5 (3... Kxg7 4. Rf3 $18) (3... f6 4. Bh6
-$1 Bd6 5. Rf3 Rff7 6. Rh3 $18 Bf8 7. Bxf8 Rxf8 (7... Kxf8 8. Qh8+ Ke7 9. Qxb8)
-8. Qh8+ Kf7 9. Rh7+ Ke8 10. Qxf8+ Kxf8 11. Rh8+ Kg7 12. Rxb8) 4. Be5 Bf6 5.
+1. Bxh7+ Kxh7 2. Qh5+ Kg8 3. Bxg7 $1 f5   4. Be5 Bf6 5.
 Bxb8 *
 
 [Event "Mannheim"]
@@ -306,8 +301,7 @@ Bxb8 *
 [FEN "r2q1rk1/1p3p1p/p1p1n1p1/2b1B3/2B3Q1/3Pn1NP/PPP3PK/R4R2 w - - 0 1"]
 [PlyCount "29"]
 
-1. Qxe6 $1 Nxf1+ (1... fxe6 $142 2. Bxe6+ Rf7 3. Rxf7 Ng4+ $1 4. Kh1 (4. hxg4
-$4 Qh4#) 4... Nxe5 5. Rd7+ Kh8 6. Rxd8+ Rxd8 $16) 2. Rxf1 fxe6 3. Bxe6+ Rf7 4.
+1. Qxe6 $1 Nxf1+  2. Rxf1 fxe6 3. Bxe6+ Rf7 4.
 Rxf7 Qe8 5. Rf6+ Kg7 6. Rf4+ Kh6 7. Rh4+ Kg5 8. Rg4+ Kh6 9. Nf5+ $1 gxf5 10.
 Bf4+ Kh5 11. Rg5+ Kh6 12. Rg8+ Kh5 13. g4+ fxg4 14. Bxg4+ Kh4 15. Bg3# *
 
@@ -323,8 +317,7 @@ Bf4+ Kh5 11. Rg5+ Kh6 12. Rg8+ Kh5 13. g4+ fxg4 14. Bxg4+ Kh4 15. Bg3# *
 [FEN "r2bq3/2R2p1k/pQp1n1pp/2Pp4/P2P4/3B1N1P/3B1PP1/6K1 w - - 0 1"]
 [PlyCount "17"]
 
-1. Bxg6+ Kxg6 (1... Kg7 2. Rxf7+ Kxg6 (2... Qxf7 3. Bxf7 Bxb6 4. Bxe6 $18) 3.
-Ne5+ Kh5 4. g4+ Kh4 5. Qb3) 2. Qb1+ Kg7 3. Rb7 Bf6 4. Qf5 Ng5 5. Bxg5 hxg5 6.
+1. Bxg6+ Kxg6  2. Qb1+ Kg7 3. Rb7 Bf6 4. Qf5 Ng5 5. Bxg5 hxg5 6.
 Nxg5 Bxg5 7. Qxg5+ Kf8 8. Qh6+ Kg8 9. Rb3 *
 
 [Event "Lvov"]
@@ -353,9 +346,8 @@ Nxg5 Bxg5 7. Qxg5+ Kf8 8. Qh6+ Kg8 9. Rb3 *
 [FEN "r1bbqr1k/1p4pp/p7/5p2/2B1pN2/1P2PnP1/PB2QPKP/2RR4 w - - 0 1"]
 [PlyCount "29"]
 
-1. Rxd8 $1 Qxd8 2. Nh5 Rf6 3. Rd1 Qe7 4. Bxf6 gxf6 5. Qb2 Ne5 6. Qa3 $3 Qe8 (
-6... Qxa3 7. Rd8+ Qf8 8. Rxf8#) 7. Nxf6 Nxc4 8. bxc4 Qf7 9. Rd8+ Kg7 10. Ne8+
-Kg6 11. Qd6+ Kh5 (11... Kg5 12. h4+ Kh5 13. Nf6+ Kg6 14. Ng4+ Kg7 15. Qh6#) 12.
+1. Rxd8 $1 Qxd8 2. Nh5 Rf6 3. Rd1 Qe7 4. Bxf6 gxf6 5. Qb2 Ne5 6. Qa3 $3 Qe8  7. Nxf6 Nxc4 8. bxc4 Qf7 9. Rd8+ Kg7 10. Ne8+
+Kg6 11. Qd6+ Kh5  12.
 Nf6+ Kg6 13. Ng4+ Kh5 14. Qh6+ Kxg4 15. Qh4# *
 
 [Event "Corr."]
@@ -370,8 +362,7 @@ Nf6+ Kg6 13. Ng4+ Kh5 14. Qh6+ Kxg4 15. Qh4# *
 [FEN "r4r1k/bpq3pp/p1b2n2/8/2B5/PQ4NP/1P1B1PP1/R4RK1 b - - 0 1"]
 [PlyCount "7"]
 
-1... Ng4 $3 2. hxg4 Rf3 $3 3. Nf5 (3. Bc3 Qxg3 $19) (3. gxf3 Qxg3+ 4. Kh1 Bxf3+
-) 3... Rxb3 4. Bxb3 Qb6 *
+1... Ng4 $3 2. hxg4 Rf3 $3 3. Nf5   3... Rxb3 4. Bxb3 Qb6 *
 
 [Event "Hampstead"]
 [Site "?"]
@@ -415,7 +406,7 @@ Kh7 7. Rxc7 Bxc7 8. Qe7 Rac8 9. Rf3 c5 10. Qh4+ Kg7 11. Qg5+ Kh8 12. Rf6 Be4
 [FEN "1r3rk1/pbpn2qp/1p1p1np1/3P1p2/1P5N/5PPB/PB5P/2QR1RK1 w - - 0 1"]
 [PlyCount "11"]
 
-1. Bxf5 Kh8 (1... gxf5 2. Nxf5 Qg6 3. Ne7+) 2. Be6 Ba6 3. Rfe1 Ne5 4. f4 Nd3 5.
+1. Bxf5 Kh8  2. Be6 Ba6 3. Rfe1 Ne5 4. f4 Nd3 5.
 Rxd3 Bxd3 6. g4 *
 
 [Event "Marienbad"]
@@ -430,8 +421,7 @@ Rxd3 Bxd3 6. g4 *
 [FEN "r4rk1/pbq2pp1/1p1b4/4B2p/7P/2PBQ2R/PP3PP1/R3K3 w Q - 0 1"]
 [PlyCount "3"]
 
-1. Qh6 $3 f5 (1... f6 2. Bh7+ Kf7 3. Qxh5+ Ke6 4. Bxd6 Qxd6 5. Re3+ Kd7 6. Rd1
-$18) (1... gxh6 $2 2. Rg3#) 2. Bc4+ *
+1. Qh6 $3 f5   2. Bc4+ *
 
 [Event "St. Sebastian"]
 [Site "?"]
@@ -459,7 +449,7 @@ $18) (1... gxh6 $2 2. Rg3#) 2. Bc4+ *
 [FEN "3r1rk1/p3qp1p/2bb2p1/2p5/3P4/1P6/PBQN1PPP/2R2RK1 b - - 0 1"]
 [PlyCount "27"]
 
-1... Bxh2+ 2. Kxh2 Qh4+ 3. Kg1 Bxg2 4. f3 (4. Kxg2 Rd5 $19) 4... Rfe8 5. Ne4
+1... Bxh2+ 2. Kxh2 Qh4+ 3. Kg1 Bxg2 4. f3  4... Rfe8 5. Ne4
 Qh1+ 6. Kf2 Bxf1 7. d5 f5 8. Qc3 Qg2+ 9. Ke3 Rxe4+ 10. fxe4 f4+ 11. Kxf4 Rf8+
 12. Ke5 Qh2+ 13. Ke6 Re8+ 14. Kd7 Bb5# *
 
@@ -475,8 +465,7 @@ Qh1+ 6. Kf2 Bxf1 7. d5 f5 8. Qc3 Qg2+ 9. Ke3 Rxe4+ 10. fxe4 f4+ 11. Kxf4 Rf8+
 [FEN "r4k1r/p1pR3p/2B1qp2/6B1/1b4n1/2p2Q2/1PP2PPP/2K5 w - - 0 1"]
 [PlyCount "17"]
 
-1. Qxg4 $3 cxb2+ 2. Kb1 Qxg4 3. Bh6+ Ke8 4. Rg7+ Qd7 (4... Kd8 5. Rxg4 Rb8 6.
-Bg7 Rf8 7. Rxb4 Rxb4 8. Bxf8 $16) 5. Rxd7 Be7 6. Rxc7+ Kf7 7. Bxa8 Rxa8 8. Be3
+1. Qxg4 $3 cxb2+ 2. Kb1 Qxg4 3. Bh6+ Ke8 4. Rg7+ Qd7  5. Rxd7 Be7 6. Rxc7+ Kf7 7. Bxa8 Rxa8 8. Be3
 Ke6 9. Rxa7 *
 
 [Event "Moskau"]
@@ -491,7 +480,7 @@ Ke6 9. Rxa7 *
 [FEN "2bb2kn/1pq2pp1/p1p4p/2B1p1NQ/7P/1BP3P1/PP3P2/6K1 w - - 0 1"]
 [PlyCount "11"]
 
-1. Nxf7 $1 Nxf7 2. Bb6 $1 Qd7 (2... Qxb6 3. Qxf7+ Kh7 4. h5 $18) 3. Bxd8 Kh7 4.
+1. Nxf7 $1 Nxf7 2. Bb6 $1 Qd7  3. Bxd8 Kh7 4.
 Bxf7 Qxd8 5. Bg6+ Kg8 6. Qxe5 *
 
 [Event "USSR"]
@@ -506,9 +495,7 @@ Bxf7 Qxd8 5. Bg6+ Kg8 6. Qxe5 *
 [FEN "r1b2rk1/1ppq1p1p/p1n3pQ/b2p4/5B2/2PB2P1/PP3P1P/R3R1K1 w - - 0 1"]
 [PlyCount "15"]
 
-1. Bf5 $3 Qd8 (1... Qxf5 2. Qxf8+ Kxf8 3. Bh6+ Kg8 4. Re8#) (1... gxf5 2. Qg5+
-Kh8 3. Qf6+ Kg8 4. Bh6 $18) 2. Bg5 f6 3. Bxg6 Qd7 (3... hxg6 4. Qxg6+ Kh8 5.
-Re8 $3 $18) 4. Bxf6 Rxf6 5. Re8+ Qxe8 6. Qxh7+ Kf8 7. Qh8+ Ke7 8. Qxe8+ *
+1. Bf5 $3 Qd8   2. Bg5 f6 3. Bxg6 Qd7  4. Bxf6 Rxf6 5. Re8+ Qxe8 6. Qxh7+ Kf8 7. Qh8+ Ke7 8. Qxe8+ *
 
 [Event "Moskau"]
 [Site "?"]
@@ -536,7 +523,7 @@ Re8 $3 $18) 4. Bxf6 Rxf6 5. Re8+ Qxe8 6. Qxh7+ Kf8 7. Qh8+ Ke7 8. Qxe8+ *
 [FEN "2r2rk1/p4q2/4b1p1/b1p1Bp2/3p4/1P1B2Q1/P1P3PP/R4RK1 w - - 0 1"]
 [PlyCount "21"]
 
-1. Rxf5 $3 Bxf5 2. Qh4 Qd7 (2... Qh7 3. Bc4+ Rf7 4. Bxf7+ Kxf7 5. Qxh7+) 3.
+1. Rxf5 $3 Bxf5 2. Qh4 Qd7  3.
 Bc4+ Be6 4. Qh8+ Kf7 5. Rf1+ Ke7 6. Qg7+ Rf7 7. Rxf7+ Bxf7 8. Qxf7+ Kd8 9. Qf8+
 Qe8 10. Qd6+ Qd7 11. Bf6+ *
 
@@ -566,7 +553,7 @@ Qe8 10. Qd6+ Qd7 11. Bf6+ *
 [FEN "r3qrk1/1b3p2/1p1npnp1/2b1N1N1/p1P5/P1B5/1PB1QP1P/R2R2K1 w - - 0 1"]
 [PlyCount "17"]
 
-1. Nd7 $3 Qxd7 (1... Nxd7 2. Qh5 $1 gxh5 3. Bh7#) 2. Bxf6 Qc6 3. Rd5 $3 exd5 4.
+1. Nd7 $3 Qxd7  2. Bxf6 Qc6 3. Rd5 $3 exd5 4.
 Qh5 $1 Bxf2+ 5. Kxf2 Ne4+ 6. Nxe4 gxh5 7. Rg1+ Kh7 8. Nc5+ Kh6 9. Bg7# *
 
 [Event "Amsterdam"]
@@ -596,6 +583,6 @@ Rh3+ Qh6 8. Rxh6+ Kxh6 9. Qd7 *
 [FEN "4r3/p4pkp/q2b4/3B1b2/3P1ppP/2N3n1/PPP2KPR/R1BQ4 b - - 0 1"]
 [PlyCount "9"]
 
-1... Be5 $1 2. a4 (2. dxe5 $2 Qb6+ 3. Ke1 Qg1+ 4. Kd2 Qe3#) 2... Qf1+ $1 3.
+1... Be5 $1 2. a4  2... Qf1+ $1 3.
 Qxf1 Bxd4+ 4. Be3 Rxe3 5. Kg1 Re1# *
 

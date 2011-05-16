@@ -11,7 +11,7 @@
 [PlyCount "3"]
 [EventDate "1965.??.??"]
 
- 1. Rxd5 $1 Qe8 (1... cxd5 2. Rxc8 Qxc8 3. Nxe7+) 2. Bh6 *
+ 1. Rxd5 $1 Qe8  2. Bh6 *
 
 [Event "Corr."]
 [Site "?"]
@@ -27,7 +27,7 @@
 [EventDate "1976.??.??"]
 
  1... Qxe1+
-2. Qxe1 Rxc1 3. Nd1 (3. Qxc1 Ne2+) 3... Rxb1 *
+2. Qxe1 Rxc1 3. Nd1  3... Rxb1 *
 
 [Event "Balatonfüred"]
 [Site "?"]
@@ -164,7 +164,7 @@
 [EventDate "1969.??.??"]
 
  1. Rxh7+ Kxh7 2. Qxe7+
-Rf7 3. Be4+  Kg7 (3... Qxe4 4. Qxf7+) 4. Qxe5+ *
+Rf7 3. Be4+  Kg7  4. Qxe5+ *
 
 [Event "Dortmund"]
 [Site "?"]
@@ -180,7 +180,7 @@ Rf7 3. Be4+  Kg7 (3... Qxe4 4. Qxf7+) 4. Qxe5+ *
 [EventDate "1975.??.??"]
 
  1... Bh6 $3 2.
-Qa5 (2. Qxh6 Ng4+) (2. Qh4 Nxe4+) 2... Ng4+  *
+Qa5   2... Ng4+  *
 
 [Event "New York"]
 [Site "?"]
@@ -195,8 +195,7 @@ Qa5 (2. Qxh6 Ng4+) (2. Qh4 Nxe4+) 2... Ng4+  *
 [PlyCount "5"]
 [EventDate "1947.??.??"]
 
- 1. Qa4+ Qc6 (1... Kf8 2.
-Bh6+ Kg8 3. Qe8#) (1... Nc6 2. Qxc6+ Qxc6 3. Rd8#)  2. Rd8+ Kxd8 3. Qxc6 *
+ 1. Qa4+ Qc6    2. Rd8+ Kxd8 3. Qxc6 *
 
 [Event "?"]
 [Site "?"]
@@ -212,7 +211,7 @@ Bh6+ Kg8 3. Qe8#) (1... Nc6 2. Qxc6+ Qxc6 3. Rd8#)  2. Rd8+ Kxd8 3. Qxc6 *
 [EventDate "1951.??.??"]
 
  1. Rxa6 $3
-Ke7 (1... Rxa6 2. Bxb5+) 2. Bxb5 Nxf2 3. Re1  *
+Ke7  2. Bxb5 Nxf2 3. Re1  *
 
 [Event "USSR"]
 [Site "?"]
@@ -227,7 +226,7 @@ Ke7 (1... Rxa6 2. Bxb5+) 2. Bxb5 Nxf2 3. Re1  *
 [PlyCount "7"]
 [EventDate "1971.??.??"]
 
- 1... Qg1+ $3 2. Kxg1 (2. Rxg1 Nf2#) 2...
+ 1... Qg1+ $3 2. Kxg1  2...
 Rgxg2+ 3. Kh1 Rxh2+ 4. Kg1 Rbg2# *
 
 [Event "Debrecen"]
@@ -274,7 +273,7 @@ Rgxg2+ 3. Kh1 Rxh2+ 4. Kg1 Rbg2# *
 [PlyCount "5"]
 [EventDate "1966.??.??"]
 
- 1. Re8+ Rxe8 (1... Kxf7 2. Qe6#)  2.
+ 1. Re8+ Rxe8   2.
 Qxg7+ Kxg7 3. fxe8=N+ *
 
 [Event "Kanada"]
@@ -291,7 +290,7 @@ Qxg7+ Kxg7 3. fxe8=N+ *
 [EventDate "1973.??.??"]
 
  1. Rh7+ $1 Kxh7 2. Qf7+
-Kh8 (2... Kh6 3. f5+ $18) 3. Bc3 Ra6 4. Bxf6+ Qxf6 5. Qxf6+ Kh7 6. Qf7+ Kh8 7.
+Kh8  3. Bc3 Ra6 4. Bxf6+ Qxf6 5. Qxf6+ Kh7 6. Qf7+ Kh8 7.
 g3 *
 
 [Event "Bukarest"]
@@ -386,8 +385,7 @@ Rc5 Rb8 $2 7. a4  bxa4 8. c7 Rc8 9. Nc4 *
 [EventDate "1976.??.??"]
 
  
-1... Qh1+ $1 2. Kxh1 Ng3+ 3. Kg2 Nxe2 4. Rf1 (4. Bxe3 Bd5+ 5. Kf2 Nxf4 6. Bxf4
-f6 $1  7. exf6 Bxf6  8. Kg3 Bh4+ 9. Kxh4 Rxf4  10. Nd2 Rf2 11. Nhf1 Bg2)  4... Bd5+ 5. Nf3 Nxc1 6. Rxc1  f6 $1  *
+1... Qh1+ $1 2. Kxh1 Ng3+ 3. Kg2 Nxe2 4. Rf1   4... Bd5+ 5. Nf3 Nxc1 6. Rxc1  f6 $1  *
 
 [Event "Moskau"]
 [Site "?"]
@@ -402,8 +400,7 @@ f6 $1  7. exf6 Bxf6  8. Kg3 Bh4+ 9. Kxh4 Rxf4  10. Nd2 Rf2 11. Nhf1 Bg2)  4... B
 [PlyCount "9"]
 [EventDate "1951.??.??"]
 
- 1. Rxf8+ Kxf8 (1...
-Qxf8 2. Bh7+ Kh8 3. Bg6+) 2. Qh8+ Kf7 3. Bg6+ Ke6 (3... Kxg6 4. Qh5#) 4. Qg8+
+ 1. Rxf8+ Kxf8  2. Qh8+ Kf7 3. Bg6+ Ke6  4. Qg8+
 Kd7 5. Bf5+  *
 
 [Event "London"]
@@ -436,7 +433,7 @@ Nxg5 $3 2. fxg5 Rxe3 $1 3. Qxe3 Bd4 *
 [EventDate "1983.??.??"]
 
  1...
-h2+ $3 2. Qxh2 (2. Kf1 Qxg5 $1 3. fxg5 Rxf3 4. Bxf3 Rxf3) 2... Qxh2+ 3. Kxh2
+h2+ $3 2. Qxh2  2... Qxh2+ 3. Kxh2
 Bxf3 4. Bxf3 Rxf4 5. Bg2 Kg7 6. a4 Rf2 7. Rc5 Rc2 8. Kg3 Rc3+ *
 
 [Event "Hamburg"]
@@ -485,8 +482,7 @@ Rf8+ $1 *
 [PlyCount "7"]
 [EventDate "1963.??.??"]
 
- 1... Bd6 $1 2. Rd1  Qxh2+ (2... Bxe5 $4
-3. Rxd8#) 3. Qxh2 Bxh2+ 4. Kxh2 Rxd1 *
+ 1... Bd6 $1 2. Rd1  Qxh2+  3. Qxh2 Bxh2+ 4. Kxh2 Rxd1 *
 
 [Event "Budapest"]
 [Site "?"]
@@ -501,7 +497,7 @@ Rf8+ $1 *
 [PlyCount "9"]
 [EventDate "1953.??.??"]
 
- 1... Qxc1 $1 2. Qxc1  Rxc3 3. Qe1 (3. Qxc3 Ne2+)  3... Rc1 $1 4. Qxc1 Ne2+ 5. Kf1
+ 1... Qxc1 $1 2. Qxc1  Rxc3 3. Qe1   3... Rc1 $1 4. Qxc1 Ne2+ 5. Kf1
 Nxc1 *
 
 [Event "Berlin"]
@@ -551,9 +547,7 @@ Rxh6+ Ke5 8. Kf2 *
 [PlyCount "11"]
 [EventDate "1957.??.??"]
 
- 1... Rxf2 $1 2. Ne4 (2. Kxf2 Ng4+ 3. Kg1
-Nxe3 4. Rd2 Qc5 ) 2... Nxe4 3. Rexd3  Rf1+ $3 4. Rxf1 (4. Kxf1 Qf5+
-5. Kg1 Qc5+ 6. Kh1 Nf2+ 7. Kg1 Nh3+ 8. Kh1 Qg1+ 9. Rxg1 Nf2#) 4... Qc5+ 5. Kh1
+ 1... Rxf2 $1 2. Ne4  2... Nxe4 3. Rexd3  Rf1+ $3 4. Rxf1  4... Qc5+ 5. Kh1
 Nf2+ 6. Rxf2 Qc1+ *
 
 [Event "Budapest"]
@@ -570,7 +564,7 @@ Nf2+ 6. Rxf2 Qc1+ *
 [EventDate "1951.??.??"]
 
  1. Rxe7+
-$3 Kxd5 (1... Kxe7 2. Nxc8+ Ke6 3. Rd6+ ) 2. Nxc8 b4 3. Na7 *
+$3 Kxd5  2. Nxc8 b4 3. Na7 *
 
 [Event "Bremen"]
 [Site "?"]
@@ -618,7 +612,7 @@ $1 Kxh7 4. Rh3+ Kg8 5. Rh8# *
 [EventDate "1907.??.??"]
 
  1... Rxe5 $3
-2. Bxe5 Bxd2+ 3. Kd1 (3. Qxd2 Qxe5+ )  3... Bc3 $1 4. Rc1 Bxe5 *
+2. Bxe5 Bxd2+ 3. Kd1   3... Bc3 $1 4. Rc1 Bxe5 *
 
 [Event "Tarnapol"]
 [Site "?"]
@@ -634,7 +628,7 @@ $1 Kxh7 4. Rh3+ Kg8 5. Rh8# *
 [EventDate "1916.??.??"]
 
  1. Nf7 $1 Kxf7 2.
-Qxe6+ $3 Kg6 (2... Kf8 3. Ng5) (2... Kxe6 3. Ng5#) 3. g4  *
+Qxe6+ $3 Kg6   3. g4  *
 
 [Event "Valencia"]
 [Site "?"]
@@ -649,8 +643,7 @@ Qxe6+ $3 Kg6 (2... Kf8 3. Ng5) (2... Kxe6 3. Ng5#) 3. g4  *
 [PlyCount "7"]
 [EventDate "1969.??.??"]
 
- 1... b3 $3 2. Qxb3 (2.
-Nxc8 bxa2) 2... Nc5  3. Qa3 Qxb6 4. Rxd6 Qc7 *
+ 1... b3 $3 2. Qxb3  2... Nc5  3. Qa3 Qxb6 4. Rxd6 Qc7 *
 
 [Event "Belgrad"]
 [Site "?"]
@@ -665,8 +658,7 @@ Nxc8 bxa2) 2... Nc5  3. Qa3 Qxb6 4. Rxd6 Qc7 *
 [PlyCount "7"]
 [EventDate "1970.??.??"]
 
- 1... Rh1 $3 2. Rxh1 g2 3. Rf1 (3. Rg1 Qh4+ 4. Kd1 Qh1 5. Qc3
-Qxg1+ 6. Kc2 Qf2 7. gxf5 Qxe2 8. Na3 Bb4 $1 9. Qxb4 Qd3+ ) 3... Qh4+ 4. Kd1 gxf1=Q+ (4... gxf1=Q+ 5. Bxf1 Bxg4+ 6. Kc1 Qe1+) *
+ 1... Rh1 $3 2. Rxh1 g2 3. Rf1  3... Qh4+ 4. Kd1 gxf1=Q+  *
 
 [Event "?"]
 [Site "?"]
@@ -698,7 +690,7 @@ Qxg1+ 6. Kc2 Qf2 7. gxf5 Qxe2 8. Na3 Bb4 $1 9. Qxb4 Qd3+ ) 3... Qh4+ 4. Kd1 gxf1
 [EventDate "1949.??.??"]
 
  1. Rxh7+ Rxh7 2. Rxh7+ Kxh7 3.
-Qh1+ Kg7 4. f6+ Kxf6 5. Nxd7+ $6 (5. Qh6+ ) *
+Qh1+ Kg7 4. f6+ Kxf6 5. Nxd7+ $6  *
 
 [Event "Budapest"]
 [Site "?"]
@@ -715,7 +707,7 @@ Qh1+ Kg7 4. f6+ Kxf6 5. Nxd7+ $6 (5. Qh6+ ) *
 
  1... f3+ $1
 2. Kxf3  Rf8+ $3 3. Kxg4 Rxf2 $6 
-(3... h5+ $1  4. Kg5 Rxf2 5. Bxg6 Bf6+ 6. Kxh5 Rf4 ) 4.
+ 4.
 Nc4 h5+ 5. Kh4 Bf4  6. Bf1 Rh2+ 7. Bh3 Kh6  *
 
 [Event "Romania"]
@@ -731,8 +723,8 @@ Nc4 h5+ 5. Kh4 Bf4  6. Bf1 Rh2+ 7. Bh3 Kh6  *
 [PlyCount "17"]
 [EventDate "1975.??.??"]
 
- 1. Bd8 $3 Qa6 (1... Qxd8 $4 2. Nxe6+)  2. Rxg7 Kxg7
-3. Qg5+ Kf8 4. Be7+ Ke8 5. Bd6 Nf6 (5... f6 6. Qg6+ Kd8 7. Nxe6#) 6. Qxf6 Qb7
+ 1. Bd8 $3 Qa6   2. Rxg7 Kxg7
+3. Qg5+ Kf8 4. Be7+ Ke8 5. Bd6 Nf6  6. Qxf6 Qb7
 7. Nc6 $1 Bxc3+ 8. bxc3 Kd7 9. Na5  *
 
 [Event "USSR"]
@@ -747,8 +739,7 @@ Nc4 h5+ 5. Kh4 Bf4  6. Bf1 Rh2+ 7. Bh3 Kh6  *
 [FEN "3r4/5ppp/pkpbpnn1/8/2P2P2/2N3PP/PPK3B1/4B2R w - - 0 1"]
 [PlyCount "13"]
 
- 1. c5+ $1 Bxc5 (1... Kxc5 2.
-Bf2+ Kc4 3. a3 $1 ) 2. Na4+ Kb5  3. Kb3  Rd3+ 4. Bc3 $1 
+ 1. c5+ $1 Bxc5  2. Na4+ Kb5  3. Kb3  Rd3+ 4. Bc3 $1 
 Rxc3+ 5. Nxc3+ Ka5 6. Na4 Bf2 7. Rc1 *
 
 [Event "Rome"]
@@ -765,8 +756,7 @@ Rxc3+ 5. Nxc3+ Ka5 6. Na4 Bf2 7. Rc1 *
 [EventDate "1979.??.??"]
 
  1. Rh8+ $3 Kxh8 2.
-Qh6+ Kg8 3. Qxg6+ Kf8 4. Qxf6+ Kg8 5. Nh5 $1 Re7 6. Qg6+ Kf8 (6... Kh8 7. Nf6
-$1) 7. Qh6+ Kg8 8. Bd1  Be6 9. Nf6+ Kf7 10. Rg2 Bg4 11. Rxg4 Ke6
+Qh6+ Kg8 3. Qxg6+ Kf8 4. Qxf6+ Kg8 5. Nh5 $1 Re7 6. Qg6+ Kf8  7. Qh6+ Kg8 8. Bd1  Be6 9. Nf6+ Kf7 10. Rg2 Bg4 11. Rxg4 Ke6
 12. Qh3 Kxf6 13. Qh6+ *
 
 [Event "Paris"]

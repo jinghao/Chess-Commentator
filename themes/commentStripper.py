@@ -42,8 +42,6 @@ for root, dirs, files in os.walk(sys.argv[1]):
     for f in files:
         if f.lower().endswith(".pgn"):
             count += 1
-            if count < 590000:
-                continue
             f = root + "/" + f
             if os.path.getsize(f) > 10000:
                 print "Processing bigass file (%s). %d bytes big" % (f, os.path.getsize(f))
