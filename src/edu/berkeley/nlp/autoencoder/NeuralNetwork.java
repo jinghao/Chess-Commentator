@@ -2,10 +2,13 @@ package edu.berkeley.nlp.autoencoder;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.NoSuchElementException;
 import java.util.Random;
 
+import com.google.common.base.Function;
 import com.google.common.base.Preconditions;
 
+import edu.berkeley.nlp.chess.util.mapreduce.LocalMapReduce;
 import edu.berkeley.nlp.math.DifferentiableFunction;
 import edu.berkeley.nlp.math.LBFGSMinimizer;
 import edu.berkeley.nlp.util.Pair;
@@ -146,25 +149,45 @@ public class NeuralNetwork {
 			return dimension;
 		}
 
-		@Override
-		public double valueAt(double[] x) {
-			Preconditions.checkArgument(x.length == dimension);
+		private double valueForExample(Pair<double[], double[]> example, double[] x) {
 			double loss = 0;
+			double[] input = example.getFirst();
+			double[] output = example.getSecond();
 			
-			// Compute over all input/output pairs
-			for (Pair<double[], double[]> pair : examples) {
-				double[] input = pair.getFirst();
-				double[] output = pair.getSecond();
-				
-				double[][] activations = getActivations(input, layerSizes, x);
-				double[] predictedOutput = activations[activations.length - 1];
-				
-				// Sum of squared errors, divided by half
-				for (int i = 0; i < output.length; ++i) {
-					double error = output[i] - predictedOutput[i];
-					loss += 0.5 * error * error;  
-				}
+			double[][] activations = getActivations(input, layerSizes, x);
+			double[] predictedOutput = activations[activations.length - 1];
+			
+			// Sum of squared errors, divided by half
+			for (int i = 0; i < output.length; ++i) {
+				double error = output[i] - predictedOutput[i];
+				loss += 0.5 * error * error;  
 			}
+			return loss;
+		}
+		
+		@Override
+		public double valueAt(final double[] x) {
+			double[] lossArray = new LocalMapReduce<Pair<double[], double[]>, double[]>()
+			  .run(examples, 
+				new Function<Iterable<Pair<double[], double[]>>, double[]>() {
+					@Override public double[] apply(Iterable<Pair<double[], double[]>> input) {
+						double sum = 0;
+						try { 
+							for (Pair<double[], double[]> example : input) 
+								sum += valueForExample(example, x);
+						} catch (NoSuchElementException e) {}
+						return new double[] { sum };
+					}
+				}, new Function<Collection<double[]>, double[]>() {
+					@Override public double[] apply(Collection<double[]> input) {
+						double sum = 0;
+						for (double[] item : input)
+							sum += item[0];
+						return new double[] { sum };
+					}
+				});
+			
+			double loss = lossArray[0];
 			loss /= numExamples;
 			
 			// Compute regularization penalty
@@ -187,66 +210,93 @@ public class NeuralNetwork {
 			return loss;
 		}
 
-		@Override
-		public double[] derivativeAt(double[] x) {
+		private double[] derivativeForExample(Pair<double[], double[]> example, double[][] averageActivations, double[] x) {
 			double[] gradient = new double[x.length];
 			int weightsBegin;
+
+			double[] input = example.getFirst();
+			double[] output = example.getSecond();
+			double[][] activations = getActivations(input, layerSizes, x);
+			double[][] deltas = new double[layerSizes.length][];
 			
-			double[][] averageActivations =
+			// Compute delta for final activations
+			double[] predictedOutput = activations[activations.length - 1];
+			double[] outputDelta = new double[layerSizes[layerSizes.length - 1]];
+			for (int i = 0; i < outputDelta.length; ++i) {
+				outputDelta[i] = -(output[i] - predictedOutput[i])
+					* af.derivativeAt(predictedOutput[i]);
+			}
+			deltas[deltas.length - 1] = outputDelta;
+			
+			if (deltas.length > 2) {
+				weightsBegin = dimension 
+					- (layerSizes[layerSizes.length - 2] + 1) * layerSizes[layerSizes.length - 1];
+				for (int l = deltas.length - 2; l >= 1; --l) {
+					double[] delta = new double[layerSizes[l]];
+					for (int i = 0; i < delta.length; ++i) {
+						for (int j = 0; j < deltas[l + 1].length; ++j)
+							delta[i] += x[weightsBegin + j * delta.length + i] * deltas[l+1][j];
+						// Add sparsity penalty (KL divergence)
+						if (sparsityPenaltyWeight != 0.0)
+							delta[i] += sparsityPenaltyWeight *
+								(-sparsity/averageActivations[l][i] + (1-sparsity)/(1-averageActivations[l][i]));
+						// Multiply by derivative
+						delta[i] *= af.derivativeAt(activations[l][i]);
+					}
+					deltas[l] = delta;
+					weightsBegin -= (layerSizes[l - 1] + 1) * layerSizes[l];
+				}
+				Preconditions.checkState(weightsBegin == 0);
+			}
+			
+			// Finally, compute the gradients
+			weightsBegin = 0;
+			for (int l = 1; l < layerSizes.length; ++l) {
+				// If sizes are [A, B, C], need BxA and CxB matrices, and Bx1 and Cx1 vectors
+				int biasBegin = weightsBegin + layerSizes[l - 1] * layerSizes[l];
+				
+				for (int row = 0; row < layerSizes[l]; ++row) {
+					for (int col = 0; col < layerSizes[l-1]; ++col)
+						gradient[weightsBegin + row * layerSizes[l-1] + col] += 
+							activations[l-1][col] * deltas[l][row];
+					gradient[biasBegin + row] += deltas[l][row];
+				}
+				weightsBegin = biasBegin + layerSizes[l];
+			}
+			
+			return gradient;
+		}
+		
+		@Override
+		public double[] derivativeAt(final double[] x) {
+			int weightsBegin;
+			
+			final double[][] averageActivations =
 				sparsityPenaltyWeight != 0.0 ? getAverageActivationsFor(x) : null;
 			
-			// Compute over all input/output pairs
-			for (Pair<double[], double[]> pair : examples) {
-				double[] input = pair.getFirst();
-				double[] output = pair.getSecond();
-				double[][] activations = getActivations(input, layerSizes, x);
-				double[][] deltas = new double[layerSizes.length][];
-				
-				// Compute delta for final activations
-				double[] predictedOutput = activations[activations.length - 1];
-				double[] outputDelta = new double[layerSizes[layerSizes.length - 1]];
-				for (int i = 0; i < outputDelta.length; ++i) {
-					outputDelta[i] = -(output[i] - predictedOutput[i])
-						* af.derivativeAt(predictedOutput[i]);
-				}
-				deltas[deltas.length - 1] = outputDelta;
-				
-				if (deltas.length > 2) {
-					weightsBegin = dimension 
-						- (layerSizes[layerSizes.length - 2] + 1) * layerSizes[layerSizes.length - 1];
-					for (int l = deltas.length - 2; l >= 1; --l) {
-						double[] delta = new double[layerSizes[l]];
-						for (int i = 0; i < delta.length; ++i) {
-							for (int j = 0; j < deltas[l + 1].length; ++j)
-								delta[i] += x[weightsBegin + j * delta.length + i] * deltas[l+1][j];
-							// Add sparsity penalty (KL divergence)
-							if (sparsityPenaltyWeight != 0.0)
-								delta[i] += sparsityPenaltyWeight *
-									(-sparsity/averageActivations[l][i] + (1-sparsity)/(1-averageActivations[l][i]));
-							// Multiply by derivative
-							delta[i] *= af.derivativeAt(activations[l][i]);
+			double[] gradient = new LocalMapReduce<Pair<double[], double[]>, double[]>()
+			  .run(examples, 
+				new Function<Iterable<Pair<double[], double[]>>, double[]>() {
+					@Override public double[] apply(Iterable<Pair<double[], double[]>> input) {
+						double[] sum = new double[x.length];
+						try { 
+							for (Pair<double[], double[]> example : input) {
+								double[] item = derivativeForExample(example, averageActivations, x);
+								for (int i = 0; i < item.length; ++i) 
+									sum[i] += item[i];
+							}
+						} catch (NoSuchElementException e) {}
+						return sum;
+					}
+				}, new Function<Collection<double[]>, double[]>() {
+					@Override public double[] apply(Collection<double[]> input) {
+						double[] sum = new double[x.length];
+						for (double[] item : input) {
+							for (int i = 0; i < item.length; ++i) sum[i] += item[i];
 						}
-						deltas[l] = delta;
-						weightsBegin -= (layerSizes[l - 1] + 1) * layerSizes[l];
+						return sum;
 					}
-					Preconditions.checkState(weightsBegin == 0);
-				}
-				
-				// Finally, compute the gradients
-				weightsBegin = 0;
-				for (int l = 1; l < layerSizes.length; ++l) {
-					// If sizes are [A, B, C], need BxA and CxB matrices, and Bx1 and Cx1 vectors
-					int biasBegin = weightsBegin + layerSizes[l - 1] * layerSizes[l];
-					
-					for (int row = 0; row < layerSizes[l]; ++row) {
-						for (int col = 0; col < layerSizes[l-1]; ++col)
-							gradient[weightsBegin + row * layerSizes[l-1] + col] += 
-								activations[l-1][col] * deltas[l][row];
-						gradient[biasBegin + row] += deltas[l][row];
-					}
-					weightsBegin = biasBegin + layerSizes[l];
-				}
-			}
+				});
 			
 			// Scale gradient
 			for (int i = 0; i < gradient.length; ++i)
