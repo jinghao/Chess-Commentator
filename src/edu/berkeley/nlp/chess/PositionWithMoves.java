@@ -39,6 +39,9 @@ public class PositionWithMoves {
 		}
 	};
 	
+	/**
+	 * Featurizer that ignores moves.
+	 */
 	public static class PositionFeaturizer implements Featurizer<PositionWithMoves> {
 		private final Featurizer<Position> positionFeaturizer;
 		
