@@ -198,7 +198,7 @@ public final class PGNReader extends PGN
      *
      *@return the current line number
      */
-    private int getLineNumber() {return m_in != null ? m_in.getLineNumber() + 1 : 0;}
+    public int getLineNumber() {return m_in != null ? m_in.getLineNumber() + 1 : 0;}
 
     private String getLastTokenAsDebugString()
     {
@@ -470,7 +470,7 @@ public final class PGNReader extends PGN
     private short getLastTokenAsMove() throws PGNSyntaxError
     {
         if (DEBUG) System.out.println("getLastTokenAsMove " + getLastTokenAsString());
-        
+
         if (!isLastTokenIdent()) syntaxError("Move expected");
         
         int next = 0;
@@ -481,10 +481,8 @@ public final class PGNReader extends PGN
             last--;
         }
         
-//        String s = getLastTokenAsString();
-//        if (DEBUG) System.out.println("moveStr= " + s);
         short move = Move.ILLEGAL_MOVE;
-        if (m_buf[0] == 'O' && m_buf[1] == '-' && m_buf[2] == 'O') {
+        if (m_buf[0] == 'O' && m_buf[1] == '-' && m_buf[2] == 'O') { // castle
             if (m_lastTokenLength >= 5 && m_buf[3] == '-' && m_buf[4] == 'O') {
                move = Move.getLongCastle(m_curGame.getPosition().getToPlay()); next = 5;
             } else if (m_lastTokenLength >= 3) {
@@ -492,7 +490,7 @@ public final class PGNReader extends PGN
             } else {
                 syntaxError("Illegal castle move");
             }
-        } else if (m_buf[0] == '0' && m_buf[1] == '-' && m_buf[2] == '0') {
+        } else if (m_buf[0] == '0' && m_buf[1] == '-' && m_buf[2] == '0') { // castle
             if (m_lastTokenLength >= 5 && m_buf[3] == '-' && m_buf[4] == '0') {
                 warning("Castles with zeros");
                 move = Move.getLongCastle(m_curGame.getPosition().getToPlay()); next = 5;
@@ -514,13 +512,18 @@ public final class PGNReader extends PGN
                 
                 if (next + 1 > last) syntaxError("Illegal pawn move, no destination square");
                 int toSqi = Chess.strToSqi(m_buf[next], m_buf[next + 1]); next += 2;
-                
+
                 int promo = Chess.NO_PIECE;
-                if (next <= last && m_buf[next] == '=') {
-                    if (next < last) {
-                        promo = Chess.charToPiece(m_buf[next + 1]);
-                    } else {
-                        syntaxError("Illegal promotion move, misssing piece");
+                if (next <= last) {
+                	if (next == last - 1 && m_buf[next] == '=') {
+                		++next;
+                	}
+                	
+                	if (Chess.charToPiece(m_buf[next]) != Chess.NO_PIECE) {
+                        promo = Chess.charToPiece(m_buf[next]);
+                        if (DEBUG) System.out.printf("\t*Found a promotion to %c\n", m_buf[next]);
+                	} else {
+                        syntaxError("Illegal promotion move, missing piece");
                     }
                 }
                 move = m_curGame.getPosition().getPawnMove(col, toSqi, promo);
@@ -604,12 +607,14 @@ public final class PGNReader extends PGN
             if (!isLastTokenMoveNumber(m_curGame.getNextMoveNumber())) {
                 warning("Wrong move number, " + m_curGame.getNextMoveNumber() + " expected");
             }
-            if (getNextToken() == TOK_PERIOD) {
+            
+            int token = getNextToken();
+            if (token == TOK_PERIOD) {
                 if (m_curGame.getPosition().getToPlay() == Chess.BLACK && (getNextToken() != TOK_PERIOD || getNextToken() != TOK_PERIOD)) {
                     syntaxError("Three periods expected for black move");
                 }
             } else {
-                syntaxError("Period expected");
+                syntaxError("Period expected.");
             }
             getNextToken();
         } else {
@@ -655,6 +660,7 @@ public final class PGNReader extends PGN
             } else if (isNAGStart(getLastToken())) {
                 parseNAG();
             } else {
+            	if (getLastToken() >= 0) System.out.printf("Last token: %c\n", getLastToken());
                 parseHalfMove(needsMoveNumber);
                 needsMoveNumber = (m_curGame.getPosition().getToPlay() == Chess.WHITE);
                 getNextToken();
@@ -678,22 +684,22 @@ public final class PGNReader extends PGN
         if (DEBUG) System.out.println("===> new game");
         if(m_in == null) return null;
 //1.4        if(m_in == null && m_charBuf == null) return null;
-        try {
-            m_curGame = null;
-            if (!findNextGameStart()) {
-                return null;
-            }
-            m_curGame = new Game();
-            m_curGame.setAlwaysAddLine(true);
-            initForHeader();
-            parseTagPairSection();
-            initForMovetext();
-            parseMovetextSection();
-            m_curGame.pack();
-        } catch(PGNSyntaxError ex) {
-//            System.out.println(ex);  // sent to a listener in syntaxError
+        m_curGame = null;
+        if (!findNextGameStart()) {
+            return null;
         }
+        m_curGame = new Game();
+        m_curGame.setAlwaysAddLine(true);
+        initForHeader();
+        parseTagPairSection();
+        initForMovetext();
+        parseMovetextSection();
+        m_curGame.pack();
         return m_curGame;
+    }
+    
+    public void close() throws IOException {
+    	m_in.close();
     }
 
     //======================================================================

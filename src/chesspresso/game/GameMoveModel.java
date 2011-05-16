@@ -20,6 +20,8 @@ import chesspresso.move.*;
 import java.io.*;
 import java.util.*;
 
+import edu.berkeley.nlp.util.CollectionUtils;
+
 /**
  * Representation of moves of a chess game.
  *
@@ -788,6 +790,23 @@ public class GameMoveModel
             }
         }
         return m_hashCode;
+    }
+    
+    public byte[] getBytes() {
+    	byte[] bytes = new byte[8];
+    	int i = 0;
+        for (int index = 0; ; index = goForward(index)) {
+            if (m_moves[index] == LINE_END) break;
+            short move = getMove(index);
+            if (i >= bytes.length) {
+            	bytes = Arrays.copyOf(bytes, bytes.length * 2);
+            }
+            bytes[i] = (byte)(move >>> 8);
+            bytes[i + 1] = (byte)(move & 0xFF);
+            i += 2;
+        }
+        
+        return Arrays.copyOf(bytes, i);
     }
     
     public int hashCode()

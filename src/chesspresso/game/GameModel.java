@@ -82,4 +82,8 @@ public class GameModel
     /*================================================================================*/
 
     public String toString() {return m_headerModel.toString();}
+    
+    public byte[] getBytes() {
+    	return m_moveModel.getBytes();
+    }
 }

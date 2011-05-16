@@ -327,18 +327,18 @@ public class HTMLGameBrowser implements GameListener
         }
     }
     
-//    public static void main(String[] args)
-//    {
-//        try {
-//            chesspresso.pgn.PGNReader pgn = new chesspresso.pgn.PGNReader(args[0]);
-//            Game game = pgn.parseGame();
-//            System.out.println(game);
-//
-//            HTMLGameBrowser html = new HTMLGameBrowser();
-//            html.produceHTML(System.out, game);
-//        } catch (Exception ex) {
-//            ex.printStackTrace();
-//        }
-//    }
-//
+    public static void main(String[] args)
+    {
+        try {
+            chesspresso.pgn.PGNReader pgn = new chesspresso.pgn.PGNReader("/tmp/chess-test/test.pgn");
+            Game game = pgn.parseGame();
+            System.out.println(game);
+
+            HTMLGameBrowser html = new HTMLGameBrowser();
+            html.produceHTML(new FileOutputStream("/tmp/shit.html"), game);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
 }

@@ -729,5 +729,10 @@ public class Game implements PositionChangeListener
      *@return a string represention of the game
      */
     public String toString() {return m_model.toString();}
-    
+    public void write(PrintStream out) {
+    	m_moves.write(out);
+    }
+    public byte[] getBytes() {
+    	return m_moves.getBytes();
+    }
 }
