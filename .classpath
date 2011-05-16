@@ -29,6 +29,8 @@
 	<classpathentry kind="lib" path="lib/junit-4.8.1.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="lib/guice/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="lib/guice/javax.inject.jar"/>
+	<classpathentry kind="lib" path="lib/guice/aopalliance.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
