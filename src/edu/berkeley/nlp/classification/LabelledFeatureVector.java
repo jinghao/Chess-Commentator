@@ -1,17 +1,16 @@
 package edu.berkeley.nlp.classification;
 
 
-public class LabelledFeatureVector<T> {
-	public double[] features;
+public class LabelledFeatureVector<T> extends FeatureVector<T> {
 	public int label;
 	
 	LabelledFeatureVector(double[] features, int label) {
-		this.features = features;
+		super(features);
 		this.label = label;
 	}
 	
 	LabelledFeatureVector(Featurizer<T> featurizer, T input, int label) {
-		this.features = featurizer.getFeaturesFor(input);
+		super(featurizer, input);
 		this.label = label;
 	}
 }
