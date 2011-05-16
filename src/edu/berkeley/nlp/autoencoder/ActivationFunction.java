@@ -8,6 +8,10 @@ public interface ActivationFunction {
 	 *  In other words, compute f'(f^-1(input)). */
 	public double derivativeAt(double x);
 	
+	/** Multiply normalized initialization by
+	 * this factor. */
+	public double normalizedInitializationFactor();
+	
 	public static final ActivationFunction SIGMOID = new ActivationFunction() {
 		@Override public double valueAt(double x) {
 			return 1. / (1 + Math.exp(-x));
@@ -15,6 +19,10 @@ public interface ActivationFunction {
 
 		@Override public double derivativeAt(double x) {
 			return x * (1 - x);
+		}
+		
+		@Override public double normalizedInitializationFactor() {
+			return 4.0;
 		}
 	};
 	
@@ -25,6 +33,10 @@ public interface ActivationFunction {
 
 		@Override public double derivativeAt(double x) {
 			return 1 - (x * x);
+		}
+		
+		@Override public double normalizedInitializationFactor() {
+			return 1.0;
 		}
 	};
 	
@@ -38,8 +50,11 @@ public interface ActivationFunction {
 			if (x >= 0) numerator = Math.sqrt((x*x) / ((x-1)*(x-1))) + 1; 
 			else numerator = Math.sqrt((x * x) / ((x+1)*(x+1))) + 1;
 			
-			return 1. / (numerator * numerator);
-			
+			return 1. / (numerator * numerator);	
+		}
+		
+		@Override public double normalizedInitializationFactor() {
+			return 1.0;
 		}
 	};
 }

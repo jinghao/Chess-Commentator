@@ -112,8 +112,15 @@ public class NeuralNetwork {
 		
 		public double[] initial() {
 			double[] result = new double[dimension];
-			for (int i = 0; i < dimension; ++i)
-				result[i] = random.nextGaussian() * EPSILON;
+			int weightsBegin = 0;
+			for (int l = 1; l < layerSizes.length; ++l) {
+				int weightsEnd = weightsBegin + layerSizes[l - 1] * layerSizes[l];
+				double intervalSize = af.normalizedInitializationFactor()
+						* Math.sqrt(6. / (layerSizes[l-1] + layerSizes[l]));
+				for (int i = weightsBegin; i < weightsEnd; ++i)
+					result[i] = random.nextDouble() * 2 * intervalSize - intervalSize;
+				weightsBegin = weightsEnd + layerSizes[l];
+			}
 			return result;
 		}
 		
