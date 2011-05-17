@@ -16,7 +16,7 @@ import chesspresso.game.GameModel;
 import chesspresso.pgn.PGNReader;
 import chesspresso.pgn.PGNSyntaxError;
 import chesspresso.pgn.PGNWriter;
-import edu.berkeley.nlp.chess.util.Util;
+import edu.berkeley.nlp.chess.util.HashFunctions;
 
 public class Deduplicator {
 
@@ -79,7 +79,7 @@ public class Deduplicator {
 							numGames++;
 							localGames++;
 
-							String sha = Util.sha1(game.getBytes());
+							String sha = HashFunctions.sha1(game.getBytes());
 
 							if (seenGames.add(sha)) {
 								++added;

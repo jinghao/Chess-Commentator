@@ -3,7 +3,7 @@ package edu.berkeley.nlp.chess.util;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class Util {
+public class HashFunctions {
 	static {
 		try {
 			md = MessageDigest.getInstance("SHA-1");
