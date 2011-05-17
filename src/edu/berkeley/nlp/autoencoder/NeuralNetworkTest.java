@@ -132,7 +132,7 @@ public class NeuralNetworkTest {
 
 	@Test
 	public void testGetOutput() {
-		nn = NeuralNetwork.train(new int[] { 4, 64, 64, 4 }, 1e-3, 0.05, 1e-2, irisExamples);
+		nn = NeuralNetwork.train(new int[] { 4, 64, 64, 4 }, 1e-3, 0.05, 1e-2, irisExamples, null, null);
 		
 //		System.out.println(Doubles.join(", ", nn.parameters));
 		System.out.println(Doubles.join("\n",
