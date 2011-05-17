@@ -2155,7 +2155,7 @@ public final class Position extends AbstractMoveablePosition
         value += 500 * (numOfBitsSet(m_bbRooks & (~m_bbBishops) & m_bbWhites) - numOfBitsSet(m_bbRooks & (~m_bbBishops) & m_bbBlacks));
         value += 900 * (numOfBitsSet(m_bbRooks & m_bbBishops & m_bbWhites) - numOfBitsSet(m_bbRooks & m_bbBishops & m_bbBlacks));
         //        System.out.println(value);
-        return (getToPlay() == Chess.WHITE ? value : -value);
+        return (getToPlay() == Chess.WHITE ? value : -value)/1000;
     }
     
     public double getDomination()
@@ -2176,7 +2176,7 @@ public final class Position extends AbstractMoveablePosition
             int score = sign(numOfBitsSet(bbWhiteAttackers) - numOfBitsSet(bbBlackAttackers));
             value += SQUARE_IMPORTANCE[sqi] * score;
         }
-        return (getToPlay() == Chess.WHITE ? value : -value);
+        return (getToPlay() == Chess.WHITE ? value : -value)/100;
     }
     
 }
