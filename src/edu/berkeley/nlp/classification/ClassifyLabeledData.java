@@ -125,7 +125,13 @@ public class ClassifyLabeledData {
 
 			System.out.println(sample + ": ");
 			
+			for (String tag : tags.get(sample)) {
+				System.out.printf("\tTag: %s\n", tag);
+			}
+			
 			File predictions = File.createTempFile("predictions", "");
+			
+			int tp = 0, fp = 0, tn = 0, fn = 0;
 			
 			for (String tag : allPositiveExamples.keySet()) {
 				File model = models.get(tag);
@@ -145,9 +151,37 @@ public class ClassifyLabeledData {
 			    }
 								
 				double prediction = new Scanner(predictions).nextDouble();
-				System.out.printf("Prediction: %f\n", prediction);
+				
+				boolean trueValue = tags.get(sample).contains(tag);
+				
+				if (trueValue) {
+					if (prediction >= 0) {
+						++tp;
+					} else {
+						++fn;
+					}
+				} else {
+					if (prediction < 0) {
+						++tn;
+					} else {
+						++fp;
+					}
+				}
+				
+				System.out.printf("Tag: %s. Prediction: %f. Correct answer: %b\n", tag, prediction, trueValue);
 				System.out.flush();
 			}
+			
+			int total = tn + tp + fn + fp;
+			
+			double precision = tp / (tp + fp);
+			double recall = tp / (tp + fn);
+			
+			System.out.printf("True positive: %d (%f)\n", tp, (double)tp/total);
+			System.out.printf("False positive: %d (%f)\n", fp, (double)fp/total);
+			System.out.printf("True negative: %d (%f)\n", tn, (double)tn/total);
+			System.out.printf("False negative: %d (%f)\n", fn, (double)fn/total);
+			System.out.printf("Precision/Recall: %f, %f\n", precision, recall);
 		}
 	}
 	
