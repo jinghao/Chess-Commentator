@@ -16,6 +16,7 @@ import com.nativelibs4java.opencl.JavaCL;
 
 
 public class Test {
+	static int dataSize = 102475;
 	public static void main(String[] args) throws Exception {
 		// System.out.println(Integer.toBinaryString(31) + " => " + Integer.toBinaryString(31 >>> 35));
 		long time = 0;
@@ -23,7 +24,6 @@ public class Test {
 		CLContext context = JavaCL.createBestContext();
 		CLQueue queue = context.createDefaultQueue();
 
-		int dataSize = 102475468;
 		ByteOrder order = context.getByteOrder();
 		FloatBuffer buffer = ByteBuffer.allocateDirect(dataSize * 4).order(order).asFloatBuffer();
 		

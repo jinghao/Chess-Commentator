@@ -1,8 +1,6 @@
 
-public class Test2 {
+public class Test2 extends Test {
 	public static void main(String[] args) {
-		int dataSize = 102475468;
-		
 		float multFactor = 0.5f;
 		
 		float[] input = new float[dataSize];
@@ -13,7 +11,9 @@ public class Test2 {
 		}
 		long time = -System.nanoTime();
 		for (int i = 0; i < dataSize; ++i) {
-			output[i] = (input[i] * multFactor * input[i] / 2);
+			for (int j = 0; j < 10000; ++j) {
+				output[i] += (input[i] * multFactor * input[i] / 2);
+			}
 		}
 		time += System.nanoTime();
 		
