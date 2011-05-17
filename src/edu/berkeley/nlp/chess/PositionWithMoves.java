@@ -33,6 +33,7 @@ public class PositionWithMoves implements Serializable {
 		return "(" + previousMove + " -> " + position + " -> " + nextMove + ")";
 	}
 	
+	@Override
 	public boolean equals(Object o) {
 		if (o == null) return false;
 		if (!(o instanceof PositionWithMoves)) return false;
