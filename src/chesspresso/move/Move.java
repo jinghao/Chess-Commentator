@@ -14,6 +14,8 @@
 
 package chesspresso.move;
 
+import com.google.common.primitives.Ints;
+
 import chesspresso.*;
 
 
@@ -381,6 +383,10 @@ public class Move
     public boolean isWhiteMove()        {return (m_info & TOPLAY_MASK) != 0;}
     
     /*================================================================================*/
+    
+    public int hashCode() {
+    	return m_move;
+    }
     
     /**
      * Equality test. Two move are equal if and only if all arguments match.
