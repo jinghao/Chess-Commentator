@@ -19,16 +19,18 @@ import chesspresso.*;
 import chesspresso.move.*;
 
 import java.util.*;
+import java.io.Serializable;
 import java.text.*;
 
 
-public final class Position extends AbstractMoveablePosition
+public final class Position extends AbstractMoveablePosition implements Serializable
 {
+	private static final long serialVersionUID = -7181912143941005352L;
     
     /*================================================================================*/
     // Debug flag 
     
-    private final static boolean DEBUG = false;
+	private final static boolean DEBUG = false;
     
     /*================================================================================*/
     // Profiling

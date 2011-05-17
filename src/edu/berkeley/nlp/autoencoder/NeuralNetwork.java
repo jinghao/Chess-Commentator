@@ -12,6 +12,7 @@ import com.google.common.base.Preconditions;
 import edu.berkeley.nlp.chess.util.mapreduce.LocalMapReduce;
 import edu.berkeley.nlp.math.DifferentiableFunction;
 import edu.berkeley.nlp.math.LBFGSMinimizer;
+import edu.berkeley.nlp.math.LBFGSMinimizer.IterationCallbackFunction;
 import edu.berkeley.nlp.util.Pair;
 
 public class NeuralNetwork implements Serializable {
@@ -25,13 +26,15 @@ public class NeuralNetwork implements Serializable {
 			double weightDecay, 
 			double sparsity, 
 			double sparsityPenaltyWeight,
-			Collection<Pair<double[], double[]>> examples) {
+			Collection<Pair<double[], double[]>> examples, IterationCallbackFunction iterationCallbackFunction) {
 		Preconditions.checkArgument(layerSizes.length >= 2);
 		for (int layerSize : layerSizes)
 			Preconditions.checkArgument(layerSize > 0);
 		
 		LossFunction toBeMinimized = new LossFunction(layerSizes, weightDecay, sparsity, sparsityPenaltyWeight, examples);
-		double[] parameters = new LBFGSMinimizer(1000).minimize(
+		LBFGSMinimizer minimizer = new LBFGSMinimizer(1000);
+		minimizer.setIterationCallbackFunction(iterationCallbackFunction);		
+		double[] parameters = minimizer.minimize(
 				toBeMinimized,
 				toBeMinimized.initial(), 
 				1e-4); // TODO make tunable 

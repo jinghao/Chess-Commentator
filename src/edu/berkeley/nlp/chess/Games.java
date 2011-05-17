@@ -20,7 +20,10 @@ public class Games {
 		Move previousMove = null;
 		do {
 			Move nextMove = game.getNextMove();
-			result.add(new PositionWithMoves(previousMove, new Position(game.getPosition()), nextMove));
+			Position position = new Position(game.getPosition());
+			position.setPlyNumber(0);
+			position.setHalfMoveClock(0);
+			result.add(new PositionWithMoves(previousMove, position, nextMove));
 			previousMove = nextMove;
 		} while (game.goForward());
 		
@@ -34,5 +37,6 @@ public class Games {
 		System.out.println("" + unrolledGame.size());
 		for (PositionWithMoves pwm: unrolledGame)
 			System.out.println(pwm);
+		
 	}
 }

@@ -14,6 +14,10 @@
 
 package chesspresso.move;
 
+import java.io.Serializable;
+
+import com.google.common.primitives.Ints;
+
 import chesspresso.*;
 
 
@@ -39,12 +43,13 @@ import chesspresso.*;
  * @author  Bernhard Seybold
  * @version $Revision: 1.3 $
  */
-public class Move
+public class Move implements Serializable
 {
-
+	private static final long serialVersionUID = -5839768189547863990L;
+	
     //======================================================================
-    
-    /**
+
+	/**
      * Returns the moves in a normalized order such that the same set of moves
      * always yields the same order. Implementation is: short values ascending.
      */
@@ -381,6 +386,10 @@ public class Move
     public boolean isWhiteMove()        {return (m_info & TOPLAY_MASK) != 0;}
     
     /*================================================================================*/
+    
+    public int hashCode() {
+    	return m_move;
+    }
     
     /**
      * Equality test. Two move are equal if and only if all arguments match.
