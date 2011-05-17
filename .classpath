@@ -36,6 +36,11 @@
 			<attribute name="javadoc_location" value="http://nativelibs4java.sourceforge.net/javacl/api/current/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/jnisvmlight.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Chess-Commentator/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
