@@ -1,0 +1,76 @@
+Training model for longDiagonals.... Done
+Training model for discoveredAttack.... Done
+Training model for interruption.... Done
+Training model for decoy.... Done
+Training model for backrankWeakness.... Done
+Training model for pullingPiecesToBadSquares.... Done
+Training model for kingToBadSquares.... Done
+Training model for inBetweenMove.... Done
+Training model for enclosedKings.... Done
+Training model for quietMates.... Done
+Training model for closure.... Done
+Training model for interference.... Done
+Training model for freeingBlockingSquares.... Done
+Training model for matingAttack.... Done
+Training model for kingInCenter.... Done
+Training model for openingClosingFiles.... Done
+Training model for defensePressure.... Done
+Training model for attackPossible.... Done
+Training model for deflection.... Done
+Training model for wrongBishop.... Done
+Training model for queenCapture.... Done
+Training model for perpetualCheck.... Done
+Training model for drawCombinationsStalemate.... Done
+Training model for bishopPair.... Done
+Training model for doubleAttack.... Done
+Training model for unpinning.... Done
+Training model for overload.... Done
+Training model for clearance.... Done
+Training model for openingClosingDiagonals.... Done
+Training model for passedPawn.... Done
+Training model for pin.... Done
+Training model for removalOfDefence.... Done
+Training model for goodEndgameChances.... Done
+Training model for pawnPromotion.... Done
+[(null -> 3r1rk1/1pp1q1p1/p1npbp2/4p1PQ/8/7R/8/6K1 w - - 0 1 -> null)]: 
+	Tag: quietMates
+Tag: longDiagonals. Prediction: -1.018234. Correct answer: false
+Tag: discoveredAttack. Prediction: -1.003405. Correct answer: false
+Tag: interruption. Prediction: -1.021953. Correct answer: false
+Tag: decoy. Prediction: -1.002425. Correct answer: false
+Tag: backrankWeakness. Prediction: -1.010511. Correct answer: false
+Tag: pullingPiecesToBadSquares. Prediction: -0.997705. Correct answer: false
+Tag: kingToBadSquares. Prediction: -1.126373. Correct answer: false
+Tag: inBetweenMove. Prediction: -1.058692. Correct answer: false
+Tag: enclosedKings. Prediction: -1.039641. Correct answer: false
+Tag: quietMates. Prediction: 0.442865. Correct answer: true
+Tag: closure. Prediction: -1.040387. Correct answer: false
+Tag: interference. Prediction: -1.000724. Correct answer: false
+Tag: freeingBlockingSquares. Prediction: -1.012711. Correct answer: false
+Tag: matingAttack. Prediction: -1.005562. Correct answer: false
+Tag: kingInCenter. Prediction: -1.073884. Correct answer: false
+Tag: openingClosingFiles. Prediction: -1.006064. Correct answer: false
+Tag: defensePressure. Prediction: -1.009788. Correct answer: false
+Tag: attackPossible. Prediction: -1.028613. Correct answer: false
+Tag: deflection. Prediction: -1.001902. Correct answer: false
+Tag: wrongBishop. Prediction: -1.104418. Correct answer: false
+Tag: queenCapture. Prediction: -1.004941. Correct answer: false
+Tag: perpetualCheck. Prediction: -1.011404. Correct answer: false
+Tag: drawCombinationsStalemate. Prediction: -1.008428. Correct answer: false
+Tag: bishopPair. Prediction: -1.019690. Correct answer: false
+Tag: doubleAttack. Prediction: -1.017262. Correct answer: false
+Tag: unpinning. Prediction: -1.016923. Correct answer: false
+Tag: overload. Prediction: -1.009058. Correct answer: false
+Tag: clearance. Prediction: -1.001524. Correct answer: false
+Tag: openingClosingDiagonals. Prediction: -1.015925. Correct answer: false
+Tag: passedPawn. Prediction: -1.005780. Correct answer: false
+Tag: pin. Prediction: -1.001847. Correct answer: false
+Tag: removalOfDefence. Prediction: -1.001541. Correct answer: false
+Tag: goodEndgameChances. Prediction: -1.043908. Correct answer: false
+Tag: pawnPromotion. Prediction: -1.001963. Correct answer: false
+True positive: 1 (0.029412)
+False positive: 0 (0.000000)
+True negative: 33 (0.970588)
+False negative: 0 (0.000000)
+Precision/Recall: 1.000000, 1.000000
+
