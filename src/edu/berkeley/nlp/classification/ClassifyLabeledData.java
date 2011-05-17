@@ -174,8 +174,8 @@ public class ClassifyLabeledData {
 			
 			int total = tn + tp + fn + fp;
 			
-			double precision = tp / (tp + fp);
-			double recall = tp / (tp + fn);
+			double precision = (tp + fp > 0) ? (tp / (tp + fp)) : Double.NaN;
+			double recall = (tp + fn > 0) ? (tp / (tp + fn)) : Double.NaN;
 			
 			System.out.printf("True positive: %d (%f)\n", tp, (double)tp/total);
 			System.out.printf("False positive: %d (%f)\n", fp, (double)fp/total);
