@@ -1,14 +1,21 @@
 package edu.berkeley.nlp.chess;
 
+import java.io.Serializable;
+import java.util.List;
+
 import chesspresso.move.Move;
 import chesspresso.position.Position;
 
+import com.google.common.base.Preconditions;
+import com.google.common.collect.Lists;
 import com.google.common.primitives.Doubles;
 import com.google.inject.Inject;
 
 import edu.berkeley.nlp.classification.Featurizer;
 
-public class PositionWithMoves {
+public class PositionWithMoves implements Serializable {
+	private static final long serialVersionUID = 6669577379907352858L;
+	
 	public final Move previousMove;
 	public final Position position;
 	public final Move nextMove;
@@ -23,7 +30,7 @@ public class PositionWithMoves {
 	
 	@Override
 	public String toString() {
-		return "(" + position + ", " + nextMove + ")";
+		return "(" + previousMove + " -> " + position + " -> " + nextMove + ")";
 	}
 	
 	public boolean equals(Object o) {
@@ -50,6 +57,24 @@ public class PositionWithMoves {
 	
 	public int hashCode() {
 		return hashCode;
+	}
+	
+	static public List<PositionWithMoves> getPrefix(List<PositionWithMoves> input, int limit) {
+		List<PositionWithMoves> result = Lists.newArrayList();
+		int numUsed = 0;
+		for (PositionWithMoves pwm : input) {
+			if (numUsed == limit - 1) {
+				result.add(new PositionWithMoves(pwm.previousMove, pwm.position, null));
+				++numUsed;
+				break;
+			} else {
+				result.add(pwm);
+				if (pwm.nextMove == null) numUsed += 1;
+				else numUsed += 2;
+			}
+		}
+		Preconditions.checkState(numUsed == limit);
+		return result;
 	}
 	
 	public static class ConcatenatingFeaturizer implements Featurizer<PositionWithMoves> {

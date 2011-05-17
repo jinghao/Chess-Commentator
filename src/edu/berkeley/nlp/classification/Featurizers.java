@@ -54,27 +54,27 @@ public class Featurizers {
 					case Chess.WHITE_BISHOP: 
 						ret[Chess.NUM_OF_SQUARES * BISHOP + i] = 1; break;
 					case Chess.WHITE_KING: 
-						ret[Chess.NUM_OF_SQUARES * KING + i]   = 1; break;
+						ret[Chess.NUM_OF_SQUARES * KING   + i] = 1; break;
 					case Chess.WHITE_KNIGHT: 
 						ret[Chess.NUM_OF_SQUARES * KNIGHT + i] = 1; break;
 					case Chess.WHITE_PAWN: 
-						ret[Chess.NUM_OF_SQUARES * PAWN + i]   = 1; break;
+						ret[Chess.NUM_OF_SQUARES * PAWN   + i] = 1; break;
 					case Chess.WHITE_QUEEN: 
-						ret[Chess.NUM_OF_SQUARES * QUEEN + i]  = 1; break;
+						ret[Chess.NUM_OF_SQUARES * QUEEN  + i] = 1; break;
 					case Chess.WHITE_ROOK: 
-						ret[Chess.NUM_OF_SQUARES * ROOK + i]   = 1; break;
+						ret[Chess.NUM_OF_SQUARES * ROOK   + i] = 1; break;
 					case Chess.BLACK_BISHOP: 
 						ret[Chess.NUM_OF_SQUARES * BISHOP + i] = 0; break;
 					case Chess.BLACK_KING: 
-						ret[Chess.NUM_OF_SQUARES * KING + i]   = 0; break;
+						ret[Chess.NUM_OF_SQUARES * KING   + i] = 0; break;
 					case Chess.BLACK_KNIGHT: 
 						ret[Chess.NUM_OF_SQUARES * KNIGHT + i] = 0; break;
 					case Chess.BLACK_PAWN: 
-						ret[Chess.NUM_OF_SQUARES * PAWN + i]   = 0; break;
+						ret[Chess.NUM_OF_SQUARES * PAWN   + i] = 0; break;
 					case Chess.BLACK_QUEEN: 
-						ret[Chess.NUM_OF_SQUARES * QUEEN + i]  = 0; break;
+						ret[Chess.NUM_OF_SQUARES * QUEEN  + i] = 0; break;
 					case Chess.BLACK_ROOK: 
-						ret[Chess.NUM_OF_SQUARES * ROOK + i]   = 0; break;
+						ret[Chess.NUM_OF_SQUARES * ROOK   + i] = 0; break;
 				}
 			}
 			return ret;
