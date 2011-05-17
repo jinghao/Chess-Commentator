@@ -12,16 +12,44 @@ public class PositionWithMoves {
 	public final Move previousMove;
 	public final Position position;
 	public final Move nextMove;
+	public final int hashCode;
 	
 	public PositionWithMoves(Move previousMove, Position position, Move nextMove) {
 		this.previousMove = previousMove;
 		this.position = position;
 		this.nextMove = nextMove;
+		this.hashCode = getHashCode();
 	}
 	
 	@Override
 	public String toString() {
 		return "(" + position + ", " + nextMove + ")";
+	}
+	
+	public boolean equals(Object o) {
+		if (o == null) return false;
+		if (!(o instanceof PositionWithMoves)) return false;
+		
+		PositionWithMoves p = (PositionWithMoves)o;
+		try {
+			return (p.previousMove == previousMove || p.previousMove.equals(previousMove))
+				&& (p.position == position || p.position.equals(position))
+				&& (p.nextMove == nextMove || p.nextMove.equals(nextMove));
+		} catch (NullPointerException e) {
+			return false;
+		}
+	}
+	
+	public int getHashCode() {
+		long result = 17;
+		result = result * 37 + position.getHashCode();
+		result = result * 37 + (previousMove == null ? 0 : previousMove.hashCode());
+		result = result * 37 + (nextMove == null ? 0 : nextMove.hashCode());
+		return (int) (result ^ (result >>> 32));
+	}
+	
+	public int hashCode() {
+		return hashCode;
 	}
 	
 	public static class ConcatenatingFeaturizer implements Featurizer<PositionWithMoves> {

@@ -904,9 +904,7 @@ $18 {[%cal Yc2b3]}) 4. c6 $1 {[%csl Gc6]} Nc5 5. Qe8+ Kh7 6. Qg6+ Qxg6 7. fxg6+
 Kg7 8. c7 $18 {[%csl Gc7]}) {[%tqu "the start of the End","","",Be4,"",5]} 3.
 Be4 {[%cal Ye4d5]} Qd7 {[%tqu "keep playing precisely","","",Qh6,"",3]} 4. Qh6
 {[%csl Rg8][%cal Ye4d5]} Nh7 5. Bd5+ Kh8 {[%tqu "the End is near","","",Qg6,"",
-2]} 6. Qg6 {[%cal Yg6g8]} Qd8 {[%tqu "final move","","",d7,"",2]} 7. d7 $18 {
-[%cal Yg6e8] if you saw the whole variation on move 1, you're a Genius too :-)
-wenn Sie das alles im ersten Zug gesehen haben sind auch Sie ein Genie :-)} *
+2]} 6. Qg6 {[%cal Yg6g8]} Qd8 {[%tqu "final move","","",d7,"",2]} 7. d7 $18  *
 
 [Event "Budapest"]
 [Site "?"]
