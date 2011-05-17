@@ -1,14 +1,10 @@
 package edu.berkeley.nlp.classification;
 
-public class FeatureVector<T> {
+public class FeatureVector {
 	public double[] features;
 	
 	FeatureVector(double[] features) {
 		this.features = features;
-	}
-	
-	FeatureVector(Featurizer<T> featurizer, T input) {
-		this.features = featurizer.getFeaturesFor(input);
 	}
 	
 	/**

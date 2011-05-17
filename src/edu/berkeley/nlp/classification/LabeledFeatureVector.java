@@ -1,7 +1,7 @@
 package edu.berkeley.nlp.classification;
 
 
-public class LabeledFeatureVector<T> extends FeatureVector<T> {
+public class LabeledFeatureVector extends FeatureVector {
 	public int label;
 	
 	LabeledFeatureVector(double[] features, int label) {
@@ -9,8 +9,16 @@ public class LabeledFeatureVector<T> extends FeatureVector<T> {
 		this.label = label;
 	}
 	
-	LabeledFeatureVector(Featurizer<T> featurizer, T input, int label) {
-		super(featurizer, input);
-		this.label = label;
+	@Override
+	public String toString() {
+		String ans = String.format("%d", label);
+		for (int i = 0; i < features.length; i++) {
+			if (features[i] > 1e-8)
+				ans += String.format(" %d:%.10f", i+1, features[i]);
+		}
+		
+		ans += String.format("\n");
+		
+		return ans;
 	}
 }
