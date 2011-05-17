@@ -102,17 +102,14 @@ public class LabeledGamesProcessor {
 		System.out.printf("Parsed %d games\nAdded %d board-tag configurations (with %d unique tags), threw out %d large games\n", 
 				games, tags.size(), tags_set.size(), largeGames);
 		
-		serialize(outputPath + "/.positive", positiveSlicesByTag);
-		serialize(outputPath + "/.negative", negativeSlicesByTag);
-	}
-	
-	public static void serialize(String outputPath, Object o) throws IOException {
 		ObjectOutputStream oos = new ObjectOutputStream(
 				new GZIPOutputStream(
 						Files.newOutputStreamSupplier(new File(outputPath + ".labeledgames.gz")).getOutput()));
-		oos.writeObject(o);
-
+		oos.writeObject(tags);
+		oos.writeObject(positiveSlicesByTag);
+		oos.writeObject(negativeSlicesByTag);	
 		oos.close();
+		
 		System.out.println("Saved to " + outputPath + ".labeledgames.gz.");
 	}
 }
