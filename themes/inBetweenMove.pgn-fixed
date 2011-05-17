@@ -1,0 +1,98 @@
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung/Zwischenzug(4) 007"]
+[SetUp "1"]
+[FEN "2k4r/pq2pp2/2p1rp1Q/B2b3p/3P3P/1P1R4/P3BP2/4K1R1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1... Rxe2+   2. Kxe2 Rxh6 3. Rg8+ Kd7 4. Rd8+ Ke6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1925.??.??"]
+[Round "?"]
+[White "Mattison, H."]
+[Black "Vukovic, V."]
+[Result "0-1"]
+[Annotator "Zwischenzug(3) 001"]
+[SetUp "1"]
+[FEN "4rrk1/ppp1q1pp/2b5/3p3Q/3P4/2P3P1/PP2B2P/R4RK1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1925.??.??"]
+[EventType "game"]
+
+1... Qe3+   2. Kh1  2... Qxe2 3. Rxf8+ Kxf8
+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Sopkow"]
+[Black "Moisejew"]
+[Result "1-0"]
+[Annotator "Zwischenzug(3) 003"]
+[SetUp "1"]
+[FEN "7k/7p/1BN3p1/2P5/3b4/1b2n3/1P4BP/7K b - - 0 1"]
+[PlyCount "6"]
+[EventDate "1952.??.??"]
+[EventType "team"]
+
+1... Bxc5 $2   2. Bxc5 Nxg2 3. Ne7 
+ 3... Kg7  4. Kxg2 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Zwischenzug(3) 004"]
+[SetUp "1"]
+[FEN "r3r1k1/2Q2ppp/p7/3q4/6R1/7P/PPP5/1K1R4 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Rxg7+   1... Kh8   2. Rg8+ Kxg8  3. Qg3+ Kh8 4. Rxd5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1950.??.??"]
+[Round "?"]
+[White "Borisenkow"]
+[Black "Mesenew"]
+[Result "0-1"]
+[Annotator "Zwischenzug/Bauernumwandlung(4) 002"]
+[SetUp "1"]
+[FEN "8/8/8/8/5k2/1p3pR1/bK5P/8 b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1950.??.??"]
+[EventType "team"]
+
+1... f2 2. Rg8  Bb1   3. Kxb1  3... f1=Q+ 4. Kb2 Qe2+ 5. Kc3    5... Qe5+ 6. Kb4 b2 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Bernasconi"]
+[Black "Weissen"]
+[Result "0-1"]
+[Annotator "Zwischenzug/Entfesselung/Ablenkung(4) 005"]
+[SetUp "1"]
+[FEN "4k3/ppp3b1/4q3/4r1Br/1Q3P2/8/PPP3P1/R3R1K1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1... Rxe1+ 2. Rxe1    2... Bd4+  3. Qxd4   3... Qxe1# 0-1
+
