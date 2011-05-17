@@ -2,11 +2,9 @@ package edu.berkeley.nlp.classification;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.net.URISyntaxException;
@@ -15,16 +13,11 @@ import java.text.ParseException;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-
-import jnisvmlight.FeatureVector;
-import jnisvmlight.LabeledFeatureVector;
-import jnisvmlight.SVMLightInterface;
-import jnisvmlight.SVMLightModel;
+import java.util.Scanner;
 
 import org.apache.commons.math.random.RandomDataImpl;
 
 import com.google.common.base.Preconditions;
-import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 import com.google.inject.AbstractModule;
@@ -77,10 +70,11 @@ public class ClassifyLabeledData {
 		for (int i = 0; i < numRounds; ++i) {
 			@SuppressWarnings("unchecked")
 			List<PositionWithMoves> sample = (List<PositionWithMoves>) samples[i];
-			Map<String, URL> models = Maps.newHashMap();
-			Map<String, URL> testFiles = Maps.newHashMap();
+			
+			Map<String, File> models = Maps.newHashMap();
+			Map<String, File> testFiles = Maps.newHashMap();
 			for (String tag : allPositiveExamples.keySet()) {
-				System.out.println("Training model for " + tag);
+				System.out.print("Training model for " + tag);
 				Collection<List<PositionWithMoves>> positiveExamples = allPositiveExamples.get(tag);
 				Collection<List<PositionWithMoves>> negativeExamples = allNegativeExamples.get(tag);
 
@@ -92,63 +86,67 @@ public class ClassifyLabeledData {
 				
 				File model = File.createTempFile("model", "");
 				
-				for (List<PositionWithMoves> positiveExample : positiveExamples) {
+				for (List<PositionWithMoves> example : positiveExamples) {
+					double[] vector = featureArrays.get(example);
 					
-					double[] vector = featureArrays.get(positiveExample);
 					JinghaoFeatureVector lfv = new JinghaoFeatureVector(1.0, range(1, vector.length + 1), vector);
-					if (positiveExample.equals(sample))
+					if (example.equals(sample))
 						lfv.write(writerToTest);
-
 					else
 						lfv.write(writerToInput);
 				}
+				System.out.print('.');
 				
-				for (List<PositionWithMoves> negativeExample : negativeExamples) {
-					double[] vector = featureArrays.get(negativeExample);
+				for (List<PositionWithMoves> example : negativeExamples) {
+					double[] vector = featureArrays.get(example);
 
 					JinghaoFeatureVector lfv = new JinghaoFeatureVector(-1.0, range(1, vector.length + 1), vector);
-					if (negativeExample.equals(sample))
+					if (example.equals(sample))
 						lfv.write(writerToTest);
 					else
 						lfv.write(writerToInput);
 				}
+				System.out.print('.');
 				
-								
 				writerToInput.close();
 				writerToTest.close();
 				
-				Process p = Runtime.getRuntime().exec(
-							String.format("lib/svm/svm_light/svm_learn %s %s", input.getAbsolutePath(), model.getAbsolutePath()));
-				
+				String command = String.format("lib/svm/svm_light/svm_learn %s %s", input.getAbsolutePath(), model.getAbsolutePath());
+				Process p = Runtime.getRuntime().exec(command);
+
+				System.out.print('.');
 				p.waitFor();
+				System.out.print('.');
 				
-				models.put(tag, model.toURL());
-				testFiles.put(tag, test.toURL());
-				System.out.println("Trained model for " + tag);
+				models.put(tag, model);
+				testFiles.put(tag, test);
+				System.out.println(" Done");
 			}
 
 			System.out.println(sample + ": ");
+			
+			File predictions = File.createTempFile("predictions", "");
+			
 			for (String tag : allPositiveExamples.keySet()) {
-				File model = new File(models.get(tag).toURI());
-				File test = new File(testFiles.get(tag).toURI());
-				File predictions = File.createTempFile("predictions", "");
+				File model = models.get(tag);
+				File test = testFiles.get(tag);
 				
-				Process p = Runtime.getRuntime().exec
-				(String.format("lib/svm/svm_light/svm_classify %s %s %s", test.getAbsolutePath(), model.getAbsolutePath(), predictions.getAbsolutePath()));
-								
-				// Read from an input stream
-				BufferedReader dis = new BufferedReader(new InputStreamReader(p.getInputStream()));
-				String line;
-				while ((line = dis.readLine()) != null)
-					System.out.println(line);
-			    System.out.flush();
-			    
+				Process p = Runtime.getRuntime().exec(
+						String.format("lib/svm/svm_light/svm_classify %s %s %s", 
+								test.getAbsolutePath(),
+								model.getAbsolutePath(),
+								predictions.getAbsolutePath()));
+				
 			    try {
 			    	p.waitFor();
 			    } catch (InterruptedException e) {
 			    	System.err.println("WTF");
 			    	return;
 			    }
+								
+				double prediction = new Scanner(predictions).nextDouble();
+				System.out.printf("Prediction: %f\n", prediction);
+				System.out.flush();
 			}
 		}
 	}
