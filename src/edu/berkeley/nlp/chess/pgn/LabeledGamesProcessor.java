@@ -57,7 +57,6 @@ public class LabeledGamesProcessor {
 					lineNumber = reader.getLineNumber();
 					List<PositionWithMoves> boards = Games.flatten(g);
 					if (boards.size() > maxLength) {
-						System.out.printf("\tThrew out large game (%d): %s line %d\n", boards.size(), filename, lineNumber);
 						++largeGames;
 						continue;
 					}
@@ -69,9 +68,7 @@ public class LabeledGamesProcessor {
 					++games;
 				} catch (PGNSyntaxError e) {
 					System.out.printf("\n\tPGNSyntaxError (line %d of good game; error line %d): %s", lineNumber, reader.getLineNumber(), e.getMessage());
-					// e.printStackTrace(System.out);
 				} catch (RuntimeException e) {
-					// System.out.printf("\n\tRuntime (line %d of good game; error line %d): %s", linenumber, reader.getLineNumber(), e.getMessage());
 					e.printStackTrace(System.out);
 				}
 			}
@@ -90,13 +87,5 @@ public class LabeledGamesProcessor {
 		oos.writeObject(slicesByTag);
 		oos.close();
 		System.out.println("Saved to " + outputPath + ".features.gz.");
-//		for (List<PositionWithMoves> lpwm : tags.keySet()) {
-//			if (tags.get(lpwm).size() > 1)
-//			System.out.printf("%s: %s\n", lpwm, Joiner.on(", ").join(tags.get(lpwm)));
-//		}
-		
-//		for (int i = 0; i < counts.length; ++i) {
-//			System.out.printf("%3d: %d\n", i, counts[i]);
-//		}
 	}
 }
