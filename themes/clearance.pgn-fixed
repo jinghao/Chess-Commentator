@@ -1,0 +1,807 @@
+[Event "?"]
+[Site "?"]
+[Date "1944.??.??"]
+[Round "?"]
+[White "Tolusch, A."]
+[Black "Flohr, S."]
+[Result "0-1"]
+[Annotator "Ablenkung/Räumung(4) 048"]
+[SetUp "1"]
+[FEN "2kr4/pp3p1Q/2q1p3/3nN3/3P3n/1P5P/P4Pr1/R1B1R2K b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1944.??.??"]
+[EventType "team"]
+
+1... Ne3 2. Nxc6   
+ 2... Nf3  0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Chapman, M."]
+[Black "Horner, J."]
+[Result "0-1"]
+[Annotator "Damenfang/Räumung(3) 013"]
+[SetUp "1"]
+[FEN "3q1rk1/5rp1/1pQ1p2p/pPn1p2b/P3P3/2P1RN1P/3N1PP1/1R5K b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1978.??.??"]
+[EventType "swiss"]
+
+1... Rxf3 2. Nxf3  2... Be8  3. Qxc5 bxc5 $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "?"]
+[White "Botwinnik, M."]
+[Black "Stepanov"]
+[Result "1-0"]
+[Annotator "Damenfang/Räumung(4) 010"]
+[SetUp "1"]
+[FEN "2br1rk1/1p2bpp1/p1p2n1p/q3Np2/PnBPP3/2N3B1/1P2Q1PP/R4RK1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+
+1. Bxf7+  Rxf7   2. Nc4
+ f4 3. Nxa5 fxg3 4. e5 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1955.??.??"]
+[Round "?"]
+[White "Bronstein, D."]
+[Black "Medina, A."]
+[Result "1-0"]
+[Annotator "Damenfang/Räumung(4) 011"]
+[SetUp "1"]
+[FEN "1nkrnr2/pp1bbp1p/1qp3p1/3P4/8/1NNB3P/PPQ3PB/1K1R3R w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1955.??.??"]
+[EventType "game"]
+
+1. d6  Bxd6  2. Nd5   1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Wassiljew"]
+[Black "Jerofejew"]
+[Result "0-1"]
+[Annotator "Fesselung/Räumung(3) 018"]
+[SetUp "1"]
+[FEN "r3r1k1/1p3pbp/p2pp1p1/2q2P1n/2PnP3/1PN4P/PBB2QP1/2R2RK1 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1985.??.??"]
+[EventType "team"]
+
+1... Nf3+ 2. gxf3  2... Bd4
+0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Grundreihe/Räumung(3) 014"]
+[SetUp "1"]
+[FEN "r1b3kr/ppp1Bp1p/1b6/n2P4/2p3q1/2Q2N2/P4PPP/R3R1K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1998.??.??"]
+[EventType "swiss"]
+
+1. Qxh8+  Kxh8 2. Bf6+  Kg8  3. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Räumung(1) 036"]
+[SetUp "1"]
+[FEN "3qkbnr/3pp2p/2n2p2/6p1/1pPr4/pP1P2P1/P3PPBP/R2QK1NR w KQk - 0 1"]
+[PlyCount "3"]
+[EventDate "1998.??.??"]
+[EventType "swiss"]
+
+1. e3 
+Qb6    2. exd4
+$16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Britton"]
+[Black "Donaldson"]
+[Result "1-0"]
+[Annotator "Räumung(2) 008"]
+[SetUp "1"]
+[FEN "2k1r3/pp1b1R2/4p1p1/2Pp3r/4q3/P3Q1B1/5PPP/5RK1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. c6 Bxc6 
+  2. Qxa7
+1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Darsniek"]
+[Black "Priednik"]
+[Result "0-1"]
+[Annotator "Räumung(2) 019"]
+[SetUp "1"]
+[FEN "6k1/4pp1p/B1p3p1/8/4bPn1/1P2P3/P1qr1NPP/Q1R3K1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1980.??.??"]
+[EventType "team"]
+
+1... Rd1+  2. Rxd1   2... Qxf2+ 3. Kh1 Qxg2# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Reshevsky, S."]
+[Black "Janowski, D."]
+[Result "1-0"]
+[Annotator "Räumung(2) 033"]
+[SetUp "1"]
+[FEN "r1b2rk1/1p3pb1/1Bp3p1/p7/P3N3/1B1Q1Pn1/1PP3q1/2KR3R w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1968.??.??"]
+[EventType "team"]
+
+1. Nf6+  Bxf6 2. Qxg6+ Bg7 3. Qh7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Nunn, J."]
+[Black "Duhr, S."]
+[Result "1-0"]
+[Annotator "Räumung(3) 004"]
+[SetUp "1"]
+[FEN "r6k/3R3p/2p3p1/2P1R3/2Q2P1q/7r/6P1/6K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+
+1. Re8+   1... Rxe8 2. Qd4+ Kg8   3. Qg7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1954.??.??"]
+[Round "?"]
+[White "Vejsaj"]
+[Black "Hodzsa"]
+[Result "0-1"]
+[Annotator "Räumung(3) 009"]
+[SetUp "1"]
+[FEN "r4r1k/p5pp/1p4Q1/2p1Bp2/2P2Pn1/7R/PP3qPP/R6K b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1954.??.??"]
+[EventType "game"]
+
+1... Qe1+  2. Rxe1 Nf2+ 3. Kg1 Nxh3+ 4. gxh3 hxg6 $17 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Nikolov"]
+[Black "Slavchev"]
+[Result "1-0"]
+[Annotator "Räumung(3) 013"]
+[SetUp "1"]
+[FEN "2r4k/5Rbp/2rNQ1p1/p6q/Pp4n1/1B6/4KP2/3R4 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1963.??.??"]
+[EventType "swiss"]
+
+1. Rf8+  Rxf8  2. Qg8+ Rxg8 3. Nf7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Räumung(3) 015"]
+[SetUp "1"]
+[FEN "4r2k/1p4p1/1pb5/8/3P1n2/2P2rN1/PP5P/R1B2RK1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1... Rf2  2. Bxf4   2... Rg2+ 3. Kh1 Rxg3+ 4. d5 Bxd5+
+5. Rf3 Bxf3# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Heppner"]
+[Black "Goode"]
+[Result "1-0"]
+[Annotator "Räumung(3) 020"]
+[SetUp "1"]
+[FEN "5R2/p1R3bk/1q2b2p/6p1/8/1P3NP1/P5BP/7K w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1963.??.??"]
+[EventType "swiss"]
+
+1. Nxg5+  hxg5  2. Be4+ Kh6  3. Rh8+ Bxh8 4. Rh7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Lundgren"]
+[Black "Pared"]
+[Result "0-1"]
+[Annotator "Räumung(3) 021"]
+[SetUp "1"]
+[FEN "r1b1k2r/pp3pp1/1q3n1p/2b1p3/N1Pn4/7P/PP2NPP1/R1BQKB1R b KQkq - 0 1"]
+[PlyCount "9"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1... Nf3+  2. gxf3 Bxf2+ 3. Kd2 Qe3+ 4.
+Kc2 Bf5+ 5. Qd3 Qxd3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Westerinen, H."]
+[Black "Larsen, B."]
+[Result "0-1"]
+[Annotator "Räumung(3) 022"]
+[SetUp "1"]
+[FEN "4r1k1/5ppp/p2p4/4r3/1pNn4/1P6/1PPK2PP/R3R3 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1967.??.??"]
+[EventType "team"]
+
+1... Nf3+  2. gxf3 
+2... Rd5+ 3. Kc1 Rxe1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung(3) 025"]
+[SetUp "1"]
+[FEN "3q2k1/4prp1/1pQ1p2p/pPn4b/P3P3/2P1RN1P/3N1PP1/7K b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1... Rxf3  2. Nxf3    2...
+Be8  3. Rd3  3... Qb8
+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Ivkov, B."]
+[Black "Portisch, L."]
+[Result "1-0"]
+[Annotator "Räumung(3) 027"]
+[SetUp "1"]
+[FEN "r3b3/pNR5/k7/3p1n2/P2p1B2/2P5/2P2PrP/1R1K4 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+
+1. Rc6+  Bxc6 2. Nc5+ Ka5 3. Bc7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1949.??.??"]
+[Round "?"]
+[White "Roux, L."]
+[Black "Eliskases, E."]
+[Result "0-1"]
+[Annotator "Räumung(3) 029"]
+[SetUp "1"]
+[FEN "8/R5pk/P1p5/2Pp3q/4p3/4PrPp/1Q3P1P/5K2 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1949.??.??"]
+[EventType "team"]
+
+1... Rf7  2. Rxf7  2... Qd1#
+0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Räumung(3) 041"]
+[SetUp "1"]
+[FEN "r3b3/pNR3p1/k7/3p1n2/P4B2/2bP3p/2P2Pr1/1R1K4 w - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1. Rc6+  Bxc6 2. Nc5+ Ka5 3. Bc7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Eliskases, E."]
+[Black "Muffang, A."]
+[Result "1-0"]
+[Annotator "Räumung(4) 011"]
+[SetUp "1"]
+[FEN "bnrr2k1/5ppp/p4q2/1pNp4/1P4QN/P3P3/5PPP/2RR2K1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1935.??.??"]
+[EventType "team"]
+
+1. Ne4  Qe6   2. Nf5  g6 3. Rxc8 Rxc8 4. Ne7+ 
+Kg7 5. Qxe6 fxe6 6. Nxc8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Archipkin"]
+[Black "Prodanov, D."]
+[Result "1-0"]
+[Annotator "Räumung(4) 012"]
+[SetUp "1"]
+[FEN "4rrk1/p1pb1pp1/1pnq3p/3BpPN1/4Q3/2PP2P1/P1P4P/R4RK1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+
+1. f6 
+hxg5 2. Qg6  Qxf6 3. Rxf6 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Bagirov, V."]
+[Black "Kholmov, R."]
+[Result "0-1"]
+[Annotator "Räumung(4) 014"]
+[SetUp "1"]
+[FEN "6k1/p5p1/1p3q2/2ppr2p/4r3/1PQ4P/P1P2PP1/3RR1K1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+
+1... Rxe1+ 2. Rxe1  2... Re2  3. Qxf6  3... Rxe1+ 4. Kh2 gxf6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1944.??.??"]
+[Round "?"]
+[White "Makogonov, V."]
+[Black "Tolush, A."]
+[Result "0-1"]
+[Annotator "Räumung(4) 017"]
+[SetUp "1"]
+[FEN "2r2rk1/5pbp/p5p1/3P2q1/1QbN4/5P2/P4BPP/2RR2K1 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1944.??.??"]
+[EventType "team"]
+
+1... Bf1  2. Rxf1   2... Rxc1 $17  0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1926.??.??"]
+[Round "?"]
+[White "Kmoch, H."]
+[Black "Rubinstein, A."]
+[Result "0-1"]
+[Annotator "Räumung(4) 023"]
+[SetUp "1"]
+[FEN "4r1k1/8/2b1q1pQ/p1p2p2/2Pp1P2/3Br3/PP1R1KP1/7R b - - 0 1"]
+[PlyCount "11"]
+[EventDate "1926.??.??"]
+[EventType "game"]
+
+1... Rf3+  2. gxf3  2... Qe3+
+3. Kg3   3... Qxf3+ 4. Kh2  4...
+Qxh1+ 5. Kg3 Re3+ 6. Kf2 Qe1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Durao, J."]
+[Black "Alster, L."]
+[Result "1-0"]
+[Annotator "Räumung(4) 028"]
+[SetUp "1"]
+[FEN "r1b2rk1/2q2ppp/pp1ppn2/2p1N3/5P2/1P1PP1Q1/PBP3PP/R4RK1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1965.??.??"]
+[EventType "team"]
+
+1. Nd7  Qxd7
+   2. Bxf6 g6 3. Qg5 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Goldstein"]
+[Black "Tomilin"]
+[Result "1-0"]
+[Annotator "Räumung(4) 031"]
+[SetUp "1"]
+[FEN "r1bq1rk1/ppp1bp1p/2n4Q/8/2BpN3/8/PPP2PPP/RN3RK1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1965.??.??"]
+[EventType "team"]
+
+1. Nf6+  Bxf6 
+2. Bd3 Re8 3. Bxh7+ Kh8 4. Bg6+ Kg8 5. Qh7+ Kf8 6. Qxf7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Konikowski, J."]
+[Black "Evans, R."]
+[Result "1-0"]
+[Annotator "Räumung(4) 034"]
+[SetUp "1"]
+[FEN "4rr1k/pq1nR2p/1p1P1bp1/2p5/2B2B2/2P4P/P2Q2P1/5RK1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1991.??.??"]
+[EventType "team"]
+
+1. Be5  Bxe5  2. Rxf8+ Rxf8  3. Qh6 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1948.??.??"]
+[Round "?"]
+[White "Schuppler"]
+[Black "Hönig"]
+[Result "1-0"]
+[Annotator "Räumung(4) 039"]
+[SetUp "1"]
+[FEN "2kr3r/pRp3q1/2Pppn2/4p2p/B2bP1p1/P6P/2P2PP1/2BQ1RK1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1948.??.??"]
+[EventType "team"]
+
+1. Bh6  Rxh6  2. Qxd4  exd4  3. Rfb1  Nd7 4. cxd7+ Rxd7 5. Rb8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1916.??.??"]
+[Round "?"]
+[White "Aljechin, A."]
+[Black "Feldt"]
+[Result "1-0"]
+[Annotator "Räumung(5) 010"]
+[SetUp "1"]
+[FEN "r2qr1k1/pb1nb1pp/1p2pn2/2p1Np2/2PP1B2/3B1N2/PP2QPPP/R4RK1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1916.??.??"]
+[EventType "game"]
+
+1. Nf7  Kxf7  2. Qxe6+ Kg6   3. g4  3... Be4
+ 4. Nh4# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Rumiancev"]
+[Black "Rosentalis"]
+[Result "0-1"]
+[Annotator "Räumung(5) 024"]
+[SetUp "1"]
+[FEN "3r4/4bp1k/4pn1p/2P1Q3/5P2/7P/N3RKB1/1q6 b - - 0 1"]
+[PlyCount "13"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+
+1... Ng4+  2. hxg4  Bh4+  3. Kf3  3... Rd3+ 4. Re3   4... Qd1+ 5. Ke4 Bf2 6. Rxd3   6... Qe2+ 7. Re3 Qxe3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1948.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung(6) 016"]
+[SetUp "1"]
+[FEN "k1q1bbrr/1p3pp1/p7/5n1n/PP2N2p/1NP5/1BB1Q1PP/2R2R1K b - - 0 1"]
+[PlyCount "19"]
+[EventDate "1948.??.??"]
+[EventType "team"]
+
+1... Bb5  2. axb5 Nhg3+ 3. Nxg3 Nxg3+
+4. hxg3 hxg3+ 5. Kg1 Rh1+ 6. Kxh1 Rh8+ 7. Kg1 Bc5+ 8. bxc5  8... Rh1+ 9. Kxh1 Qh8+ 10. Kg1
+Qh2# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Anastasian, A."]
+[Black "Orlov, G."]
+[Result "0-1"]
+[Annotator "Räumung/Ablenkung(4)  018"]
+[SetUp "1"]
+[FEN "2rq1rk1/1p2bppp/p1n1pn2/3p3b/N2P1B2/4P2P/PP1NBPP1/2RQ1RK1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1990.??.??"]
+[EventType "team"]
+
+1... Nxd4 2. exd4   2... Rxc1 3. Qxc1 Bxe2 4. Re1 Bb5 $17  0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1936.??.??"]
+[Round "?"]
+[White "Heuäcker, P."]
+[Black "N.N."]
+[Result "1-0"]
+[Annotator "Räumung/Bauernumwandlung(2) 005"]
+[SetUp "1"]
+[FEN "1n6/R7/P1r2pk1/7p/8/5P2/7P/6K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1936.??.??"]
+[EventType "team"]
+
+1. Rg7+  Kxg7 2. a7  Nd7  3. a8=Q $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1953.??.??"]
+[Round "?"]
+[White "Pearsoll"]
+[Black "White"]
+[Result "1-0"]
+[Annotator "Räumung/Doppelangriff(1) 006"]
+[SetUp "1"]
+[FEN "r1b2b1r/pppq1kpp/2pn4/4RpB1/8/3P1N2/PPP2PPP/RN1Q2K1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1953.??.??"]
+[EventType "team"]
+
+1. Re7+  Bxe7   2. Ne5+ $16  1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1962.??.??"]
+[Round "?"]
+[White "Trifunovic, P."]
+[Black "Aaron, M."]
+[Result "1-0"]
+[Annotator "Räumung/Doppelangriff(2) 002"]
+[SetUp "1"]
+[FEN "3r1q1k/p5b1/1r3p1p/1ppBpQpP/4P3/2P3P1/PP1R1PK1/3R4 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1962.??.??"]
+[EventType "team"]
+[EventCountry "ENG"]
+
+1. Bg8  Qxg8  2. Rxd8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Casas, F."]
+[Black "Nebreda"]
+[Result "1-0"]
+[Annotator "Räumung/Doppelangriff(2) 032"]
+[SetUp "1"]
+[FEN "r1b2rk1/p4ppn/1qpb4/n3p3/8/3B1Q2/PPPP1PPP/RNB2RK1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1963.??.??"]
+[EventType "swiss"]
+
+1. Bxh7+ Kxh7  2. Qd3+ g6  3. Qxd6 Bf5 4. d3 $16 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Ravinsky, G."]
+[Black "Simagin, V."]
+[Result "0-1"]
+[Annotator "Räumung/Doppelangriff(3) 003"]
+[SetUp "1"]
+[FEN "b5rk/p3ppbp/1p1p4/4nPQ1/2P1q3/4B2P/P1P1BR1K/6R1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1947.??.??"]
+[EventType "team"]
+
+1... Ng4+  2. hxg4  Be5+
+ 3. Kh3 Rxg5 4. Bxg5 f6 $17
+0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Bitman"]
+[Black "Alekseev"]
+[Result "0-1"]
+[Annotator "Räumung/Doppelangriff(3) 040"]
+[SetUp "1"]
+[FEN "8/p5kp/2bp2p1/p1q1b3/2B1P1r1/PPN2R1K/2PQ3P/8 b - - 0 1"]
+[PlyCount "3"]
+[EventType "team"]
+
+1... Bf4  2. Rxf4    2... Qh5# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Räumung/Doppelangriff(4) 030"]
+[SetUp "1"]
+[FEN "1q1nn2k/1p1rNppp/r1p5/4p3/1QP3P1/P2PP2P/4B3/1R3R1K w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1998.??.??"]
+[EventType "swiss"]
+
+1. Nxc6  Qd6   2. Nb8  Qxb4 3. axb4 Ra2 4. Nxd7 Rxe2 5. Ra1  1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Plaskett, J."]
+[Black "Chiburdanidze, M."]
+[Result "0-1"]
+[Annotator "Räumung/Fesselung(3) 035"]
+[SetUp "1"]
+[FEN "2r3k1/p4p1p/2r3p1/p1bp4/b4B2/P1R1PN2/5PPP/1R2K3 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1985.??.??"]
+[EventType "team"]
+
+1... Bb4 2. axb4 Rxc3 $17  0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung/Grundreihe(3) 037"]
+[SetUp "1"]
+[FEN "6k1/5p2/p3p3/1p3qp1/2p1Qn2/2P1R3/PP1r1PPP/4R1K1 b - - 0 1"]
+[PlyCount "5"]
+[EventType "team"]
+
+1... Nh3+  2. Rxh3   2... Qxe4 3. Rhe3  
+3... Qc2 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1908.??.??"]
+[Round "?"]
+[White "Tartakower, S."]
+[Black "Schlechter, K."]
+[Result "0-1"]
+[Annotator "Räumung/Hinlenkung(3) 026"]
+[SetUp "1"]
+[FEN "2k3r1/1pp5/p1p5/4R2p/7n/2NP1r1P/PPP4K/6R1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1908.??.??"]
+[EventType "game"]
+
+1... Rf2+  2. Kh1  2... Rh2+  3. Kxh2 Nf3+ 4. Kh1 Rxg1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung/Hinlenkung(4) 038"]
+[SetUp "1"]
+[FEN "r1r3k1/Bn2qp1p/2p3pb/1p2n3/1P2Pp2/1NP4P/4B1P1/R2R1QK1 b - - 0 1"]
+[PlyCount "7"]
+[EventType "team"]
+
+1... f3  2. gxf3   2... Rxa7 3.
+Rxa7  3... Be3+ 4. Kh2 Bxa7 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Räumung/Verteidiger beseitigen(1) 001"]
+[SetUp "1"]
+[FEN "2r2rk1/pp1bqpp1/2nppn1p/2p3N1/1bP5/1PN3P1/1BQPPPBP/3R1RK1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1. Nd5  exd5    2. Bxf6  hxg5 3. Bxe7 Nxe7 4. Ra1 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "?"]
+[White "Übungsbeispiel"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Räumung/Zwischenzug(4) 007"]
+[SetUp "1"]
+[FEN "2k4r/pq2pp2/2p1rp1Q/B2b3p/3P3P/1P1R4/P3BP2/4K1R1 b - - 0 1"]
+[PlyCount "7"]
+[EventDate "1997.??.??"]
+[EventType "swiss"]
+
+1... Rxe2+   2. Kxe2 Rxh6 3. Rg8+ Kd7 4. Rd8+ Ke6 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Rychagov, A."]
+[Black "Twardowski, L."]
+[Result "0-1"]
+[Annotator "Sperre/Räumung(3) 007"]
+[SetUp "1"]
+[FEN "4r1k1/p4ppp/3B4/2P5/8/4nP2/PQq3PP/1R4K1 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1991.??.??"]
+[EventType "team"]
+
+ 1... Nd1 2. Qe5   2... Qf2+ 3. Kh1 Qf1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Herb"]
+[Black "Bellas"]
+[Result "1-0"]
+[Annotator "Unterbrechung/Räumung/Doppelangriff(3) 017"]
+[SetUp "1"]
+[FEN "2kr2r1/pbp4p/1p4p1/1NqpNp2/4nQ2/8/PPPR1PPP/2K1R3 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1978.??.??"]
+[EventType "swiss"]
+
+1. Nc6 Rg7      2. Nbxa7+ Kd7 3. Qe5  Bxc6  4. Qxg7+ Kd6 5. f3 1-0
+
