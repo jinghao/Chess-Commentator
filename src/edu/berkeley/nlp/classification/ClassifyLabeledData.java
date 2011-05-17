@@ -103,9 +103,6 @@ public class ClassifyLabeledData {
 						lfv.write(writerToInput);
 				}
 				
-				int k = 0;
-				long featureTime = 0;
-				long totalTime = 0;
 				for (List<PositionWithMoves> negativeExample : negativeExamples) {
 					double[] vector = featureArrays.get(negativeExample);
 
