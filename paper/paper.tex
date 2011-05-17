@@ -1,0 +1,116 @@
+\documentclass[11pt]{article}
+\usepackage{acl-hlt2011}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{algorithmic}
+\usepackage{multirow}
+\usepackage{url}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+
+\title{Towards an Automated Sportscasting System for Chess}
+\author{
+  Charles Chen \\
+  {\tt charleschen@berkeley.edu} \\
+\And
+  Richard Shin \\
+  {\tt ricshin@berkeley.edu} \\
+\And
+  Jinghao Yan \\
+  {\tt jinghao@berkeley.edu} \\
+}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We investigate applications of statistical learning to automated sportscasting for chess. In particular, we 
+\end{abstract}
+
+\section{Introduction}
+Chess has a long history of intriguing enthusiasts due to its complexity. Even after years of play, each game is new challenge, a new problem to solve. It also has a history of prominence as a sport where thousands are engulfed in the battles of grandmasters. Hence, we believed that due to its complexity and agelessness, chess should have a good sportscaster in order to inform and entertain.
+
+In the field of natural language processing, many have investigated ways to derive meaning from text, while others have studied automated text generation. We believe that statistical learning is one approach for automatic sportscasting for chess.
+
+Given the highly intricate nature of chess and other similar abstract strategy games, experts have devised a standard high-level structures like openings, strategies, tactics and time advantage. We intend to leverage statistical learning to identify these structures in chess games.
+
+While chess is one instance where statistical machine learning can help in automated sportscasting, we intend for our approach to be general. Although chess is characterized by many complex rules and interactions, where chess-specific approaches may work better for chess, we shied away from creating too much dependency to chess. As a result, we chose not to use contemporary chess tools like chess engines--libraries that search the game tree to examine the breadth of options available and identify the outcomes of each--specifically because we wanted to be as general as possible.
+
+\begin{itemize}
+\item Different applications of similar techniques
+\item Differences from sportscasting for, e.g., RoboCup
+\item Text about approach
+\end{itemize}
+
+\section{Related Work}
+\begin{itemize}
+\item Ray Mooney
+\item Other chess commentating
+\item Autoencoding
+\end{itemize}
+
+\section{Data sources}
+We obtained chess games, both annotated and unannotated, from various websites in the PGN format \cite{pgn}, the universal format for compactly representing chess games, because we anticipated that many open source PGN parsers would be available.
+
+The following websites contain chess games with annotations: \url{http://wwwu.uni-klu.ac.at/gossimit/c/tactic.htm} \url{http://webplaza.pt.lu/public/ckaber/Chess.htm\#Chess\%20training}. We obtained example games from them to feed into our classifier for the supervised component of our system.
+
+For the unsupervised component, we obtained as many chess games as possible from a variety of websites like chessgames.com \cite{other sites}. In all, we obtained over five million untagged games spread over 600,000 files and 5 GB of data. On top of that, we obtained over 5000 tagged games.
+
+\subsection{Data Sanitation}	
+In order to ensure consistency and integrity over the games obtained from disparate sources, we sanitized them in multiple ways. We parsed each game in the data set and removed information that would confused the parser. For example, some games had English or German comments by humans that were not structured and thus meaningful for machine learning. Others had alternate branches, sometimes up to multiple levels (alternate branches within alternate branches). Still others represented games in a non-standard way (For example, pawn promotions were represented without the Ò=Ó), which we had to fix. By fixing our input games, we ensured a consistent format for our machine learning system.
+
+In addition, because the games were from multiple sources, there was significant overlap in games (approximately 50%). Therefore, we also went through all of the downloaded games and eliminated duplicate games: Multiple games that had the same initial position and move sequence were considered redundant and only one of each were kept.
+
+\subsection{Parsing}
+We tried various open source PGN parsers, each succumbing to flaws like mishandling uncommon cases (like promotions and special moves like the En Passant). Finally we chose chesspresso parser, which we fixed and modified for our needs. Chesspresso takes a PGN file as input and returns a data structure that represents the initial position of the board and the subsequent moves (and all metadata necessary to recreate the PGN file). We also extended it to be more robust to variations in input format, in addition to being able to export PGNs in a canonical form, which was crucial for deduplication.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Features}
+\subsection{Sparse Autoencoding}
+\subsection{Manual baseline}
+
+
+\section{Implementation} % Parallelization and Scaling
+
+\section{Classification}
+
+
+\section{Experiments}
+\subsection{Results}
+\subsection{Discussion}
+
+\section{Conclusion}
+
+\section{Acknowledgements}
+We would like to thank Dan Klein for teaching us statistical machine learning techniques.
+\section*{Appendix}
+
+\end{document}
