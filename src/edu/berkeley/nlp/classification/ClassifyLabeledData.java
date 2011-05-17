@@ -1,11 +1,13 @@
 package edu.berkeley.nlp.classification;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -90,26 +92,31 @@ public class ClassifyLabeledData {
 				
 				File model = File.createTempFile("model", "");
 				
-				System.out.println(positiveExamples.size());
-				
 				for (List<PositionWithMoves> positiveExample : positiveExamples) {
 					
 					double[] vector = featureArrays.get(positiveExample);
+					JinghaoFeatureVector lfv = new JinghaoFeatureVector(1.0, range(1, vector.length + 1), vector);
 					if (positiveExample.equals(sample))
-						writerToTest.write(new LabeledFeatureVector(+1.0, range(1, vector.length + 1), vector).toString());
+						lfv.write(writerToTest);
 
 					else
-						writerToInput.write(new LabeledFeatureVector(+1.0, range(1, vector.length + 1), vector).toString());
+						lfv.write(writerToInput);
 				}
 				
+				int k = 0;
+				long featureTime = 0;
+				long totalTime = 0;
 				for (List<PositionWithMoves> negativeExample : negativeExamples) {
 					double[] vector = featureArrays.get(negativeExample);
+
+					JinghaoFeatureVector lfv = new JinghaoFeatureVector(-1.0, range(1, vector.length + 1), vector);
 					if (negativeExample.equals(sample))
-						writerToTest.write(new LabeledFeatureVector(-1.0, range(1, vector.length + 1), vector).toString());
+						lfv.write(writerToTest);
 					else
-						writerToInput.write(new LabeledFeatureVector(-1.0, range(1, vector.length + 1), vector).toString());
+						lfv.write(writerToInput);
 				}
 				
+								
 				writerToInput.close();
 				writerToTest.close();
 				
@@ -131,13 +138,20 @@ public class ClassifyLabeledData {
 				
 				Process p = Runtime.getRuntime().exec
 				(String.format("lib/svm/svm_light/svm_classify %s %s %s", test.getAbsolutePath(), model.getAbsolutePath(), predictions.getAbsolutePath()));
-				
-				p.waitFor();
+								
 				// Read from an input stream
-				DataInputStream dis = new DataInputStream(p.getInputStream());
-				String line = "";
+				BufferedReader dis = new BufferedReader(new InputStreamReader(p.getInputStream()));
+				String line;
 				while ((line = dis.readLine()) != null)
 					System.out.println(line);
+			    System.out.flush();
+			    
+			    try {
+			    	p.waitFor();
+			    } catch (InterruptedException e) {
+			    	System.err.println("WTF");
+			    	return;
+			    }
 			}
 		}
 	}
