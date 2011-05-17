@@ -10,9 +10,26 @@ import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 import com.google.inject.Inject;
 
+import edu.berkeley.nlp.autoencoder.NeuralNetwork;
 import edu.berkeley.nlp.chess.PositionWithMoves;
 
 public class Featurizers {
+	public static class NeuralNetworkFeaturizer<T> implements Featurizer<T> {
+		private Featurizer<T> featurizer;
+		private NeuralNetwork nn;
+		
+		@Inject
+		public NeuralNetworkFeaturizer(NeuralNetwork nn, Featurizer<T> featurizer) {
+			this.nn = nn;
+			this.featurizer = featurizer;
+		}
+		
+		@Override
+		public double[] getFeaturesFor(T input) {
+			return nn.getHiddenOutput(featurizer.getFeaturesFor(input));
+		}
+	}
+	
 	public static class Normalizer<T> implements Featurizer<T> {
 		private Featurizer<T> featurizer;
 		private double norm;
