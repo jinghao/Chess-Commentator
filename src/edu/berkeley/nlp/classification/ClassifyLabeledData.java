@@ -47,7 +47,8 @@ public class ClassifyLabeledData {
 		
 		Map<String, String> argMap = CommandLineUtils.simpleCommandLineParser(args);
 		String dataPath = argMap.get("-data");
-		int numRounds = Integer.parseInt(argMap.get("-numRounds"));
+		
+//		int numRounds = Integer.parseInt(argMap.get("-numRounds"));
 		
 		ObjectInputStream ois = GzipFiles.newObjectInputStreamSupplier(new File(dataPath)).getInput();
 
@@ -62,72 +63,82 @@ public class ClassifyLabeledData {
 		Multimap<String, List<PositionWithMoves>> allNegativeExamples = (Multimap<String, List<PositionWithMoves>>)
 		ois.readObject();
 		
+		@SuppressWarnings("unchecked")
+		Multimap<List<PositionWithMoves>, String> validationSet = (Multimap<List<PositionWithMoves>, String>) ois.readObject();
+		
+		@SuppressWarnings("unchecked")
+		Multimap<List<PositionWithMoves>, String> testSet = (Multimap<List<PositionWithMoves>, String>) ois.readObject();
+		
 		Map<List<PositionWithMoves>, double[]> featureArrays = Maps.newHashMap();
 		for (List<PositionWithMoves> lpwm : tags.keySet())
 			featureArrays.put(lpwm, featurizer.getFeaturesFor(lpwm));
+		for (List<PositionWithMoves> lpwm : validationSet.keySet())
+			featureArrays.put(lpwm, featurizer.getFeaturesFor(lpwm));
+		for (List<PositionWithMoves> lpwm : testSet.keySet())
+			featureArrays.put(lpwm, featurizer.getFeaturesFor(lpwm));
 		
-		Object[] samples = new RandomDataImpl().nextSample(tags.keySet(), numRounds); 
-		for (int i = 0; i < numRounds; ++i) {
-			@SuppressWarnings("unchecked")
-			List<PositionWithMoves> sample = (List<PositionWithMoves>) samples[i];
+		// Make models
+		Map<String, File> models = Maps.newHashMap();
+		Map<String, File> testFiles = Maps.newHashMap();
+		for (String tag : allPositiveExamples.keySet()) {
+			System.out.print("Training model for " + tag);
+			Collection<List<PositionWithMoves>> positiveExamples = allPositiveExamples.get(tag);
+			Collection<List<PositionWithMoves>> negativeExamples = allNegativeExamples.get(tag);
+
+			File input = File.createTempFile("input", ".dat");
+			BufferedWriter writerToInput = new BufferedWriter(new FileWriter(input), 10000);
+
+			File test = File.createTempFile("test", ".dat");
+			BufferedWriter writerToTest = new BufferedWriter(new FileWriter(test), 10000);
+
+			File model = File.createTempFile("model", "");
+
+			for (List<PositionWithMoves> example : positiveExamples) {
+				double[] vector = featureArrays.get(example);
+
+				JinghaoFeatureVector lfv = new JinghaoFeatureVector(1.0, range(1, vector.length + 1), vector);
+				lfv.write(writerToInput);
+			}
+			System.out.print('.');
+
+			for (List<PositionWithMoves> example : negativeExamples) {
+				double[] vector = featureArrays.get(example);
+
+				JinghaoFeatureVector lfv = new JinghaoFeatureVector(-1.0, range(1, vector.length + 1), vector);
+				lfv.write(writerToInput);
+			}
+			System.out.print('.');
 			
-			Map<String, File> models = Maps.newHashMap();
-			Map<String, File> testFiles = Maps.newHashMap();
-			for (String tag : allPositiveExamples.keySet()) {
-				System.out.print("Training model for " + tag);
-				Collection<List<PositionWithMoves>> positiveExamples = allPositiveExamples.get(tag);
-				Collection<List<PositionWithMoves>> negativeExamples = allNegativeExamples.get(tag);
-
-				File input = File.createTempFile("input", ".dat");
-				BufferedWriter writerToInput = new BufferedWriter(new FileWriter(input), 10000);
+			for (List<PositionWithMoves> example : validationSet.keySet()) {
+				double[] vector = featureArrays.get(example);
+				JinghaoFeatureVector lfv;
+				if (validationSet.containsEntry(example, tag))
+					lfv = new JinghaoFeatureVector(1.0, range(1, vector.length + 1), vector);
+				else
+					lfv = new JinghaoFeatureVector(-1.0, range(1, vector.length + 1), vector);
 				
-				File test = File.createTempFile("test", ".dat");
-				BufferedWriter writerToTest = new BufferedWriter(new FileWriter(test), 10000);
-				
-				File model = File.createTempFile("model", "");
-				
-				for (List<PositionWithMoves> example : positiveExamples) {
-					double[] vector = featureArrays.get(example);
-					
-					JinghaoFeatureVector lfv = new JinghaoFeatureVector(1.0, range(1, vector.length + 1), vector);
-					if (example.equals(sample))
-						lfv.write(writerToTest);
-					else
-						lfv.write(writerToInput);
-				}
-				System.out.print('.');
-				
-				for (List<PositionWithMoves> example : negativeExamples) {
-					double[] vector = featureArrays.get(example);
-
-					JinghaoFeatureVector lfv = new JinghaoFeatureVector(-1.0, range(1, vector.length + 1), vector);
-					if (example.equals(sample))
-						lfv.write(writerToTest);
-					else
-						lfv.write(writerToInput);
-				}
-				System.out.print('.');
-				
-				writerToInput.close();
-				writerToTest.close();
-				
-				String command = String.format("lib/svm/svm_light/svm_learn %s %s", input.getAbsolutePath(), model.getAbsolutePath());
-				Process p = Runtime.getRuntime().exec(command);
-
-				System.out.print('.');
-				p.waitFor();
-				System.out.print('.');
-				
-				models.put(tag, model);
-				testFiles.put(tag, test);
-				System.out.println(" Done");
+				lfv.write(writerToTest);	
 			}
 
-			System.out.println(sample + ": ");
-			
-			for (String tag : tags.get(sample)) {
-				System.out.printf("\tTag: %s\n", tag);
-			}
+			writerToInput.close();
+			writerToTest.close();
+
+			String command = String.format("lib/svm/svm_light/svm_learn %s %s", input.getAbsolutePath(), model.getAbsolutePath());
+			Process p = Runtime.getRuntime().exec(command);
+
+			System.out.print('.');
+			p.waitFor();
+			System.out.print('.');
+
+			models.put(tag, model);
+			testFiles.put(tag, test);
+			System.out.println(" Done");
+
+//			System.out.println(sample + ": ");
+//			
+//			for (String tag : tags.get(sample)) {
+//				System.out.printf("\tTag: %s\n", tag);
+//			}
 			
 			File predictions = File.createTempFile("predictions", "");
 			
