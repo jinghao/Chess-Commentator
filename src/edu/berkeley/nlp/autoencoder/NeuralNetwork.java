@@ -26,17 +26,20 @@ public class NeuralNetwork implements Serializable {
 			double weightDecay, 
 			double sparsity, 
 			double sparsityPenaltyWeight,
-			Collection<Pair<double[], double[]>> examples, IterationCallbackFunction iterationCallbackFunction) {
+			Collection<Pair<double[], double[]>> examples,
+			double[] initial,
+			IterationCallbackFunction iterationCallbackFunction) {
 		Preconditions.checkArgument(layerSizes.length >= 2);
 		for (int layerSize : layerSizes)
 			Preconditions.checkArgument(layerSize > 0);
 		
 		LossFunction toBeMinimized = new LossFunction(layerSizes, weightDecay, sparsity, sparsityPenaltyWeight, examples);
 		LBFGSMinimizer minimizer = new LBFGSMinimizer(1000);
-		minimizer.setIterationCallbackFunction(iterationCallbackFunction);		
+		if (iterationCallbackFunction != null)
+			minimizer.setIterationCallbackFunction(iterationCallbackFunction);		
 		double[] parameters = minimizer.minimize(
 				toBeMinimized,
-				toBeMinimized.initial(), 
+				initial == null ? toBeMinimized.initial() : initial, 
 				1e-4); // TODO make tunable 
 		
 		return new NeuralNetwork(layerSizes, parameters);

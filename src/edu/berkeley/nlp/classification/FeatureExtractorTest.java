@@ -14,11 +14,10 @@ import com.google.inject.Injector;
 import com.google.inject.Key;
 import com.google.inject.TypeLiteral;
 
-import edu.berkeley.nlp.chess.PositionFeatureExtractor;
 import edu.berkeley.nlp.chess.GameSlicer;
 import edu.berkeley.nlp.chess.Games;
+import edu.berkeley.nlp.chess.PositionFeatureExtractor;
 import edu.berkeley.nlp.chess.PositionWithMoves;
-import edu.berkeley.nlp.classification.Featurizers.ConcatenatingPositionWithMove;
 
 public class FeatureExtractorTest {
 	public static void main(String[] args) throws PGNSyntaxError, IOException,
