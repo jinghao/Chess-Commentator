@@ -33,7 +33,8 @@ public class NeuralNetwork implements Serializable {
 		
 		LossFunction toBeMinimized = new LossFunction(layerSizes, weightDecay, sparsity, sparsityPenaltyWeight, examples);
 		LBFGSMinimizer minimizer = new LBFGSMinimizer(1000);
-		minimizer.setIterationCallbackFunction(iterationCallbackFunction);		
+		if (iterationCallbackFunction != null)
+			minimizer.setIterationCallbackFunction(iterationCallbackFunction);		
 		double[] parameters = minimizer.minimize(
 				toBeMinimized,
 				toBeMinimized.initial(), 
