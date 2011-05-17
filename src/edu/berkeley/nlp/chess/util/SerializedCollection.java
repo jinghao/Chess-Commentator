@@ -11,11 +11,11 @@ import com.google.common.base.Throwables;
 import com.google.common.io.Closeables;
 import com.google.common.io.InputSupplier;
 
-public class SerializedVectorCollection extends AbstractCollection<double[]> {
+public class SerializedCollection<T> extends AbstractCollection<T> {
 	private int size = 0;
 	private InputSupplier<ObjectInputStream> oiss;
 	
-	public SerializedVectorCollection(InputSupplier<ObjectInputStream> oiss) {
+	public SerializedCollection(InputSupplier<ObjectInputStream> oiss) {
 		this.oiss = oiss;
 		ObjectInputStream ois = null;
 		boolean threw = true;
@@ -41,7 +41,7 @@ public class SerializedVectorCollection extends AbstractCollection<double[]> {
 	}
 
 	@Override
-	public Iterator<double[]> iterator() {
+	public Iterator<T> iterator() {
 		final ObjectInputStream ois;
 		try {
 			ois = oiss.getInput();
@@ -49,22 +49,23 @@ public class SerializedVectorCollection extends AbstractCollection<double[]> {
 			throw Throwables.propagate(e);
 		}
 		
-		return new Iterator<double[]>() {
-			private double[] next = null;
+		return new Iterator<T>() {
+			private T next = null;
 			private boolean hasNext = true;
 			@Override
 			public boolean hasNext() {
 				return hasNext;
 			}
 
+			@SuppressWarnings("unchecked")
 			@Override
-			public double[] next() {
-				double[] toReturn;
+			public T next() {
+				T toReturn;
 				if (next != null)
 					toReturn = next;
 				else
 					try {
-						toReturn = (double[]) ois.readObject();
+						toReturn = (T) ois.readObject();
 					} catch (EOFException e) {
 						throw new NoSuchElementException();
 					} catch (IOException e) {
@@ -74,7 +75,7 @@ public class SerializedVectorCollection extends AbstractCollection<double[]> {
 					}
 				
 				try {
-					next = (double[]) ois.readObject();
+					next = (T) ois.readObject();
 				} catch (EOFException e) {
 					hasNext = false;
 				} catch (IOException e) {
