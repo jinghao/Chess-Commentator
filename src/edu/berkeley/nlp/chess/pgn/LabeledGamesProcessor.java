@@ -83,7 +83,7 @@ public class LabeledGamesProcessor {
 		
 		ObjectOutputStream oos = new ObjectOutputStream(
 				new GZIPOutputStream(
-						Files.newOutputStreamSupplier(new File(outputPath + ".features.gz")).getOutput()));
+						Files.newOutputStreamSupplier(new File(outputPath + ".labeledgames.gz")).getOutput()));
 		oos.writeObject(slicesByTag);
 		oos.close();
 		System.out.println("Saved to " + outputPath + ".features.gz.");
