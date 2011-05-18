@@ -1,0 +1,249 @@
+\documentclass[11pt]{article}
+\usepackage{acl-hlt2011}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{algorithmic}
+\usepackage{multirow}
+\usepackage{url}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+
+\title{Towards an Automated Sportscasting System for Chess}
+\author{
+  Charles Chen \\
+  {\tt charleschen@berkeley.edu} \\
+\And
+  Richard Shin \\
+  {\tt ricshin@berkeley.edu} \\
+\And
+  Jinghao Yan \\
+  {\tt jinghao@berkeley.edu} \\
+}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We investigate applications of statistical learning to automated sportscasting for chess. In particular, we 
+\end{abstract}
+
+\section{Introduction}
+Chess has a long history of intriguing enthusiasts due to its complexity. Even after years of play, each game is new challenge, a new problem to solve. Historically, chess has been prominent as a sport where the battles of grandmasters engulf thousands; given the highly intricate nature of chess (and similar abstract strategy games), experts have scrutinized these games to devise a standard high-level structures like openings, strategies, tactics, and time advantage, which they use to explain maneuvers and blunders that occur in the games. Devotees of chess also attempt to improve their own performance in terms of these high-level structures, reading chess theorists' comments about games by high-ranking players. 
+
+In this paper, with the end goal of automatically producing textual commentary similar to those produced by experts for grandmaster games, we investigate whether we might automatically identify such high-level patterns in real games. Specifically, we want to see how statistical machine learning techniques can help us automatically identify such structures using a large number of real chess games as training data, where some of the games may be already annotated with these high-level structures, while others may not be.
+
+While others have created highly rigid and rule-based approaches to annotating chess games~\cite{cambridge-chess-annotation}, we specifically sought to avoid such approaches which require a lot of manual engineering and chess-specific expertise in order to obtain good results. In particular, for chess, there exists a large number of computer chess tools like chess engines, which search the game tree to examine the breadth of options available and identify the outcomes of each. We would like our approaches to have general applicability to other domains, so we chose to specifically avoid using such tools as much as possible. 
+
+To that end, we investigate the use of unsupervised feature learning and deep learning techniques on transcripts of chess games to see if they could automatically identify the high-level structures that make up a chess game. Deep learning techniques, like the sparse stacked auto-encoder, learns a more efficient way to represent some input given a large set of examples. In other fields such as computer vision, researchers have found that these techniques can give state-of-the-art results rivaling or exceeding features hand-engineered by experts. While learning a more compact way to represent parts of chess games, auto-encoders may be able to discover high-level structures similar to those used by human experts.
+
+As a comparison, we also implement a small number of chess-specific, hand-engineered features based on information from a chess engine, such as the number of moves available from a specific board position. Given feature vectors made from hand-labeled games, we train SVM classifiers to predict the label of an unlabeled feature vector. We compare its performance to automatically learned features to see which one can more successfully predict high-level structures.
+
+To conduct our experiments, we collect several thousand ``tactical training positions'' organized by theme, intended for use by human chess players to learn how to recognize such situations and improve their playing skills. We also collect a large number of unannotated chess games (about 2.5 million) from various sources on the web for use with semi-supervised and unsupervised learning techniques. After training our models, for each of the positions in the training data labeled with a theme (or high-level structure), we attempt to predict the correct theme(s) for a position using the models.
+
+Unfortunately, we found that our approaches did not deliver accurate results in our experiments. In particular, the auto-encoder's output failed to serve as a useful criterion for distinguishing between different types of themes. We examine the types of correct predictions made by our classifiers and discuss how we may improve our results in the future.
+
+\section{Related Work}
+
+\paragraph{Deep learning.} These techniques attempt to capture complex relationships between input variables in order to transform the input into a different representation which better expresses the relevant structures that make up the input. Specifically, they compose many layers of non-linearities in order to compactly represent complex functions which can model these relationships. They have been used successfully for many different types of tasks \cite{ng-mnist,ng-vision,ng-nlp}.
+
+\paragraph{Automated sportscasting.} Chen and Mooney (\cite{learning-to-sportscast}) present a commentator system that learns language from sportscasts of simulated RoboCup games. Their system, which is trained on ambiguous supervision in the form of textual human commentaries and simulation states of the soccer games, simultaneously tries to establish correspondences between the commentaries and the simulation states. Their work focuses on generating meaningful English commentary from relatively simple topics such as ‘Player 1 kicked the ball to Player 2’, while our work focuses more on identifying complex topics.
+
+\paragraph{Automatic chess commentary.} There exist techniques for automatic annotation of chess games which are heavily dependent on rule-based logic and use of a chess-engine to determine which parts of a specific chess game are salient~\cite{cambridge-chess-annotation}. As a departure from the rule-based approach to automatic chess commentary, Guid et al. (\cite{learning-positional-features}) discuss the use of argument based machine learning, which analyzes reasoning where arguments for and against a certain claim are produced and evaluated (in the context of chess, why a certain move was played over others.) Their system, much like the one presented in this paper, identifies complex positional features of a given chess game.
+
+However, we identified some shortcomings of the AMBL system. First, it relies on experts to provide arguments as to why a certain position exemplifies (or doesn’t) a particular positional feature. While this is an improvement from defining a classification rule manually, it is infeasible to repeat this procedure multiple times. Second, the arguments that the experts are allowed to provide rely on a preset list of features.
+
+\section{Data Sources and Processing}
+We obtained both annotated and unannotated records of chess games from various web sites in the PGN format \cite{pgn}, a widely-used format for compactly representing chess games. A large number of games as well as software and tools that use the PGN format are freely available. 
+
+The already-annotated games come from databases of short snippets of chess games,\footnote{\url{http://wwwu.uni-klu.ac.at/gossimit/c/tactic.htm}} \footnote{\url{http://webplaza.pt.lu/public/ckaber/Chess.htm#Chess training}} intended for chess players to learn from by example, which are organized by particular themes that the students are to identify. These provided a useful repository of both interesting high-level concepts we could identify (we provide a listing in Table~\ref{table:themes}), as well as boards and moves corresponding to each one.
+
+We also looked for as many chess games as possible from a variety of web sites, such as \url{chessgames.com}. We easily obtained over five million untagged games spread over 600,000 files and 5 GB of data. The number of annotated game snippets we obtained was slightly over 5,000.
+
+\subsection{Data Pre-Processing}	
+In order to ensure consistency and integrity over the games obtained from disparate sources, we sanitized them in multiple ways. We parsed each game in the data set and removed information that would confuse the parser. For example, some games had English or German comments by humans which we did not plan to use, and sometimes resulted in parsing errors due to specific characters present in the comments. Others had alternate branches, sometimes up to multiple levels (alternate branches within alternate branches), which the parser could not handle properly. Still others represented games in a non-standard way (for example, pawn promotions were represented without the ``=''), which we had to fix. 
+
+Since we obtained the games from many sources, there was significant overlap in games (approximately 50% of the unlabeled games collected were redundant). Therefore, we also went through all of the downloaded games and eliminated duplicate games: multiple games that had the same initial position and move sequence were considered redundant and only one of each were kept.
+
+\subsection{Parsing}
+We tried various open source PGN parsers, each succumbing to flaws like mishandling uncommon cases (such as  promotions and special moves like \emph{en passant}). We based our system on Chesspresso,\footnote{url{http://www.chesspresso.org/}} a Java library for writing chess programs, which we fixed and modified for our needs. Chesspresso takes a PGN file as input and returns a data structure that represents the initial position of the board and the subsequent moves (as well as all metadata necessary to recreate the PGN file). We also extended it to be more robust to variations in input format, in addition to being able to export PGNs in a canonical form, which was crucial for removing duplicates.
+
+\subsection{Preparing the Data}
+After parsing each game, we filtered out the tagged games that had more than 10-plies
+JINGHAO: Write about slicing and tag generation
+
+\section{Features}
+\subsection{Sparse auto-encoder}
+The sparse auto-encoder is one of many methods in use for unsupervised feature learning~\cite{single-layer-networks-unsupervised-feature-learning}. It takes the form of a feedforward neural network, which consists of an input layer of N nodes, some number of hidden layers, and output layer of M nodes. The value of each layer $\vec{l_i}$ is determined with a weight matrix $W_i$ and a bias vector $b_i$: \[L_i = f(W_i l_{i-1} + b_i),\] where $f(\cdot)$ is a non-linearity like the sigmoid $f(x) = \frac{1}{1 + e^{-z}}$ applied component-wise.
+
+An auto-encoder is such a neural network trained so as to minimize the error between the output layer and the input layer. If we use a short
+
+
+\subsection{Manually-generated features}
+\begin{table*}
+\begin{tabular}{lp{0.6\textwidth}}
+\hline
+\textbf{Category} & \textbf{Description} \\ \hline
+Position features & Piece location, potential moves per piece, material count, square control. \\
+Move features & Capturing move, recapturing move, en passant move, long castling move, short castling move, check move, stalemate move, checkmate move, promotion move.
+\hline
+\end{tabular} 
+\caption{List of chess-specific manual features per position.}
+\end{table*}
+
+As a first step towards classification, we selected chess-specific manual features from a given position-move pair.  The position-based features involve information such as where the pieces are on the board and potential moves, while the move-based features involve binary information such as if the move is a capturing move or a check.  We list all our hand-selected manual features in Table REF.
+
+\section{Classification}
+We built a support vector machine for structured classification of games. We filtered our tagged games by the number of plies (number of individual moves), generated mappings between tags and game prefixes (some initial position plus a sequence of moves), segmented our tagged games into three groups (training, validation and test), and called SVMLight with that data, an external library for SVM.
+
+\subsection{High-level descriptions}
+We classify segments of the chess game based on various high-level descriptions from chess theory and folklore:
+
+\begin{table*}
+\begin{tabular}{lp{0.6\textwidth}}
+\hline
+\textbf{Name} & \textbf{Description} \\ \hline
+\tt{attackPossible} & The current player has opportunity to attack. \\
+\tt{backrankWeakness} & There exists a future checkmate by a rook or queen on the edges of the board. \\
+\tt{bishopPair} & There exists a decisive strategic advantage for the player with two bishops. \\
+\tt{clearance} & There exists a maneuver to break the pawn structure. \\ 
+\tt{closure} & There exists a maneuver to fix the pawn structure. \\
+\tt{decoy} & There exists a maneuver to distract a crucial piece. \\
+\tt{defensePressure} & There exists a maneuver to break the opposing King’s defense. \\
+\tt{deflection} & There exists a maneuver to deflect an attack.  \\ 
+\tt{discoveredAttack} & There exists a maneuver to allow for a discovered attack (an attack that was blocked by a friendly piece.) \\
+\tt{doubleAttack} & There exists a move that simultaneously attacks at least two crucial squares. \\
+\tt{drawCombinationsStalemate} & There exists a combination that allows for decisive material advantage or immediate checkmate. \\
+\tt{enclosedKings} & There exists a maneuver to trap the opposing King. \\
+\tt{freeingBlockingSquares} & There exists a move to free a crucial square. \\
+\tt{goodEndgameChances} & There exists a move to allow for a favorable endgame. \\
+\tt{inBetweenMove} & There exists an interrupting move that allows for decisive material advantage of immediate checkmate. \\ 
+\tt{interference} & There exists a maneuver to block a crucial piece. \\ 
+\tt{interruption} & There exists a maneuver that interrupts the opponent’s tactics. \\
+\tt{kingInCenter} & There exists a decisive strategic advantage with the player with the King in the center of the board. \\
+\tt{kingToBadSquares} & There exists a combination that forces the opposing King to move to a bad square. \\
+\tt{longDiagonals} & There exists a strategic advantage to the player that controls squares on the long diagonal. \\
+\tt{matingAttack} & There exists a decisive mating attack. \\
+\tt{openingClosingDiagonals} & There exists a maneuver to clear a diagonal. \\
+\tt{openingClosingFiles} & There exists a maneuver to clear a file. \\
+\tt{overload} & There exists a combination that makes a defending piece defend too many squares at once. \\
+\tt{passedPawn} & There exists a combination that allows for a passed pawn (a pawn with no opposing pawns in front of it) \\
+\tt{pawnPromotion} & There exists a combination that allows for a pawn promotion. \\
+\tt{perpetualCheck} & There exists a combination that forces a perpetual check/draw. \\
+\tt{pin} & There exists a combination that allows for a pin. \\
+\tt{pullingPiecesToBadSquares} & There exists a combination that forces an opposing piece to move to a bad square. \\
+\tt{queenCapture} & There exists a combination to capture the opposing Queen. \\
+\tt{quietMates} & There exists a quiet move (one that looks inconsequential on the surface) leading to mate. \\
+\tt{removalOfDefence} & There exists a maneuver to remove an opponent’s defender. \\
+\tt{unpinning} & There exists a maneuver to unpin a piece. \\
+\tt{wrongBishop} & The opposing player’s only bishop is limited in use because of the pawn structure of the game. \\ \hline
+\end{tabular}
+\caption{List of high-level themes we attempt to automatically identify, along with explanations}
+\label{table:themes}
+\end{table*}
+
+
+
+\section{Implementation} % Parallelization and Scaling
+Running serially, the autoencoder takes a long time to complete, even on simple inputs. Therefore, we examined ways to parallelize the task in order to fully leverage the capacity of our 8-core server with hyper-threading (16 virtual cores). We implemented a local version of MapReduce that creates 16 execution threads.
+
+\section{Experiments}
+\subsection{SVM Based Structured Classifier}
+
+
+In our experiments, we processed the input data into multimaps from game prefixes to tags. We then segmented the data into three disjoint sets: 90% for training, 5% as the validation set (for tuning our classifiers), and 5% as the test set. The segmenting was done by randomly sampling from the set of all labeled games.
+
+Afterwards, we constructed lists of positive and negative labels (mappings from tags to games that have that tag, and games that do not have that tag). We then built SVM models using the training data. In testing, we fed that to the SVM to generate, for each test game and tag, a boolean prediction of whether that tag applies to that game. As a result, we constructed a SVM-based multiple-class classifier that attempts to predict the tags that characterize an input game.
+
+We measured the accuracy of our model using various measures like false positive rate, false negative rate, precision, recall, and F1. In addition, we compared the predictions made by SVM to those made randomly where each game was assigned a tag at random based on the proportion of the games that have that tag. The random predictions were made 1,000 times, with the predictions made independently at random, and the error rates were averaged.
+
+TALK ABOUT THE AUTOENCODER EXPERIMENTS
+
+\subsection{Results}
+Since each game has very few tags, most of the binary classifications are negative. As a result, the model is heavily biased toward negative results. Our results bear this disposition:
+
+INSERT TABLE HERE
+
+The basic classifier generates classifications with relatively high precision compared to a random classifier. However, the recall is much lower than that of the random classifier. As a result, the F1 score (a combination of the precision and recall scores) of the SVM-based model is no better than that of the random model.
+
+We then extended the tagging to also incorporate information about the player’s color because there is a bias. For the predictions from the SVM model, this modification improved recall at a minor cost to precision, resulting in a higher F1 score. In contrast, the random predictions got much worse: Both the precision and recall scores fell as a result of this change, which adds further bias and reduces the amount of data per tag (since games are now spread over twice as many tags).
+
+TALK ABOUT AUTOENCODER RESULTS
+
+TALK ABOUT USING AUTOENCODER inputs for the SVM
+
+\subsection{Discussion}
+We discovered that there is an inherent trade off between how general the approach is and the quality of the outcomes. In pursuing this project, we attempted to maintain an approach that is as general as possible so that it can be applied to other contexts. However, in attempting to maintain generality, we sacrificed access to powerful but chess-specific tools like game engines, resulting in a classifier that is more surface-level (yet slower) than existing chess analysis tools that leverage the game engine. 
+
+\section{Future Work}
+There are three areas in which future work can make progress on automated sportscasting. It could improve the performance of the autoencoder so that it can be trained on a larger data set. Furthermore, it could focus on trying different methods to improve the classification quality by leveraging chess-specific tools and features like chess engines and evaluation tools. Moreover, it could investigate an orthogonal path by applying our general approach to other games, including complex ones like StarCraft and simpler ones like Checkers.
+
+\subsection{Performance}
+One of the main limitations of our work is performance. Due to how slowly the autoencoder performs, we were not able to fully exploit the millions of games that we have available to generate features for our unsupervised system. Therefore, extensions to our work should investigate ways to improve the performance so that the autoencoder can process more inputs and thus generate more relevant feature functions.
+
+\paragraph{Distributed MapReduce.}
+Our autoencoder takes advantage of some of the parallel processing capacity of the host system through a local MapReduce scheme. Extending that with a distributed MapReduce framework like Hadoop may improve performance if the additional cost of network I/O are outweighed by the benefits of parallelization.
+
+\paragraph{Using the GPU.}
+Another option that we partially explored is the exploitation of the processing power of the graphics processing unit (GPU). Optimization is a computation-heavy task, and the GPU is specifically designed for massively-parallel floating point computations. We investigated using JavaCL to parallelize the autoencoder, and demonstrated that it is definitely superior at parallelizable and computation-intensive tasks like matrix multiplication, because the benefits of greater throughput through greater parallelization outweigh the costs of memory transfer.
+
+\subsection{Classification Quality}
+Future work should emphasize the quality of classifications. We demonstrated that general approaches may not be effective enough to be useful for complex games like chess. Therefore, future projects should seek improvements by better taking advantage of the chess-specific tools and libraries that are available like game engines and weight functions. If the classifier incorporated chess-specific features like those generated by chess engines, it could be much better at identifying the types of strategies that are available to the player. For example, a deep traversal of many future paths by a chess engine may reveal that an attack is possible (attackPossible) or that the player can force a pawn promotion (pawnPromotion). While a purely computational approach to identifying opportunities and strategies may provide higher-quality or more reliable assessments, a statistical approach may be more robust. %talk about what i mean by robust
+
+One potential improvement that does not involve increased reliance on chess-specific technologies is to implement hierarchical tags so that matingAttack, doubleAttack, and similar tags imply a more general tag like attackPossible. By doing so, there will be a greater balance of positives and negatives, and labels that applied to games but were previously considered wrong are now considered correct. By incorporating hierarchical structure to tags, the system can jointly train and classify games.
+
+Another possible improvement is to use a different classifier than SVM, such as the perceptron or maximum entropy classifiers. One issue with the SVM is that often the tags are not so clear-cut: What does it mean for example that an endgame is “good”? Rather, there are degrees of how good an endgame is to the player. Therefore, a softer approach like maximum entropy may produce better results.
+
+\subsection{Generalization to Other Games.}
+One goal of this project was to develop a statistical machine learning approach that was general enough to be easily adapted to other applications like StarCraft or Checkers. A future work can explore this possibility by simply creating features for other applications.
+
+\section{Conclusion}
+
+\section{Acknowledgements}
+We would like to thank Dan Klein for teaching us statistical machine learning techniques.
+\section*{Appendix}
+
+\end{document}
+
+stack of work:
+Segmented:
+True positive: 13 (0.001252)
+False positive: 2 (0.000193)
+True negative: 10213 (0.983438)
+False negative: 157 (0.015118)
+Precision/Recall: 0.866667, 0.076471
+F1 Score: 0.140541
+True positive: 12841 (0.001236)
+False positive: 154930 (0.014919)
+True negative: 10060070 (0.968712)
+False negative: 157159 (0.015133)
+Precision/Recall: 0.076539, 0.075535
+F1 Score: 0.076034
+
+Unsegmented:
+True positive: 11 (0.002087)
+False positive: 0 (0.000000)
+True negative: 5106 (0.968880)
+False negative: 153 (0.029032)
+Precision/Recall: 1.000000, 0.067073
+F1 Score: 0.125714
+True positive: 22387 (0.004248)
+False positive: 145688 (0.027645)
+True negative: 4960312 (0.941236)
+False negative: 141613 (0.026872)
+Precision/Recall: 0.133196, 0.136506
+F1 Score: 0.134831
+
+
+\begin{table*}
+\begin{tabular}{lp{0.6\textwidth}}
+\hline
+\textbf{True Positive} & \textbf{False Positive} & \textbf{True Negative} & \textbf{False Negative} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\ \hline
+Position features & Piece location, potential moves per piece, material count, square control. \\
+Move features & Capturing move, recapturing move, en passant move, long castling move, short castling move, check move, stalemate move, checkmate move, promotion move.
+\end{tabular} 
+\caption{List of chess-specific manual features per position.}
+\end{table*}
