@@ -2157,7 +2157,7 @@ public final class Position extends AbstractMoveablePosition implements Serializ
         value += 500 * (numOfBitsSet(m_bbRooks & (~m_bbBishops) & m_bbWhites) - numOfBitsSet(m_bbRooks & (~m_bbBishops) & m_bbBlacks));
         value += 900 * (numOfBitsSet(m_bbRooks & m_bbBishops & m_bbWhites) - numOfBitsSet(m_bbRooks & m_bbBishops & m_bbBlacks));
         //        System.out.println(value);
-        return (getToPlay() == Chess.WHITE ? value : -value)/1000;
+        return (getToPlay() == Chess.WHITE ? value : -value);
     }
     
     public double getDomination()
@@ -2178,7 +2178,7 @@ public final class Position extends AbstractMoveablePosition implements Serializ
             int score = sign(numOfBitsSet(bbWhiteAttackers) - numOfBitsSet(bbBlackAttackers));
             value += SQUARE_IMPORTANCE[sqi] * score;
         }
-        return (getToPlay() == Chess.WHITE ? value : -value)/100;
+        return (getToPlay() == Chess.WHITE ? value : -value);
     }
     
 }

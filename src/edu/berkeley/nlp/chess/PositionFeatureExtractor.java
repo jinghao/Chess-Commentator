@@ -75,8 +75,8 @@ public class PositionFeatureExtractor implements Featurizer<PositionWithMoves> {
 		
 		index += 12*Chess.NUM_OF_SQUARES + Chess.NUM_OF_SQUARES*FEATURES_PER_MOVE;
 		
-		features[index++] = position.getMaterial();
-		features[index++] = position.getDomination();
+		features[index++] = position.getMaterial()/1000.;
+		features[index++] = position.getDomination()/100.;
 		
 		return features;
 	}

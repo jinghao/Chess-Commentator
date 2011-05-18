@@ -1,14 +1,11 @@
 package edu.berkeley.nlp.classification;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.text.ParseException;
 import java.util.Collection;
 import java.util.List;
@@ -16,7 +13,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
-import org.apache.commons.math.random.RandomDataImpl;
+import chesspresso.position.Position;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Maps;
@@ -27,6 +24,7 @@ import com.google.inject.Injector;
 import com.google.inject.Key;
 import com.google.inject.TypeLiteral;
 
+import edu.berkeley.nlp.autoencoder.NeuralNetwork;
 import edu.berkeley.nlp.chess.PositionFeatureExtractor;
 import edu.berkeley.nlp.chess.PositionWithMoves;
 import edu.berkeley.nlp.chess.util.GzipFiles;
@@ -36,25 +34,47 @@ public class ClassifyLabeledData {
 	public static void main(String[] args) throws IOException,
 			ClassNotFoundException, ParseException, URISyntaxException,
 			InterruptedException {
-		Injector injector = Guice.createInjector(new AbstractModule() {
-			@Override
-			protected void configure() {
-				bind(new TypeLiteral<Featurizer<List<PositionWithMoves>>>() {
-				}).to(Featurizers.ConcatenatingPositionWithMove.class);
-				bind(new TypeLiteral<Featurizer<PositionWithMoves>>() {
-				}).to(PositionFeatureExtractor.class);
-			}
-		});
-		Featurizer<List<PositionWithMoves>> featurizer = injector
-				.getInstance(Key
-						.get(new TypeLiteral<Featurizer<List<PositionWithMoves>>>() {
-						}));
-
-		Map<String, String> argMap = CommandLineUtils
-				.simpleCommandLineParser(args);
+		Map<String, String> argMap = CommandLineUtils.simpleCommandLineParser(args);
 		String dataPath = argMap.get("-data");
+		String autoEncoderPath = argMap.get("-autoencoder");
 
+		Featurizer<List<PositionWithMoves>> featurizer;
+		
+		if (autoEncoderPath != null) {
+			Injector injector = Guice.createInjector(new AbstractModule() {
+				@Override
+				protected void configure() {
+					bind(new TypeLiteral<Featurizer<List<PositionWithMoves>>>() {})
+					.to(Featurizers.ConcatenatingPositionWithMove.class);
+					bind(new TypeLiteral<Featurizer<PositionWithMoves>>() {})
+					.to(PositionWithMoves.PositionFeaturizer.class);
+					bind(new TypeLiteral<Featurizer<Position>>() {})
+					.to(Featurizers.TwoColorBoard.class);
+				}
+			});
+	
+			ObjectInputStream nnois = GzipFiles.newObjectInputStreamSupplier(new File(autoEncoderPath)).getInput();
+			@SuppressWarnings("unchecked")
+			NeuralNetwork nn = (NeuralNetwork) nnois.readObject();
+		
+			featurizer = new Featurizers.NeuralNetworkFeaturizer<List<PositionWithMoves>>(
+					nn, 
+					injector.getInstance(Key.get(new TypeLiteral<Featurizer<List<PositionWithMoves>>>() {}))); 
+		} else {
+			Injector injector = Guice.createInjector(new AbstractModule() {
+				@Override
+				protected void configure() {
+					bind(new TypeLiteral<Featurizer<List<PositionWithMoves>>>() {})
+					.to(Featurizers.ConcatenatingPositionWithMove.class);
+					bind(new TypeLiteral<Featurizer<PositionWithMoves>>() {})
+					.to(PositionFeatureExtractor.class);
+				}
+			});
+			featurizer = injector.getInstance(Key.get(new TypeLiteral<Featurizer<List<PositionWithMoves>>>() {}));
+		}
 		// int numRounds = Integer.parseInt(argMap.get("-numRounds"));
+		
+		featurizer = new Featurizers.Normalizer<List<PositionWithMoves>>(featurizer, 1.0);
 
 		ObjectInputStream ois = GzipFiles.newObjectInputStreamSupplier(
 				new File(dataPath)).getInput();
@@ -113,7 +133,7 @@ public class ClassifyLabeledData {
 			for (List<PositionWithMoves> example : positiveExamples) {
 				double[] vector = featureArrays.get(example);
 
-				JinghaoFeatureVector lfv = new JinghaoFeatureVector(1.0, range(
+				WritableFeatureVector lfv = new WritableFeatureVector(1.0, range(
 						1, vector.length + 1), vector);
 				lfv.write(writerToInput);
 			}
@@ -122,7 +142,7 @@ public class ClassifyLabeledData {
 			for (List<PositionWithMoves> example : negativeExamples) {
 				double[] vector = featureArrays.get(example);
 
-				JinghaoFeatureVector lfv = new JinghaoFeatureVector(-1.0,
+				WritableFeatureVector lfv = new WritableFeatureVector(-1.0,
 						range(1, vector.length + 1), vector);
 				lfv.write(writerToInput);
 			}
@@ -131,7 +151,7 @@ public class ClassifyLabeledData {
 			for (List<PositionWithMoves> example : validationSet.keySet()) {
 				double[] vector = featureArrays.get(example);
 
-				new JinghaoFeatureVector(validationSet.containsEntry(example, tag) ? 1.0 : -1.0,
+				new WritableFeatureVector(validationSet.containsEntry(example, tag) ? 1.0 : -1.0,
 						range(1, vector.length + 1), 
 						vector)
 				.write(writerToTest);
