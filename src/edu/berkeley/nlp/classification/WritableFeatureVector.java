@@ -5,8 +5,8 @@ import java.io.Writer;
 
 import jnisvmlight.LabeledFeatureVector;
 
-public class JinghaoFeatureVector extends LabeledFeatureVector {
-	public JinghaoFeatureVector(double d, int[] range, double[] vector) {
+public class WritableFeatureVector extends LabeledFeatureVector {
+	public WritableFeatureVector(double d, int[] range, double[] vector) {
 		super(d, range, vector);
 	}
 
