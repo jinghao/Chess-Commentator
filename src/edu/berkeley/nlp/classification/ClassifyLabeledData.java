@@ -8,11 +8,13 @@ import java.io.ObjectInputStream;
 import java.net.URISyntaxException;
 import java.text.ParseException;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.Map.Entry;
 
 import chesspresso.position.Position;
 
@@ -188,6 +190,9 @@ public class ClassifyLabeledData {
 		int[] errors = new int[4];
 
 		File predictions = File.createTempFile("predictions", "");
+		
+		Map<String, Integer> errorCounts = Maps.newHashMap();
+		Map<String, Integer> truePositives = Maps.newHashMap();
 
 		for (String tag : models.keySet()) {
 			File model = models.get(tag);
@@ -211,11 +216,31 @@ public class ClassifyLabeledData {
 			for (List<PositionWithMoves> sample : testSet.keySet()) {
 				double prediction = predictionScanner.nextDouble();				
 				boolean trueValue = testSet.containsEntry(sample, tag);
-
-				++errors[errorType(trueValue, prediction > 0)];
+				
+				int errorType = errorType(trueValue, prediction > 0);
+				
+				if (errorType % 2 == 1) { // error of some kind
+					int errorCount = errorCounts.containsKey(tag) ? (errorCounts.get(tag) + 1) : 1;
+					errorCounts.put(tag, errorCount);
+				} else if (errorType == 0) {
+					truePositives.put(tag, truePositives.containsKey(tag) ? (truePositives.get(tag) + 1) : 1);
+				}
+				
+				++errors[errorType];
 			}
 		}
 		
+		
+		
+		System.out.println("Sources of negatives");
+		for (Entry<String, Integer> entry : errorCounts.entrySet()) {
+			System.out.printf("\t%s: %d/%d error (%f)\n", entry.getKey(), entry.getValue(), testSet.keySet().size(), (double)entry.getValue()/testSet.keySet().size());
+		}
+		
+		System.out.println("Sources of positives");
+		for (Entry<String, Integer> entry : truePositives.entrySet()) {
+			System.out.printf("\t%s: %d/%d true positive (%f)\n", entry.getKey(), entry.getValue(), testSet.keySet().size(), (double)entry.getValue()/testSet.keySet().size());
+		}
 		return errors;
 	}
 	
