@@ -48,11 +48,11 @@ Unfortunately, we found that our approaches did not deliver accurate results in 
 
 \section{Related Work}
 
-\paragraph{Deep learning.} These techniques attempt to capture complex relationships between input variables in order to transform the input into a different representation which better expresses the relevant structures that make up the input. Specifically, they compose many layers of non-linearities in order to compactly represent complex functions which can model these relationships. They have been used successfully for many different types of tasks \cite{ng-mnist,ng-vision,ng-nlp}.
+\paragraph{Deep learning.} These techniques attempt to capture complex relationships between input variables in order to transform the input into a different representation which better expresses the relevant structures that make up the input. Specifically, they compose many layers of non-linearities in order to compactly represent complex functions which can model these relationships. They have been used successfully for many different types of tasks \cite{Vincent,Lee,Socher}.
 
-\paragraph{Automated sportscasting.} Chen and Mooney (\cite{learning-to-sportscast}) present a commentator system that learns language from sportscasts of simulated RoboCup games. Their system, which is trained on ambiguous supervision in the form of textual human commentaries and simulation states of the soccer games, simultaneously tries to establish correspondences between the commentaries and the simulation states. Their work focuses on generating meaningful English commentary from relatively simple topics such as ‘Player 1 kicked the ball to Player 2’, while our work focuses more on identifying complex topics.
+\paragraph{Automated sportscasting.} Chen and Mooney (\cite{chen}) present a commentator system that learns language from sportscasts of simulated RoboCup games. Their system, which is trained on ambiguous supervision in the form of textual human commentaries and simulation states of the soccer games, simultaneously tries to establish correspondences between the commentaries and the simulation states. Their work focuses on generating meaningful English commentary from relatively simple topics such as ‘Player 1 kicked the ball to Player 2’, while our work focuses more on identifying complex topics.
 
-\paragraph{Automatic chess commentary.} There exist techniques for automatic annotation of chess games which are heavily dependent on rule-based logic and use of a chess-engine to determine which parts of a specific chess game are salient~\cite{cambridge-chess-annotation}. As a departure from the rule-based approach to automatic chess commentary, Guid et al. (\cite{learning-positional-features}) discuss the use of argument based machine learning, which analyzes reasoning where arguments for and against a certain claim are produced and evaluated (in the context of chess, why a certain move was played over others.) Their system, much like the one presented in this paper, identifies complex positional features of a given chess game.
+\paragraph{Automatic chess commentary.} There exist techniques for automatic annotation of chess games which are heavily dependent on rule-based logic and use of a chess-engine to determine which parts of a specific chess game are salient~\cite{cambridge-chess-annotation}. As a departure from the rule-based approach to automatic chess commentary, Guid et al. (\cite{Guid}) discuss the use of argument based machine learning, which analyzes reasoning where arguments for and against a certain claim are produced and evaluated (in the context of chess, why a certain move was played over others.) Their system, much like the one presented in this paper, identifies complex positional features of a given chess game.
 
 However, we identified some shortcomings of the AMBL system. First, it relies on experts to provide arguments as to why a certain position exemplifies (or doesn’t) a particular positional feature. While this is an improvement from defining a classification rule manually, it is infeasible to repeat this procedure multiple times. Second, the arguments that the experts are allowed to provide rely on a preset list of features.
 
@@ -72,30 +72,32 @@ Since we obtained the games from many sources, there was significant overlap in 
 We tried various open source PGN parsers, each succumbing to flaws like mishandling uncommon cases (such as  promotions and special moves like \emph{en passant}). We based our system on Chesspresso,\footnote{url{http://www.chesspresso.org/}} a Java library for writing chess programs, which we fixed and modified for our needs. Chesspresso takes a PGN file as input and returns a data structure that represents the initial position of the board and the subsequent moves (as well as all metadata necessary to recreate the PGN file). We also extended it to be more robust to variations in input format, in addition to being able to export PGNs in a canonical form, which was crucial for removing duplicates.
 
 \subsection{Preparing the Data}
-JINGHAO: Write about slicing and tag generation
+After parsing each game, we filtered out the tagged games that had more than 10 plies because it will be very difficult to identify the tags that apply to a complex sequence of moves. Among the games that we kept, we also kept only the first few positions and moves (the ``prefix'' of each game, as described earlier), a parameter that can be adjusted and is one by default. We then generate tags for each game based on the information from the source websites. For example, games in a file that corresponds to a lesson called ``Double Attack'' are labeled doubleAttack. In addition, some of those games may appear in other lessons, and consequently will have multiple labels. An additional step that we take during experimentation is to segment the games further by the color of the player in addition to the tags of the game in order to account for the white-bias in the training data.
 
 \section{Features}
 \subsection{Sparse auto-encoder}
-The sparse auto-encoder is one of many methods in use for unsupervised feature learning~\cite{single-layer-networks-unsupervised-feature-learning}. It takes the form of a feedforward neural network, which consists of an input layer of N nodes, some number of hidden layers, and output layer of M nodes. The value of each layer $\vec{l_i}$ is determined with a weight matrix $W_i$ and a bias vector $b_i$: \[L_i = f(W_i l_{i-1} + b_i),\] where $f(\cdot)$ is a non-linearity like the sigmoid $f(x) = \frac{1}{1 + e^{-z}}$, applied component-wise.
+The sparse auto-encoder is one of many methods in use for unsupervised feature learning~\cite{Coates}. It takes the form of a feedforward neural network, which consists of an input layer of N nodes, some number of hidden layers, and output layer of M nodes. The value of each layer $\vec{l_i}$ is determined with a weight matrix $W_i$ and a bias vector $b_i$: \[L_i = f(W_i \cdot \vec{l_{i-1}} + b_i),\] where $f(\cdot)$ is a non-linearity like the sigmoid $f(x) = \frac{1}{1 + e^{-z}}$ applied component-wise.
 
-We want to 
+An auto-encoder is such a neural network trained so as to minimize the error (specifically, the sum-squared difference) between the output layer and the input layer, over some set of input examples. If we have fewer nodes in the hidden layers than in the input or output layer, the neural network is forced to learn a compressed representation of the data (represented by the activations, or outputs, of the smaller number of hidden nodes). Instead, we keep a larger number of hidden nodes while imposing a sparsity constraint that the average activation of each one be small (e.g., 0.05). Other work has shown that such a constraint better forces the auto-encoder to learn interesting structures from the data~\cite{bengio}.
 
+A normal auto-encoder only has one layer of hidden nodes, but we can also add more hidden layers to form a stacked auto-encoder. Per~\cite{Bengio07greedylayer-wise}, we use a greedy strategy to train the extra hidden layers in the auto-encoder. We train an auto-encoder with one hidden layer as usual; once this completes, we obtain the output of the hidden layer over all the examples in the input set, and use that as the new set of examples. This allows us to learn higher-level representations of the data~\cite{Vincent}.
+
+Other strategies for unsupervised feature learning include restricted Boltzmann machines (which are undirected), deep belief nets (stacked RBMs, akin to stacked auto-encoders), and denoising autoencoders (which try to reconstruct some input from a corrupted version of it). We only evaluated sparse stacked auto-encoders in this paper.
 
 \subsection{Manually-generated features}
 \begin{table*}
+\centering
 \begin{tabular}{lp{0.6\textwidth}}
 \hline
 \textbf{Category} & \textbf{Description} \\ \hline
 Position features & Piece location, potential moves per piece, material count, square control. \\
-Move features & Capturing move, recapturing move, en passant move, long castling move, short castling move, check move, stalemate move, checkmate move, promotion move.
+Move features & Capturing move, recapturing move, en passant move, long castling move, short castling move, check move, stalemate move, checkmate move, promotion move. \\
 \hline
 \end{tabular} 
 \caption{List of chess-specific manual features per position.}
 \end{table*}
 
-As a first step towards classification, we selected chess-specific manual features from a given position-move pair.  The position-based features involve information such as where the pieces are on the board and potential moves, while the move-based features involve binary information such as if the move is a capturing move or a check.  We list all our hand-selected manual features in Table REF.
-
-
+As a point of comparison to auto-encoders, we selected chess-specific manual features from a given position-move pair.  The position-based features involve information such as where the pieces are on the board and potential moves, while the move-based features involve binary information such as if the move is a capturing move or a check.  We list all our hand-selected manual features in Table REF.
 
 \section{Classification}
 We built a support vector machine for structured classification of games. We filtered our tagged games by the number of plies (number of individual moves), generated mappings between tags and game prefixes (some initial position plus a sequence of moves), segmented our tagged games into three groups (training, validation and test), and called SVMLight with that data, an external library for SVM.
@@ -104,6 +106,7 @@ We built a support vector machine for structured classification of games. We fil
 We classify segments of the chess game based on various high-level descriptions from chess theory and folklore:
 
 \begin{table*}
+\centering
 \begin{tabular}{lp{0.6\textwidth}}
 \hline
 \textbf{Name} & \textbf{Description} \\ \hline
@@ -146,15 +149,11 @@ We classify segments of the chess game based on various high-level descriptions 
 \label{table:themes}
 \end{table*}
 
-
-
 \section{Implementation} % Parallelization and Scaling
 Running serially, the autoencoder takes a long time to complete, even on simple inputs. Therefore, we examined ways to parallelize the task in order to fully leverage the capacity of our 8-core server with hyper-threading (16 virtual cores). We implemented a local version of MapReduce that creates 16 execution threads.
 
 \section{Experiments}
 \subsection{SVM Based Structured Classifier}
-
-
 In our experiments, we processed the input data into multimaps from game prefixes to tags. We then segmented the data into three disjoint sets: 90% for training, 5% as the validation set (for tuning our classifiers), and 5% as the test set. The segmenting was done by randomly sampling from the set of all labeled games.
 
 Afterwards, we constructed lists of positive and negative labels (mappings from tags to games that have that tag, and games that do not have that tag). We then built SVM models using the training data. In testing, we fed that to the SVM to generate, for each test game and tag, a boolean prediction of whether that tag applies to that game. As a result, we constructed a SVM-based multiple-class classifier that attempts to predict the tags that characterize an input game.
@@ -172,7 +171,24 @@ The basic classifier generates classifications with relatively high precision co
 
 We then extended the tagging to also incorporate information about the player’s color because there is a bias. For the predictions from the SVM model, this modification improved recall at a minor cost to precision, resulting in a higher F1 score. In contrast, the random predictions got much worse: Both the precision and recall scores fell as a result of this change, which adds further bias and reduces the amount of data per tag (since games are now spread over twice as many tags).
 
-TALK ABOUT AUTOENCODER RESULTS
+When we delved deeper to analyze the sources of errors and true positives, we arrived at a surprising result. We found that deflection and removalOfDefence are much more likely to cause false negatives than other tags (Table \ref{table:negatives}). In addition, we found that all of the true positives are for the quietMates tag.
+
+\begin{table*}
+\centering
+\begin{tabular}{lp{0.6\textwidth}}
+\hline
+\textbf{Category} & \textbf{Description} \\ \hline
+Position features & Piece location, potential moves per piece, material count, square control. \\
+Move features & Capturing move, recapturing move, en passant move, long castling move, short castling move, check move, stalemate move, checkmate move, promotion move. \\
+\hline
+\end{tabular} 
+\caption{Sources of error in the SVM classifier.}
+\label{table:negatives}
+\end{table*}
+
+Upon closer examination, it was clear that the “checkmate move” feature contributed to that: Any board that is in a checkmate situation is likely to be a quietMate. This interesting result demonstrates the limitations of pursuing a general approach for a highly-complex and specific game like chess.
+
+We sought to improve upon this baseline with an autoencoder. TALK ABOUT AUTOENCODER RESULTS
 
 TALK ABOUT USING AUTOENCODER inputs for the SVM
 
@@ -207,44 +223,7 @@ One goal of this project was to develop a statistical machine learning approach 
 We would like to thank Dan Klein for teaching us statistical machine learning techniques.
 \section*{Appendix}
 
+\bibliographystyle{acl}
+\bibliography{paper}
+
 \end{document}
-
-stack of work:
-Segmented:
-True positive: 13 (0.001252)
-False positive: 2 (0.000193)
-True negative: 10213 (0.983438)
-False negative: 157 (0.015118)
-Precision/Recall: 0.866667, 0.076471
-F1 Score: 0.140541
-True positive: 12841 (0.001236)
-False positive: 154930 (0.014919)
-True negative: 10060070 (0.968712)
-False negative: 157159 (0.015133)
-Precision/Recall: 0.076539, 0.075535
-F1 Score: 0.076034
-
-Unsegmented:
-True positive: 11 (0.002087)
-False positive: 0 (0.000000)
-True negative: 5106 (0.968880)
-False negative: 153 (0.029032)
-Precision/Recall: 1.000000, 0.067073
-F1 Score: 0.125714
-True positive: 22387 (0.004248)
-False positive: 145688 (0.027645)
-True negative: 4960312 (0.941236)
-False negative: 141613 (0.026872)
-Precision/Recall: 0.133196, 0.136506
-F1 Score: 0.134831
-
-
-\begin{table*}
-\begin{tabular}{lp{0.6\textwidth}}
-\hline
-\textbf{True Positive} & \textbf{False Positive} & \textbf{True Negative} & \textbf{False Negative} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\ \hline
-Position features & Piece location, potential moves per piece, material count, square control. \\
-Move features & Capturing move, recapturing move, en passant move, long castling move, short castling move, check move, stalemate move, checkmate move, promotion move.
-\end{tabular} 
-\caption{List of chess-specific manual features per position.}
-\end{table*}
