@@ -44,7 +44,7 @@ As a comparison, we also implement a small number of chess-specific, hand-engine
 
 To conduct our experiments, we collect several thousand ``tactical training positions'' organized by theme, intended for use by human chess players to learn how to recognize such situations and improve their playing skills. We also collect a large number of unannotated chess games (about 2.5 million) from various sources on the web for use with semi-supervised and unsupervised learning techniques. After training our models, for each of the positions in the training data labeled with a theme (or high-level structure), we attempt to predict the correct theme(s) for a position using the models.
 
-Unfortunately, we found that our approaches did not deliver accurate 
+Unfortunately, we found that our approaches did not deliver accurate results in our experiments. In particular, the auto-encoder's output failed to serve as a useful criterion for distinguishing between different types of themes. We examine the types of correct predictions made by our classifiers and discuss how we may improve our results in the future.
 
 \begin{itemize}
 
@@ -55,8 +55,10 @@ Unfortunately, we found that our approaches did not deliver accurate
 \end{itemize}
 
 \section{Related Work}
-\paragraph{Deep learning.}
-\paragraph{Automated sportscasting.}
+\paragraph{Deep learning.} These techniques attempt to capture complex relationships between input variables in order to transform the input into a different representation which better expresses the relevant structures that make up the input. Specifically, they compose many layers of non-linearities in order to compactly represent complex functions which can model these relationships. They have been used successfully for many different types of tasks \cite{ng-mnist,ng-vision,ng-nlp}.
+
+\paragraph{Automated sportscasting.} 
+
 \paragraph{Automatic chess commentary.}
 
 \section{Data Sources}
@@ -79,21 +81,14 @@ We tried various open source PGN parsers, each succumbing to flaws like mishandl
 
 \subsection{Sparse Autoencoding}
 \subsection{Manual baseline}
-As a first step towards classification, we selected chess-specific manual features from a given chess position (and a previous move):
+As a first step towards classification, we selected chess-specific manual features from a given chess position-previousmove pair.  The position-based features involve information such as where the pieces are on the board and potential moves, while the move-based features involve binary information such as if the move is a capturing move or a check.  We list all our hand-selected manual features in Table REF.
+
 \begin{table*}
 \begin{tabular}{lp{0.6\textwidth}}
 \hline
-\textbf{Name} & \textbf{Description} \\ \hline
-\tt{materialCount()} & \\
-\tt{squareDominationCount()} & \\
-\tt{isCapturing()} & \\
-\tt{isEnPessant()} & \\
-\tt{isLongCastle()} & \\
-\tt{isCheck()} & \\
-\tt{isStalemate()} & \\
-\tt{isMate()} & \\
-\tt{isPromotion()} & \\
-
+\textbf{Category} & \textbf{Description} \\ \hline
+Position features & Piece location, potential moves per piece, material count, square control. \\
+Move features & Capturing move, recapturing move, en passant move, long castling move, short castling move, check move, stalemate move, checkmate move, promotion move.
 \end{tabular} 
 \caption{List of chess-specific manual features per position.}
 \end{table*}

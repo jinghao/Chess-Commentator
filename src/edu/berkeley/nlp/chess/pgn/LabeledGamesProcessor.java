@@ -36,13 +36,11 @@ import edu.berkeley.nlp.classification.Featurizers;
 import edu.berkeley.nlp.util.CommandLineUtils;
 
 public class LabeledGamesProcessor {
-	public static String getTag(String filename) {
-		return filename.substring(filename.lastIndexOf('/') + 1, filename.lastIndexOf('.'));
+	public static String getTag(String filename, boolean isWhiteMove) {
+		return filename.substring(filename.lastIndexOf('/') + 1, filename.lastIndexOf('.')) + (isWhiteMove ? " (white)" : " (black)");
 	}
 	
 	public static void main(String[] args) throws IOException {
-		assert getTag("themes/t/deflection.pgn-fixed").equals("deflection") : "getTag doesn't work";
-
 		Injector injector = Guice.createInjector(new AbstractModule() {
 			@Override
 			protected void configure() {
@@ -84,18 +82,26 @@ public class LabeledGamesProcessor {
 					if (g == null) break;
 
 					lineNumber = reader.getLineNumber();
+					
 					List<PositionWithMoves> boards = Games.flatten(g);
 					if (boards.size() > maxLength) {
 						++largeGames;
 						continue;
 					}
+					
+					
+					
 					counts[boards.size() - 1]++;
 					
 //					for (int i = 1; i <= sliceLength && i <= boards.size(); ++i) {
 					if (boards.size() >= sliceLength) {
-						String tag = getTag(filename);
-						tags.put(PositionWithMoves.getPrefix(boards, sliceLength), tag);
-						tagsSet.add(tag);
+						try {
+							String tag = getTag(filename, boards.get(0).nextMove.isWhiteMove());
+							tags.put(PositionWithMoves.getPrefix(boards, sliceLength), tag);
+							tagsSet.add(tag);
+						} catch (NullPointerException e) {
+							System.out.printf("Missing game (line %d of good game; error line %d): %s", lineNumber, reader.getLineNumber(), e.getMessage());
+						}
 					}
 
 					++games;
