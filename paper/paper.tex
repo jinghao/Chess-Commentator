@@ -60,7 +60,7 @@ Unfortunately, we found that our approaches did not deliver accurate results in 
 
 \paragraph{Automatic chess commentary.} There exist techniques for automatic annotation of chess games which are heavily dependent on rule-based logic and use of a chess-engine to determine which parts of a specific chess game are salient~\cite{cambridge-chess-annotation}. As a departure from the rule-based approach to automatic chess commentary, Guid et al.~\shortcite{Guid} discuss the use of argument based machine learning, which analyzes reasoning where arguments for and against a certain claim are produced and evaluated (in the context of chess, why a certain move was played over others.) Their system, much like the one presented in this paper, identifies complex positional features of a given chess game.
 
-However, we identified some shortcomings of the AMBL system. First, it relies on experts to provide arguments as to why a certain position exemplifies (or doesn’t) a particular positional feature. While this is an improvement from defining a classification rule manually, it is infeasible to repeat this procedure multiple times. Second, the arguments that the experts are allowed to provide rely on a preset list of features.
+However, we identified some shortcomings of the AMBL system. First, it relies on experts to provide arguments as to why a certain position exemplifies (or doesn't) a particular positional feature. While this is an improvement from defining a classification rule manually, it is infeasible to repeat this procedure multiple times. Second, the arguments that the experts are allowed to provide rely on a preset list of features.
 
 \section{Data Sources and Processing}
 We obtained both annotated and unannotated records of chess games from various web sites in the PGN format \cite{pgn}, a widely-used format for compactly representing chess games. A large number of games as well as software and tools that use the PGN format are freely available. 
@@ -87,6 +87,7 @@ We obtained both annotated and unannotated records of chess games from various w
 \tt{goodEndgameChances} & There exists a move to allow for a favorable endgame. \\
 \tt{inBetweenMove} & There exists an interrupting move that allows for decisive material advantage of immediate checkmate. \\ 
 \tt{interference} & There exists a maneuver to block a crucial piece. \\ 
+<<<<<<< HEAD
 \tt{interruption} & There exists a maneuver that interrupts the opponent’s tactics. \\
 \tt{kingInCenter} & There exists a decisive strategic advantage for the player with the King in the center of the board. \\
 \tt{kingToBadSquares} & There exists a combination that forces the opposing King to move to a bad square. \\
