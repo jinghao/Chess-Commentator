@@ -10,6 +10,7 @@ import java.text.ParseException;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -31,13 +32,30 @@ import edu.berkeley.nlp.chess.util.GzipFiles;
 import edu.berkeley.nlp.util.CommandLineUtils;
 
 public class ClassifyLabeledData {
+	String dataPath, autoEncoderPath;
+
+	Multimap<String, List<PositionWithMoves>> allPositiveExamples, allNegativeExamples;
+	Multimap<List<PositionWithMoves>, String> tags, validationSet, testSet;
+	
 	public static void main(String[] args) throws IOException,
-			ClassNotFoundException, ParseException, URISyntaxException,
+			ClassNotFoundException, ParseException,
 			InterruptedException {
 		Map<String, String> argMap = CommandLineUtils.simpleCommandLineParser(args);
 		String dataPath = argMap.get("-data");
 		String autoEncoderPath = argMap.get("-autoencoder");
 
+		ClassifyLabeledData classifier = new ClassifyLabeledData(dataPath, autoEncoderPath);
+		classifier.classify();
+	}
+	
+	public ClassifyLabeledData(String dataPath, String autoEncoderPath) {
+		this.dataPath = dataPath;
+		this.autoEncoderPath = autoEncoderPath;
+	}
+	
+	public void classify() throws IOException,
+	ClassNotFoundException, ParseException,
+	InterruptedException {
 		Featurizer<List<PositionWithMoves>> featurizer;
 		
 		if (autoEncoderPath != null) {
@@ -79,25 +97,11 @@ public class ClassifyLabeledData {
 		ObjectInputStream ois = GzipFiles.newObjectInputStreamSupplier(
 				new File(dataPath)).getInput();
 
-		@SuppressWarnings("unchecked")
-		Multimap<List<PositionWithMoves>, String> tags = (Multimap<List<PositionWithMoves>, String>) ois
-				.readObject();
-
-		@SuppressWarnings("unchecked")
-		Multimap<String, List<PositionWithMoves>> allPositiveExamples = (Multimap<String, List<PositionWithMoves>>) ois
-				.readObject();
-
-		@SuppressWarnings("unchecked")
-		Multimap<String, List<PositionWithMoves>> allNegativeExamples = (Multimap<String, List<PositionWithMoves>>) ois
-				.readObject();
-
-		@SuppressWarnings("unchecked")
-		Multimap<List<PositionWithMoves>, String> validationSet = (Multimap<List<PositionWithMoves>, String>) ois
-				.readObject();
-
-		@SuppressWarnings("unchecked")
-		Multimap<List<PositionWithMoves>, String> testSet = (Multimap<List<PositionWithMoves>, String>) ois
-				.readObject();
+		tags = (Multimap<List<PositionWithMoves>, String>) ois.readObject();
+		allPositiveExamples = (Multimap<String, List<PositionWithMoves>>) ois.readObject();
+		allNegativeExamples = (Multimap<String, List<PositionWithMoves>>) ois.readObject();
+		validationSet = (Multimap<List<PositionWithMoves>, String>) ois.readObject();
+		testSet = (Multimap<List<PositionWithMoves>, String>) ois.readObject();
 		
 		Set<String> tags_set = allPositiveExamples.keySet();
 
@@ -175,12 +179,13 @@ public class ClassifyLabeledData {
 		}
 		
 		printResults(predict(models, testFiles, testSet));
+		printResults(predictRandomly(models, testFiles, testSet));
 	}
 	
-	public static int[] predict(Map<String, File> models, 
+	public int[] predict(Map<String, File> models, 
 			Map<String, File> tests,
 			Multimap<List<PositionWithMoves>, String> testSet) throws IOException {
-		int tp = 0, fp = 0, tn = 0, fn = 0;
+		int[] errors = new int[4];
 
 		File predictions = File.createTempFile("predictions", "");
 
@@ -207,30 +212,59 @@ public class ClassifyLabeledData {
 				double prediction = predictionScanner.nextDouble();				
 				boolean trueValue = testSet.containsEntry(sample, tag);
 
-				if (trueValue) {
-					if (prediction >= 0) {
-						++tp;
-					} else {
-						++fn;
-					}
-				} else {
-					if (prediction < 0) {
-						++tn;
-					} else {
-						++fp;
-					}
-				}
+				++errors[errorType(trueValue, prediction > 0)];
 			}
 		}
 		
-		return new int[] {tp, fp, tn, fn};
+		return errors;
 	}
 	
-	public static void printResults(int[] stats) {
+	public int[] predictRandomly(Map<String, File> models, 
+			Map<String, File> tests,
+			Multimap<List<PositionWithMoves>, String> testSet) throws IOException {
+		int[] errors = new int[4];
+		
+		Random r = new Random();
+
+		for (int i = 0; i < 1000; ++i) {
+			for (String tag : models.keySet()) {
+				// find proportion that is positive (tagged with this key)
+				int numPositive = allPositiveExamples.get(tag).size();
+				int numNegative = allNegativeExamples.get(tag).size();
+				double positiveProp = (double) numPositive / (numPositive + numNegative) ;
+	
+				for (List<PositionWithMoves> sample : testSet.keySet()) {
+					boolean prediction = r.nextDouble() < positiveProp;			
+					boolean trueValue = testSet.containsEntry(sample, tag);
+	
+					++errors[errorType(trueValue, prediction)];
+				}
+			}
+		}
+		return errors;
+	}
+	
+	static int errorType(boolean trueValue, boolean prediction) {
+		if (trueValue) {
+			if (prediction) {
+				return 0; // true positive
+			} else {
+				return 1; // false negative
+			}
+		} else {
+			if (!prediction) {
+				return 2; // true negative
+			} else {
+				return 3; // false positive
+			}
+		}
+	}
+	
+	static void printResults(int[] stats) {
 		printResults(stats[0], stats[1], stats[2], stats[3]);
 	}
 
-	public static void printResults(int tp, int fp, int tn, int fn) {
+	static void printResults(int tp, int fn, int tn, int fp) {
 		int total = tn + tp + fn + fp;
 		
 		double precision = (tp + fp > 0) ? ((double)tp / (tp + fp)) : Double.NaN;
@@ -248,7 +282,7 @@ public class ClassifyLabeledData {
 		System.out.printf("F1 Score: %f\n", 2*precision*recall/(precision+recall));
 	}
 
-	private static int[] range(int from, int to) {
+	static int[] range(int from, int to) {
 		Preconditions.checkArgument(from <= to);
 		int[] result = new int[to - from];
 		for (int i = 0; i < result.length; ++i)
