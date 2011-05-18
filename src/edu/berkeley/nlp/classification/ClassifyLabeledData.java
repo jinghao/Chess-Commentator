@@ -135,6 +135,7 @@ public class ClassifyLabeledData {
 
 				WritableFeatureVector lfv = new WritableFeatureVector(1.0, range(
 						1, vector.length + 1), vector);
+
 				lfv.write(writerToInput);
 			}
 			System.out.print('.');
@@ -148,10 +149,10 @@ public class ClassifyLabeledData {
 			}
 			System.out.print('.');
 
-			for (List<PositionWithMoves> example : validationSet.keySet()) {
+			for (List<PositionWithMoves> example : testSet.keySet()) {
 				double[] vector = featureArrays.get(example);
 
-				new WritableFeatureVector(validationSet.containsEntry(example, tag) ? 1.0 : -1.0,
+				new WritableFeatureVector(testSet.containsEntry(example, tag) ? 1.0 : -1.0,
 						range(1, vector.length + 1), 
 						vector)
 				.write(writerToTest);
@@ -173,7 +174,7 @@ public class ClassifyLabeledData {
 			System.out.println(" Done");
 		}
 		
-		printResults(predict(models, testFiles, validationSet));
+		printResults(predict(models, testFiles, testSet));
 	}
 	
 	public static int[] predict(Map<String, File> models, 
@@ -244,6 +245,7 @@ public class ClassifyLabeledData {
 		System.out.printf("False negative: %d (%f)\n", fn, (double) fn
 				/ total);
 		System.out.printf("Precision/Recall: %f, %f\n", precision, recall);
+		System.out.printf("F1 Score: %f\n", 2*precision*recall/(precision+recall));
 	}
 
 	private static int[] range(int from, int to) {
