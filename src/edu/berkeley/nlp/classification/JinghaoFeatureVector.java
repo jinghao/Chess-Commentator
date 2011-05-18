@@ -6,6 +6,8 @@ import java.io.Writer;
 import jnisvmlight.LabeledFeatureVector;
 
 public class JinghaoFeatureVector extends LabeledFeatureVector {
+	private static final long serialVersionUID = -2361850878723731574L;
+
 	public JinghaoFeatureVector(double d, int[] range, double[] vector) {
 		super(d, range, vector);
 	}

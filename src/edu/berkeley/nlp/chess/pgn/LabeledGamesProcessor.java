@@ -90,9 +90,11 @@ public class LabeledGamesProcessor {
 						continue;
 					}
 					counts[boards.size() - 1]++;
-					for (int i = 1; i <= sliceLength && i <= boards.size(); ++i) {
+					
+//					for (int i = 1; i <= sliceLength && i <= boards.size(); ++i) {
+					if (boards.size() >= sliceLength) {
 						String tag = getTag(filename);
-						tags.put(PositionWithMoves.getPrefix(boards, i), tag);
+						tags.put(PositionWithMoves.getPrefix(boards, sliceLength), tag);
 						tagsSet.add(tag);
 					}
 

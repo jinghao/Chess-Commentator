@@ -61,21 +61,22 @@ public class PositionWithMoves implements Serializable {
 	}
 	
 	static public List<PositionWithMoves> getPrefix(List<PositionWithMoves> input, int limit) {
+		return Lists.newArrayList(input.subList(0, limit));/*
 		List<PositionWithMoves> result = Lists.newArrayList();
 		int numUsed = 0;
 		for (PositionWithMoves pwm : input) {
-			if (numUsed == limit - 1) {
-				result.add(new PositionWithMoves(pwm.previousMove, pwm.position, null));
-				++numUsed;
-				break;
-			} else {
+			if (numUsed < limit) {
 				result.add(pwm);
 				if (pwm.nextMove == null) numUsed += 1;
 				else numUsed += 2;
+			} else {
+				result.add(new PositionWithMoves(pwm.previousMove, pwm.position, null));
+				++numUsed;
+				break;
 			}
 		}
 		Preconditions.checkState(numUsed == limit);
-		return result;
+		return result;*/
 	}
 	
 	public static class ConcatenatingFeaturizer implements Featurizer<PositionWithMoves> {
