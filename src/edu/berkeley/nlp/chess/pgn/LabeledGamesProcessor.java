@@ -61,7 +61,6 @@ public class LabeledGamesProcessor {
 		String prefix = argMap.get("-prefix");
 		String outputPath = argMap.get("-output");
 		int sliceLength = Integer.parseInt(argMap.get("-sliceLength"));
-		String extraFeatures = argMap.get("-extra-features"); 
 		
 		long games = 0, largeGames = 0;
 		Multimap<List<PositionWithMoves>, String> tags = HashMultimap.create();
